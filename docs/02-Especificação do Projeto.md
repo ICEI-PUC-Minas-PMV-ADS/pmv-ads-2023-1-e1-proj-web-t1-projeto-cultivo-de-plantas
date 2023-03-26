@@ -6,21 +6,12 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 
 ## 2.1 Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+As personas levantadas durante o processo de entendimento do problema, se deu através da coleta de dados sendo realizada pelo Google Forms, sendo apresentados a seguir: 
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+- Laura Martins,  26 anos, trabalha com desenvolvimento web em uma empresa estrangeira porém em home office. É usuária de aplicativos como Instagram, GitHub, Pinterest e Linkedin. Sua principal motivação é o amor por tecnologia e o meio ambiente. Uma de suas principais frustrações é a perda de suas plantas por não saber como cuidar corretamente. Seus hobbies são: cultivar plantas e frequentar  parques ambientais.
 
-|          | Laura Martins  |        |
-| --------  | ----------- | ---------|
-|           | **Idade:** 26   **Ocupação:** Desenvolvedora Web, trabalha para empresa estramgeira em home office.| **Aplicativos:**  Instagram, GitHub, Pinterest, Linkedin |
-| **Motivações:** Amor por tecnologia e meio ambiente | **Frustrações:** Perder plantas por não saber como cuidar corretamente | **Hobbies:** Cultivar plantas, frequentar parques ambientais |
+- Gustavo Rodrigues, 37 anos, trabalha como corretor de imóveis, sendo responsável por intermediar negociações de compra, venda e aluguel de imóveis e auxiliar durante o processo. Habitualmente faz uso do Facebook, Google Maps e Whatsapp. Sua principal motivação é ver pessoas satisfeitas com os imóveis. E uma de suas frustrações é perder vendas por não saber identificar potenciais locais para o cultivo de plantas nos imóveis. Seus hobbies são: Ler e estudar sobre conhecimentos gerais.
 
-
-
-|          |  Gustavo Rodrigues |    |
-| ------- | ------- | ------- |
-|         | **Idade:** 37 **Ocupação:** Corretor de imóveis, responsável por intermediar negociações de compra, venda e aluguel de imóveis e auxiliar durante o processo | **Aplicativos:**  Facebook, Google Maps, Whatsapp |
-| **Motivações:**  Ver pessoa ssatisfeitas com os imóveis | **Frustrações:**  Perder vendas por não saber identificar potenciais locais para cultivo de plantas nos imóveis | **Hobbies:**  Ler,  estudar sobre conhecimentos gerais |
 
 
 ## 2.2 Histórias de Usuários
