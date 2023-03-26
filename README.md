@@ -10,8 +10,8 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Integrantes
 
-* André Guilherme 
-* Luana Pina
+* André Guilherme Santos de Oliveira
+* Luana Guimarães Pina
 * Bruna Santos
 * Gabriel Bruno
 * Tayane Milagres
