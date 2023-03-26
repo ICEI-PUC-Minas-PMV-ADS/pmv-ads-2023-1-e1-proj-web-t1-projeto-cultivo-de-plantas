@@ -2,7 +2,7 @@
 
 `ANÁLISE E DESENVOLVIMENTO DE SISTEMAS`
 
-`DISCIPLINA`
+`Projeto: Desenvolvimento de Aplicação Web Front-End`
 
 `1° SEMESTRE`
 
