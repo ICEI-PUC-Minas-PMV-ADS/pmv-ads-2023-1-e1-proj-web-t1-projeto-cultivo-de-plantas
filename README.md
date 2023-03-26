@@ -1,23 +1,25 @@
-# TÍTULO DO PROJETO
+# CULTIVO DE PLANTAS
 
-`CURSO`
+`ANÁLISE E DESENVOLVIMENTO DE SISTEMAS`
 
 `DISCIPLINA`
 
-`SEMESTRE`
+`1° SEMESTRE`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* André Guilherme 
+* Luana Pina
+* Bruna Santos
+* Gabriel Bruno
+* Tayane Milagres
+* João Almeida
 
 ## Orientador
 
-* Nome completo do professor 1
+* Joyce Christina de Paiva Carvalho
 
 ## Instruções de utilização
 
