@@ -1,91 +1,96 @@
-# Especificações do Projeto
+# 2. Especificações do Projeto
 
 <span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
+A definição exata do problema e os pontos mais relevantes a serem tratados neste projeto foi consolidada com a participação dos usuários por meio de entrevistas e estudos. Os detalhes levantados nesse processo foram consolidados na forma de personas e histórias de usuários.
 
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
-
-## Personas
+## 2.1 Personas
 
 Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+|          | Laura Martins  |        |
+| --------  | ----------- | ---------|
+|           | **Idade:** 26   **Ocupação:** Desenvolvedora Web, trabalha para empresa estramgeira em home office.| **Aplicativos:**  Instagram, GitHub, Pinterest, Linkedin |
+| **Motivações:** Amor por tecnologia e meio ambiente | **Frustrações:** Perder plantas por não saber como cuidar corretamente | **Hobbies:** Cultivar plantas, frequentar parques ambientais |
 
-## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|          |  Gustavo Rodrigues |    |
+| ------- | ------- | ------- |
+|         | **Idade:** 37 **Ocupação:** Corretor de imóveis, responsável por intermediar negociações de compra, venda e aluguel de imóveis e auxiliar durante o processo | **Aplicativos:**  Facebook, Google Maps, Whatsapp |
+| **Motivações:**  Ver pessoa ssatisfeitas com os imóveis | **Frustrações:**  Perder vendas por não saber identificar potenciais locais para cultivo de plantas nos imóveis | **Hobbies:**  Ler,  estudar sobre conhecimentos gerais |
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+## 2.2 Histórias de Usuários
 
-## Requisitos
+A partir do estudo da rotina das personas identificadas para o projeto, foram registradas as seguintes histórias de usuários:
+
+| Eu como...[Persona] | ...quero/desejo...[O que] | ...para...[Por que] |
+| :-------------------: | :-------------------------: | :-------------------: | 
+| Laura Martins     | Visualizar informações sobre o horário recomendado para regar as plantas         | Criar uma rotina e regá-las no momento apropriado |
+| Laura Martins    | Visualizar informações sobre o melhor tipo de adubo e momento correto de adubagem | Garantir de maneira correta uma boa fertilização das plantas |
+| Laura Martins     | Obter informações específicas de plantas variadas | Identificar o tipo de planta adquirida e seus devidos cuidados |
+| Gustavo Rodrigues | Informações sobre pragas e adoecimentos           | Saber como evitá-las e manter as plantas saudáveis |
+| Gustavo Rodrigues | Obter informações sobre técnicas de Poda          | Efetuar a Poda corretamente e no tempo certo |
+| Laura Martins     | Informações sobre tempo de exposição ao sol e troca de vaso   | Manter a planta saudável e em local adequado |
+| Laura Martins     | Obter informações sobre vitaminas para as plantas             | Garantir o cultivo forte e saudável |
+| Gustavo Rodrigues | Saber como e o que é necessário para cultivar plantas em casa | Adquirir e começar o cultivo de plantas para fins estéticos e alimentícios em casa |
+| Laura Martins     | Cronograma de cuidados para determinado tipo de planta | Facilitar o planejamento do cuidado com cultivo de plantas   |
+| Gustavo Rodrigues | Informações sobre raízes e substratos                  | Garantir um bom suporte, fixação para as plantas e nutrição correta |
+| Laura Martins     | Informações sobre benefícios que o cultivo acarreta à saúde   | Garantir o bem estar e incentivar as pessoas a cultivarem plantas |
+| Laura Martins     | Local para compartilhar fotos de plantas               | Criar vínculos com a comunidade |
+| Gustavo Rodrigues | Compartilhar minhas dicas sobre plantas                | Acrescentar informações sobre determinadas plantas |
+| Laura Martins     | Poder realizar o login em minha conta de usuário       |  Ter privacidade e notificações personalizadas |
+| Gustavo Rodrigues | Chat para suporte          | Sanar dúvidas, obter ajuda e relatar os problemas técnicos da aplicação |
+| Laura Martins     | Aba de pesquisa com os nomes científicos das plantas  | Aprender a identificação global das plantas e encontrar sua planta com maior facilidade |
+| Gustavo Rodrigues | Mensagem de alerta sobre mudança de cuidados coma as plantas | Se manter atualizado sobre os cuidados |
+| Laura Martins     | Favoritar as dicas de minha preferência               | Facilitar o acesso dessas informações no futuro |
+| Gustavo Rodrigues | Um fórum                   | Compartilhar conhecimento e experiencia sobre plantas com outros usuários |
+
+
+## 2.3 Requisitos
 
 As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
 
-### Requisitos Funcionais
-
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+### 2.3.1 Requisitos Funcionais
+ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade em que os mesmos devem ser entregues. 
 
 
-### Requisitos não Funcionais
-
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
-
-## Restrições
-
-O projeto está restrito pelos itens apresentados na tabela a seguir.
-
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+| ID    | Descrição dos Requisitos | Prioridade |
+| :-----: | :------------------------ | :----------: | 
+| RF-01 | A aplicação deverá ter um catálogo com espécies de plantas mais comumente cultivadas no Brasil, com informações aos cuidados necessários, como: rega, podas e adubagem      | ALTA |
+| RF-02 | A aplicação deve incluir um recurso de pesquisa utilizando tanto o nome comum quanto o nome científico das plantas | ALTA | 
+| RF-03 | A aplicação deverá ter uma página de login e registro de novos usuários | ALTA |
+| RF-04 | A aplicação deve contar com um sistema de  que gera notificações relacionadas a eventos pré-determinados | ALTA | 
+| RF-05 | A aplicação deve permitir que os usuários comentem e compartilhem suas dicas | BAIXA |
+| RF-06 | A aplicação deve incluir uma página de suporte ao usuário | BAIXA | 
+| RF-07 | A aplicação deve fornecer uma opção para os usuários marcarem suas dicas como favoritas | BAIXA | 
 
 
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
 
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+### 2.3.2 Requisitos não Funcionais
+
+A tabela a seguir apresenta os requisitos não funcionais que o projeto deverá atender. 
+
+
+| ID      | Descrição do Requisito | Prioridade |
+| :----:  | :---------------------- | :----------: |
+| RNF-01 | O site deve ser responsivo permitindo a visualização em dispositivos móveis        | ALTA |
+| RNF-02 | O site deve ser publicado na plataforma Vercel ou GITHUB PAGES                     | ALTA |
+| RNF-03 | O projeto deve ser implementado se valendo de HTML semântico                       | ALTA |
+| RNF-04 | O site deve conter acessibilidade e SEO de no mínimo 80% pela extensão Lighthouse  | MÉDIA |
+| RNF-05 | O site deve conter um bom nível de contraste entre os elementos                    | MÉDIA | 
+| RNF-06 | O site deverá ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge) | BAIXA |
+
+## 2.3.3 Restrições
+
+O projeto está restrito pelos itens apresentados na tabela a seguir. 
+
+
+| ID  | Descrições da Restrições |
+| :---: | :-----------------------  |
+| RE-01 | O projeto deverá ser entregue até 25/06/2023 |
+| RE-02 | O projeto deve se restringir as tecnologias básicas de Web Frontend | 
+| RE-03 | Proibida a terceirização de desenvolvimento do sistema em sua totalidade ou de módulos isolados |
