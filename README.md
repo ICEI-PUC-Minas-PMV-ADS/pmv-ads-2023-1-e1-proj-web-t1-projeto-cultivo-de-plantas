@@ -15,7 +15,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Bruna Santos
 * Gabriel Bruno de Oliveira Souza
 * Tayane Ferreira Milagres
-* João Almeida
+* João Vitor Jorge Almeida
 
 ## Orientador
 
