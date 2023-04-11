@@ -11,11 +11,11 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 ## Integrantes
 
 * André Guilherme Santos de Oliveira
-* Luana Guimarães Pina
 * Bruna Santos
 * Gabriel Bruno de Oliveira Souza
-* Tayane Ferreira Milagres
 * João Vitor Jorge Almeida
+* Luana Guimarães Pina
+* Tayane Ferreira Milagres
 
 ## Orientador
 
