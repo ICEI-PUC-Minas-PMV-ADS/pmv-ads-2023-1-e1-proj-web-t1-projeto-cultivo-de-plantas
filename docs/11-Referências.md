@@ -8,6 +8,10 @@ Casa e Jardim. Buscas por plantas seguem mais altas do que antes da pandemia. Ca
 
  POR REDAÇÃO CASA E JARDIM, Buscas por plantas seguem mais altas do que antes da pandemia. CASA E JARDIM, 2022. Disponível em: https://revistacasaejardim.globo.com/Casa-e-Jardim/Paisagismo/noticia/2022/03/buscas-por-plantas-seguem-mais-altas-do-que-antes-da-pandemia.html
 
+ 
+Por Grupo Cultivo de plantas, ICEI - PUC | Pesquisa sobre o cultivo de plantas.
+https://docs.google.com/forms/d/1Ncn6wY5QVcbNwwpikRy6TB0XXceg84VJMMGa-MUP82A/edit?ts=642852c7
+
 
 > **Links Úteis**:
 > - [Formato ABNT](https://www.normastecnicas.com/abnt/trabalhos-academicos/referencias/)
