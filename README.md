@@ -19,7 +19,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Orientador
 
-* Joyce Christina de Paiva Carvalho
+* <html><head></head><body><a href="https://github.com/joycecpc">Joyce Christina de Paiva Carvalho</a></body></html>
 
 ## Instruções de utilização
 
