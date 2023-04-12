@@ -14,15 +14,13 @@ As personas levantadas durante o processo de entendimento do problema, se deu at
 
 ## `Laura Martins`
 
-| ![persona 1-edit](https://user-images.githubusercontent.com/127165847/231594689-924af688-6a31-445d-9172-fdf98feb7e3e.jpg) | Laura Martins, 26 anos                                                                                                 |
+| ![persona 1-edit](https://user-images.githubusercontent.com/127165847/231594689-924af688-6a31-445d-9172-fdf98feb7e3e.jpg)| Laura Martins, 26 anos                                                                                                 |
 | ------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------- |
 | Ocupação                                                                                                                 | trabalha com desenvolvimento web em uma empresa estrangeira porém em home office.                                      |
 | Aplicativos preferidos                                                                                                   | Instagram, GitHub, Pinterest e Linkedin.                                                                               |
 | Motivações                                                                                                               | Sua principal motivação é o amor por tecnologia e o meio ambiente.                                                     |
 | Seus Hobbies                                                                                                             | Seus hobbies são: cultivar plantas e frequentar parques ambientais.                                                    |
 | Frustrações                                                                                                              | Uma de suas principais frustrações é a perda de suas plantas por não saber como cuidar corretamente.                   |
-
-- Laura Martins,  26 anos, trabalha com desenvolvimento web em uma empresa estrangeira porém em home office. É usuária de aplicativos como Instagram, GitHub, Pinterest e Linkedin. Sua principal motivação é o amor por tecnologia e o meio ambiente. Uma de suas principais frustrações é a perda de suas plantas por não saber como cuidar corretamente. Seus hobbies são: cultivar plantas e frequentar  parques ambientais.
 
 <div align="center">
 <img src="https://user-images.githubusercontent.com/127165847/231594945-ad1a8240-cfb9-4fdd-8f1d-c3400ec0cf09.jpg" width="700px" />
