@@ -35,7 +35,7 @@ A partir do estudo da rotina das personas identificadas para o projeto, foram re
 | Gustavo Rodrigues | Compartilhar minhas dicas sobre plantas                | Acrescentar informações sobre determinadas plantas |
 | Laura Martins     | Poder realizar o login em minha conta de usuário       |  Ter privacidade e notificações personalizadas |
 | Gustavo Rodrigues | Chat para suporte          | Sanar dúvidas, obter ajuda e relatar os problemas técnicos da aplicação |
-| Laura Martins     | Aba de pesquisa com os nomes científicos das plantas  | Aprender a identificação global das plantas e encontrar sua planta com maior facilidade |
+| Laura Martins     | Pesquisar os nomes científicos das plantas  | Aprender a identificação global das plantas e encontrar sua planta com maior facilidade |
 | Gustavo Rodrigues | Mensagem de alerta sobre mudança de cuidados coma as plantas | Se manter atualizado sobre os cuidados |
 | Laura Martins     | Favoritar as dicas de minha preferência               | Facilitar o acesso dessas informações no futuro |
 | Gustavo Rodrigues | Um fórum                   | Compartilhar conhecimento e experiencia sobre plantas com outros usuários |
