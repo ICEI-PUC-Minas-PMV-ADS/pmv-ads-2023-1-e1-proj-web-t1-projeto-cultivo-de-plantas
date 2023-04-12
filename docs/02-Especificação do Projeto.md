@@ -8,6 +8,8 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 
 As personas levantadas durante o processo de entendimento do problema, se deu através da coleta de dados sendo realizada pelo Google Forms, sendo apresentados a seguir: 
 
+<html><head></head><body><a href="https://br.freepik.com/fotos-gratis/retrato-de-mulher-bonita-sorrindo_10848352.htm#query=woman%2026%20years%20old&position=14&from_view=search&track=ais#position=14&query=woman%2026%20years%20old"></a></body></html>
+
 - Laura Martins,  26 anos, trabalha com desenvolvimento web em uma empresa estrangeira porém em home office. É usuária de aplicativos como Instagram, GitHub, Pinterest e Linkedin. Sua principal motivação é o amor por tecnologia e o meio ambiente. Uma de suas principais frustrações é a perda de suas plantas por não saber como cuidar corretamente. Seus hobbies são: cultivar plantas e frequentar  parques ambientais.
 
 - Gustavo Rodrigues, 37 anos, trabalha como corretor de imóveis, sendo responsável por intermediar negociações de compra, venda e aluguel de imóveis e auxiliar durante o processo. Habitualmente faz uso do Facebook, Google Maps e Whatsapp. Sua principal motivação é ver pessoas satisfeitas com os imóveis. E uma de suas frustrações é perder vendas por não saber identificar potenciais locais para o cultivo de plantas nos imóveis. Seus hobbies são: Ler e estudar sobre conhecimentos gerais.
