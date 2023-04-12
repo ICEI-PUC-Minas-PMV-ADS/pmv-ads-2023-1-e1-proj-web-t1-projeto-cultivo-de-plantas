@@ -26,16 +26,6 @@ De acordo com uma pesquisa realizada pelo Censo QuintoAndar de Moradia em parcer
 Ademais, um estudo realizado pela equipe do nosso projeto apontou que, das 83 pessoas entrevistadas, apenas 27,7% pessoas tinham os conhecimentos necessários para cultivar alguma planta, conforme visto no <html><head></head><body><a href="https://user-images.githubusercontent.com/127165847/231579881-b05efcc6-6662-44f9-a7b0-b6f2e1429e67.png">(gráfico 1).</a></body></html> Além disso, a pesquisa revelou que 79,5% das pessoas tem interesse em aprender a cultivar, como pode ser verificado no <html><head></head><body><a href="https://user-images.githubusercontent.com/127165847/231581200-acab2cff-cbb8-4bc0-a8a1-c81fd065e213.png
 ">(gráfico 2).</a></body></html>
 
-
-<div class= "graphic" align="center">
-  <img src="https://user-images.githubusercontent.com/116499898/227792763-a7d747ea-90eb-4b33-8880-e4abf9352cfe.png" width=500px />
-    <figcaption> (Gráfico 1) </figcaption>
-  
-  <img src="https://user-images.githubusercontent.com/116499898/227792771-688e649d-2b5d-4390-a66b-7ed0f5f7ea14.png" width=500px />
-    <figcaption> (Gráfico 2) </figcaption>
-</div>
-
-
 Sendo assim, conclui-se que, a falta de conhecimento e acessibilidade das informações constitui um fator importante no interesse em cultivar plantas. 
 
 
