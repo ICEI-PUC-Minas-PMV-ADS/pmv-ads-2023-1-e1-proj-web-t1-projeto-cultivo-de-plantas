@@ -8,7 +8,9 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 
 As personas levantadas durante o processo de entendimento do problema, se deu através da coleta de dados sendo realizada pelo Google Forms, sendo apresentados a seguir: 
 
-<html><head></head><body><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/issues/15#issue-1665308361"></a></body></html>
+<div align="center">
+<img src="https://user-images.githubusercontent.com/127165847/231594689-924af688-6a31-445d-9172-fdf98feb7e3e.jpg" width="700px" />
+</div>
 
 - Laura Martins,  26 anos, trabalha com desenvolvimento web em uma empresa estrangeira porém em home office. É usuária de aplicativos como Instagram, GitHub, Pinterest e Linkedin. Sua principal motivação é o amor por tecnologia e o meio ambiente. Uma de suas principais frustrações é a perda de suas plantas por não saber como cuidar corretamente. Seus hobbies são: cultivar plantas e frequentar  parques ambientais.
 
