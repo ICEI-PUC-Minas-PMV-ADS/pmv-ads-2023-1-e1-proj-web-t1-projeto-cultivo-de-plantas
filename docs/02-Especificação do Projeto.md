@@ -8,10 +8,6 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 
 As personas levantadas durante o processo de entendimento do problema, se deu através da coleta de dados sendo realizada pelo Google Forms, sendo apresentados a seguir: 
 
-<div align="center">
-<img src="https://user-images.githubusercontent.com/127165847/231594689-924af688-6a31-445d-9172-fdf98feb7e3e.jpg" width="700px" />
-</div>
-
 ## `Laura Martins`
 
 | ![persona 1-edit](https://user-images.githubusercontent.com/127165847/231594689-924af688-6a31-445d-9172-fdf98feb7e3e.jpg)| Laura Martins, 26 anos                                                                                                 |
