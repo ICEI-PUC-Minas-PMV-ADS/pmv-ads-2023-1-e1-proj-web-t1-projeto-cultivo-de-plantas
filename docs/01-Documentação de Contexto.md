@@ -21,7 +21,13 @@ O objetivo principal desse projeto é facilitar o acesso a informações complet
 
 ## 1.3 Justificativa
 
-De acordo com uma pesquisa realizada pelo Censo QuintoAndar de Moradia em parceria com o Datafolha <a href= "https://revistacasaejardim.globo.com/Casa-e-Jardim/Bem-Estar/Comportamento/noticia/2022/03/mais-de-65-dos-brasileiros-desejam-ter-plantas-e-painel-solar-em-casa.html>"></a>, 69% dos brasileiros gostam de ter plantas em casa e 57% gostam de ter flores. Ou seja, 7 a cada 10 brasileiros possuem e cuidam de seu próprio jardim. Além disso, um artigo publicado pela revista online Casa e Jardim, mostrou que em 2020 tivemos um aumento de 25% nas buscas online por plantas. 	 
+De acordo com uma pesquisa realizada pelo Censo QuintoAndar de Moradia em parceria com o Datafolha <html>
+<head>
+</head>
+<body>
+<a href= "https://revistacasaejardim.globo.com/Casa-e-Jardim/Bem-Estar/Comportamento/noticia/2022/03/mais-de-65-dos-brasileiros-desejam-ter-plantas-e-painel-solar-em-casa.html>">referências</a>
+</body>
+</html>, 69% dos brasileiros gostam de ter plantas em casa e 57% gostam de ter flores. Ou seja, 7 a cada 10 brasileiros possuem e cuidam de seu próprio jardim. Além disso, um artigo publicado pela revista online Casa e Jardim, mostrou que em 2020 tivemos um aumento de 25% nas buscas online por plantas. 	 
 
 Ademais, um estudo realizado pela equipe do nosso projeto apontou que, das 83 pessoas entrevistadas, apenas 27,7% pessoas tinham os conhecimentos necessários para cultivar alguma planta, conforme visto no gráfico 1. Além disso, a pesquisa revelou que 79,5% das pessoas tem interesse em aprender a cultivar, como pode ser verificado no gráfico 2.  
 
