@@ -6,16 +6,16 @@ Devido à baixa possibilidade de manter atividades de lazer fora de casa, pessoa
 
 De acordo com um artigo publicado pela revista online 'Casa e Jardim', se comparado com o ano de 2019, em 2020 tivemos um aumento de 25% nas buscas online por plantas - esse foi o maior pico de buscas por esse tema desde 2005. Em 2021 ainda foi possível notar uma alta na busca pelo tema de 19% em relação ao período antes da pandemia. 
 
-Pessoas possuem uma infinidade de motivos para cultivar plantas em sua casa, mas podemos dizer confiantemente que, além de trazer um aconchego maior para nossa casa através da decoração, o cuidado com as plantas também pode ser um excelente aliado na manutenção da nossa saúde, já que de acordo com especialistas, é correto afirmar que o contato direto com a terra pode nos ajudar não somente a ter ganhos contra ansiedade e depressão, como também até contra a diabetes e hipertensão. 
+Pessoas possuem uma infinidade de motivos para cultivar plantas, mas podemos dizer confiantemente que, além de trazer um aconchego maior para nossa casa através da decoração, o cuidado com as plantas também pode ser um excelente aliado na manutenção da nossa saúde, já que, de acordo com um artigo publicado pela revista online 'VEJA Saúde', especialistas afirmam que o contato direto com a terra pode nos ajudar não somente a ter ganhos contra ansiedade e depressão, como também até contra a diabetes e hipertensão. 
 
 ## 1.1 Problema
 Apesar do alto interesse por plantas, muitas pessoas ainda têm dúvidas e dificuldades em ter informações especificas de cada planta, tendo como consequência a perda do cultivo. 
 
 ## 1.2 Objetivos
 
-O objetivo principal desse projeto é facilitar o acesso a informações completas sobre o cultivo de plantas. Sendo assim, os objetivos do projeto são: 
+O objetivo principal desse projeto é a criação de um site com informações atualizadas e completas, que facilite o acesso à informações sobre o cultivo de plantas. Sendo assim, os objetivos específicos do projeto são: 
 
-- Criação de um site com informações atualizadas e completas a respeito dos devidos cuidados a serem adotados nas plantas mais comumente cultivadas no Brasil; 
+- Fornecer informações atualizadas sobre os devidos cuidados a serem adotados nas plantas mais comumente cultivadas no Brasil; 
 - Criação de lembretes e notificações avisando os usuários quando regar, fertilizar, podar e realizar os demais cuidados necessários para com suas plantas; 
 - Criação de uma área restrita para a comunidade trocar ideias, dicas e experiências. 
 
