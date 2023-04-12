@@ -12,7 +12,7 @@ As personas levantadas durante o processo de entendimento do problema, se deu at
 <img src="https://user-images.githubusercontent.com/127165847/231594689-924af688-6a31-445d-9172-fdf98feb7e3e.jpg" width="700px" />
 </div>
 
-## `TLaura Martins`
+## `Laura Martins`
 
 | ![persona 1-edit](https://user-images.githubusercontent.com/127165847/231594689-924af688-6a31-445d-9172-fdf98feb7e3e.jpg) | Laura Martins, 26 anos                                                                                                 |
 | ------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------- |
