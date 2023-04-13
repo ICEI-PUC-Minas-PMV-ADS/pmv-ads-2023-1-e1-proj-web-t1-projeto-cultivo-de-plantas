@@ -8,26 +8,17 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 
 As personas levantadas durante o processo de entendimento do problema, se deu através da coleta de dados sendo realizada pelo Google Forms, sendo apresentados a seguir: 
 
-## `Laura Martins`
+| LAURA MARTINS | INFORMAÇÕES | APLICATIVOS MAIS UTILIZADOS |
+| ------------- | ----------- | --------------------------- |
+| ![image](https://user-images.githubusercontent.com/127251265/231608647-d8a6adf0-b0f3-44cd-a19f-fae6dbfe838a.png) | **Idade:** 26 anos <br> **Ocupação:** Desenvolvedora Web <br> em uma empresa estrangeira <br> em modelo Home Office | <ul> <li> Instagram  <li> GitHub  <li> Pinterest  <li> Linkedin </ul> |
+| **MOTIVAÇÕES** | **FRUSTRAÇÕES** | **HOBBIES** |
+| Amor por tecnologia <br> e meio ambiente | Perder plantas por nao saber <br> como cuidar corretamente | Cultivar plantas e frequentar <br> parques ambientais|
 
-| ![persona 1-edit](https://user-images.githubusercontent.com/127165847/231594689-924af688-6a31-445d-9172-fdf98feb7e3e.jpg)| Laura Martins, 26 anos                                                                                                 |
-| ------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------- |
-| Ocupação                                                                                                                 | Trabalha com desenvolvimento web em uma empresa estrangeira porém em home office.                                      |
-| Aplicativos preferidos                                                                                                   | Instagram, GitHub, Pinterest e Linkedin.                                                                               |
-| Motivações                                                                                                               | Sua principal motivação é o amor por tecnologia e o meio ambiente.                                                     |
-| Seus Hobbies                                                                                                             | Seus hobbies são: cultivar plantas e frequentar parques ambientais.                                                    |
-| Frustrações                                                                                                              | Uma de suas principais frustrações é a perda de suas plantas por não saber como cuidar corretamente.                   |
-
-## `Gustavo Rodrigues`
-
-| ![retrato-de-homem-bonito-sorrindo](https://user-images.githubusercontent.com/127165847/231603448-734d7312-ca41-4795-83fa-ae8eb8b297d4.jpg)| Gustavo Rodrigues, 37 anos                                                                                                                           |
-| ------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Ocupação                                                                                                                                   | Trabalha como corretor de imóveis, sendo responsável por intermediar negociações de compra, venda e aluguel de imóveis e auxiliar durante o processo.|
-| Aplicativos preferidos                                                                                                                     | Facebook, Google Maps e Whatsapp.                                                                                                                    |
-| Motivações                                                                                                                                 | Sua principal motivação é ver pessoas satisfeitas com os imóveis.                                                                                    |
-| Seus Hobbies                                                                                                                               | Seus hobbies são: Ler e estudar sobre conhecimentos gerais.                                                                                          |
-| Frustrações                                                                                                                                | E uma de suas frustrações é perder vendas por não saber identificar potenciais locais para o cultivo de plantas nos imóveis.                         |
-
+| GUSTAVO RODRIGUES| INFORMAÇÕES | APLICATIVOS MAIS UTILIZADOS |
+| ------------- | ----------- | --------------------------- |
+| ![image](https://user-images.githubusercontent.com/127251265/231605080-8d459dd4-cf01-41af-b721-6947dff49888.png) | **Idade:** 37 anos <br> **Ocupação:** Corretor de imóveis, <br> responsável por intermediar <br> negociações de compra, venda e <br> aluguel de imóveis  auxiliando <br> durante o processo | <ul> <li> Facebook  <li> Google Maps <li> WhatsApp </ul> |
+| **MOTIVAÇÕES** | **FRUSTRAÇÕES** | **HOBBIES** |
+| Ver pessoas satisfeitas com <br> os imóveis | Perder vendas por não saber <br> identificar potenciais locais para <br> o cultivo de plantas nos imóveis | Ler e estudar sobre <br> conhecimentos gerais |
 
 
 ## 2.2 Histórias de Usuários
