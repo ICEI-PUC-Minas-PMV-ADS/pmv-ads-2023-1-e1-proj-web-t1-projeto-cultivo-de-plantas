@@ -26,13 +26,13 @@ De acordo com uma <html><head></head><body><a href="https://revistacasaejardim.g
 Ademais, um estudo realizado pela equipe do nosso projeto apontou que, das 83 pessoas entrevistadas, apenas 27,7% pessoas tinham os conhecimentos necessários para cultivar alguma planta, conforme visto no <b>gráfico 1.</b> 
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/127165847/231873406-37290112-809b-43c1-8489-c485c536e7a5.png" width="700px" />
+<img src="https://user-images.githubusercontent.com/127165847/231876772-44acb282-8298-4fa3-8624-39ddb9e0128b.png" width="700px" />
 </div>
 
 Além disso, a pesquisa revelou que 79,5% das pessoas tem interesse em aprender a cultivar, como pode ser verificado no <b>gráfico 2.</b> 
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/127165847/231874622-a91c452f-9d6d-41c3-bf69-c35b790fad5e.png" width="700px" />
+<img src="https://user-images.githubusercontent.com/127165847/231876877-4368f6b7-9e2c-4ed0-929b-6b23547a36b3.png" width="700px" />
 </div>
 
 
