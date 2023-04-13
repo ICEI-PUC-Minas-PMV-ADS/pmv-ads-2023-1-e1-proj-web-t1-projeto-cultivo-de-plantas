@@ -33,8 +33,7 @@ Além disso, a pesquisa revelou que 79,5% das pessoas tem interesse em aprender 
 ">(gráfico 2).</a></body></html>
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/127165847/231873870-310bd433-2967-4c5d-8d06-d5dabb181066.png
-" width="700px" />
+<img src="https://user-images.githubusercontent.com/127165847/231873870-310bd433-2967-4c5d-8d06-d5dabb181066.png" width="700px" />
 </div>
 
 
