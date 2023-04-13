@@ -29,10 +29,14 @@ Ademais, um estudo realizado pela equipe do nosso projeto apontou que, das 83 pe
 <img src="https://user-images.githubusercontent.com/127165847/231873406-37290112-809b-43c1-8489-c485c536e7a5.png" width="700px" />
 </div>
 
-
-
 Além disso, a pesquisa revelou que 79,5% das pessoas tem interesse em aprender a cultivar, como pode ser verificado no <html><head></head><body><a href="https://user-images.githubusercontent.com/127165847/231581200-acab2cff-cbb8-4bc0-a8a1-c81fd065e213.png
 ">(gráfico 2).</a></body></html>
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/127165847/231873870-310bd433-2967-4c5d-8d06-d5dabb181066.png
+" width="700px" />
+</div>
+
 
 Sendo assim, conclui-se que, a falta de conhecimento e acessibilidade das informações constitui um fator importante no interesse em cultivar plantas. 
 
