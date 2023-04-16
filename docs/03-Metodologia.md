@@ -5,7 +5,7 @@
 
 Para o gerenciamento e organização do projeto, utilizaremos os princípios gerais de métodos ágeis, enfatizando a comunicação constante e transparente entre a equipe de desenvolvimento e o cliente, aplicaremos também o kanban e o scrum, a fim de otimizar o processo de desenvolvimento.
 
-Nossa principal ferramenta será o GitHub, que utilizaremos como repositório para armazenamento do código, também faremos uso dessa plataforma para gerenciar o backlog do produto e as sprints individuais na aba "Project".
+Nossa principal ferramenta será o GitHub, que utilizaremos como repositório para armazenamento do código, também faremos uso dessa plataforma para gerenciar o backlog do produto e as sprints individuais na aba "Projects".
 
 O processo de criação de interface e dos wireframes será realizado no Figma, assim a equipe envolvida no projeto poderá trabalhar em conjunto e compartilhar ideias de maneira eficiente.
 
