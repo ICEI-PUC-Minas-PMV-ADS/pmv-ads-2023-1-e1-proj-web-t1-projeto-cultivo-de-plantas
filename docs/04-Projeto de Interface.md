@@ -1,15 +1,17 @@
 
 # Projeto de Interface
 
-Dentre as preocupações para a montagem da interface do sistema, estamos estabelecendo foco em questões como agilidade, acessibilidade e usabilidade. Desta forma, o projeto  tem uma identidade visual padronizada em todas as telas que são projetadas para funcionarem em desktops e dispositivos móveis.
+Durante o desenvolvimento do projeto, ficou estabelecido que a interface do sistema estaria atendendo aos critérios dos requisitos não funcionais e funcionais. Sendo assim, a interface do projeto busca entregar uma navegação intuitiva com acessibilidade e usabilidade, estando aptas para o uso em dispositivos móveis e desktops.
 
 ## User Flow
 
 O diagrama apresentado na figura abaixo mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Wireframes que se segue.
 
-![Fluxo01](https://user-images.githubusercontent.com/116499898/232350670-68c43f6e-211d-4ff3-a9ec-6c3cb0bdd048.png)
-
-
+<div align="center"> 
+  
+  ![Fluxo1 1](https://user-images.githubusercontent.com/116499898/232920530-f7f6d077-6cb6-4c14-a843-dacc421db508.png)
+ 
+</div>
 
 ## Wireframes
 
