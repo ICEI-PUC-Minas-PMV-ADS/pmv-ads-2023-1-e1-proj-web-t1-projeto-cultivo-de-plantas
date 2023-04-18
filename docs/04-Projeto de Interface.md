@@ -40,3 +40,18 @@ A tela de homepage mostrará os conteúdos em destaque. Levando em consideraçã
 
 ![Image](https://user-images.githubusercontent.com/107009327/232340275-65b262ee-2a12-4d8b-823b-f2600d522c07.png)
 _Wireframe - Homepage_
+
+
+
+## Wireframe - Área do Membro
+
+A tela da Área do Membro deverá mostrar as informações do perfil. O bloco do conteúdo então, deverá disponibilizar:
+
+- **Foto de perfil:** mostrará a foto atual e opção de alterar a foto do perfil;
+
+- **Nome:** nome do perfil e opção de alterá-lo;
+
+- **Meus tópicos:** quantidade de tópicos no fórum abertos pelo usuário.
+
+![Image](https://user-images.githubusercontent.com/107009327/232636898-17822b24-3eb9-4ee6-bf2b-0a9489301ccd.png)
+_Wireframe - Área do membro_
