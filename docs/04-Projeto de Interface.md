@@ -67,3 +67,14 @@ O feed de plantas pode ser uma ótima fonte de inspiração para quem está come
 
 ![Image](https://user-images.githubusercontent.com/114627827/232342666-313ce190-f658-429b-be0f-f1fd09d83dee.png)
 
+
+## Wireframe - POST ESPECÍFICO
+
+As informações serão exibidas quando os usuários clicarem em alguma planta de seu interesse. Será uma pagina com informações específicas sobre a planta selecionada, como por exemplo, instruções sobre poda, rega, adubação, galeria de fotos e outras informações relevantes para o cultivo e cuidado da planta.  
+
+
+
+![Image](https://user-images.githubusercontent.com/114627827/232912001-6d806af0-c489-484b-824c-6188f47d2eff.png)
+
+
+
