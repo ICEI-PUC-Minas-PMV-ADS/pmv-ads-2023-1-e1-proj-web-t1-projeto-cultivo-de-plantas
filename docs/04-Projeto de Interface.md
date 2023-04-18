@@ -55,3 +55,15 @@ A tela da Área do Membro deverá mostrar as informações do perfil. O bloco do
 
 ![Image](https://user-images.githubusercontent.com/107009327/232636898-17822b24-3eb9-4ee6-bf2b-0a9489301ccd.png)
 _Wireframe - Área do membro_
+
+### Tela - Blog (FEED) 
+
+
+O feed da aplicação será uma lista organizada em ordem com as atualizações mais recentes sobre plantas. Esse feed irá ter informações como cuidados, curiosidades, novidades e noticias relacionadas ao tema.
+
+O feed de plantas pode ser uma ótima fonte de inspiração para quem está começando a se interessar por jardinagem ou para aqueles que já possuem experiência na área. Com as atualizações frequentes e organizadas, o usuário pode se manter atualizado sobre as novidades e tendências do mundo das plantas e melhorar seus conhecimentos sobre a arte da jardinagem.
+
+
+
+![Image](https://user-images.githubusercontent.com/114627827/232342666-313ce190-f658-429b-be0f-f1fd09d83dee.png)
+
