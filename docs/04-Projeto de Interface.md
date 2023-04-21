@@ -78,5 +78,45 @@ As informações serão exibidas quando os usuários clicarem em alguma planta d
 
 ![Image](https://user-images.githubusercontent.com/114627827/232912001-6d806af0-c489-484b-824c-6188f47d2eff.png)
 
+## Wireframe - Login
+
+A tela de Login permitirá que o usuário acesse sua conta privada através do preenchimento das lacunas informadas abaixo, caso não tenha uma conta registrada ao clicar no botão "Cadastrar" ele será direcionado a uma página contendo um formulário de cadastro, além de obter o auxílio necessário para recuperação de sua senha, em caso de esquecimento, ao clicar na opção "Esqueci a minha senha!".
+
+- **Lacuna "E-mail":** Para o usuário inserir seu e-mail;
+- **Lacuna "Senha":** Para o usuário inserir sua senha;
+- **Botões "Entrar" e "Cadastrar":** Para entrar ou cadastrar uma conta, respectivamente;
+- **Opção "Esqueci a minha senha!":** Caso o usúario esqueça sua senha, será auxiliado na recuperação da senha através desta funcionalidade.
+
+![image](https://user-images.githubusercontent.com/127251265/233504794-16d7a6ce-b4df-490e-a7b0-613ac45c2f14.png)
 
 
+## Wireframe - Cadastro
+
+A tela de cadastro disponibilizará um formulário onde o usuário irá inserir seus dados pessoais e criar sua senha para registrar e ter acesso a sua conta privada através da confirmação ao clicar no botão "Cadastrar". Os campos a serem preenchidos para registrar sua conta são:
+
+- Nome completo;
+- E-mail;
+- Nome de usuário;
+- Celular;
+- Senha;
+- Confirme sua senha.
+
+![image](https://user-images.githubusercontent.com/127251265/233507649-57eb3013-65e7-480b-bcb4-7a55cf239de6.png)
+
+## Wireframe - Esqueci minha senha
+
+A tela de esquecimento de senha deverá apresentar local para inserir o código de recuperação enviado ao e-mail cadastrado, além de apresentar o botão "Cadastrar nova senha" para confirmação do código e direcionamento do usuário para a próxima tela onde irá registrar uma nova senha.
+
+![image](https://user-images.githubusercontent.com/127251265/233508240-e3faeb47-684f-487a-b36b-666c34bf6f49.png)
+
+## Wireframe - Nova Senha
+
+A tela de nova senha disponibilizará campos para o usuário definir, em caso de esquecimento, uma nova senha para a sua conta ao confirmar clicando no botão "Salvar".
+
+![image](https://user-images.githubusercontent.com/127251265/233509207-88f1b3a5-5229-4a17-9d1a-443549d8fb5f.png)
+
+## Wireframe - Contato
+
+A tela de contato será utilizada pelos usuários para reportar incoerências, dúvidas e problemas na aplicação web aos desenvolvedores, para isso os usuários deverão preencher os campos disponibilizados com o nome completo, o e-mail, o assunto a ser abordado e a mensagem que deseja enviar aos desenvolvedores e logo em seguida clicar no botão "Enviar" ou no botão "Cancelar" caso queira cancelar o envio da menssagem. Além disso, irá ser disponibilizado o Telegram como outro meio de contato, localizado no lado direito da tela.
+
+![image](https://user-images.githubusercontent.com/127251265/233509985-a7448349-ea83-400c-9890-444a9132c3af.png)
