@@ -120,6 +120,6 @@ A tela de nova senha disponibilizará campos para o usuário definir, em caso de
 
 ## Wireframe - Contato
 
-A tela de contato será utilizada pelos usuários para reportar incoerências, dúvidas e problemas na aplicação web aos desenvolvedores, para isso os usuários deverão preencher os campos disponibilizados com o nome completo, o e-mail, o assunto a ser abordado e a mensagem que deseja enviar aos desenvolvedores e logo em seguida clicar no botão "Enviar" ou no botão "Cancelar" caso queira cancelar o envio da menssagem. Além disso, irá ser disponibilizado o Telegram como outro meio de contato, localizado no lado direito da tela.
+A tela de contato será utilizada pelos usuários para reportar incoerências, dúvidas e problemas na aplicação web aos desenvolvedores, para isso os usuários deverão preencher os campos disponibilizados com o nome completo, o e-mail, o assunto a ser abordado e a mensagem que deseja enviar aos desenvolvedores e logo em seguida clicar no botão "Enviar" para enviar a mensagem ou no botão "Cancelar" caso queira cancelar o envio da menssagem. Além disso, irá ser disponibilizado o Telegram como outro meio de contato, localizado no lado direito da tela.
 
 ![image](https://user-images.githubusercontent.com/127251265/233509985-a7448349-ea83-400c-9890-444a9132c3af.png)
