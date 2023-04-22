@@ -67,7 +67,8 @@ O feed de plantas pode ser uma ótima fonte de inspiração para quem está come
 
 
 
-![Image](https://user-images.githubusercontent.com/114627827/232342666-313ce190-f658-429b-be0f-f1fd09d83dee.png)
+![Wireframe - Blog](https://user-images.githubusercontent.com/114627827/233755527-e262b21e-a3f3-49dd-8579-1e84a07c4fd7.png)
+
 
 
 ## Wireframe - POST ESPECÍFICO
@@ -76,7 +77,8 @@ As informações serão exibidas quando os usuários clicarem em alguma planta d
 
 
 
-![Image](https://user-images.githubusercontent.com/114627827/232912001-6d806af0-c489-484b-824c-6188f47d2eff.png)
+![Wireframe - Post Especifico 2](https://user-images.githubusercontent.com/114627827/233755502-795f4885-036b-48c8-a6da-cc9ee354e457.png)
+
 
 ## Wireframe - Login
 
@@ -114,6 +116,7 @@ A tela de esquecimento de senha deverá apresentar local para inserir o código 
 A tela de nova senha disponibilizará campos para o usuário definir, em caso de esquecimento, uma nova senha para a sua conta ao confirmar clicando no botão "Salvar".
 
 ![image](https://user-images.githubusercontent.com/127251265/233509207-88f1b3a5-5229-4a17-9d1a-443549d8fb5f.png)
+
 
 ## Wireframe - Contato
 
