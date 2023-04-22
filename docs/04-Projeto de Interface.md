@@ -7,10 +7,10 @@ Durante o desenvolvimento do projeto, ficou estabelecido que a interface do sist
 
 O diagrama apresentado na figura abaixo mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Wireframes que se segue.
 
-<div align="center"> 
+<div align="center">   
   
-  ![Fluxo1 1](https://user-images.githubusercontent.com/116499898/232920530-f7f6d077-6cb6-4c14-a843-dacc421db508.png)
- 
+  ![Image](https://user-images.githubusercontent.com/116499898/233811819-56067cb5-349a-42c4-bac4-0b0e39752370.png)
+  
 </div>
 
 ## Wireframes
