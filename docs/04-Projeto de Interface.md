@@ -9,7 +9,7 @@ O diagrama apresentado na figura abaixo mostra o fluxo de interação do usuári
 
 <div align="center">   
   
-  ![Image](https://user-images.githubusercontent.com/116499898/233811819-56067cb5-349a-42c4-bac4-0b0e39752370.png)
+![Fluxo06](https://user-images.githubusercontent.com/116499898/233864356-081c8f34-1e7b-4068-b084-ecdf40dbf331.png)
   
 </div>
 
