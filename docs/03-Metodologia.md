@@ -21,6 +21,26 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 
 ## Gerenciamento de Projeto
 
+A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento.
+
+A equipe está organizada da seguinte maneira:
+
+● Scrum Master: Bruna Santos
+
+● Product Owner: Tayane Ferreira Milagres
+
+● Equipe de Desenvolvimento
+○ Gabriel Bruno de Oliveira Souza
+○ André Guilherme Santos de Oliveira
+
+● Equipe de Design
+○ Luana Guimarães Pina
+○ João Vitor Jorge Almeida
+
+Para organização e distribuição das tarefas do projeto, a equipe está utilizando o GitHub Project.
+
+O quadro kanban do grupo desenvolvido na ferramenta de gerenciamento de projetos está disponível através da URL https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/369 e é apresentado, no estado atual, na Figura "Tela do Kanban".
+
 ### Divisão de Papéis
 
 Apresente a divisão de papéis entre os membros do grupo.
