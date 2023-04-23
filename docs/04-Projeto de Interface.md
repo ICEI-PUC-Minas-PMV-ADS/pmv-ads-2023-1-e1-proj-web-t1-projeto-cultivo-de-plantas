@@ -66,8 +66,9 @@ O feed da aplicação será uma lista organizada em ordem com as atualizações 
 O feed de plantas pode ser uma ótima fonte de inspiração para quem está começando a se interessar por jardinagem ou para aqueles que já possuem experiência na área. Com as atualizações frequentes e organizadas, o usuário pode se manter atualizado sobre as novidades e tendências do mundo das plantas e melhorar seus conhecimentos sobre a arte da jardinagem.
 
 
+![blog](https://user-images.githubusercontent.com/114627827/233867072-78a7078a-5346-4994-8273-0d1c07c2009c.png)
 
-![Wireframe - Blog (1)](https://user-images.githubusercontent.com/114627827/233865941-ac0cf947-3840-4049-a43a-a159cb814bb6.png)
+
 
 
 
@@ -77,8 +78,9 @@ O feed de plantas pode ser uma ótima fonte de inspiração para quem está come
 As informações serão exibidas quando os usuários clicarem em alguma planta de seu interesse. Será uma pagina com informações específicas sobre a planta selecionada, como por exemplo, instruções sobre poda, rega, adubação, galeria de fotos e outras informações relevantes para o cultivo e cuidado da planta.  
 
 
+![Post](https://user-images.githubusercontent.com/114627827/233867063-e8ce549e-c661-4753-aa8a-4ceed7a7bdc5.png)
 
-![Wireframe - Post Especifico 2](https://user-images.githubusercontent.com/114627827/233865928-f44a32b5-9f0d-4339-82aa-e70955e25555.png)
+
 
 
 
