@@ -67,7 +67,8 @@ O feed de plantas pode ser uma ótima fonte de inspiração para quem está come
 
 
 
-![Wireframe - Blog](https://user-images.githubusercontent.com/114627827/233755527-e262b21e-a3f3-49dd-8579-1e84a07c4fd7.png)
+![Wireframe - Blog (1)](https://user-images.githubusercontent.com/114627827/233865941-ac0cf947-3840-4049-a43a-a159cb814bb6.png)
+
 
 
 
@@ -77,7 +78,8 @@ As informações serão exibidas quando os usuários clicarem em alguma planta d
 
 
 
-![Wireframe - Post Especifico 2](https://user-images.githubusercontent.com/114627827/233755502-795f4885-036b-48c8-a6da-cc9ee354e457.png)
+![Wireframe - Post Especifico 2](https://user-images.githubusercontent.com/114627827/233865928-f44a32b5-9f0d-4339-82aa-e70955e25555.png)
+
 
 
 ## Wireframe - Login
