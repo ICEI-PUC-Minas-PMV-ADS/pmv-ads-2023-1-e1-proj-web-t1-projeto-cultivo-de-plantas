@@ -123,3 +123,26 @@ A tela de nova senha disponibilizará campos para o usuário definir, em caso de
 A tela de contato será utilizada pelos usuários para reportar incoerências, dúvidas e problemas na aplicação web aos desenvolvedores, para isso os usuários deverão preencher os campos disponibilizados com o nome completo, o e-mail, o assunto a ser abordado e a mensagem que deseja enviar aos desenvolvedores e logo em seguida clicar no botão "Enviar" para enviar a mensagem ou no botão "Cancelar" caso queira cancelar o envio da menssagem. Além disso, irá ser disponibilizado o Telegram como outro meio de contato, localizado no lado direito da tela.
 
 ![image](https://user-images.githubusercontent.com/127251265/233509985-a7448349-ea83-400c-9890-444a9132c3af.png)
+
+
+## Wireframe - Fórum
+
+A tela inicial do Fórum será utilizada pelos usuários que já estiverem logados. O usuário poderá visualizar a postagem dos outros membros e poderá interagir com elas. A seguir, é possível visualizar o wireframe:
+
+![Tela forum](https://user-images.githubusercontent.com/116499898/233811937-b79ff664-fbcf-403c-afc3-9083de09ec6a.png) <br>
+_Wireframe - Fórum_
+
+Ademais, pela página inicial do fórum, o usuário poderá adicionar um novo tópico de discussão, visualizar os seus tópicos, visualizar os tópicos que foram salvos pelo usuário e visualizar os tópicos em que o usuário participou. Os Wireframes podem ser visualizados a seguir:
+
+![Tela Novo Tópico](https://user-images.githubusercontent.com/116499898/233812186-c6cafa8c-45f4-4543-84bb-124e53dbd01c.png) <br>
+_Wireframe - Novo Tópico_
+
+![Tela meus topicos](https://user-images.githubusercontent.com/116499898/233812216-5090b52a-7bf3-4d02-8cf1-6d5d54b1c3ac.png) <br>
+_Wireframe - Meus Tópicos_
+
+![Tela itens salvos](https://user-images.githubusercontent.com/116499898/233812278-9fc9a183-c7f6-4567-a714-c8e20250ec46.png) <br>
+_Wireframe - Itens Salvos_
+
+![Tela Minhas Participações](https://user-images.githubusercontent.com/116499898/233812341-2cc9f533-692d-4b89-a407-326067572730.png) <br>
+_Wireframe - Minhas Participações_
+
