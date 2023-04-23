@@ -87,7 +87,7 @@ As informações serão exibidas quando os usuários clicarem em alguma planta d
 
 ## Wireframe - Login
 
-A tela de Login permitirá que o usuário acesse sua conta privada através do preenchimento das lacunas informadas abaixo, caso não tenha uma conta registrada ao clicar no botão "Cadastrar" ele será direcionado a uma página contendo um formulário de cadastro, além de obter o auxílio necessário para recuperação de sua senha, em caso de esquecimento, ao clicar na opção "Esqueci a minha senha!".
+A tela de Login permitirá que o usuário acesse sua conta privada através do preenchimento das lacunas informadas abaixo, caso não tenha uma conta registrada, ao clicar no botão "Cadastrar", ele será direcionado a uma página contendo um formulário de cadastro, além de obter o auxílio necessário para recuperação de sua senha, em caso de esquecimento, ao clicar na opção "Esqueci a minha senha!".
 
 - **Lacuna "E-mail":** Para o usuário inserir seu e-mail;
 - **Lacuna "Senha":** Para o usuário inserir sua senha;
@@ -100,7 +100,7 @@ A tela de Login permitirá que o usuário acesse sua conta privada através do p
 
 ## Wireframe - Cadastro
 
-A tela de cadastro disponibilizará um formulário onde o usuário irá inserir seus dados pessoais e criar sua senha para registrar e ter acesso a sua conta privada através da confirmação ao clicar no botão "Cadastrar". Os campos a serem preenchidos para registrar sua conta são:
+A tela de cadastro disponibilizará um formulário onde o usuário irá inserir seus dados pessoais e criar sua senha para registrar e ter acesso a sua conta privada, através da confirmação ao clicar no botão "Cadastrar". Os campos a serem preenchidos para registrar sua conta são:
 
 - Nome completo;
 - E-mail;
@@ -131,7 +131,7 @@ A tela de nova senha disponibilizará campos para o usuário definir, em caso de
 
 ## Wireframe - Contato
 
-A tela de contato será utilizada pelos usuários para reportar incoerências, dúvidas e problemas na aplicação web aos desenvolvedores, para isso os usuários deverão preencher os campos disponibilizados com o nome completo, o e-mail, o assunto a ser abordado e a mensagem que deseja enviar aos desenvolvedores e logo em seguida clicar no botão "Enviar" para enviar a mensagem ou no botão "Cancelar" caso queira cancelar o envio da menssagem. Além disso, irá ser disponibilizado o Telegram como outro meio de contato, localizado no lado direito da tela.
+A tela de contato será utilizada pelos usuários para reportar incoerências, dúvidas e problemas na aplicação web aos desenvolvedores, para isso, os usuários deverão preencher os campos disponibilizados com o nome completo, o e-mail, o assunto a ser abordado e a mensagem que deseja enviar aos desenvolvedores e logo em seguida clicar no botão "Enviar" para enviar a mensagem ou no botão "Cancelar" caso queira cancelar o envio da mensagem. Além disso, irá ser disponibilizado o Telegram como outro meio de contato, localizado no lado direito da tela.
 
 ![image](https://user-images.githubusercontent.com/127251265/233509985-a7448349-ea83-400c-9890-444a9132c3af.png)
 
