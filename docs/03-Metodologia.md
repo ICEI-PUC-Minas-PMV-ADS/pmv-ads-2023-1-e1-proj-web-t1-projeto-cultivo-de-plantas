@@ -53,7 +53,7 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 
 - `To Be Approved`: Quando uma tarefa está aguardando aprovação, ela é movida para esta coluna.
 
--  `Done`: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias.
+-  `Done`: Nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias.
 
 O quadro kanban do grupo desenvolvido na ferramenta de gerenciamento de projetos está disponível através da URL https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/369 e é apresentado, no estado atual, na Figura a seguir:
 
