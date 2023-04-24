@@ -1,7 +1,5 @@
 # 2. Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
-
 A definição exata do problema e os pontos mais relevantes a serem tratados neste projeto foi consolidada com a participação dos usuários por meio de entrevistas e estudos. Os detalhes levantados nesse processo foram consolidados na forma de personas e histórias de usuários.
 
 ## 2.1 Personas
