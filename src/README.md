@@ -6,6 +6,8 @@ O site em HTML/CSS/JS é um projeto estático, logo pode ser utilizado tanto em 
 
 ## Histórico de versões
 
-### [0.1.0] - DD/MM/AAAA
+### [0.1.0] - 02/05/2023
 #### Adicionado
-- Adicionado ...
+- Estrutura do Header
+- Estrutura da Navegação Principal
+- Estrutura da Hero Section
