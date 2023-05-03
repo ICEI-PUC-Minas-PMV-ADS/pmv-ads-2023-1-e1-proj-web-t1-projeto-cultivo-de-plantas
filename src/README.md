@@ -11,3 +11,4 @@ O site em HTML/CSS/JS é um projeto estático, logo pode ser utilizado tanto em 
 - Estrutura do Header
 - Estrutura da Navegação Principal
 - Estrutura da Hero Section
+- Estrutura de Categorias
