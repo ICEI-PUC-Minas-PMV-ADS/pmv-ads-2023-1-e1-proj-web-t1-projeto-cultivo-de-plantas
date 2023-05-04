@@ -10,5 +10,10 @@ O site em HTML/CSS/JS é um projeto estático, logo pode ser utilizado tanto em 
 #### Adicionado
 - Estrutura do Header
 - Estrutura da Navegação Principal
-- Estrutura da Hero Section
-- Estrutura de Categorias
+- Estrutura da seção de "Hero"
+- Estrutura de seção de "Categorias"
+
+### [0.1.1] - 03/05/2023
+#### Adicionado
+- Estrutura da seção "Conteúdos em Destaque"
+- Estrutura da seção "Seja um Membro"
