@@ -1,134 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Planty - Cultivo de Plantas Simplificado</title>
+    <link rel="shortcut icon" href="./src/icon-sunflower.png" type="image/x-icon">
+    <title>esqueciminhasenha</title>
+                <!--fontes-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;800&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <header class="header-container">
-        <div class="column logo">
-            <a href="#"><img class="header-logo" src="/img/Logo-Planty.png" alt="Logo Original Planty"></a>
+    <header>
+        <figure class="logoPlanty">
+            <a href=""><img src="./src/planty-logo.png" alt="logo-planty"></a>
+        </figure>
+
+        <input type="text" placeholder="Pesquisar..." class="inputPesquisar">
+
+        <figure class="iconPesquisar">
+            <img src="./src/search.png" alt="pesquisar-icon">
+        </figure>
+
+        <div class="loginCadastro">
+
+            <a href="##" class="textLogin"><h3>Login/Cadastro</h3></a>
+
+            <figure class="iconLogin">
+                <img src="./src/icon-login.png" alt="pesquisar-icon">
+            </figure>
+            
         </div>
-        <div class="column search">
-            <div class="search-box">
-                <p>Pesquisar...</p>
-                <img src="/img/search.png" alt="Ícone de Busca">
-            </div>
-        </div>
-        <div class="column login-cadastro">
-            <a href="#">Login / Cadastro</a>
-            <img class="account-icon" src="/img/account_circle.png" alt="Ícone de Usuário">
-        </div>
+
     </header>
 
     <nav>
-        <ul class="main-menu">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Fórum</a></li>
-            <li><a href="#">Fale Conosco</a></li>
+        <ul class="navMenu">
+            <li class="li"><a href="##">Home</a></li>
+            <li class="li"><a href="##">Blog</a></li>
+            <li class="li"><a href="##">Fórum</a></li>
+            <li class="li"><a href="##">Fale Conosco</a></li>
         </ul>
     </nav>
 
-    <section class="hero-section">
-        <div class="hero-content">
-            <div class="hero-box">
-                <span class="subheader">PLANTY</span>
-                <h1>Cultivo de Plantas</h1>
-                <h1 class="hero-bold-title">Simplificado</h1>
-                <p class="hero-text">Cultivar plantas nunca foi tão fácil - simplifique o cultivo de suas plantas com nosso site completo e informativo!</p>
-                <div class="hero-buttons">
-                    <a href='#' class="btn-filled">Acessar o blog</a>
-                    <a href='#' class="btn-border-only">Cadastrar-se</a>
-                </div>
-            </div>
+                <!--formulário-->
+    <form class= "form-esqsenha" action="">
+        <div class="card">
+           <div class="card-top">
+            <img class="imageesq" src="./src/icon.png" alt="">
+            <h2>ESQUECEU SUA SENHA?</h2>
+            <p><b>Insira o código que enviamos para o seu email:</b></p>
+           </div>
+
+                <!--card-group-->
+           <div class="card-group">
+            <label><b>Código</b></label>
+            <input type="text" placeholder="Digite seu código...">
+            
+                 <!--card-group-->
+           <div class="card-group">
+            <label><b>Nova senha</b></label>
+            <input type="password" placeholder="Digite sua nova senha...">
+            
+
+                 <!--card-group-->
+           <div class="card-group">
+            <label><b>Confirme</b></label>
+            <input type="password" placeholder="Confirme sua nova senha...">
+        
+           </div>    
         </div>
-    </section>
-
-    <section class="categories-section">
-        <div class="categories-content">
-            <span class="subheader">MAIS PROCURADOS</span>
-            <h2></h2>
-        </div>
-        <div class="categories-box">
-            <div class="categories-box-item">
-                <img src="/img/plantas-para-casa.png" alt="Categoria Plantas para Casa">
-                <h3 class="categories-title">Plantas para Casa</h3>
-                <a href='#' class="btn-smaller-border-only">Saiba mais</a>
-            </div>
-
-            <div class="categories-box-item">
-                <img src="/img/plantas-para-jardim.png" alt="Categoria Plantas para Jardim">
-                <h3 class="categories-title">Plantas para Jardim</h3>
-                <a href='#' class="btn-smaller-border-only">Saiba mais</a>
-            </div>
-
-            <div class="categories-box-item">
-                <img src="/img/plantas-grandes.png" alt="Categoria Plantas Grandes">
-                <h3 class="categories-title">Plantas Grandes</h3>
-                <a href='#' class="btn-smaller-border-only">Saiba mais</a>
-            </div>
-
-            <div class="categories-box-item">
-                <img src="/img/plantas-pequenas.png" alt="Categoria Plantas Pequenas">
-                <h3 class="categories-title">Plantas Pequenas</h3>
-                <a href='#' class="btn-smaller-border-only">Saiba mais</a>
-            </div>
-        </div>
-    </section>
-
-    <section class="blog-section">
-        <div class="blog-content">
-            <span class="subheader">BLOG</span>
-            <h2>Conteúdos em Destaque</h2>
-        </div>
-        <div class="blog-box">
-            <div class="blog-box-item">
-                <img src="/img/tudo-sobre-cactos.png" alt="Categoria Plantas para Casa">
-                <h3 class="categories-title">Tudo sobre Cactos</h3>
-                <a href='#' class="btn-smaller-border-only">Saiba mais</a>
-            </div>
-
-            <div class="blog-box-item">
-                <img src="/img/tudo-sobre-samambaias.png" alt="Categoria Plantas para Jardim">
-                <h3 class="categories-title">Tudo Sobre Samambaias</h3>
-                <a href='#' class="btn-smaller-border-only">Saiba mais</a>
-            </div>
-
-            <div class="blog-box-item">
-                <img src="/img/tudo-sobre-suculentas.png" alt="Categoria Plantas Grandes">
-                <h3 class="categories-title">Tudo Sobre Suculentas</h3>
-                <a href='#' class="btn-smaller-border-only">Saiba mais</a>
-            </div>
-        </div>
-    </section>
-
-    <section class="member-section">
-        <div class="member-box">
-            <div class="member-box-image">
-                <img src="/img/seja-um-membro.png" alt="Mão tatuada segurando um vaso de planta">
-            </div>
-            <div class="member-box-content">
-                <span class="subheader">CONTEÚDOS ESPECIAIS</span>
-                <h2>Seja um Membro</h2>
-                <p>Se você é um amante de plantas e se preocupa em cultivá-las da maneira correta, tornar-se um membro pode ser muito útil para você. Afinal, como membro, você poderá desfrutar dos conteúdos exclusivos disponibilizados em nosso fórum.
-                </p>
-                <ul id="member-list">
-                    <li class="member-bullet-point">Acesso a conteúdos exclusivos</li>
-                    <li class="member-bullet-point">Acesso ao fórum, onde você conseguirá trocar ideias, dicas e experiências com outros entusiastas de plantas</li>
-                </ul>
-                <p>Essa troca de conhecimento é extremamente valiosa, pois permite aprender com a experiência de outras pessoas e conhecer novas técnicas e estratégias para o cultivo de plantas. Dessa forma, você poderá ampliar seu conhecimento e tornar-se um melhor cultivador.</p>
-                <div class="member-box-btn">
-                    <a href='#' class="btn-smaller-border-only">Cadastre-se gratuitamente</a>
-                </div>
-            </div>
-        </div>
-    </section>
+    </form> 
 </body>
 </html>
