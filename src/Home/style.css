@@ -229,7 +229,7 @@ p, #member-list {
     text-align: left;
     position: absolute;
     top: 50%;
-    left: 36%;
+    left: 34vw;
     transform: translate(-50%, -50%);
 }
 
@@ -263,13 +263,15 @@ p, #member-list {
     flex-direction: column;
     align-items: center;
     padding-bottom: 30px;
+    max-width: 1440px;
+    margin: auto;
 }
 
 .categories-box {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 10%;
+    padding: 0 8%;
     gap: 50px;
 }
 
@@ -293,13 +295,14 @@ p, #member-list {
     flex-direction: column;
     align-items: center;
     padding-bottom: 30px;
+    max-width: 1440px;
+    margin: auto;
 }
 
 .blog-box {
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding: 0 10%;
+    padding: 0 8%;
     gap: 50px;
 }
 
@@ -311,13 +314,15 @@ p, #member-list {
 
 .member-section {
     padding: 80px 0;
+    max-width: 1440px;
+    display: flex;
+    margin: auto;
 }
 
 .member-box {
     display: flex;
     align-items: center;
-    justify-content: center;
-    padding: 0 10%;
+    padding: 0 8%;
     gap: 50px;
 }
 
@@ -330,7 +335,7 @@ p, #member-list {
 }
 
 .member-bullet-point {
-    list-style-image: url('img/icon-back-to-top.png');
+    list-style-image: url('img/icon-chevron.png');
 }
 
 .member-bullet-point::marker {
@@ -339,4 +344,65 @@ p, #member-list {
 
 .member-box-btn {
     padding-top: 30px;
+}
+
+/* FALE CONOSCO */
+
+.contact-section {
+    padding: 80px 0;
+    background-color: #f0f0f0;
+}
+
+.contact-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: auto;
+    padding: 0 8%;
+}
+
+.contact-box-button{
+    display: flex;
+    text-align: right;
+}
+
+/* RODAPÉ */
+
+.footer-container {
+    max-width: 1440px;
+    margin: auto;
+    padding: 80px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1%;
+}
+
+/* COPYRIGHT */
+
+.copyright {
+    background-color: #519B84;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.copyright > p {
+    color: #fff;
+}
+
+/* BACK TO TOP ICON */
+
+.back-to-top {
+    position: fixed;
+    bottom: 10px;
+    float: right;
+    right: 0;
+}
+
+.back-to-top > img {
+    width: 80%;
+    opacity: 50%;
 }
