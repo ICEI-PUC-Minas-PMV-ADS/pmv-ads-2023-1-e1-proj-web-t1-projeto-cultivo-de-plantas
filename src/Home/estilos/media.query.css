@@ -11,9 +11,13 @@ Grandes telas: acima de 1200px
 */
 
 
+
+/* Configurações para tablet */
+
 @media screen and (min-width: 768px) and (max-width: 992px) {
     section#esqsenha {
         width: 80vw;
+        height: 250px;
     }
 
 
@@ -27,15 +31,19 @@ Grandes telas: acima de 1200px
     section#esqsenha>div#formulario {
         float: right;
         width: 70%;
+        margin: 10px 0px;
     }
     
 
 }
 
 
+/* Configurações para desktop */
+
 @media screen and (min-width: 992px) {
     section#esqsenha {
         width: 950px;
+        height: 250px;
     }
     
 
@@ -61,7 +69,8 @@ Grandes telas: acima de 1200px
 
     div#formulario>p{
         text-align: center;
-        font-size: 0.8em ;
+        font-size: 0.8em;
+        margin: 10px 0px;
     }
 
 
