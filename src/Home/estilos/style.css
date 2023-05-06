@@ -28,7 +28,133 @@ Azul: #3B506B
     width: 100vw;
   }
 
-  
+
+  /* HEADER */
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  height: 150px;
+  align-items: center;
+  border-bottom: 1px solid #F0F0F0;
+  padding: 0 10%;
+  background-color: white;
+  }
+
+.column {
+  padding: 10px;
+  } 
+
+.logo {
+  width: auto;
+  margin-right: 10px;
+  }
+
+.header-logo {
+  width: 200px;
+  transition: all .2s ease-in-out; 
+  }
+
+.header-logo:hover {
+  transform: scale(1.1); 
+  }
+
+.search {
+  width: 40%;
+  margin: 0 5px;
+  } 
+
+.search-box {
+  width: 100%;
+  border: 1px solid #F0F0F0;
+  border-radius: 50px;
+  }
+
+#txtBusca{
+  font-size: 18px;
+  border: none;
+  width: 75%;
+  position: relative;
+  height: 65px;
+  left: 34px;
+  background: transparent;
+  outline: none;
+  }
+
+#search-image {
+  margin-bottom: -13px;
+  margin-left: 35px;
+  }
+
+.login-cadastro {
+  width: auto;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  }
+
+.login-cadastro > a {
+  margin-right: 10px;
+  color: #000000;
+  }
+
+.login-cadastro > a:after {   
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #D5B484;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+  }
+
+.login-cadastro > a:hover:after { 
+  width: 100%; 
+  left: 0; 
+  }
+
+.account-icon {
+  transition: all .2s ease-in-out; 
+  }
+
+.account-icon:hover {
+  transform: scale(1.1); 
+  }
+
+/* NAVIGATION MENU */
+
+.main-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  height: 70px;
+  background-color: white;
+  }
+
+.main-menu > li > a {
+  position: relative;
+  padding: 5px 10px;
+  color: #000000;
+  }
+
+.main-menu > li > a:after {    
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #D5B484;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+  } 
+
+.main-menu > li > a:hover:after { 
+  width: 100%; 
+  left: 0; 
+  }
+
+
   main {
     position: relative;
     height: 100vh;
@@ -140,5 +266,44 @@ div.campo>input:focus-within{
    }
 
 
+   /* RODAPÉ */
+
+.footer-container {
+  max-width: 1440px;
+  margin: auto;
+  padding: 80px;
+  background-color: white;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1%;
+}
+
+/* COPYRIGHT */
+
+.copyright {
+  background-color: #519B84;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.copyright > p {
+  color: #fff;
+}
+
+/* BACK TO TOP ICON */
+
+.back-to-top {
+  position: fixed;
+  bottom: 10px;
+  float: right;
+  right: 0;
+}
+
+.back-to-top > img {
+  width: 80%;
+}
   
 
