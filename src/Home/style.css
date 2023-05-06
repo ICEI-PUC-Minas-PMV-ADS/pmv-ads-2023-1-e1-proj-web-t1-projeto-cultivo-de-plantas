@@ -44,17 +44,26 @@ Azul: #3B506B
     height: 500px;
     border-radius: 20px;
     overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.445);
   }
 
 
   section#esqsenha>div#imagem {
-    background: #f5f5f5 url(/src/Home/Imagens/violeta.jpg) no-repeat;
+    display: block;
+    background: #f5f5f5 url(../Home/Imagens/violeta.jpg) no-repeat;
     height: 200px;
     background-size: cover;
-
-    
+    background-position: right;
   }   
 
+
+  section#esqsenha>div#formulario {
+    padding: 10px;
+    display: block;
+    
+
+
+   }
 
   
 
