@@ -53,4 +53,16 @@ Grandes telas: acima de 1200px
     }
 
 
+   div#formulario>h1{
+    text-align: center;
+    margin-bottom: 10px;
+   }
+
+
+    div#formulario>p{
+        text-align: center;
+        font-size: 0.8em ;
+    }
+
+
 }
