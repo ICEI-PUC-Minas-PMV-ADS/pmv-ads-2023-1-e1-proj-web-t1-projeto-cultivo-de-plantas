@@ -7,6 +7,7 @@
     <link rel="shortcut icon" href="./src/icon-sunflower.png" type="image/x-icon">
     <link rel="stylesheet" href="./estilos/style.css">
     <link rel="stylesheet" href="./estilos/media.query.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>esqueciminhasenha</title>
                 <!--fontes-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -27,13 +28,20 @@
                 <p>Insira o código que enviamos para seu e-mail:</p>
                 <form action="esquecisenha.php" method="post">
                     <div class="campo">
-                     <label for="icodigo"></label>
-                     <input type="text" name="codigo" id="icodigo" placeholder="Digite o código">
+                        <span class="material-symbols-outlined">
+                            terminal
+                            </span>
+                     <input type="text" name="codigo" id="icodigo" placeholder="Digite o código" autocapitalize="text" required maxlength="5"
+                     <label for="icodigo">Código</label>
                     </div>
                     <div class="campo">
-                        <label for="isenha">senha</label>
-                        <input type="password" name="senha" id="isenha" placeholder="Digite sua nova senha">
+                        <span class="material-symbols-outlined">
+                            vpn_key
+                            </span>
+                        <input type="password" name="senha" id="isenha" placeholder="Digite sua nova senha" required minlength="8"maxlength="16">
+                        <label for="isenha">Nova senha</label>
                     </div>
+                    <input type="submit" value="entrar">
                 </form>
             </div>
             </section>
