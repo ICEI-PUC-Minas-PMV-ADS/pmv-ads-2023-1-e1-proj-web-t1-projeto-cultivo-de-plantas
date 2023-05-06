@@ -17,6 +17,8 @@ Azul: #3B506B
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
   }
 
 
@@ -26,7 +28,7 @@ Azul: #3B506B
     width: 100vw;
   }
 
-
+  
   main {
     position: relative;
     height: 100vh;
