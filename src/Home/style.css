@@ -11,44 +11,47 @@ Pastel: #EAE0CC
 Azul: #3B506B
 */
 
-*{
+* {
     font-family: 'Poppins';
     color: #3B506B;
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    }
+  }
 
 
-  body, html{
+  body, html {
     background-color: #EAE0CC;
     height: 100vh;
     width: 100vw;
   }
 
 
-  main{
+  main {
     position: relative;
     height: 100vh;
     width: 100vw;
   }
 
 
-  section#esqsenha{
+  section#esqsenha {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    background-color: black;
+    background-color: white;
     width: 250px;
     height: 500px;
     border-radius: 20px;
+    overflow: hidden;
   }
 
 
-  section#esqsenha>div#imagem{
-    background: #f5f5f5 url(/src/Home/Imagens/violeta.jpg);
+  section#esqsenha>div#imagem {
+    background: #f5f5f5 url(/src/Home/Imagens/violeta.jpg) no-repeat;
     height: 200px;
+    background-size: cover;
+
     
   }   
 
