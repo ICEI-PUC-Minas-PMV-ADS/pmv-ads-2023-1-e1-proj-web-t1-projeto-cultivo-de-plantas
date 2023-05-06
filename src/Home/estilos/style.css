@@ -66,7 +66,7 @@ Azul: #3B506B
 
 .search-box {
   width: 100%;
-  border: 1px solid #F0F0F0;
+  border: 1px solid #519B84;
   border-radius: 50px;
   }
 
@@ -79,6 +79,7 @@ Azul: #3B506B
   left: 34px;
   background: transparent;
   outline: none;
+  color: black;
   }
 
 #search-image {
