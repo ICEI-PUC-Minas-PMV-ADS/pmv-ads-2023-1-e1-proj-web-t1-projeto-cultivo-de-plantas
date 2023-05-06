@@ -47,7 +47,8 @@ Azul: #3B506B
 
 
   section#esqsenha>div#imagem{
-    background: #f5f5f5; url;
+    background: #f5f5f5 url(/src/Home/Imagens/violeta.jpg);
+    height: 200px;
     
   }   
 
