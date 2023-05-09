@@ -10,18 +10,6 @@ Desktop: 992px até 1200px
 Grandes telas: acima de 1200px
 */
 
-:root {
-    --Verde-escuro: #2F4B34;
-    --Verde: #406E3F;
-    --Verde-claro: #B7D692;
-    --Verde-água: #519B84;
-    --Branco-esfumaçado: #F5F5F5;
-    --Pastel: #EAE0CC;
-    --Azul: #3B506B;
-    --Preto: #000000;
-    --Verde-kelly: #58AA38;
-    --Verde-amarelado: #81C12A;
-  }
 
 
 /* Configurações para tablet */
@@ -46,48 +34,7 @@ Grandes telas: acima de 1200px
         width: 70%;
         margin: 10px 0px;
     }
-
-
-   .navigation {
-    padding: 18px 20px;
-   }
     
-
-   .menu {
-    display: block;
-   }
-
-
-   .nav-menu {
-    position: fixed;
-    right: -100%;
-    top: 70px;
-    width: 100%;
-    height: 100%;
-    flex-direction: column;
-    background: var(--Branco-esfumaçado);
-    gap: -10px;
-    transition: 0.3s;
-   }
-
-
-   .usuario {
-    position: fixed;
-    right: -100%;
-    top: 70px;
-    width: 100%;
-    height: 100%;
-    flex-direction: column;
-    background: var(--Branco-esfumaçado);
-    gap: -10px;
-    transition: 0.3s;
-   }
-
-
-    .nav-item {
-        margin: 16px 0;
-   }
-
 
 }
 

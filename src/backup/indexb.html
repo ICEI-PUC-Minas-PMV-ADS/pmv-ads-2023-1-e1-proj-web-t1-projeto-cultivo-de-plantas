@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./src/icon-sunflower.png" type="image/x-icon">
+    <link rel="stylesheet" href="./estilos/style.css">
+    <link rel="stylesheet" href="./estilos/media.query.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <title>esqueciminhasenha</title>
+</head>
+    <body>
+        <header class="header-container" id="top">
+            <div class="column logo">
+                <img class="header-logo" src="./Imagens/Planty-logo 1.png" alt="Logo Original Planty"></a>
+            </div>
+            <div class="column search">
+                <div class="search-box">
+                    <input type="text" id="txtBusca" placeholder="Pesquisar..."/>
+                    <a href="#"><img id="search-image" src="./Imagens/search.png" alt="Ícone de Busca"></a>
+                </div>
+            </div>
+            <div class="column login-cadastro">
+                <a href="#">Login / Cadastro</a>
+                <img class="account-icon" src="./Imagens/account_circle.png" alt="Ícone de Usuário">
+            </div>
+        </header>
+    
+        <nav>
+            <ul class="main-menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Fórum</a></li>
+                <li><a href="#">Fale Conosco</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section id="esqsenha">
+            <div id="imagem"> 
+            </div>
+            <div id="formulario">
+                <h1>Esqueceu sua senha?</h1>
+                <p>Insira o código que enviamos para seu e-mail:</p>
+                <form action="esquecisenha.php" method="post">
+                    <div class="campo">
+                        <span class="material-symbols-outlined">
+                            terminal
+                            </span>
+                     <input type="text" name="codigo" id="icodigo" placeholder="Digite o código" autocapitalize="text" required maxlength="5">
+                     <label for="icodigo">Código</label>
+                    </div>
+                    <div class="campo">
+                        <span class="material-symbols-outlined">
+                            vpn_key
+                            </span>
+                        <input type="password" name="senha" id="isenha" placeholder="Digite sua nova senha" required minlength="8"maxlength="16">
+                        <label for="isenha">Nova senha</label>
+                    </div>
+                    <input type="submit" value="entrar">
+                </form>
+            </div>
+            </section>
+        </main> 
+        <footer>
+            <div class="footer-container">
+                <div class="footer-content">
+                    <div class="column logo">
+                        <img class="header-logo" src="./Imagens/Planty-logo 1.png" alt="Logo Original Planty"></a>
+                    </div>
+                    <div class="column search">
+                        <div class="search-box">
+                            <input type="text" id="txtBusca" placeholder="Pesquisar..."/>
+                            <a href="#"><img id="search-image" src="./Imagens/search.png" alt="Ícone de Busca"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="copyright">
+                <p>Projeto Cultivo de Plantas ICEI | Todos os direitos reservados.</p>
+            </div>
+    
+            <div>
+                <a href="#top" class="back-to-top"><img src="./Imagens/icon-back-to-top.png" alt="Ícone de Back to Top"></a>
+            </div>
+        </footer> 
+    </body>
+</html>
