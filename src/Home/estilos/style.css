@@ -232,55 +232,7 @@ div.campo>input:focus-within{
    }
 
 
-    /* RODAPÉ */
-
-.footer-container {
-  background-color: var(--Branco-esfumaçado);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  box-shadow: 0 0.1rem 0.5rem #ccc;
-  width: auto;
-  height: auto;
-  transition: all 0.5s;
-}
-
-.footer-content {
-  display: flex;
-  justify-content: space-between;
-  padding: 0 1%;
-  font-size: 1.5rem;
-  color: var(--Verde-kelly);
-  cursor: pointer;
-  gap: 60rem
-}
-
-/* COPYRIGHT */
-
-.copyright {
-  background-color: var(--Verde-kelly);
-  text-align: center;
-  padding: 15px 0;
-  display: block;
-}
-
-.copyright > p {
-  color: var(--Branco-esfumaçado);
-}
-
-/* BACK TO TOP ICON */
-
-.back-to-top {
-  position: fixed;
-  bottom: 10px;
-  float: right;
-  display: block;
-  right: 0;
-}
-
-.back-to-top > img {
-  width: 80%;
-}
+    
 
  
   
