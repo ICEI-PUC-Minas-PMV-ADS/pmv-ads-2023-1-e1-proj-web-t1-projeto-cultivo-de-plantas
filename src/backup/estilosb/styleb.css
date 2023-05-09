@@ -269,40 +269,39 @@ div.campo>input:focus-within{
 
    /* RODAPÉ */
 
-.footer-container {
-  max-width: 1440px;
-  margin: auto;
-  padding: 80px;
-  background-color: white;
+   .footer-container {
+    max-width: 1440px;
+    margin: auto;
+    padding: 80px;
 }
 
 .footer-content {
-  display: flex;
-  justify-content: space-between;
-  padding: 0 1%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1%;
 }
 
 /* COPYRIGHT */
 
 .copyright {
-  background-color: #519B84;
-  text-align: center;
-  padding: 15px 0;
+    background-color: #519B84;
+    text-align: center;
+    padding: 15px 0;
 }
 
 .copyright > p {
-  color: #fff;
+    color: #fff;
 }
 
 /* BACK TO TOP ICON */
 
 .back-to-top {
-  position: fixed;
-  bottom: 10px;
-  float: right;
-  right: 0;
+    position: fixed;
+    bottom: 10px;
+    float: right;
+    right: 0;
 }
 
 .back-to-top > img {
-  width: 80%;
+    width: 80%;
 }
