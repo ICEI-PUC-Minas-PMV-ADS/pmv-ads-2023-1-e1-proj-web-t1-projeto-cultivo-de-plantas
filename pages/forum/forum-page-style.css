@@ -200,7 +200,7 @@ body {
     width: 70%; 
     padding: 30px;
     background-color: #F0F0F0;
-    position: absolute;
+    position: relative;
     box-sizing: border-box;
     border-radius: 20px;  
 }
@@ -263,10 +263,48 @@ body {
     transform: scale(1.1); 
 }
 
+a {
+    color: #ffffff;
+}
 .btn-container {
-    gap: 5%;
-    display: flex;
+    margin-top: 20px;
 }
 
-/* FOOTER */
+/* RODAPÉ */
 
+.footer-container {
+    background-color: #FFFFFf;
+    margin: auto;
+    padding: 80px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1%;
+}
+
+/* COPYRIGHT */
+
+.copyright {
+    background-color: #519B84;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.copyright > p {
+    color: #fff;
+}
+
+/* BACK TO TOP ICON */
+
+.back-to-top {
+    position: fixed;
+    bottom: 10px;
+    float: right;
+    right: 0;
+}
+
+.back-to-top > img {
+    width: 80%;
+}
