@@ -1,9 +1,10 @@
-const menu = document.querySelector('.menu');
-const NavMenu = document.querySelector('.nav-menu');
-const usuario = document.querySelector('.usuario');
+var ul = document.querySelector('nav ul');
+var menuBtn = document.querySelector('.menu-btn i');
 
-menu.addEventListener('click', () =>{
-    menu.classList.toggle('ativo');
-    NavMenu.classList.toggle('ativo');
-    usuario.classList.toggle('ativo');
-})
+function menuShow() {
+    if (ul.classList.contains('open')) {
+        ul.classList.remove('open');
+    }else{
+        ul.classList.add('open');  
+    }
+}

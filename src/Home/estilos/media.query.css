@@ -24,10 +24,11 @@ Grandes telas: acima de 1200px
   }
 
 
-/* Configurações para tablet */
+/* Configurações do formulário para tablet */
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
-    
+
+
     section#esqsenha {
         width: 80vw;
         height: 250px;
@@ -92,7 +93,7 @@ Grandes telas: acima de 1200px
 }
 
 
-/* Configurações para desktop */
+/* Configurações do formulário para desktop */
 
 @media screen and (min-width: 992px) {
     section#esqsenha {

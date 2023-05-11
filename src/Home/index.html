@@ -11,6 +11,7 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!--Fonte Poppins-->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;800&display=swap" rel="stylesheet">
@@ -18,30 +19,19 @@
 </head>
     <body>
         <header>
-            <nav class="navigation">
-                <div class="logo">
-                    <img class="planty" src="./Imagens/Planty2.png">
+            <nav>
+                <div class="logo"> <img src="./Imagens/Planty-logo 1.png" alt="Logo Planty"></div>
+                <div class="menu-btn">
+                    <i class="fa fa-bars fa-2x" onclick="menuShow()"></i>
                 </div>
-                <ul class="nav-menu">
-                    <li class="nav-item"><a href="#">Home</a></li>
-                    <li class="nav-item"><a href="#">Blog</a></li>
-                    <li class="nav-item"><a href="#">Fórum</a></li>
-                    <li class="nav-item"><a href="#">Fale Conosco</a></li>
-                    <div class="search">
-                    <i class='bx bx-search'></i>
-                    <input class="box-search" type="text" name="pesquisar" id="ipesquisar" placeholder="Pesquisar...">
-                </div>
+                <ul>
+                    <li> <a href="#" class="active"> Home </a> </li>
+                    <li> <a href="#">Blog</a></li>
+                    <li> <a href="#">Fórum</a></li>
+                    <li> <a href="#">Fale Conosco</a></li>
+                    <li> <a href="#">Faça Login</a></li>
+                    <li> <a href="#">Cadastre-se</a></li>
                 </ul>
-                <div class="usuario">
-                    <!--<i class='bx bx-user-circle'></i>-->
-                    <a href="#" class="login">Login</a>
-                    <a href="#" class="new">Criar conta</a>
-                </div>
-                <div class="menu">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </div>
             </nav>
         </header>  
         <main>
@@ -78,10 +68,28 @@
 
                             <!--Footer-->
 
-       <footer>
-        <div>
-
-        </div>
-       </footer>
+                            <footer>
+                                <div class="footer-container">
+                                    <div class="footer-content">
+                                        <div class="column logo">
+                                            <a href="#"><img class="header-logo" src="./Imagens/Planty-logo 1.png" alt="Logo Original Planty"></a>
+                                        </div>
+                                        <div class="column search">
+                                            <div class="search-box">
+                                                <input type="text" id="txtBusca" placeholder="Pesquisar..."/>
+                                                <a href="#"><img id="search-image" src="./Imagens/search.png" alt="Ícone de Busca"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                        
+                                <div class="copyright">
+                                    <p>Projeto Cultivo de Plantas ICEI | Todos os direitos reservados.</p>
+                                </div>
+                        
+                                <div>
+                                    <a href="#top" class="back-to-top"><img src="./Imagens/icon-back-to-top.png" alt="Ícone de Back to Top"></a>
+                                </div>
+                            </footer>
     </body>
 </html>
