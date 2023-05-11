@@ -18,22 +18,30 @@
     <title>esqueciminhasenha</title>
 </head>
     <body>
-        <header>
-            <nav>
-                <div class="logo"> <img src="./Imagens/Planty-logo 1.png" alt="Logo Planty"></div>
-                <div class="menu-btn">
-                    <i class="fa fa-bars fa-2x" onclick="menuShow()"></i>
+        <header class="header-container" id="top">
+            <div class="column logo">
+                <a href="#"><img class="header-logo" src="./Imagens/Planty-logo 1.png" alt="Logo Original Planty"></a>
+            </div>
+            <div class="column search">
+                <div class="search-box">
+                    <input type="text" id="txtBusca" placeholder="Pesquisar..."/>
+                    <a href="#"><img id="search-image" src="./Imagens/search.png" alt="Ícone de Busca"></a>
                 </div>
-                <ul>
-                    <li> <a href="#" class="active"> Home </a> </li>
-                    <li> <a href="#">Blog</a></li>
-                    <li> <a href="#">Fórum</a></li>
-                    <li> <a href="#">Fale Conosco</a></li>
-                    <li> <a href="#">Faça Login</a></li>
-                    <li> <a href="#">Cadastre-se</a></li>
-                </ul>
-            </nav>
-        </header>  
+            </div>
+            <div class="column login-cadastro">
+                <a href="#">Login / Cadastro</a>
+                <img class="account-icon" src="./Imagens/account_circle.png" alt="Ícone de Usuário">
+            </div>
+        </header>
+    
+        <nav>
+            <ul class="main-menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Fórum</a></li>
+                <li><a href="#">Fale Conosco</a></li>
+            </ul>
+        </nav> 
         <main>
             <section id="esqsenha">
             <div id="imagem"> 

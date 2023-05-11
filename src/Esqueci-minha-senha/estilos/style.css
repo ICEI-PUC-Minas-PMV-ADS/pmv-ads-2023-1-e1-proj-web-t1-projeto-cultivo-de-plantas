@@ -14,16 +14,49 @@ Azul: #3B506B
 Preto: #000000
 */
 
-* {
-    font-family: 'Poppins', sans-serif;
-    padding: 0px;
-    margin: 0px;  
-    box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;
-  }
 
-  :root {
+/* GLOBAL STYLR */
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+
+ul {
+  list-style-type: none;
+}
+
+
+li, a {
+  text-decoration: none;
+  position: relative;
+}
+
+
+.btn-filled {
+  background-color: #519B84;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 20px;
+  transition: all .2s ease-in-out; 
+}
+
+
+.btn-filled:hover {
+  background-color: #D5B484;
+  transition: 300ms;
+  transform: scale(1.1); 
+}
+
+:root {
     --Verde-escuro: #2F4B34;
     --Verde: #406E3F;
     --Verde-claro: #B7D692;
@@ -45,99 +78,132 @@ Preto: #000000
   }
 
   
-  /* Navegação */
+  /* HEADER */
 
-  nav {
-    display: flex;
-    height: 80px;
-    width: 100%;
-    background-color: var(--Branco-esfumaçado);
-    align-items: center;
-    justify-content: space-between;
-    padding: 18px 40px;
-    box-shadow: 0 0.1rem 0.5rem grey;
-   
-  }
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  height: 150px;
+  align-items: center;
+  border-bottom: 1px solid #F0F0F0;
+  padding: 0 10%;
+  background-color: white;
+}
 
+.column {
+  padding: 10px;
+}
 
-  nav ul {
-    display: flex;
-    align-items: center;
-    gap: 1rem
-  }
+.logo {
+  width: auto;
+  margin-right: 10px;
+}
 
+.header-logo {
+  width: 200px;
+  transition: all .2s ease-in-out; 
+}
+
+.header-logo:hover {
+  transform: scale(1.1); 
+}
+
+.search {
+  width: 40%;
+  margin: 0 5px;
+}
+
+.search-box {
+  width: 100%;
+  border: 1px solid #F0F0F0;
+  border-radius: 50px;
+}
+
+#txtBusca{
+  font-size: 18px;
+  border: none;
+  width: 75%;
+  position: relative;
+  height: 65px;
+  left: 34px;
+  background: transparent;
+  outline: none;
+}
+
+#search-image {
+  margin-bottom: -13px;
+  margin-left: 35px;
+}
+
+.login-cadastro {
+  width: auto;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.login-cadastro > a {
+  margin-right: 10px;
+  color: #000000;
+}
+
+.login-cadastro > a:after {   
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #D5B484;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+.login-cadastro > a:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+
+.account-icon {
+  transition: all .2s ease-in-out; 
+}
+
+.account-icon:hover {
+  transform: scale(1.1); 
+}
+
+/* NAVIGATION MENU */
+
+.main-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  height: 70px;
+  background-color: white;
+}
+
+.main-menu > li > a {
+  position: relative;
+  padding: 5px 10px;
+  color: #000000;
+}
+
+.main-menu > li > a:after {    
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #D5B484;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+.main-menu > li > a:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
   
-  nav ul li a{
-    color: var(--Preto);
-    text-decoration: none;
-    font-size: 17px;
-    font-weight: 500;
-    padding: 8px;
-    border-radius: 8px;
-    letter-spacing: 1px;
-    transition: all 0.3s ease;
-  }
-
-
-  nav ul li a.active,
-  nav ul li a:hover {
-    background: var(--Verde-água);
-  }
-
-
-  nav .menu-btn i {
-    color: var(--Verde-escuro);
-    cursor: pointer;
-    display: none;
-  }
-
-  
-  /* Configurações para Celular, iPad*/
-
-  @media screen and (min-width: 360px) and (max-width: 991px) {
-    
-    
-    nav .menu-btn i {
-      display: block;
-    }
-
-
-    nav ul {
-      position: fixed;
-      top: 80px;
-      left: -100%;
-      background-color: var(--Branco-esfumaçado);
-      height: 100vh;
-      width: 100%;
-      text-align: center;
-      display: block;
-      transition: all 0.3s ease;
-    }
-
-
-      nav ul.open {
-        left: 0
-      }
-
-
-      nav ul li {
-        width: 100%;
-        margin: 50px 0;
-      }
-
-      nav ul li a {
-        font-size: 23px;
-      }
-
-
-      nav ul li a.active,
-      nav ul li a:hover {
-        background: none;
-        color: var(--Azul) ;
-      }
-  }
-    
-   
 
   /* Main */
 
@@ -260,7 +326,7 @@ Preto: #000000
 .footer-container {
   max-width: 100%;
   margin: auto;
-  background-color: var(--Branco-esfumaçado);
+  background-color: white;
   padding: 80px;
   box-shadow: 0 0.1rem 0.5rem grey;
 }
