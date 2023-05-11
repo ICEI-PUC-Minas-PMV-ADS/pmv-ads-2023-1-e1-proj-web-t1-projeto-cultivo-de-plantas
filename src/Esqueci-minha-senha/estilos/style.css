@@ -38,24 +38,6 @@ li, a {
 }
 
 
-.btn-filled {
-  background-color: #519B84;
-  color: #ffffff;
-  font-size: 18px;
-  font-weight: 500;
-  padding: 15px 40px;
-  border: none;
-  border-radius: 20px;
-  transition: all .2s ease-in-out; 
-}
-
-
-.btn-filled:hover {
-  background-color: #D5B484;
-  transition: 300ms;
-  transform: scale(1.1); 
-}
-
 :root {
     --Verde-escuro: #2F4B34;
     --Verde: #406E3F;
@@ -202,7 +184,7 @@ li, a {
 .main-menu > li > a:hover:after { 
   width: 100%; 
   left: 0; 
-}
+} 
   
 
   /* Main */
@@ -212,7 +194,6 @@ li, a {
     height: 100vh;
     width: 100vw;
     display: block;
-    
   }
 
 
@@ -223,7 +204,7 @@ li, a {
     transform: translate(-50%,-50%);
     background-color: white;
     width: 250px;
-    height: 500px;
+    height: 550px;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.445);
@@ -328,7 +309,6 @@ li, a {
   margin: auto;
   background-color: white;
   padding: 80px;
-  box-shadow: 0 0.1rem 0.5rem grey;
 }
 
 .footer-content {

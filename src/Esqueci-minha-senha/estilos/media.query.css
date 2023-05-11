@@ -31,7 +31,7 @@ Grandes telas: acima de 1200px
 
     section#esqsenha {
         width: 80vw;
-        height: 250px;
+        height: 300px;
     }
 
 
@@ -47,49 +47,6 @@ Grandes telas: acima de 1200px
         width: 70%;
         margin: 10px 0px;
     }
-
-
-   .navigation {
-    padding: 18px 20px;
-   }
-    
-
-   .menu {
-    display: block;
-   }
-
-
-   .nav-menu {
-    position: fixed;
-    right: -100%;
-    top: 70px;
-    width: 100%;
-    height: 100%;
-    flex-direction: column;
-    background: var(--Branco-esfumaçado);
-    gap: -10px;
-    transition: 0.3s;
-   }
-
-
-   .usuario {
-    position: fixed;
-    right: -100%;
-    top: 70px;
-    width: 100%;
-    height: 100%;
-    flex-direction: column;
-    background: var(--Branco-esfumaçado);
-    gap: -10px;
-    transition: 0.3s;
-   }
-
-
-    .nav-item {
-        margin: 16px 0;
-   }
-
-
 }
 
 
@@ -98,7 +55,7 @@ Grandes telas: acima de 1200px
 @media screen and (min-width: 992px) {
     section#esqsenha {
         width: 950px;
-        height: 250px;
+        height: 300px;
     }
     
 
