@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Planty - Contato</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="contato-style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header-container">
+      <div class="column logo">
+        <a href="#"
+          ><img
+            class="header-logo"
+            src="imagens/Logo-Planty.png"
+            alt="Logo Original Planty"
+        /></a>
+      </div>
+      <div class="column search">
+        <div class="search-box">
+          <p>Pesquisar...</p>
+          <img src="imagens/search.png" alt="Ícone de Busca" />
+        </div>
+      </div>
+      <div class="column login-cadastro">
+        <a href="#">Login / Cadastro</a>
+        <img
+          class="account-icon"
+          src="imagens/account_circle.png"
+          alt="Ícone de Usuário"
+        />
+      </div>
+    </header>
+
+    <nav>
+      <ul class="main-menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Fórum</a></li>
+        <li><a href="#">Fale Conosco</a></li>
+      </ul>
+    </nav>
+    <section class="container-contato">
+      <h1 class="titulo">Entre em contato conosco</h1>
+      <p class="paragrafo">Como podemos te ajudar?</p>
+      <div class="contato-telegram">
+        <img
+          class="capa"
+          src="imagens/mulher no notebook.png"
+          alt="mulher mexendo no notebook"
+        />
+        <p class="legenda-telegram">
+          <svg
+            style="color: rgb(57, 163, 243)"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="currentColor"
+            class="bi bi-telegram"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z"
+              fill="#39a3f3"
+            ></path>
+          </svg>
+          <a href="https://t.me/suporteplanty" target="_blank"
+            >Conheça o nosso canal no telegram!</a
+          >
+        </p>
+      </div>
+      <form>
+        <fieldset class="form_personalInformation">
+          <input
+            aria-label="nome completo"
+            placeholder="Nome completo"
+            class="nome"
+            required
+          />
+          <input
+            aria-label="email"
+            placeholder="Email"
+            class="email"
+            required
+          />
+        </fieldset>
+
+        <fieldset class="form_contact">
+          <input
+            aria-label="assunto"
+            placeholder="Assunto"
+            class="assunto"
+            required
+          />
+        </fieldset>
+        <textarea
+          aria-label="digite aqui sua mensagem"
+          row="10"
+          placeholder="Insira sua mensagem..."
+          class="mensagem"
+          required
+        ></textarea>
+
+        <div class="btn-container">
+          <input type="reset" value="Cancelar" class="btn-reset" />
+          <input type="submit" value="Enviar" class="btn-submit" />
+        </div>
+      </form>
+    </section>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-content">
+          <div class="column logo">
+            <a href="#"
+              ><img
+                class="header-logo"
+                src="imagens/Logo-Planty.png"
+                alt="Logo Original Planty"
+            /></a>
+          </div>
+          <div class="column search">
+            <div class="search-box">
+              <input type="text" id="txtBusca" placeholder="Pesquisar..." />
+              <a href="#"
+                ><img
+                  id="search-image"
+                  src="imagens/search.png"
+                  alt="Ícone de Busca"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <p>Projeto Cultivo de Plantas ICEI | Todos os direitos reservados.</p>
+      </div>
+
+      <div>
+        <a href="#top" class="back-to-top"
+          ><img src="imagens/icon-back-to-top.png" alt="Ícone de Back to Top"
+        /></a>
+      </div>
+    </footer>
+  </body>
+</html>
