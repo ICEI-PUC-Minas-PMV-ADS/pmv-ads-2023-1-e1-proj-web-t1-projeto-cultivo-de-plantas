@@ -27,6 +27,18 @@ Preto: #000000
 }
 
 
+::-webkit-scrollbar {
+  width: 8px;
+
+}
+
+
+::-webkit-scrollbar-thumb {
+  background-color: #3B506B;
+  border-radius: 50px;
+}
+
+
 ul {
   list-style-type: none;
 }
