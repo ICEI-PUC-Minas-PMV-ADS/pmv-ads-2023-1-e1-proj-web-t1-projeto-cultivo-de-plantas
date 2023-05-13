@@ -1,5 +1,5 @@
 
-# Projeto de Interface
+# 4. Projeto de Interface
 
 Durante o desenvolvimento do projeto, ficou estabelecido que a interface do sistema estaria atendendo aos critérios dos requisitos não funcionais e funcionais. Sendo assim, a interface do projeto busca entregar uma navegação intuitiva com acessibilidade e usabilidade, estando aptas para o uso em dispositivos móveis e desktops.
 
