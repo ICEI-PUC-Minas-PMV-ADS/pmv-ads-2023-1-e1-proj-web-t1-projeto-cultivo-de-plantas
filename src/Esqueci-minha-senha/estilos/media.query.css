@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+
+/* Device Breakpoints
+----------------------
+Pequenas telas: até 600px
+Celular: de 600px até 768px
+Tablet: de 768px até 992px
+Desktop: 992px até 1200px
+Grandes telas: acima de 1200px
+*/
+
+:root {
+    --Verde-escuro: #2F4B34;
+    --Verde: #406E3F;
+    --Verde-claro: #B7D692;
+    --Verde-água: #519B84;
+    --Branco-esfumaçado: #F5F5F5;
+    --Pastel: #EAE0CC;
+    --Azul: #3B506B;
+    --Preto: #000000;
+    --Verde-kelly: #58AA38;
+    --Verde-amarelado: #81C12A;
+  }
+
+
+/* Configurações do formulário para tablet */
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+
+    section#esqsenha {
+        width: 80vw;
+        height: 300px;
+    }
+
+
+    section#esqsenha>div#imagem {
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+
+    section#esqsenha>div#formulario {
+        float: right;
+        width: 70%;
+        margin: 10px 0px;
+    }
+}
+
+
+/* Configurações do formulário para desktop */
+
+@media screen and (min-width: 992px) {
+    section#esqsenha {
+        width: 950px;
+        height: 300px;
+    }
+    
+
+    section#esqsenha>div#imagem {
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+ 
+    section#esqsenha>div#formulario {
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+
+
+   div#formulario>h1{
+    text-align: center;
+    margin-bottom: 10px;
+   }
+
+
+    div#formulario>p{
+        text-align: center;
+        font-size: 0.8em;
+        margin: 10px 0px;
+    }
+
+
+}
