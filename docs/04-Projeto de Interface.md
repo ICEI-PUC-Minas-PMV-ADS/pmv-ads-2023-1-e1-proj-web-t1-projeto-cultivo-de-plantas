@@ -12,6 +12,8 @@ O diagrama apresentado na figura abaixo mostra o fluxo de interação do usuári
 <div align="center">   
   
 ![Fluxo06](https://user-images.githubusercontent.com/116499898/233864356-081c8f34-1e7b-4068-b084-ecdf40dbf331.png)
+
+_User Flow do sistema_
   
 </div>
 
