@@ -1,0 +1,776 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    font-family: 'Poppins';
+    color: #3B506B;
+    
+}
+body{
+    overflow-x: hidden;
+   background-color: rgb(255, 255, 255);
+   min-width: 100vw;
+   min-height: 100vh;
+   margin-top: 5px;
+   display: flex;
+   flex-direction: column;
+   justify-items: center;
+   align-items: center;
+}
+
+.textLogin:hover{
+    transform: scale(1.1); 
+    transition: 0.5s;
+
+}
+
+header{
+    z-index:1;
+    background-color: white;
+    width: 100vw;
+    height: 151px;
+    display: flex;
+    position: absolute;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+.iconPesquisar{
+    position: absolute;
+    left: 1530px;
+    top:45px;
+}
+.iconPesquisar:hover{
+    transform: scale(1.1); 
+    transition: 0.5s;
+    
+}
+
+.logoPlanty{
+    position: absolute;
+    left: 250px;
+}
+.logoPlanty:hover{
+    
+    transform: scale(1.1); 
+    transition: 0.5s;
+}
+
+.inputPesquisar{
+    text-align: center;
+    outline: none;
+    font-size: 20px;
+    position: absolute;
+    height: 50px;
+    width: 706px;
+    border: 1px solid #F0F0F0;
+    border-radius: 50px;
+}
+
+.inputPesquisar::placeholder{
+    position: absolute;
+    top: 12px;
+    left: 30px;
+    
+}
+
+.loginCadastro{
+    
+    display: flex;
+    position: absolute;
+    right: 200px;
+    align-items: center;
+}
+
+.iconLogin{
+    position: absolute;
+    left: 130px;
+   
+}
+.iconLogin:hover{
+    position: absolute;
+    left: 130px;
+    transform: scale(1.1); 
+    transition: 0.5s;
+   
+}
+
+
+nav{
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 70px;
+    top: 151px;
+    margin-top: 8px;
+    background-color: white;
+}
+ul {
+    position: relative;
+    
+    bottom: 16px;
+
+    list-style-type: none;
+}
+
+
+.navMenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 70px;
+}
+
+.navMenu > li > a {
+    position: relative;
+    padding: 5px 10px;
+    color: #000000;
+}
+
+.navMenu > li > a:after {    
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #D5B484;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.navMenu > li > a:hover:after { 
+    width: 100%; 
+    left: 0; 
+}
+
+
+.li{
+    padding: 65px;
+}
+
+a{
+    color: #3B506B;
+    text-decoration: none;
+}
+a:active{
+    color: transparent;
+    text-decoration: none;
+}
+
+
+
+   
+
+
+
+section{
+    color: #3B506B;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 1000px;
+    background-color: #F0F0F0;
+    z-index: 0;
+}
+
+.containerCarousel{
+    display: flex;
+    position: relative;
+}
+.imgsss{
+    display: flex;
+    position: relative;
+  
+}
+
+.carrossel{
+
+    display: flex;
+    position: relative;
+    right: 20px;
+    top: 130px;
+    
+}
+
+.tituloPlantas{
+   position: absolute;
+   bottom: 600px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    padding: 10px;
+    
+}
+.tituloPlantas:hover{
+  background-color: #3B506B;
+  color: white;
+  transition: 0.5s;
+}
+
+.planta{
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.saibaMais{
+    border: 1px solid #3B506B;
+    border-radius: 50px;
+    padding: 10px;
+}
+.saibaMais:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: white;
+    border: 1px solid #ffffff;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.plantas_imagens:hover{
+    
+    background-color: white;
+    padding: 2px;
+    border-radius: 20px;
+    border: white 7px solid;
+    cursor: pointer;
+    width: 268px;
+    height: 338px;
+    transition: 0.2s;
+}
+
+span {
+    cursor: pointer;
+    position: absolute;
+    
+}
+
+span:hover {
+    color: white;
+    transition: 0.5s;
+  }
+
+.setaRight{
+   
+   
+    top: 150px;
+    transform: rotate(180deg);
+}
+
+.setaLeft{
+    
+    left: 1300px;
+    top: 150px;
+
+}
+
+.post{
+    position: relative;
+    top: 60px;
+    display: flex;
+    border-radius: 75px;
+    background-color: white;
+    width: 1234px;
+    height: 712px;
+    z-index: 2;
+}
+.post:hover{
+    transition: 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 20px;
+}
+
+main{
+    
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 2500px;
+    background-color: #EDEAE3;
+    top: 900px;
+    position: absolute;
+    z-index: 2;
+}
+
+.image{
+    display: flex;
+    position: relative;
+    padding: 40px; 
+}
+.image:hover{
+    transform: scale(1.1); 
+    transition: 0.5s;
+}
+
+.content{
+    position: relative;
+    top: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    padding-right: 40px;
+}
+
+.tituloPost{
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 54px;
+    line-height: 54px;
+}
+.tituloPost:hover{
+    transform: scale(1.1); 
+    transition: 0.5s;
+    position: relative;
+    left: 25px;
+}
+
+.saibaMaisPost{
+    position: absolute;
+    left: 570px;
+    top: 600px;
+    border: 1px solid #3B506B;
+    border-radius: 50px;
+    padding: 10px;
+}
+.saibaMaisPost:hover{
+    cursor: pointer;
+    transition: 1s;
+    color: white;
+    background-color: #3B506B;
+    
+}
+
+.post2{
+    margin-top: 90px;
+}
+
+.saibaMaisPost2{
+    position: absolute;
+    left: 570px;
+    top: 600px;
+    border: 1px solid #3B506B;
+    border-radius: 50px;
+    padding: 10px;
+}
+.saibaMaisPost2:hover{
+    cursor: pointer;
+    transition: 1s;
+    color: white;
+    background-color: #3B506B;
+    
+}
+
+.saibaMaisPost3{
+    position: absolute;
+    left: 570px;
+    top: 600px;
+    border: 1px solid #3B506B;
+    border-radius: 50px;
+    padding: 10px;
+}
+.saibaMaisPost3:hover{
+    cursor: pointer;
+    transition: 1s;
+    color: white;
+    background-color: #3B506B;
+    
+}
+
+footer{
+    position: absolute;
+    top: 3400px;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 290px;
+    z-index: 5;
+}
+
+.footerUp{
+    
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100vw;
+    height: 220px;
+    background-color: white;
+}
+.imgFooter{
+    padding-right: 500px;
+    z-index: 10;
+    width:209px;
+    height:66px ;
+}
+
+.inptFooter{
+    
+    text-align: center;
+    outline: none;
+    font-size: 20px;
+    height: 80px;
+    width: 506px;
+    border: 1px solid #a01212;
+    border-radius: 50px;
+}
+.pesquisar-icon-footer{
+    position: absolute;
+    left: 1770px;
+    top: 80px;
+}
+
+.footerDwn{
+    
+    text-align: center;
+    background-color: #519B84;
+    width: 100vw;
+    height: 70px;
+}
+.footerDwn>h1{
+    color: white;
+    font-weight: 300;
+    font-size: 1.5em;
+
+}
+
+.btnVoltar{
+    left: 2170px;
+    top: 190px;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    background-color: #D5B484;
+    border-radius: 100%;
+}
+
+.setaUp{
+    z-index: 100;
+    left: 2185px;
+    top: 210px;
+    position: absolute;
+    width: 40px;
+    height: 30px;
+}
+
+
+
+
+.containerCarousel{
+    display: flex;
+}
+
+.setas{
+    display: flex;
+    position: absolute;
+    top: 380px;
+    left: 630px;
+}
+
+.containerCarousel2{
+    display: none;
+    position: absolute;
+    top: 384px;
+    left: 632px;
+}
+
+@media (min-width: 576px) {
+
+
+ }
+
+
+@media (min-width: 768px) {
+
+
+ }
+
+
+@media (min-width: 992px) {
+
+
+ }
+
+
+@media (max-width: 1366px) {
+
+    body{
+        
+      width: 100vh;
+    }
+
+    header{
+        width: 100%;
+        padding-left: 30px;
+    }
+    
+    .logoPlanty{
+        position: absolute;
+        left: 10px;
+        
+    }
+
+    .loginCadastro{
+        right: 100px;
+    }
+    .purificar:hover{
+        left: 10px;
+    }
+
+    nav{
+        width: 100%;
+        padding-left: 30px;
+    }
+    .iconPesquisar{
+       position: absolute;
+       left: 850px;
+    }
+
+    .tituloPlantas{
+        top: 250px;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+    }
+
+    .inputPesquisar{
+        width: 500px;
+    }
+    .planta4{
+        display: none;
+    }
+
+    .containerCarousel2{
+        display: none;
+        position: absolute;
+        top: 380px;
+        left: 210px;
+        
+
+    }
+
+   .setas{
+    position: absolute;
+    left: 200px;
+   }
+
+   .setaLeft{
+    position: absolute;
+    left: 1000px;
+   }
+   main{
+    height:2600px ;
+   }
+
+   main, section{
+
+    padding-left: 20px;
+
+   }
+
+   .post{
+ 
+    width: 1000px;
+  
+}
+
+.tituloPost{
+   
+    font-style: normal;
+    font-weight: 300;
+    font-size: 34px;
+    line-height: 34px;
+}
+
+.footerUp{
+    display: flex;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    right:8px;
+    height: 150px;
+    top: 70px;
+   
+
+}
+.imgFooter{
+    display: flex;
+    position: relative;
+    left: 70px;
+}
+
+.footerDwn{
+    position: absolute;
+    top: 220px;
+    right: 8px;
+    
+}
+.inptFooter{
+    display: flex;
+    position: relative;
+    right: 70px;
+    height: 60px;
+
+}
+.iconPesquisar{
+   position: relative;
+   left: 200px;
+   top: 5px;
+}
+
+.btnVoltar{
+ display: none;
+}
+
+.pesquisar-icon-footer{
+    display: none;
+}
+
+    
+
+    
+
+
+ }
+@media (max-width: 1200px) {
+
+    body{
+        
+      width: 100vh;
+    }
+
+    header{
+        width: 100%;
+        padding-left: 20px;
+    }
+    
+    .logoPlanty{
+        position: absolute;
+        left: 10px;
+        
+    }
+
+    .loginCadastro{
+        right: 100px;
+    }
+
+    nav{
+        width: 100%;
+        padding-left: 20px;
+    }
+    .iconPesquisar{
+       position: absolute;
+       left: 850px;
+    }
+
+    .tituloPlantas{
+        top: 250px;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+    }
+
+    .inputPesquisar{
+        width: 500px;
+    }
+    .planta4{
+        display: none;
+    }
+
+    .containerCarousel2{
+        display: none;
+        position: absolute;
+        left: 118px;
+
+    }
+
+   .setas{
+    position: absolute;
+    left: 100px;
+   }
+
+   .setaLeft{
+    position: absolute;
+    left: 1000px;
+   }
+   main{
+    height:2600px ;
+   }
+
+   main, section{
+
+    padding-left: 20px;
+
+   }
+
+   .post{
+ 
+    width: 1000px;
+  
+}
+
+.tituloPost{
+   
+    font-style: normal;
+    font-weight: 300;
+    font-size: 34px;
+    line-height: 34px;
+}
+
+.footerUp{
+    display: flex;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    right:8px;
+    height: 150px;
+    top: 70px;
+   
+
+}
+.imgFooter{
+    display: flex;
+    position: relative;
+    left: 70px;
+}
+
+.footerDwn{
+    position: absolute;
+    top: 220px;
+    right: 8px;
+    
+}
+.inptFooter{
+    display: flex;
+    position: relative;
+    right: 70px;
+    height: 60px;
+
+}
+.iconPesquisar{
+   position: relative;
+   left: 200px;
+   top: 5px;
+}
+
+.btnVoltar{
+ display: none;
+}
+
+.pesquisar-icon-footer{
+    display: none;
+}
+
+    
+
+    
+
+
+ }
+

@@ -1,0 +1,693 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    font-family: 'Poppins';
+    color: #3B506B;
+
+
+    
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+ 
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #3B506B;
+    border-radius: 50px;
+}
+  
+
+
+
+
+
+
+body{
+   background-color: #ffffff;
+   display: flex;
+   overflow-x: hidden;
+   flex-direction: column;
+   justify-items: center;
+   align-items: center;
+}
+
+
+
+header{
+    z-index:1;
+    background-color: white;
+    width: 100vw;
+    height: 151px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconPesquisar{
+    position: absolute;
+    left: 1530px;
+    top:45px;
+}
+.iconPesquisar:hover{
+    transform: scale(1.1); 
+    transition: 0.5s;
+}
+
+.logoPlanty{
+    position: absolute;
+    left: 250px;
+}
+.logoPlanty:hover{
+    
+    transform: scale(1.1); 
+    transition: 0.5s;
+}
+
+.inputPesquisar{
+    text-align: center;
+    outline: none;
+    font-size: 20px;
+    position: absolute;
+    height: 50px;
+    width: 706px;
+    border: 1px solid #F0F0F0;
+    border-radius: 50px;
+}
+
+.inputPesquisar::placeholder{
+    position: absolute;
+    top: 12px;
+    left: 30px;
+    
+}
+
+.loginCadastro{
+    
+    display: flex;
+    position: absolute;
+    right: 200px;
+    align-items: center;
+}
+
+.iconLogin{
+    position: absolute;
+    left: 130px;
+    
+   
+}
+.iconLogin:hover{
+    position: absolute;
+    left: 130px;
+    transform: scale(1.1); 
+    transition: 0.5s;
+   
+}
+
+
+nav{
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 70px;
+    top: 154px;
+    margin-top: 8px;
+    background-color: white;
+}
+ul {
+    position: relative;
+    
+    bottom: 16px;
+
+    list-style-type: none;
+}
+
+
+.navMenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 70px;
+}
+
+.navMenu > li > a {
+    position: relative;
+    padding: 5px 10px;
+    color: #000000;
+}
+
+.navMenu > li > a:after {    
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #D5B484;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.navMenu > li > a:hover:after { 
+    width: 100%; 
+    left: 0; 
+}
+
+
+.li{
+    padding: 65px;
+}
+
+a{
+    color: #3B506B;
+    text-decoration: none;
+}
+a:active{
+    color: transparent;
+    text-decoration: none;
+}
+
+
+
+section{
+    color: #3B506B;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 900px;
+    background-color: #F0F0F0;
+    z-index: 0;
+}
+
+.carrossel{
+
+    display: flex;
+    position: relative;
+    right: 20px;
+    top: 130px;
+    
+}
+
+.tituloPlantas{
+    right: 10px;
+    top: 120px;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    padding: 10px;
+    
+}
+.tituloPlantas:hover{
+  background-color: #3B506B;
+  color: white;
+  transition: 0.5s;
+}
+
+.planta{
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.saibaMais{
+    border: 1px solid #3B506B;
+    border-radius: 50px;
+    padding: 10px;
+}
+.saibaMais:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: white;
+    border: 1px solid #ffffff;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.textLogin:hover{
+    transform: scale(1.1); 
+    transition: 0.5s;
+}
+
+.plantas_imagens:hover{
+    
+    background-color: white;
+    padding: 2px;
+    border-radius: 20px;
+    border: white 7px solid;
+    cursor: pointer;
+    width: 268px;
+    height: 338px;
+    transition: 0.2s;
+}
+
+span {
+    cursor: pointer;
+    position: absolute;
+    display: inline-block;
+}
+
+span:hover {
+    color: white;
+    transition: 0.5s;
+  }
+
+.setaRight{
+   
+    position: absolute;
+    top: 150px;
+    transform: rotate(180deg);
+}
+
+.setaLeft{
+    position: absolute;
+    left: 1300px;
+    top: 150px;
+
+}
+
+
+
+main{
+    
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height:100vh;
+    background-color: #F0F0F0;
+    
+    top: 240px;
+    position: absolute;
+    z-index: 1;
+}
+
+.image{
+    display: flex;
+    position: relative;
+    padding: 40px; 
+}
+
+.content{
+    position: relative;
+    top: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    padding-right: 40px;
+}
+
+
+
+.saibaMaisPost{
+    position: absolute;
+    left: 570px;
+    top: 600px;
+    border: 1px solid #3B506B;
+    border-radius: 50px;
+    padding: 10px;
+}
+.saibaMaisPost:hover{
+    cursor: pointer;
+    transition: 1s;
+    color: white;
+    background-color: #3B506B;
+    
+}
+
+
+
+.saibaMaisPost2{
+    position: absolute;
+    left: 570px;
+    top: 600px;
+    border: 1px solid #3B506B;
+    border-radius: 50px;
+    padding: 10px;
+}
+.saibaMaisPost2:hover{
+    cursor: pointer;
+    transition: 1s;
+    color: white;
+    background-color: #3B506B;
+    
+}
+
+.saibaMaisPost3{
+    position: absolute;
+    left: 570px;
+    top: 600px;
+    border: 1px solid #3B506B;
+    border-radius: 50px;
+    padding: 10px;
+}
+.saibaMaisPost3:hover{
+    cursor: pointer;
+    transition: 1s;
+    color: white;
+    background-color: #3B506B;
+    
+}
+
+footer{
+    position: absolute;
+    top: 1200px;
+    
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.footerUp{
+    
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100vw;
+    height: 220px;
+    background-color: white;
+}
+.imgFooter{
+    position: relative;
+    top: 30px;
+    padding-right: 500px;
+    z-index: 10;
+    width:209px;
+    height:66px ;
+}
+
+.inptFooter{
+    
+    text-align: center;
+    outline: none;
+    font-size: 20px;
+    height: 80px;
+    width: 506px;
+    border: 1px solid #a01212;
+    border-radius: 50px;
+}
+
+.inptFooter{
+    position: relative;
+    top: 30PX;
+}
+
+
+.pesquisar-icon-footer{
+    position: absolute;
+    left: 1770px;
+    top: 110px;
+}
+
+.footerDwn{
+    
+    text-align: center;
+    background-color: #519B84;
+    width: 100vw;
+    height: 70px;
+}
+.footerDwn>h1{
+    color: white;
+    font-weight: 300;
+    font-size: 1.5em;
+
+}
+
+.btnVoltar{
+    left: 2170px;
+    top: 190px;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    background-color: #D5B484;
+    border-radius: 100%;
+}
+
+.setaUp{
+    z-index: 100;
+    left: 2185px;
+    top: 210px;
+    position: absolute;
+    width: 40px;
+    height: 30px;
+}
+
+.postMenu{
+  
+   
+    width: 1500px;
+    height: 100px;
+    position: absolute;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.postMenu:hover{
+    transform: scale(1.1); 
+    transition: 0.5s;
+      border-radius: 50px;
+}
+
+
+.menu{
+     cursor: pointer;
+     border: 1px solid #3B506B;
+     border-radius: 50px;
+     padding: 0px 40px;
+     color: #3B506B;
+     margin: 50px;
+}
+.menu:hover{
+     border: 2px solid #303c4d;
+     color: #303c4d;
+    
+}
+
+
+
+.post{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100vw;
+    height: 100px;
+}
+
+.tituloPost{
+    border-radius: 50px;
+    font-weight: 500;
+    border: 3px solid #3B506B;
+    padding: 0px 30px;
+    position: absolute;
+    bottom: 400px;
+    font-size: 2em;
+    word-break: none;
+    white-space: nowrap;
+    
+
+    
+    
+}
+.tituloPost:hover{
+    transform: scale(1.1); 
+    transition: 0.5s;
+
+}
+
+.leftPost{
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 700px;
+    top: 130px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+
+.containerTextPost{
+    position: absolute;
+    top: 130px;
+    right: 700px;
+    height: 800px;
+    width: 700px;
+    background-color: rgb(213, 180, 132, 40%) ;
+    border: 10px solid white;
+    border-radius: 10px;
+    
+   
+
+}
+
+
+.tituloTextPost, .contentTextPost{
+    padding: 0px 60px;
+    opacity: 100%; 
+}
+
+.containerTextPost{
+    overflow-y: auto;
+
+}
+
+
+h4{
+    font-weight: 300;
+}
+
+.imagemPlanta{
+   
+   position: relative;
+   top: 110px;
+}
+
+.imagemPlanta:hover{
+  
+    transform: scale(1.1); 
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 1366px) {
+
+
+    
+    .logoPlanty{
+        position: absolute;
+        left: 10px;
+        
+    }
+
+    .loginCadastro{
+        right: 100px;
+    }
+    .purificar:hover{
+        left: 10px;
+    }
+
+    
+    .iconPesquisar{
+        position: relative;
+        top: 1100p;
+ 
+     
+    }
+
+
+
+.tituloPlantas{
+        top: 250px;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+    }
+
+.inputPesquisar{
+        left: 450px;
+        width: 500px;
+    }
+
+  
+ main, section{
+    padding-left: 20px;
+ }
+
+
+
+main{
+    height: 1100px;
+}
+
+.tituloPost{
+   
+    font-style: normal;
+    font-weight: 300;
+    font-size: 34px;
+    line-height: 34px;
+}
+
+.footerUp{
+    display: flex;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    right:8px;
+    height: 100px;
+    top: 90px;
+
+}
+.imgFooter{
+    display: flex;
+    position: relative;
+    top: 2px;
+    left: 100px;
+  
+    
+}
+
+.footerDwn{
+    position: absolute;
+    top: 190px;
+    right: 8px;
+    
+}
+.inptFooter{
+    display: flex;
+    position: relative;
+    top: 2px;
+    height: 60px;
+    right: 70px;
+
+}
+.iconPesquisar{
+   position: relative;
+   left: 240px;
+   top: 4px;
+}
+
+.postMenu{
+    word-break: none;
+    width: 1200px;
+    white-space: nowrap;
+}
+
+.containerTextPost{
+    
+    position: absolute;
+    left: 580px;
+}
+
+.leftPost{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+
+
+
+
+
+
+
+
+}
