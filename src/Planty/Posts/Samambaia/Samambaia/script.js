@@ -38,3 +38,39 @@ function pragas() {
     conteudo.innerHTML = 'A samambaia pode ser suscetível a algumas pragas e doenças comuns. Aqui estão algumas das principais pragas e doenças que podem afetar sua samambaia e o que você pode fazer para prevenir e controlar esses problemas:<br><br>Cochonilha: as cochonilhas são pequenos insetos que se alimentam da seiva da planta e podem causar danos graves à samambaia. Os sinais de infestação incluem manchas brancas e pegajosas nas folhas. Para controlar a cochonilha, remova manualmente os insetos com um cotonete embebido em álcool ou use um inseticida adequado.<br><br>Pulgões: os pulgões são outra praga comum que pode afetar a samambaia. Eles se alimentam da seiva da planta e podem causar danos significativos. Os sinais de infestação incluem folhas enroladas ou murchas. Para controlar os pulgões, remova-os manualmente com um jato de água ou use um inseticida adequado.<br><br>Ácaros: os ácaros são pequenos insetos que podem ser difíceis de detectar. Os sinais de infestação incluem manchas prateadas nas folhas e uma teia fina na planta. Para controlar os ácaros, aplique um inseticida adequado.<br><br>Manchas foliares: as manchas foliares são causadas por fungos e podem aparecer como manchas marrons ou amarelas nas folhas da samambaia. Para prevenir a ocorrência de manchas foliares, evite molhar as folhas ao regar a planta e certifique-se de que a planta esteja bem ventilada. Se ocorrerem manchas foliares, remova as folhas afetadas e aplique um fungicida adequado.<br><br>Podridão das raízes: a podridão das raízes é uma doença causada por fungos que pode afetar a samambaia. Os sinais incluem raízes moles e pretas e uma planta que parece murcha. Para prevenir a podridão das raízes, certifique-se de que a planta esteja plantada em solo bem drenado e evite regar em excesso. Se a podridão das raízes ocorrer, remova as raízes afetadas e replante a planta em solo fresco e seco.<br><br>Em geral, a prevenção é a melhor maneira de evitar problemas de pragas e doenças em sua samambaia. Mantenha a planta saudável e bem cuidada, evite molhar as folhas e monitore regularmente a planta para detectar quaisquer sinais de problemas. Se ocorrerem problemas, trate-os imediatamente para evitar danos graves à planta.';
   }
   
+
+  let image_one = document.getElementById('img_one');
+  let image_two = document.getElementById('img_two');
+  let image_three = document.getElementById('img_three');
+  let btn_one = document.getElementById('btn-one');
+  let btn_two = document.getElementById('btn-two');
+  let btn_three = document.getElementById('btn-three');
+
+  btn_one.addEventListener('click', displayImageOne)
+
+  function displayImageOne(){
+     image_one.style.display = 'flex';
+     image_two.style.display ='none';
+     image_three.style.display = 'none'
+  
+  }
+  
+  btn_two.addEventListener('click', displayImageTwo)
+
+  function displayImageTwo(){
+     image_one.style.display = 'flex';
+     image_two.style.display ='flex';
+     image_three.style.display = 'none'
+  
+  }
+  
+  
+  btn_three.addEventListener('click', displayImageThree)
+
+  function displayImageThree(){
+     image_one.style.display = 'flex';
+     image_two.style.display ='none';
+     image_three.style.display = 'flex'
+  
+  }
+  

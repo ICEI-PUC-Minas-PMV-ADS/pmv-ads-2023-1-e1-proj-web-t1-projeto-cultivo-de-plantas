@@ -38,3 +38,39 @@ function pragas() {
     conteudo.innerHTML = 'As rosas são uma das plantas mais populares no mundo, conhecidas por sua beleza e perfume encantadores.<br>Infelizmente, assim como outras plantas, as rosas podem ser afetadas por várias pragas e doenças.Algumas das pragas e doenças mais comuns que afetam as roseiras são:<br>Pulgões: Os pulgões são pequenos insetos sugadores de seiva que se alimentam das folhas e dos botões das roseiras.Eles são comuns em climas quentes e secos.Para controlá-los, você pode pulverizar as plantas com água ou óleo de nim.<br><br>Ácaros: Ácaros são outro tipo de praga comum que afeta as roseiras.Eles se alimentam das folhas e das flores da planta, deixando pequenas manchas brancas.Para controlar ácaros, você pode pulverizar as plantas com enxofre ou óleo de hortelã-pimenta.<br><br>Besouros Japoneses: Besouros japoneses são insetos que se alimentam das folhas e flores das roseiras.Eles são comuns em áreas com muitas árvores e arbustos.Para controlá-los, você pode colocar armadilhas de feromônios perto das plantas.<br><br>Ferrugem: A ferrugem é uma doença fúngica que afeta as roseiras. Ela causa manchas amarelas nas folhas e faz com que elas caiam.<br>Para controlar a ferrugem, você pode remover as folhas infectadas e pulverizar as plantas com um fungicida.<br><br>Oídio: O oídio é outra doença fúngica que afeta as roseiras. Ela causa manchas brancas nas folhas e nas hastes da planta. Para controlar o oídio, você pode remover as folhas infectadas e pulverizar as plantas com um fungicida.<br><br>Míldio: O míldio é uma doença fúngica que afeta as roseiras.Ele causa manchas escuras nas folhas e nas flores da planta.Para controlar o míldio, você pode remover as folhas infectadas e pulverizar as plantas com um fungicida.<br><br>Vírus: Algumas roseiras podem ser afetadas por vírus que causam manchas nas folhas e nas flores, além de deformações nas plantas.Não há tratamento para vírus em plantas, por isso é importante comprar plantas saudáveis e evitar plantas infectadas.<br><br> É importante observar suas plantas regularmente e tomar medidas preventivas para evitar a infestação de pragas e doenças.<br>Isso inclui manter as plantas saudáveis e bem nutridas, evitar o excesso de água nas raízes, e remover as folhas e flores mortas ou doentes.Com cuidados adequados, suas roseiras podem florescer e prosperar por muitos anos.';
   }
   
+
+  let image_one = document.getElementById('img_one');
+  let image_two = document.getElementById('img_two');
+  let image_three = document.getElementById('img_three');
+  let btn_one = document.getElementById('btn-one');
+  let btn_two = document.getElementById('btn-two');
+  let btn_three = document.getElementById('btn-three');
+
+  btn_one.addEventListener('click', displayImageOne)
+
+  function displayImageOne(){
+     image_one.style.display = 'flex';
+     image_two.style.display ='none';
+     image_three.style.display = 'none'
+  
+  }
+  
+  btn_two.addEventListener('click', displayImageTwo)
+
+  function displayImageTwo(){
+     image_one.style.display = 'flex';
+     image_two.style.display ='flex';
+     image_three.style.display = 'none'
+  
+  }
+  
+  
+  btn_three.addEventListener('click', displayImageThree)
+
+  function displayImageThree(){
+     image_one.style.display = 'flex';
+     image_two.style.display ='none';
+     image_three.style.display = 'flex'
+  
+  }
+  

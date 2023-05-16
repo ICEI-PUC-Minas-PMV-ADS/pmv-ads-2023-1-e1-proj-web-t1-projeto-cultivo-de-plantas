@@ -37,4 +37,39 @@ function pragas() {
     var conteudo = document.querySelector('.contentTextPost h4');
     conteudo.innerHTML = 'O jasmim é geralmente uma planta resistente a doenças e pragas, mas ainda pode ser afetado por algumas delas. As principais pragas e doenças que afetam o jasmim incluem:<br><br>Cochonilha: É uma praga comum em jasmim, especialmente em plantas cultivadas em ambientes fechados. As cochonilhas aparecem como pequenos pontos brancos ou marrons no caule e nas folhas da planta. Elas sugam a seiva da planta e podem causar o enfraquecimento da planta e a queda de folhas. Para controlar a infestação, as cochonilhas devem ser removidas manualmente ou com o uso de pesticidas naturais.<br><br>Ácaros: Os ácaros podem aparecer como pequenos pontos brancos na parte inferior das folhas do jasmim. Eles sugam a seiva da planta e podem causar o amarelecimento e queda das folhas. O controle de ácaros pode ser feito com a aplicação de pesticidas naturais.<br><br>Míldio: É um tipo de doença fúngica que afeta principalmente as folhas do jasmim. Ela aparece como manchas brancas ou cinzentas nas folhas, seguidas de um murchamento e queda das folhas. O controle pode ser feito com a remoção das partes infectadas da planta e a aplicação de fungicidas naturais.<br><br>Oídio: É outra doença fúngica que pode afetar o jasmim. Ele aparece como um revestimento branco nas folhas e caules da planta. O controle pode ser feito com a remoção das partes infectadas e a aplicação de fungicidas naturais.<br><br>Mosca branca: É uma praga que suga a seiva da planta e pode causar amarelecimento e queda das folhas. O controle pode ser feito com a aplicação de pesticidas naturais.<br><br>Para evitar a infestação de pragas e doenças, é importante manter a planta saudável, fornecendo um solo bem drenado, fertilizantes adequados e rega adequada. Além disso, é importante inspecionar a planta regularmente em busca de sinais de pragas e doenças e agir rapidamente para controlá-las, caso sejam detectadas.';
   }
+  let image_one = document.getElementById('img_one');
+  let image_two = document.getElementById('img_two');
+  let image_three = document.getElementById('img_three');
+  let btn_one = document.getElementById('btn-one');
+  let btn_two = document.getElementById('btn-two');
+  let btn_three = document.getElementById('btn-three');
+
+  btn_one.addEventListener('click', displayImageOne)
+
+  function displayImageOne(){
+     image_one.style.display = 'flex';
+     image_two.style.display ='none';
+     image_three.style.display = 'none'
+  
+  }
+  
+  btn_two.addEventListener('click', displayImageTwo)
+
+  function displayImageTwo(){
+     image_one.style.display = 'flex';
+     image_two.style.display ='flex';
+     image_three.style.display = 'none'
+  
+  }
+  
+  
+  btn_three.addEventListener('click', displayImageThree)
+
+  function displayImageThree(){
+     image_one.style.display = 'flex';
+     image_two.style.display ='none';
+     image_three.style.display = 'flex'
+  
+  }
+  
   
