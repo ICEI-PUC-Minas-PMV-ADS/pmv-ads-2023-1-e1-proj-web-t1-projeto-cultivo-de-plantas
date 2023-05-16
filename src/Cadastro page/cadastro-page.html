@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro-page.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <header class="header-container" id="top">
+        <div class="column logo">
+            <a href="#"><img class="header-logo" src="img/Logo-Planty.png" alt="Logo Original Planty"></a>
+        </div>
+        <div class="column search">
+            <div class="search-box">
+                <input  type="text" placeholder="Pesquisar...">
+                <img src="img/search.png" alt="Ícone de Busca">
+            </div>
+        </div>
+        <div class="column login-cadastro">
+            <a href="#">Login / Cadastro</a>
+            <img class="account-icon" src="img/account_circle.png" alt="Ícone de Usuário">
+        </div>
+    </header>
+
+    <nav>
+        <ul class="main-menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Fórum</a></li>
+            <li><a href="#">Fale Conosco</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Cadastre-se</h1>
+        <div class="box-form">
+            <div class="form">
+                <label for="name" type="text">Nome completo:</label>
+                <input type="text-form" id="name" placeholder="Insira seu nome completo" autocomplete="name" required>
+            </div>
+
+            <div class="form">
+                <label for="email" type="email">E-mail:</label>
+                <input type="email" id="email" placeholder="Insira seu e-mail"  required>
+            </div>
+            
+            <div class="esquerda">
+                    <label for="user" type="text">Nome de usuário:</label>
+                    <input type="text-form-row" id="usuário" placeholder="Insira seu nome de usuário" required>                
+            </div>
+            <div class="direita">              
+                    <label for="celular" type="text">Celular:</label>
+                    <input type="tel" id="celular" placeholder="(xx) xxxxx-xxxx">
+            </div>         
+              
+            <div class="esquerda">
+                <label for="senha" type="password">Senha:</label>
+                <input type="password" id="senha" placeholder="Insira sua senha" required>
+            </div>
+            <div class="direita">
+                <label for="confirme-sua-senha" type="text">Confirme sua senha:</label>
+                <input type="password" id="senha" placeholder="Insira sua senha novamente" required>
+            </div>
+            
+                <div class="botao">
+                    <button class="cad" name="button" type="submit">Cadastrar</button>
+                 </div>
+            
+           
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="column-logo">
+                    <a href="#"><img class="header-logo" src="img/Logo-Planty.png" alt="Logo Original Planty"></a>
+                </div>
+                <div class="column-search">
+                    <div class="search-box">
+                        <input  type="text" placeholder="Pesquisar...">
+                        <img src="img/search.png" alt="Ícone de Busca">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Projeto Cultivo de Plantas ICEI | Todos os direitos reservados.</p>
+        </div>
+
+        <div>
+            <a href="#top" class="back-to-top"><img src="/cadastro page/img/icon-back-to-top.png" alt="Ícone de Back to Top"></a>
+        </div>
+    </footer>
+    
+</body>
+</html>
