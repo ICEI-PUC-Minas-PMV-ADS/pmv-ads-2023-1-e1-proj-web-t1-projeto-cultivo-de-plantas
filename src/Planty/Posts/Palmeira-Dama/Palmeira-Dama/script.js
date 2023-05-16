@@ -38,3 +38,39 @@ function pragas() {
     conteudo.innerHTML = 'Assim como todas as plantas, a palmeira-dama pode ser suscetível a pragas e doenças. É importante monitorar a planta regularmente e tomar medidas preventivas para evitar a infestação ou o desenvolvimento de doenças. Aqui estão algumas das pragas e doenças comuns que podem afetar a palmeira-dama:<br><br>Cochonilha: Estes insetos aparecem como manchas brancas e cerosas nas folhas e tronco da palmeira-dama. Eles sugam a seiva da planta, o que pode levar a danos e morte. A cochonilha pode ser controlada com a aplicação de óleo mineral ou com o uso de um inseticida apropriado.<br><br>Broca: A broca é uma larva que perfura o tronco da palmeira-dama e se alimenta do tecido interno da planta. Isso pode levar a danos significativos e até mesmo a morte. A broca pode ser controlada com a aplicação de inseticidas ou com a remoção manual da larva.<br><br>Fusariose: Esta é uma doença fúngica que pode afetar a palmeira-dama. Os sintomas incluem folhas amareladas, murchas ou mortas e um anel escuro no tronco da planta. A fusariose pode ser controlada com a poda e remoção de tecido infectado e a aplicação de fungicidas apropriados.<br><br>Cochonilha algodonosa: Esta é outra espécie de cochonilha que pode afetar a palmeira-dama. Eles aparecem como manchas brancas e felpudas nas folhas e tronco da planta e sugam a seiva da palmeira-dama. A cochonilha algodonosa pode ser controlada com a aplicação de óleo mineral ou com o uso de um inseticida apropriado.<br><br>Anel vermelho: Esta é uma doença que afeta as palmeiras e é causada por um vírus. Os sintomas incluem amarelecimento das folhas e queda da coroa da planta. O anel vermelho é incurável e pode ser prevenido com a limpeza adequada das ferramentas de jardinagem e a eliminação de palmeiras infectadas.<br><br>É importante lembrar que a prevenção é a melhor maneira de evitar problemas de pragas e doenças na palmeira-dama. Isso inclui manter a planta saudável com a poda regular e a adubação adequada, bem como monitorar regularmente a planta para detectar sinais de infestação ou doença. Se necessário, consulte um profissional de jardinagem ou um especialista em palmeiras para ajudá-lo a identificar e tratar qualquer problema que possa surgir.';
   }
   
+
+  let image_one = document.getElementById('img_one');
+  let image_two = document.getElementById('img_two');
+  let image_three = document.getElementById('img_three');
+  let btn_one = document.getElementById('btn-one');
+  let btn_two = document.getElementById('btn-two');
+  let btn_three = document.getElementById('btn-three');
+
+  btn_one.addEventListener('click', displayImageOne)
+
+  function displayImageOne(){
+     image_one.style.display = 'flex';
+     image_two.style.display ='none';
+     image_three.style.display = 'none'
+  
+  }
+  
+  btn_two.addEventListener('click', displayImageTwo)
+
+  function displayImageTwo(){
+     image_one.style.display = 'flex';
+     image_two.style.display ='flex';
+     image_three.style.display = 'none'
+  
+  }
+  
+  
+  btn_three.addEventListener('click', displayImageThree)
+
+  function displayImageThree(){
+     image_one.style.display = 'flex';
+     image_two.style.display ='none';
+     image_three.style.display = 'flex'
+  
+  }
+  

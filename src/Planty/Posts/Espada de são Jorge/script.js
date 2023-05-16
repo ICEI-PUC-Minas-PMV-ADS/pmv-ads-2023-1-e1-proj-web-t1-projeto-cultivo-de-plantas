@@ -37,4 +37,41 @@ function pragas() {
     var conteudo = document.querySelector('.contentTextPost h4');
     conteudo.innerHTML = 'A espada-de-são-jorge é uma planta resistente e geralmente não é afetada por muitas pragas e doenças, mas ainda assim, é importante ficar atento a alguns problemas que podem afetá-la. Aqui estão algumas das pragas e doenças mais comuns que afetam a espada-de-são-jorge e como preveni-las:<br><br>Cochonilha: A cochonilha é um inseto sugador que se alimenta da seiva das plantas. Ela pode ser identificada por pequenas manchas brancas ou marrons nas folhas da planta. Para prevenir a infestação de cochonilhas, verifique regularmente a espada-de-são-jorge em busca de sinais de infestação e remova manualmente os insetos, se necessário. Você também pode usar um inseticida específico para cochonilhas.<br><br>Ácaros: Os ácaros são pequenos aracnídeos que se alimentam das folhas das plantas. Eles podem ser identificados por manchas amareladas nas folhas da espada-de-são-jorge. Para prevenir a infestação de ácaros, mantenha a planta úmida e borrife água nas folhas regularmente. Se necessário, use um acaricida específico para eliminá-los.<br><br>Podridão das raízes: A podridão das raízes é causada por um fungo que se desenvolve em solos úmidos e mal drenados. Ela pode ser identificada por raízes escuras e podres, bem como folhas amareladas e murchas. Para prevenir a podridão das raízes, certifique-se de que o solo esteja bem drenado e evite regar em excesso a espada-de-são-jorge.<br><br>Manchas foliares: As manchas foliares são causadas por fungos que se desenvolvem em condições de umidade elevada. Elas podem ser identificadas por manchas marrons nas folhas da planta. Para prevenir as manchas foliares, mantenha a espada-de-são-jorge em uma área bem ventilada e evite regar as folhas da planta.<br><br>Lembre-se de que a prevenção é a melhor maneira de evitar problemas com pragas e doenças na espada-de-são-jorge. Mantenha a planta saudável e bem cuidada, e verifique-a regularmente para detectar sinais de problemas. Se necessário, trate a planta com os métodos de controle apropriados.';
   }
+
+
+  let image_one = document.getElementById('img_one');
+  let image_two = document.getElementById('img_two');
+  let image_three = document.getElementById('img_three');
+  let btn_one = document.getElementById('btn-one');
+  let btn_two = document.getElementById('btn-two');
+  let btn_three = document.getElementById('btn-three');
+
+  btn_one.addEventListener('click', displayImageOne)
+
+  function displayImageOne(){
+     image_one.style.display = 'flex';
+     image_two.style.display ='none';
+     image_three.style.display = 'none'
+  
+  }
+  
+  btn_two.addEventListener('click', displayImageTwo)
+
+  function displayImageTwo(){
+     image_one.style.display = 'flex';
+     image_two.style.display ='flex';
+     image_three.style.display = 'none'
+  
+  }
+  
+  
+  btn_three.addEventListener('click', displayImageThree)
+
+  function displayImageThree(){
+     image_one.style.display = 'flex';
+     image_two.style.display ='none';
+     image_three.style.display = 'flex'
+  
+  }
+  
   

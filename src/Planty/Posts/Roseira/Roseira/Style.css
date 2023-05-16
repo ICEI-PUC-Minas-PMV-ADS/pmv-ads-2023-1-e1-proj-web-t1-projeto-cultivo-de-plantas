@@ -560,6 +560,47 @@ h4{
     transition: 0.5s;
 }
 
+::-webkit-scrollbar {
+    width: 8px;
+ 
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #3B506B;
+    border-radius: 50px;
+}
+
+.imagemPlanta2, .imagemPlanta3{
+    position: absolute;
+    top: 110px;
+    display: none;
+}
+
+.btn-fotos{
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+    height: 20px;
+    position: absolute;
+    top: 630px;
+    justify-content: center;
+    gap: 20px;
+    
+}
+.btn-one, .btn-two, .btn-three{
+    width: 20px;
+    background-color: #D5B484;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+.btn-one:hover, .btn-two:hover, .btn-three:hover{
+    transform: scale(1.1); 
+    transition: 0.5s;
+    background-color: #519B84;
+
+}
 
 
 

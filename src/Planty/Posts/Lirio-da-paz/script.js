@@ -38,3 +38,39 @@ function pragas() {
     conteudo.innerHTML = 'Assim como outras plantas, o Lírio da Paz pode ser suscetível a algumas pragas e doenças. Aqui estão algumas das principais pragas e doenças que afetam esta planta:<br><br>Cochonilhas:<br> As cochonilhas são pequenos insetos que se fixam na superfície da planta e sugam a seiva, causando descoloração e murcha das folhas. Podem ser tratadas com inseticidas ou removidas manualmente com um pano úmido.<br><br>Ácaros:<br> Os ácaros são pragas microscópicas que se alimentam da seiva das plantas, causando manchas amarelas nas folhas e teias finas. Podem ser tratados com acaricidas ou com água e sabão.<br><br>Tripes:<br> Os tripes são insetos pequenos que se alimentam do tecido das folhas, causando manchas prateadas ou bronzeadas. Podem ser tratados com inseticidas ou com uma solução de água e sabão.<br><br>Cochonilha-algodão:<br> Esta é uma espécie de cochonilha que cria uma camada branca e algodonosa na superfície da planta. Podem ser tratadas com inseticidas ou removidas manualmente com um pano úmido.<br><br>Podridão das raízes:<br> Esta é uma doença fúngica que causa apodrecimento das raízes e pode levar à morte da planta. É causada por excesso de água ou solo mal drenado. O tratamento inclui a remoção das raízes afetadas e o replantio em solo novo.<br><br>Manchas foliares:<br> Existem várias doenças fúngicas que causam manchas nas folhas do Lírio da Paz. O tratamento inclui a remoção das folhas afetadas e o uso de fungicidas.<br><br>Murcha vascular:<br> Esta é uma doença fúngica que afeta o sistema vascular da planta, causando murcha e morte. É causada por um solo mal drenado ou por rega excessiva. O tratamento inclui a remoção das partes afetadas e o replantio em solo novo.<br><br>Para prevenir pragas e doenças no Lírio da Paz, é importante manter a planta em condições ideais de luz, umidade e solo, além de verificar regularmente por sinais de infestação ou doença. É recomendável também manter a planta isolada de outras plantas infectadas para evitar a propagação de pragas e doenças.';
   }
   
+
+  let image_one = document.getElementById('img_one');
+  let image_two = document.getElementById('img_two');
+  let image_three = document.getElementById('img_three');
+  let btn_one = document.getElementById('btn-one');
+  let btn_two = document.getElementById('btn-two');
+  let btn_three = document.getElementById('btn-three');
+
+  btn_one.addEventListener('click', displayImageOne)
+
+  function displayImageOne(){
+     image_one.style.display = 'flex';
+     image_two.style.display ='none';
+     image_three.style.display = 'none'
+  
+  }
+  
+  btn_two.addEventListener('click', displayImageTwo)
+
+  function displayImageTwo(){
+     image_one.style.display = 'flex';
+     image_two.style.display ='flex';
+     image_three.style.display = 'none'
+  
+  }
+  
+  
+  btn_three.addEventListener('click', displayImageThree)
+
+  function displayImageThree(){
+     image_one.style.display = 'flex';
+     image_two.style.display ='none';
+     image_three.style.display = 'flex'
+  
+  }
+  

@@ -37,4 +37,40 @@ function pragas() {
     var conteudo = document.querySelector('.contentTextPost h4');
     conteudo.innerHTML = 'A Hera Inglesa é uma planta relativamente resistente a pragas e doenças, mas ainda assim pode ser afetada por alguns problemas. Aqui estão alguns dos problemas mais comuns que podem afetar a Hera Inglesa:<br><br>Cochonilhas: Essas pequenas pragas podem aparecer nas folhas, caules e flores da Hera Inglesa. Elas se alimentam da seiva da planta e podem causar danos significativos. Use um spray de óleo mineral ou sabão inseticida para eliminá-las.<br><br>Ácaros: Ácaros são pequenos insetos que sugam a seiva da planta, causando manchas brancas ou amareladas nas folhas. Use um spray de óleo de nim ou enxofre para controlá-los.<br><br>Pulgões: Esses pequenos insetos verdes ou pretos se alimentam da seiva da planta, causando enrugamento e deformação das folhas. Use um spray de sabão inseticida ou óleo de nim para controlá-los.<br><br>Ferrugem: Esta é uma doença fúngica que pode afetar a Hera Inglesa. Ela causa manchas amarelas nas folhas e pode fazer com que as folhas caiam. Remova as folhas infectadas e aplique um fungicida para controlar a infecção.<br><br>Oídio: Esta é outra doença fúngica que pode afetar a Hera Inglesa. Ela causa um revestimento branco em pó nas folhas e pode fazer com que as folhas caiam. Use um fungicida para controlar a infecção.<br><br>Para prevenir problemas com pragas e doenças, é importante manter a Hera Inglesa saudável e bem cuidada. Certifique-se de que a planta esteja em um local bem iluminado, mas protegido da luz solar direta, e que o solo esteja úmido, mas não encharcado. Evite regar a planta por cima das folhas para evitar a proliferação de doenças fúngicas.';
   }
+
+  let image_one = document.getElementById('img_one');
+  let image_two = document.getElementById('img_two');
+  let image_three = document.getElementById('img_three');
+  let btn_one = document.getElementById('btn-one');
+  let btn_two = document.getElementById('btn-two');
+  let btn_three = document.getElementById('btn-three');
+
+  btn_one.addEventListener('click', displayImageOne)
+
+  function displayImageOne(){
+     image_one.style.display = 'flex';
+     image_two.style.display ='none';
+     image_three.style.display = 'none'
+  
+  }
+  
+  btn_two.addEventListener('click', displayImageTwo)
+
+  function displayImageTwo(){
+     image_one.style.display = 'flex';
+     image_two.style.display ='flex';
+     image_three.style.display = 'none'
+  
+  }
+  
+  
+  btn_three.addEventListener('click', displayImageThree)
+
+  function displayImageThree(){
+     image_one.style.display = 'flex';
+     image_two.style.display ='none';
+     image_three.style.display = 'flex'
+  
+  }
+  
   
