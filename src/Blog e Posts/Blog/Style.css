@@ -647,6 +647,84 @@ footer{
 
 
  }
+@media (max-width: 1440px) {
+
+    .logoPlanty{
+        position: absolute;
+        left: 70px;
+        
+    }
+    .loginCadastro{
+        right: 100px;
+    }
+
+    .iconPesquisar{
+        position: absolute;
+        left: 920px;
+     }
+ 
+     .tituloPlantas{
+        top: 250px;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+    }
+
+    .inputPesquisar{
+        width: 600px;
+    }
+    main, section, header, nav{
+
+        padding-left: 20px;
+    
+       }
+
+       .footerDwn{
+        position: absolute;
+        top: 220px;
+        right: 8px;
+        
+    }
+
+       .containerCarousel2{
+        display: none;
+        position: absolute;
+        left: 150px;
+
+    }
+
+    .planta4{
+        display: none;
+    }
+
+    .containerCarousel2{
+        display: none;
+        position: absolute;
+        left: 118px;
+
+    }
+
+   .setas{
+    position: absolute;
+    left: 210px;
+   }
+
+   .setaLeft{
+    position: absolute;
+    left: 1010px;
+   }
+
+
+  
+
+
+
+
+
+
+
+
+ }
 @media (max-width: 1366px) {
 
     body{
