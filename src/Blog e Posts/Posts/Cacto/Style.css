@@ -879,3 +879,82 @@ main{
 
 
 }
+@media (max-width: 1024px) {
+
+    body{
+      margin: 0;
+      padding: 0;
+      background-color: rgb(2, 175, 123);
+      
+    }
+
+    .inputPesquisar{
+        width: 300px;
+        position: absolute;
+        left: 380px;
+    }
+
+
+
+
+
+    .iconPesquisar{
+        position: relative;
+        left: 140px;
+        top: 4px;
+     }
+
+     .post{
+      
+        display: flex;
+        flex-direction: column;
+     }
+
+     footer{
+        padding: 0;
+        margin: 0;
+        position: absolute;
+        top: 1640px;
+        left: 7px;
+     }
+
+     main{
+      overflow-x: hidden;
+        height:1490px;
+        
+     }
+
+     .leftPost{
+        position: absolute;
+        left: 340px;
+     }
+
+     .containerTextPost{
+        position: absolute;
+        left: 180px;
+        top: 800px;
+     }
+
+  
+.menu{
+    background-color: white;
+    border-radius: 50px;
+    padding: 0px 50px;
+    color: #3B506B;
+    margin: 10px;
+}
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+}
