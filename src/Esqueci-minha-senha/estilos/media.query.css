@@ -3,10 +3,9 @@
 
 /* Device Breakpoints
 ----------------------
-Pequenas telas: até 600px
-Celular: de 600px até 768px
-Tablet: de 768px até 992px
-Desktop: 992px até 1200px
+Celular: 768px
+Tablet:  992px
+Desktop: 1200px
 Grandes telas: acima de 1200px
 */
 
@@ -26,7 +25,7 @@ Grandes telas: acima de 1200px
 
 /* Configurações do formulário para tablet */
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media  (min-width: 768px) {
 
 
     section#esqsenha {
@@ -52,7 +51,8 @@ Grandes telas: acima de 1200px
 
 /* Configurações do formulário para desktop */
 
-@media screen and (min-width: 992px) {
+@media (min-width: 992px) {
+
     section#esqsenha {
         width: 950px;
         height: 300px;
