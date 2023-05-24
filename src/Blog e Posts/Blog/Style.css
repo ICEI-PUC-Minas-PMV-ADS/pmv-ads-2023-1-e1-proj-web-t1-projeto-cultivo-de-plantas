@@ -298,6 +298,7 @@ main{
     top: 900px;
     position: absolute;
     z-index: 2;
+    overflow-y: scroll;
 }
 
 .image{
@@ -481,6 +482,10 @@ footer{
     position: absolute;
     top: 384px;
     left: 632px;
+}
+
+.saibaMaisPost,.saibaMaisPost2,.saibaMaisPost3{
+    display: none;
 }
 
 
