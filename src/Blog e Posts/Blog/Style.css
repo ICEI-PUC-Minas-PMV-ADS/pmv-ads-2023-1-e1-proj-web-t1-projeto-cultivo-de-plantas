@@ -19,6 +19,15 @@ body{
    align-items: center;
 }
 
+::-webkit-scrollbar{
+    width: 8px;
+}
+  
+::-webkit-scrollbar-thumb{
+    background-color: #3B506B;
+    border-radius: 50px;
+}
+
 .textLogin:hover{
     transform: scale(1.1); 
     transition: 0.5s;
