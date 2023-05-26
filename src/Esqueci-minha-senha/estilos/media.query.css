@@ -24,6 +24,7 @@ Grandes telas: acima de 1200px
 /* Configurações do formulário para tablet */
 
 @media (min-width: 768px) {
+  
   /* Main */
 
   section#esqsenha {
@@ -79,45 +80,15 @@ Grandes telas: acima de 1200px
   }
 }
 
+
+
 /* Header, NavBar and Footer */
 
 /*Media para tablets */
 
-@media screen and (min-width: 768px) and (max-width: 1068px) {
+@media screen and (min-width: 883px) and (max-width: 1068px) {
  
   /* HEADER */
-
-  header .menu-btn i {
-    color: var(--Verde-água);
-    cursor: pointer;
-    display: block;
-  }
-
-  header .login-cadastro {
-    position: fixed;
-    top: 80px;
-    left: -100%;
-    background-color: var(--Verde-claro);
-    height: 100vh;
-    width: 100%;
-    text-align: center;
-    display: block;
-    transition: all 0.3s ease;
-  }
-
-  nav .main-menu {
-    position: fixed;
-    top: 80px;
-    left: -100%;
-    background-color: var(--Verde-claro);
-    height: 100vh;
-    width: 100%;
-    text-align: center;
-    display: block;
-    transition: all 0.3s ease;
-  }
-
-
 
   .header-container {
     display: flex;
@@ -165,7 +136,7 @@ Grandes telas: acima de 1200px
     width: 40%;
     position: relative;
     height: 65px;
-    left: 34px;
+    left: 30px;
     background: transparent;
     outline: none;
   }
@@ -217,34 +188,95 @@ Grandes telas: acima de 1200px
 
 /*Media para celulares */
 
-@media screen and (min-width: 375px) and (max-width: 768px) {
-  header .menu-btn i {
-    color: var(--Verde-água);
+@media screen and (max-width: 883px) {
+
+  .main-menu {
+    padding: 1.5rem 4rem;
+    display: none;
+  }
+
+  .login-cadastro {
+    display: none;
+  }
+
+  .menu-btn {
+    display: block;
     cursor: pointer;
+  }
+
+  .mobile-menu ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+
+  .mobile-menu li {
+    display: block;
+    padding-top:  1.2rem;
+  }
+
+  .open {
     display: block;
   }
 
-  header .login-cadastro {
-    position: fixed;
-    top: 80px;
-    left: -100%;
-    background-color: var(--Verde-claro);
-    height: 100vh;
-    width: 100%;
-    text-align: center;
-    display: block;
-    transition: all 0.3s ease;
+  /* HEADER */
+
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    align-items: center;
+    border-bottom: 1px solid #f0f0f0;
+    padding: 0 10%;
+    background-color: white;
   }
 
-  nav .main-menu {
-    position: fixed;
-    top: 80px;
-    left: -100%;
-    background-color: var(--Verde-claro);
-    height: 100vh;
-    width: 100%;
-    text-align: center;
-    display: block;
-    transition: all 0.3s ease;
+  .column {
+    padding: 10px;
   }
+
+  .logo {
+    width: auto;
+    margin-right: 10px;
+  }
+
+  .header-logo {
+    width: 180px;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .header-logo:hover {
+    transform: scale(1.1);
+  }
+
+  .search {
+    width: 40%;
+    margin: 0 5px;
+  }
+
+  .search-box {
+    width: 80%;
+    border: 1px solid #f0f0f0;
+    border-radius: 50px;
+    margin: 0 0px;
+  }
+
+  #txtBusca {
+    font-size: 15px;
+    border: none;
+    width: 40%;
+    position: relative;
+    height: 65px;
+    left: 34px;
+    background: transparent;
+    outline: none;
+  }
+
+  #search-image {
+    margin-bottom: -7px;
+    margin-left: 45px;
+    width: 30px;
+  }
+  
 }

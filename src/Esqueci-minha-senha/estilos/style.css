@@ -159,10 +159,6 @@ html {
   transform: scale(1.1);
 }
 
-header .menu-btn i {
-  display: none;
-}
-
 /* NAVIGATION MENU */
 
 .main-menu {
@@ -337,4 +333,24 @@ form > input[type="submit"]:houver {
 
 .back-to-top > img {
   width: 80%;
+}
+
+
+/* Mobile Menu */
+
+.menu-btn {
+  display: none;
+}
+
+.mobile-menu {
+  background-color: white;
+  display: none;
+}
+
+.mobile-menu a {
+  color: #000000;
+}
+ 
+@media  and {
+  
 }
