@@ -297,11 +297,15 @@ form > input[type="submit"]:houver {
 
 /* RODAPÉ */
 
-.footer-container {
+/* .footer-container {
   max-width: 100%;
   margin: auto;
   background-color: white;
   padding: 80px;
+} */
+
+.logo-footer {
+  display: none;
 }
 
 .footer-content {
@@ -325,8 +329,8 @@ form > input[type="submit"]:houver {
 /* BACK TO TOP ICON */
 
 .back-to-top {
-  position: fixed;
-  bottom: 10px;
+  position: relative;
+  bottom: 90px;
   float: right;
   right: 0;
 }
@@ -349,8 +353,4 @@ form > input[type="submit"]:houver {
 
 .mobile-menu a {
   color: #000000;
-}
- 
-@media  and {
-  
 }
