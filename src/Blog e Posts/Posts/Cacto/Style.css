@@ -755,7 +755,6 @@ h4{
     }
     
 }
-
 @media (max-width: 1366px) {
 
 
@@ -944,6 +943,105 @@ main{
     margin: 10px;
 }
 
+   
+
+
+
+
+
+
+
+
+
+
+
+
+}
+@media (max-width: 768px) {
+
+    body{
+        display: flex;
+       height:100vh;
+      margin: 0;
+      padding: 0;
+    
+    }
+
+    .inputPesquisar{
+        width: 300px;
+        position: absolute;
+        left: 380px;
+    }
+
+
+    .iconPesquisar{
+        position: relative;
+        left: 270px;
+        top: 4px;
+     }
+
+     .textLogin{
+        display: none;
+     }
+     .iconLogin{
+        position: relative;
+        left: 1155px;
+        top: 4px;
+        
+     }
+
+  
+     
+     .leftPost{
+        display: flex;
+        left: 170px;
+        bottom: 1000px;
+        position: absolute
+     }
+
+     .containerTextPost{
+        top: 900px;
+        position: absolute;
+        left: 24px;
+        height: 500px;
+     }
+
+     .menu{
+        padding: 10px;
+        margin: 5;
+       
+     }
+     .postMenu{
+        
+        top: 800px;
+    }
+
+    footer{
+        position:absolute;
+        top: 1500px;
+    }
+
+
+
+
+
+    .imagemPlanta2, .imagemPlanta3{
+        position: absolute;
+        top: 64px;
+    }
+
+    .li{
+        position: relative;
+        top: 12px;
+        right:20px;
+
+       
+    }
+
+   
+     
+    
+   
    
 
 
