@@ -52,25 +52,6 @@ p {
     color: #3B506B;
 }
 
-
-.btn-smaller-border-only {
-    background-color: transparent;
-    color: #3B506B;
-    font-size: 18px;
-    font-weight: 500;
-    padding: 7px 40px;
-    border: 1px solid #3B506B;
-    border-radius: 20px;
-    transition: all .2s ease-in-out;
-}
-
-.btn-smaller-border-only:hover {
-    border: 1px solid #D5B484;
-    color: #D5B484;
-    transition: 300ms;
-    transform: scale(1.1);
-}
-
 /* HEADER */
 
 .header-container {
@@ -115,6 +96,7 @@ p {
     padding: 15px 30px;
 }
 
+
 .login-cadastro {
     width: auto;
     margin-left: 10px;
@@ -152,7 +134,16 @@ p {
 }
 
 @media screen and (max-width: 768px) {
-    .logo {
+    .header-container {
+        max-width: 100%;
+    }
+
+    .header-logo {
+        width: 100%;
+    }
+
+    .search-box {
+        font-size: 10px;
         max-width: 100%;
     }
 }
@@ -360,6 +351,12 @@ body {
 
 .copyright>p {
     color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+    .copyright p {
+        font-size: 16px;
+    }
 }
 
 /* BACK TO TOP ICON */
