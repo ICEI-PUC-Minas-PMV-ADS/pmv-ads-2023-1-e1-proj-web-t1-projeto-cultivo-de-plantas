@@ -232,7 +232,7 @@ input[type="text-form-row"]{
     
 }
 
-input[type="tel"]{
+input[type="number"]{
     border: none;
     border-radius: 10px;
     width:19vw;
@@ -240,6 +240,13 @@ input[type="tel"]{
     padding-left: 0.5vw;
   
 }
+
+input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
 
 input[type="password"]{
     border: none;
@@ -299,21 +306,57 @@ input:hover{
     outline: 2px solid #519b84;
 }
 
+/* Mensagem de erro */
 
-
-.footer-container {
-    max-width: 1440px;
-    margin: auto;
-    padding: 80px;
+.form small {
+    display: flex;   
+    color: #e61919;
+    visibility: hidden;
 }
-    
 
-.footer-content {
+.direita small {
     display: flex;
-    justify-content: space-between;
-    padding: 0 1%;
-   
+    flex-direction: row;
+    color: #e61919;
+    visibility: hidden;
 }
+
+.esquerda small {
+    display: flex; 
+    flex-direction: row; 
+    color: #e61919;
+    visibility: hidden;
+}
+
+/* Simulação de validação: Sucesso */
+.form.sucesso input {
+    border: 2px solid #19e619;
+}
+
+/* Simulação de validação: Error */
+.form.error input {
+    border: 2px solid #e61919;
+}
+
+.form.error small{
+    visibility: visible;
+}
+
+.direita.error small{
+    visibility: visible;
+}
+
+.esquerda.error small{
+    visibility: visible;
+}
+
+
+small{
+    font-family: 'poppins';
+}
+
+
+
 
 /* COPYRIGHT */
 
@@ -345,6 +388,235 @@ input:hover{
     
 }
 
-@media screen {
-    
+/* RESPONSIVIDADE */
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+
+    input[type="text-form"]{
+        width:62vw;        
+     }
+
+    input[type="email"]{     
+        width:62vw;
+          
+    }
+    input[type="text-form-row"]{
+        width: 29.4vw;
+    }
+
+    input[type="number"]{
+        width: 29.4vw;
+    }
+
+    input[type="password"]{
+        width: 29.4vw;
+    }
+
+    button{
+        width: 30vw;
+    }
+
 }
+
+@media screen and  (max-width:481px) {
+
+    input[type="text-form"]{
+        width:70vw;        
+     }
+
+     input[type="email"]{     
+        width:70vw;
+      
+    }
+
+    .esquerda{
+        float: none;
+        
+    }
+
+    input[type="text-form-row"]{
+        width: 70vw;
+    }
+
+    input[type="number"]{
+        width: 70vw;
+    }
+
+    input[type="password"]{
+        width: 70vw;
+    }
+
+    button{
+        width: 50vw;
+        font-size: 12px;
+    }
+
+    h1{
+        font-size: 8vw;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    input[type="text-form"]{
+        width:70vw;        
+     }
+
+     input[type="email"]{     
+        width:70vw;
+      
+    }
+
+    
+
+    input[type="text-form-row"]{
+        width: 33.2vw;
+    }
+
+    input[type="number"]{
+        width: 33.2vw;
+    }
+
+    input[type="password"]{
+        width: 33.2vw;
+    }
+
+    button{
+        width: 50vw;
+        font-size: 16px;
+    }    
+}
+
+@media screen and (max-width:300px){
+    input[type="text-form"]{
+        width:70vw;        
+     }
+
+     input[type="email"]{     
+        width:70vw;
+      
+    }
+
+    
+
+    input[type="text-form-row"]{
+        width: 70vw;
+    }
+
+    input[type="number"]{
+        width: 70vw;
+    }
+
+    input[type="password"]{
+        width: 70vw;
+    }
+
+    button{
+        width: 60vw;
+        font-size: 12px;
+    }    
+}
+
+@media screen and (min-width:301px) and (max-width:480px){
+    input[type="text-form-row"]{
+        width: 70vw;
+    }
+
+    input[type="number"]{
+        width: 70vw;
+    }
+
+    input[type="password"]{
+        width: 70vw;
+    }
+
+    button{
+        width: 60vw;
+        font-size: 12px;
+    }    
+}
+
+@media screen and (min-width:481px) and (max-width:497px){
+    input[type="text-form-row"]{
+        width: 33.2vw;
+    }
+
+    input[type="number"]{
+        width: 33.2vw;
+    }
+
+    input[type="password"]{
+        width:32.1vw;
+    }
+
+    button{
+        width: 60vw;
+        font-size: 12px;
+    }    
+}
+
+@media screen and (min-width:1024px) and (max-width:1440px){
+    input[type="text-form"]{
+        width:60vw;        
+     }
+
+     input[type="email"]{     
+        width:60vw;
+      
+    }
+
+    main{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    input[type="text-form-row"]{
+        width: 28.5vw;
+    }
+
+    input[type="number"]{
+        width: 28.5vw;
+    }
+
+    input[type="password"]{
+        width: 28.5vw;
+    }
+
+    button{
+        width: 50vw;
+        font-size: 12px;
+    }
+} 
+
+@media screen and (min-width:1441px) and (max-width:2560px){
+    input[type="text-form"]{
+        width:50vw;        
+     }
+
+     input[type="email"]{     
+        width:50vw;
+      
+    }
+
+    main{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    input[type="text-form-row"]{
+        width: 23.7vw;
+    }
+
+    input[type="number"]{
+        width: 23.7vw;
+    }
+
+    input[type="password"]{
+        width: 23.7vw;
+    }
+
+    button{
+        width: 50vw;
+        font-size: 19px;
+    }
+} 
