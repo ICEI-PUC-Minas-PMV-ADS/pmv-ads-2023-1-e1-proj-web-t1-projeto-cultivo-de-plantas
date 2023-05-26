@@ -1056,3 +1056,117 @@ main{
 
 
 }
+@media (max-width: 425px) {
+
+    body{
+      display: flex;
+      height:100vh;
+      margin: 0;
+      padding: 0;
+    
+    }
+
+    header{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 200px;
+    }
+
+    .logoPlanty{
+        top: 10px;
+        left: 60px;
+
+    }
+
+    .inputPesquisar{
+        width: 300px;
+        top: 120px;
+        position: absolute;
+        left: 60px;
+    }
+
+
+    .iconPesquisar{
+      position: absolute;
+      top: 116px;
+     }
+
+     .textLogin{
+        display: none;
+     }
+     .iconLogin{
+       display: none;
+     }
+
+     nav{
+        
+        top: 200px;
+        height: 50px;
+        width: 100vw;
+       
+     }
+
+     .li, ul{
+        padding: 0;
+        margin: 0;
+        position: relative;
+        bottom: 20px;
+        left: 1px;
+    
+     }
+     section{
+        
+        font-size: 1rem;
+     }
+
+.plantas_imagens{
+    position: relative;
+    width: 200px;
+    height: 240px;
+    right: 55px;
+}
+ .tituloPost{
+    position: absolute;
+    right: 70px;
+ }
+
+ .cacto_planta{
+    position: relative;
+    bottom: 120px;
+ }
+.btn-fotos{
+    position: absolute;
+    top: 320px;
+    right: 83px;
+}
+
+.containerTextPost{
+    position: absolute;
+    width: 360px;
+    top: 600px;
+
+}
+
+.postMenu{
+    position: absolute;
+    top: 500px;
+    font-size: 0.4rem;
+    
+   
+}
+
+.poda, .solo, .adubagem, .pragass{
+    position: relative;
+    right: 20px;
+}
+
+footer{
+    position: absolute;
+    top: 1200px;
+}
+
+
+
+
+}
