@@ -1,11 +1,8 @@
-var ul = document.querySelector('nav ul');
-var menuBtn = document.querySelector('.menu-btn i');
-
-
 function menuShow() {
-    if (ul.classList.contains('open')) {
-        ul.classList.remove('open');
+    let menuMobile = document.querySelector('.mobile-menu');
+    if (menuMobile.classList.contains('open')) {
+        menuMobile.classList.remove('open')
     }else{
-        ul.classList.add('open');
+        menuMobile.classList.add('open')
     }
 }
