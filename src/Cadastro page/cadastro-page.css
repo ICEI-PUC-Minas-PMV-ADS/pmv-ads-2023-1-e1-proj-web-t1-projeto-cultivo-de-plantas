@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
 
+
 * {
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -7,14 +8,17 @@
     box-sizing: border-box;
 }
 
+
 ul {
     list-style-type: none;
 }
+
 
 li, a {
     text-decoration: none;
     position: relative;
 }
+
 
 .subheader {
     font-size: 22px;
@@ -23,26 +27,32 @@ li, a {
     letter-spacing: 5px;
 }
 
+
 body {
-    width: 100vw   
+    width: 100vw  
 }
+
 
 body, html {
     overflow-x: hidden !important;
 }
 
+
 ::-webkit-scrollbar {
     width: 8px;
  
   }
-  
+ 
   ::-webkit-scrollbar-thumb {
     background-color: #D5B484;
     border-radius: 50px;
 }
 
 
+
+
 /* HEADER */
+
 
 .header-container {
     display: flex;
@@ -54,34 +64,41 @@ body, html {
     padding: 0 10%;
 }
 
+
 .column {
     padding: 10px;
 }
+
 
 .logo {
     width: auto;
     margin-right: 10px;
 }
 
+
 .header-logo {
     width: 200px;
-    transition: all .2s ease-in-out; 
+    transition: all .2s ease-in-out;
 }
 
+
 .header-logo:hover {
-    transform: scale(1.1); 
+    transform: scale(1.1);
 }
+
 
 .search {
     width: 40%;
     margin: 0 5px;
 }
 
+
 input[type="text"]{
     border: none;
-    outline: none;   
+    outline: none;  
     width: 339px;
 }
+
 
 .search-box {
     display: flex;
@@ -94,6 +111,7 @@ input[type="text"]{
     padding: 15px 30px;
 }
 
+
 .login-cadastro {
     width: auto;
     margin-left: 10px;
@@ -101,12 +119,14 @@ input[type="text"]{
     align-items: center;
 }
 
+
 .login-cadastro > a {
     margin-right: 10px;
     color: #000000;
 }
 
-.login-cadastro > a:after {   
+
+.login-cadastro > a:after {  
     content: "";
     display: block;
     height: 2px;
@@ -117,20 +137,25 @@ input[type="text"]{
     width: 0;
 }
 
-.login-cadastro > a:hover:after { 
-    width: 100%; 
-    left: 0; 
+
+.login-cadastro > a:hover:after {
+    width: 100%;
+    left: 0;
 }
+
 
 .account-icon {
-    transition: all .2s ease-in-out; 
+    transition: all .2s ease-in-out;
 }
+
 
 .account-icon:hover {
-    transform: scale(1.1); 
+    transform: scale(1.1);
 }
 
+
 /* NAVIGATION MENU */
+
 
 .main-menu {
     display: flex;
@@ -140,11 +165,13 @@ input[type="text"]{
     height: 70px;
 }
 
+
 .main-menu > li > a {
     position: relative;
     padding: 5px 10px;
     color: #000000;
 }
+
 
 .main-menu > li > a:after {    
     content: "";
@@ -157,12 +184,15 @@ input[type="text"]{
     width: 0;
 }
 
-.main-menu > li > a:hover:after { 
-    width: 100%; 
-    left: 0; 
+
+.main-menu > li > a:hover:after {
+    width: 100%;
+    left: 0;
 }
 
+
 /* MAIN CAD */
+
 
 main {
     display: flex;
@@ -171,8 +201,23 @@ main {
     background-color: #EDEAE3;
     padding-bottom: 15vh;
 }
+
+/*Div com o corpo do formulário*/
+#totalForm{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 0;
+    width: 80%;
+}
+
+/*Divs dentro do corpo do formulário*/
+#totalForm > div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
     
-    
+} 
 
 h1 {
     text-decoration: none;
@@ -182,16 +227,7 @@ h1 {
     font-size: 2.5em;
     padding-top: 4vh;
     padding-bottom: 4vh;
-   
 }
-
-
-input{
-    border: none;
-   
-}
-
-
 
 label{
     display: flex;
@@ -200,24 +236,26 @@ label{
     margin-top: 2vh;
     color: #3b506b;
 }
+
+/*inputs do formulário*/
+input{
+    border: none;
    
-
-
+}
 
 input[type="text-form"]{
    border: none;
    border-radius: 10px;
-   width:40vw;
+   width:50vw;
    height: 4vh;
    padding-left: 0.5vw;
    
 }
 
-
 input[type="email"]{
     border: none;
     border-radius: 10px;
-    width:40vw;
+    width:50vw;
     height: 4vh;
     padding-left: 0.5vw;
    
@@ -228,8 +266,7 @@ input[type="text-form-row"]{
     border-radius: 10px;
     width:19vw;
     height: 4vh;
-    padding-left: 0.5vw;
-    
+    padding-left: 0.5vw;  
 }
 
 input[type="number"]{
@@ -238,7 +275,7 @@ input[type="number"]{
     width:19vw;
     height: 4vh;
     padding-left: 0.5vw;
-  
+ 
 }
 
 input[type=number]::-webkit-inner-spin-button,
@@ -247,7 +284,6 @@ input[type=number]::-webkit-inner-spin-button,
         margin: 0;
     }
 
-
 input[type="password"]{
     border: none;
     border-radius: 10px;
@@ -255,20 +291,25 @@ input[type="password"]{
     height: 4vh;
     padding-left: 0.5vw;
     border: none;
-    outline: none;
-    
+    outline: none; 
 }
 
-.esquerda{
-    float: left;
-    display: flex;
-    position: static;
-    flex-direction: column; 
-    margin-right: 5%;
+/*Divs nome e emaail*/
+#form{
+    width: 100%;
 }
 
+#form input{
+    width: 90%;
+}
 
+ /*Divs do lado direito e esquerdo*/
 
+ #direita , #esquerda {
+    width: 50%;
+}
+
+/*Botão cadastrar*/
 .botao{
     display: flex;
     align-items: center;
@@ -276,6 +317,7 @@ input[type="password"]{
     padding-top: 5vh;
     padding-left: 30%;
     padding-right: 30%;
+    width: 100%;
 
 }
 
@@ -293,26 +335,32 @@ button{
     cursor: pointer;
 }
 
+
 button:hover{
     background-color: #3f7664;
 }
 
+
 input:hover{
     background-color: #fefefead;
-    text-decoration: none;   
+    text-decoration: none;  
 }
+
 
 .box-form input:focus-visible{
     outline: 2px solid #519b84;
 }
 
+
 /* Mensagem de erro */
 
+
 .form small {
-    display: flex;   
+    display: flex;  
     color: #e61919;
     visibility: hidden;
 }
+
 
 .direita small {
     display: flex;
@@ -322,33 +370,40 @@ input:hover{
 }
 
 .esquerda small {
-    display: flex; 
-    flex-direction: row; 
+    display: flex;
+    flex-direction: row;
     color: #e61919;
     visibility: hidden;
 }
+
 
 /* Simulação de validação: Sucesso */
 .form.sucesso input {
     border: 2px solid #19e619;
 }
 
+
 /* Simulação de validação: Error */
 .form.error input {
     border: 2px solid #e61919;
 }
 
+
 .form.error small{
     visibility: visible;
 }
+
 
 .direita.error small{
     visibility: visible;
 }
 
+
 .esquerda.error small{
     visibility: visible;
 }
+
+
 
 
 small{
@@ -358,98 +413,124 @@ small{
 
 
 
+
+
+
+
 /* COPYRIGHT */
+
 
 .copyright {
     background-color: #519B84;
     text-align: center;
     padding: 15px 0;
-    
-    
+   
+   
 }
+
 
 .copyright > p {
     color: #fff;
    
 }
 
+
 /* BACK TO TOP ICON */
+
 
 .back-to-top {
     position: fixed;
     bottom: 10px;
     float: right;
     right: 0;
-    
+   
 }
+
 
 .back-to-top > img {
     width: 80%;
-    
+   
 }
+
 
 /* RESPONSIVIDADE */
 
+
 @media screen and (min-width:769px) and (max-width:1024px) {
+
 
     input[type="text-form"]{
         width:62vw;        
      }
 
-    input[type="email"]{     
+
+    input[type="email"]{    
         width:62vw;
-          
+         
     }
     input[type="text-form-row"]{
         width: 29.4vw;
     }
 
+
     input[type="number"]{
         width: 29.4vw;
     }
 
+
     input[type="password"]{
         width: 29.4vw;
     }
+
 
     button{
         width: 30vw;
     }
 
+
 }
 
+
 @media screen and  (max-width:481px) {
+
 
     input[type="text-form"]{
         width:70vw;        
      }
 
-     input[type="email"]{     
+
+     input[type="email"]{    
         width:70vw;
-      
+     
     }
+
 
     .esquerda{
         float: none;
-        
+       
     }
+
 
     input[type="text-form-row"]{
         width: 70vw;
     }
 
+
     input[type="number"]{
         width: 70vw;
     }
+
 
     input[type="password"]{
         width: 70vw;
     }
 
+
     button{
         width: 50vw;
         font-size: 12px;
     }
+
 
     h1{
         font-size: 8vw;
@@ -457,29 +538,37 @@ small{
 }
 
 
+
+
 @media screen and (max-width:768px) {
     input[type="text-form"]{
         width:70vw;        
      }
 
-     input[type="email"]{     
+
+     input[type="email"]{    
         width:70vw;
-      
+     
     }
 
-    
+
+   
+
 
     input[type="text-form-row"]{
         width: 33.2vw;
     }
 
+
     input[type="number"]{
         width: 33.2vw;
     }
 
+
     input[type="password"]{
         width: 33.2vw;
     }
+
 
     button{
         width: 50vw;
@@ -487,67 +576,82 @@ small{
     }    
 }
 
+
 @media screen and (max-width:300px){
     input[type="text-form"]{
         width:70vw;        
      }
 
-     input[type="email"]{     
+
+     input[type="email"]{    
         width:70vw;
-      
+     
     }
 
-    
+
+   
+
 
     input[type="text-form-row"]{
         width: 70vw;
     }
 
+
     input[type="number"]{
         width: 70vw;
     }
 
+
     input[type="password"]{
         width: 70vw;
     }
+
 
     button{
         width: 60vw;
         font-size: 12px;
     }    
 }
+
 
 @media screen and (min-width:301px) and (max-width:480px){
     input[type="text-form-row"]{
         width: 70vw;
     }
 
+
     input[type="number"]{
         width: 70vw;
     }
 
+
     input[type="password"]{
         width: 70vw;
     }
+
 
     button{
         width: 60vw;
         font-size: 12px;
     }    
 }
+
 
 @media screen and (min-width:481px) and (max-width:497px){
     input[type="text-form-row"]{
         width: 33.2vw;
     }
 
+
     input[type="number"]{
         width: 33.2vw;
     }
 
+
     input[type="password"]{
         width:32.1vw;
     }
+
 
     button{
         width: 60vw;
@@ -555,68 +659,83 @@ small{
     }    
 }
 
+
 @media screen and (min-width:1024px) and (max-width:1440px){
     input[type="text-form"]{
         width:60vw;        
      }
 
-     input[type="email"]{     
+
+     input[type="email"]{    
         width:60vw;
-      
+     
     }
+
 
     main{
         padding-left: 5%;
         padding-right: 5%;
     }
 
+
     input[type="text-form-row"]{
         width: 28.5vw;
     }
+
 
     input[type="number"]{
         width: 28.5vw;
     }
 
+
     input[type="password"]{
         width: 28.5vw;
     }
+
 
     button{
         width: 50vw;
         font-size: 12px;
     }
-} 
+}
+
 
 @media screen and (min-width:1441px) and (max-width:2560px){
     input[type="text-form"]{
         width:50vw;        
      }
 
-     input[type="email"]{     
+
+     input[type="email"]{    
         width:50vw;
-      
+     
     }
+
 
     main{
         padding-left: 5%;
         padding-right: 5%;
     }
 
+
     input[type="text-form-row"]{
         width: 23.7vw;
     }
+
 
     input[type="number"]{
         width: 23.7vw;
     }
 
+
     input[type="password"]{
         width: 23.7vw;
     }
+
 
     button{
         width: 50vw;
         font-size: 19px;
     }
-} 
+}
+
