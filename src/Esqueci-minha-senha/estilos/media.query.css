@@ -47,6 +47,81 @@ Grandes telas: acima de 1200px
 
 /* Configurações do formulário para desktop */
 
+@media (min-width: 1920px){
+  
+  .search {
+    width: 40%;
+    margin: 0 5px;
+  }
+
+  .search-box {
+    width: 80%;
+    border: 1px solid #f0f0f0;
+    border-radius: 50px;
+    margin: 0 30px;
+  }
+
+  #txtBusca {
+    font-size: 15px;
+    border: none;
+    width: 40%;
+    position: relative;
+    height: 65px;
+    left: 30px;
+    background: transparent;
+    outline: none;
+  }
+
+  .imglupa{
+    position: relative;
+    left: 40px;
+   }
+
+  #search-image {
+    margin-bottom: -7px;
+    margin-left: 45px;
+    width: 30px;
+  }
+}
+
+
+@media (min-width: 1600px){
+  
+  .search {
+    width: 40%;
+    margin: 0 5px;
+  }
+
+  .search-box {
+    width: 80%;
+    border: 1px solid #f0f0f0;
+    border-radius: 50px;
+    margin: 0 30px;
+  }
+
+  #txtBusca {
+    font-size: 15px;
+    border: none;
+    width: 40%;
+    position: relative;
+    height: 65px;
+    left: 30px;
+    background: transparent;
+    outline: none;
+  }
+
+  .imglupa{
+    position: relative;
+    left: 40px;
+   }
+
+  #search-image {
+    margin-bottom: -7px;
+    margin-left: 45px;
+    width: 30px;
+  }
+}
+
 @media (min-width: 992px) {
 
   /* main */
@@ -86,7 +161,7 @@ Grandes telas: acima de 1200px
 
 /*Media para tablets */
 
-@media screen and (min-width: 883px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
  
   /* HEADER */
 
@@ -192,7 +267,7 @@ Grandes telas: acima de 1200px
   
 }
 
-/*Media para celulares */
+/* Media para  tablets e celulares  */
 
 @media screen and (max-width: 768px) {
 
