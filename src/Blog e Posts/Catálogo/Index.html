@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./Imagens/icons8-girassol-16.png" type="image/x-icon">
     <link rel="stylesheet" href="./Style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
    
     <title>Plantas</title>
 </head>
@@ -17,6 +19,10 @@
         </figure>
 
         <input type="text" placeholder="Pesquisar..." class="inputPesquisar">
+
+        <span id="btn_hamb" class="material-symbols-outlined">
+            menu
+            </span>
 
         <figure class="iconPesquisar">
             <img src="./Imagens/search.png" alt="pesquisar-icon">
@@ -34,6 +40,17 @@
 
     </header>
 
+    <navigation id="menu_hamb">
+        <div class="btn_close">
+          <img  class="span_clone " id="btn_close" src="/src/Blog e Posts/Catálogo/Imagens/btn_close.png" alt="">
+        </div>
+        <a href="/index.html"><h3>Home</h3></a>
+        <a href="/src/Blog e Posts/Blog/Index.html"><h3>Blog</h3></a>
+        <a href="/src/Forum - Tópico/forum_topico.html"><h3>Fórum</h3></a>
+        <a href="/src/Contato/contato-page.html"><h3>Fale Conosco</h3></a>
+        <a href="/src/Login page/login-planty.html"><h3>Login/Cadastro</h3></a>
+    </navigation>
+
     <nav>
         <ul class="navMenu">
             <li class="li"><a href="/src/Home/index.html">Home</a></li>
@@ -46,7 +63,7 @@
     
     <section class="carrossel1"id="">
 
-        <h1 class="tituloPlantas">PLANTAS</h1>
+        <h1 class="tituloPlantas">CATÁLOGO</h1>
         
 
         <div class="carrossel">
@@ -202,22 +219,19 @@
    
     </section>
 
-
     <footer>
-
-        <div class="footerUp">
-            <a href="/Plant - Feed/Blog/Index.html"><img class="imgFooter"src="./Imagens/Planty-logo 1.png" alt=""></a>
-
-        </div>
-
-
+  
         <div class="footerDwn">
             <h1>Projeto Cultivo de Plantas ICEI | Todos os direitos reservados.</h1>
         </div>
 
-       
-    </footer>
+        <div>
+            <a href="#top" class="back-to-top">
+                <img class="btn_backToTop" src="./Imagens/icon-back-to-top.png" alt="Ícone de Back to Top"
+            /></a>
+          </div>
 
+    </footer>
         
 
     
