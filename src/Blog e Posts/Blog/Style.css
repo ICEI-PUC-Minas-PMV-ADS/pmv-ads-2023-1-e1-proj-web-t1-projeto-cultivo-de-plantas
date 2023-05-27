@@ -209,8 +209,8 @@ section{
 }
 
 .tituloPlantas{
-   position: absolute;
-   bottom: 600px;
+    position: absolute;
+    bottom:1210px;
     background-color: rgb(255, 255, 255);
     border-radius: 50px;
     padding: 10px;
@@ -453,26 +453,6 @@ footer{
 
 }
 
-.btnVoltar{
-    left: 2170px;
-    top: 190px;
-    width: 70px;
-    height: 70px;
-    position: absolute;
-    background-color: #D5B484;
-    border-radius: 100%;
-}
-
-.setaUp{
-    z-index: 100;
-    left: 2185px;
-    top: 210px;
-    position: absolute;
-    width: 40px;
-    height: 30px;
-}
-
-
 
 
 .containerCarousel{
@@ -493,11 +473,87 @@ footer{
     left: 632px;
 }
 
-.saibaMaisPost,.saibaMaisPost2,.saibaMaisPost3{
-    display: none;
+
+
+
+@media (max-width: 1920px) {
+
+
+
+    .logoPlanty{
+        position: absolute;
+        left: 160px;
+        
+    }
+    .loginCadastro{
+        right:200px;
+    }
+
+    .iconPesquisar{
+        position: absolute;
+        left: 1220px;
+     }
+ 
+     .tituloPlantas{
+       
+        padding: 20px;
+        text-align: center;
+        
+      background-color: white;
+    }
+
+
+    main, section, header, nav{
+
+        padding-left: 20px;
+    
+    }
+
+   
+    .setas{
+        position: absolute;
+        left: 260px;
+       }
+    
+       .setaLeft{
+        position: absolute;
+        left: 1400px;
+       }
+
+       .containerCarousel2{
+        display: none;
+        position: absolute;
+        left: 320px;
+    }
+
+    footer{
+        padding-right: 16px;
+        height: 50px;
+        position: absolute;
+        
+       
+    }
+.footerDwn{
+    position: relative;
+    top: 100px;
 }
 
 
+   .back-to-top{
+    position: relative;
+    bottom: 15px;
+    left: 1700px;
+
+   }
+
+   body{
+    background-color: #EDEAE3;
+   }
+   
+   
+
+
+}
 
 @media (max-width: 1800px) {
 
