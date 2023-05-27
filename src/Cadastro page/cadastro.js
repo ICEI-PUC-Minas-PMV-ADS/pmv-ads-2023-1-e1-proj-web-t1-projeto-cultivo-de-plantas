@@ -1,4 +1,4 @@
-const form = document.getElementById('form')
+const form = document.getElementById('total-form')
 const esquerda = document.getElementById('esquerda')
 const direita = document.getElementById('direita')
 const nome = document.getElementById('nome')
@@ -9,19 +9,7 @@ const senha = document.getElementById('senha')
 const confirmSenha = document.getElementById('confirmSenha')
 
 
-form.addEventListener('submit', (e) => {
-   e.preventDefault()
-
-   checkInputs()
-})
-
-esquerda.addEventListener('submit', (e) => {
-   e.preventDefault()
-
-   checkInputs()
-})
-
-direita.addEventListener('submit', (e) => {
+form.addEventListener('submit', (e) =>  {
    e.preventDefault()
 
    checkInputs()
@@ -138,3 +126,5 @@ function sucessoValidation(input, message) {
    const small = form.querySelector('small')
    small.innerText = message
 }
+
+
