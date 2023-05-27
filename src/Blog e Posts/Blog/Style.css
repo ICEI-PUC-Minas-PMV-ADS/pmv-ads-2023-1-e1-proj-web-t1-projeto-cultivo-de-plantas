@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
 
+
 *{
     font-family: 'Poppins';
     color: #3B506B;
@@ -554,7 +555,6 @@ footer{
 
 
 }
-
 @media (max-width: 1800px) {
 
     .logoPlanty{
@@ -707,10 +707,28 @@ footer{
         left: 150px;
 
     }
+    footer{
+        
+        height: 50px;
+        position: absolute;
+        
+       
+    }
+.footerDwn{
+    position: relative;
+    top: 100px;
+}
 
-  
 
+   .back-to-top{
+    position: absolute;
+    top: 50px;
+    left: 1350px;
+   
 
+   }
+
+   
 
 
 
@@ -1208,12 +1226,6 @@ footer{
    
  
     
-    .img_logo_planty{
-        width: 150px;
-       
-     
-        
-    }
 
     .loginCadastro{
         right: 100px;
@@ -1230,10 +1242,17 @@ footer{
         display: flex;
         align-items: center;
     }
+    .iconPesquisar{
+        left: 150px;
+    }
 
     .inputPesquisar{
-        width: 300px;
+        width: 400px;
+        position: absolute;
+        right: 320px;
     }
+
+
     .planta4, .planta3{
         display: none;
     }
@@ -1289,60 +1308,52 @@ footer{
     padding-right: 10px;
 }
 
-.footerUp{
-    display: flex;
-    position: absolute;
-    background-color: rgb(255, 255, 255);
-    right:8px;
-    height: 150px;
-    top: 70px;
-   
-
-}
-.imgFooter{
-    display: flex;
-    position: relative;
-    left: 70px;
-}
 
 .footerDwn{
-    position: absolute;
-    top: 220px;
-    right: 8px;
-    
-}
-.inptFooter{
-    display: flex;
-    position: relative;
-    right: 70px;
-    height: 60px;
-
-}
-.iconPesquisar{
-   position: relative;
-   left: 110px;
-   top: 5px;
+position: relative;
+top: 100px;
+width: 1100px;
 }
 
-.btnVoltar{
- display: none;
+
+.back-to-top{
+position: absolute;
+top: 50px;
+left: 900px;
+
+
 }
 
-.pesquisar-icon-footer{
-    display: none;
-}
 
-    
 
-    
 
 
  }
-
  @media (max-width: 768px) {
 
     body{
       width: 768px;
+      height: auto;
+
+    }
+    main{
+        height: 1800px;
+  
+    }
+
+    footer{
+      
+        position: absolute;
+        top: 2700px;
+    }
+
+    .footerDwn{
+
+       width:800px;
+       height: auto;
+       position: relative;
+       top: 90px;
+       
     }
 
     header{
@@ -1350,6 +1361,9 @@ footer{
         padding-left: 20px;
     }
     
+    .img_logo_planty{
+        width: 170px;
+    }
     .logoPlanty{
         position: absolute;
         left: 10px;
@@ -1357,7 +1371,7 @@ footer{
     }
 
     .loginCadastro{
-        right: 40px;
+        right: 70px;
     }
 
     .iconLogin{
@@ -1373,7 +1387,7 @@ footer{
 
     .iconPesquisar{
         position: relative;
-        left: 120px;
+        left: 90px;
         top: 5px;
      }
 
@@ -1385,12 +1399,11 @@ footer{
     }
 
     .inputPesquisar{
-        width: 300px;
-        height: 50px;
+       right: 250px;
+        width: 280px;
+        height: 40px;
     }
-    .planta4, .planta3, .planta2{
-        display: none;
-    }
+    
     .containerCarousel{
         position: relative;
         right: 10px;
@@ -1400,44 +1413,47 @@ footer{
         display: none;
         position: absolute;
        
-        left: 210px;
+        left: 50px;
 
     }
 
    .setas{
-    position: absolute;
-    left: 140px;
+    left: 40px;
+    
    }
 
    .setaLeft{
     position: absolute;
-    left: 500px;
+    left: 680px;
+    
+    
    
    }
-   main{
-    height:2600px ;
+
+   .back-to-top{
+    position: absolute;
+    left: 690px;
+    top: 60px;
    }
 
-   main, section{
 
-    padding-left: 20px;
-
-   }
 
    .post{
   
     width: 600px;
     height: 500px;
-    overflow-x: scroll;
-
-    
-  
 }
 
 .image_posts{
+    
     width: 200px;
     height: 310px;
     
+}
+
+.btn_backToTop{
+    width: 50px;
+
 }
 
 .tituloPost{
@@ -1448,62 +1464,185 @@ footer{
     line-height: 20px;
 }
 .content > p{
-    padding-right:20px;
+    padding-right:60px;
     font-style: normal;
-    font-weight: 200;
-    font-size: 20px;
-    line-height: 30px;
-    padding-top: 10px;
+    font-weight: 500;
+    font-size: 0.7rem;
+    line-height: 23px;
 
 }
+
 .saibaMaisPost, .saibaMaisPost2, .saibaMaisPost3{
-    display: none;
-
+    position: absolute;
+    top: 350px;
+    left: 80px;
 }
 
-.footerUp{
-    display: flex;
+ }
+ @media (max-width: 425px) {
+
+    body{
+        width: 100vw;
+        margin-top: 1px;
+      
+    }
+    section, section, header, main, footer{
+        
+        padding-right: 30px;
+        width: 100vw;
+
+    }
+  
+
+    .img_logo_planty{
+        width: 170px;
+    }
+    .logoPlanty{
+        position: absolute;
+        left: 40px;
+        top: 10px;
+    }
+    .inputPesquisar{
+        position: absolute;
+        left: 84px;
+        top: 100px;
+    }
+
+    .loginCadastro{
+        display: none;
+    }
+
+    .iconLogin{
+     display: none;
+    }
+    nav{
+        display: none;
+    }
+
+    navigation{
+       display: none;
+        top: 145px;
+        left: 60px;
+        position: absolute;
+        z-index: 2;
+        border-radius: 10px;
+        align-items: center;
+        flex-direction: column;
+        width: 300px;
+        height: 340px;
+        opacity:90%;
+        background-color: #ffffff;
+    }
+
+    navigation > a > h3{
+        color: #3B506B;
+      
+    }
+
+    .iconPesquisar{
+      
+        position: absolute;
+        left: 280px;
+        top: 90px;
+     }
+
+    .tituloPlantas{
+        top: 170px;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+    }
+
+    .planta2, .planta3, .planta4{
+        display: none;
+    }
+
+    .inputPesquisar{
+       right: 250px;
+        width: 280px;
+        height: 40px;
+    }
+    
+    .containerCarousel{
+        position: relative;
+        bottom: 130px;
+        right: 1px;
+        width: 200px;
+        height: auto;
+      
+       align-items: center;
+       justify-content: center;
+       top: 5px;
+    }
+
+    .containerCarousel2{
+        display: none;
+        position: absolute;
+        width: 200px;
+        top: 250px;
+        left: 116px;
+        justify-content: center;
+
+    }
+
+    .setaRight{
     position: absolute;
-    background-color: rgb(255, 255, 255);
-    right:8px;
-    height: 150px;
-    top: 70px;
+    }
+    
+ 
+
+  
+    .planta1{
+     position: relative;
+     top: 10px;
+     right: 20px;
+    }
+
+    .setas{
+        top: 250px;
+        left: 10px;
+        
+    }
+    .setaLeft{
+        position: absolute;
+        left: 380px;
+    }
+
+    .footer{
+        display: none;
+       
+        width: 50px;
+    }
+
+    .material-symbols-outlined {
+     
+        left: 320px;
+        top: 50px;
+
+   }
+
    
+ 
 
-}
-.imgFooter{
-    display: flex;
-    position: relative;
-    left: 70px;
-}
-
-.footerDwn{
+.btn_close{
     position: absolute;
-    top: 220px;
-    right: 8px;
-    
-}
-.inptFooter{
-    display: flex;
-    position: relative;
-    right: 70px;
-    height: 60px;
 
+    top: 15px;
+    left:250px;
+}
+
+.span_clone{
+    width: 30px;
 }
 
 
-.btnVoltar{
- display: none;
-}
 
-.pesquisar-icon-footer{
-    display: none;
-}
 
-    
-
-    
 
 
  }
+
+
+
+
 
