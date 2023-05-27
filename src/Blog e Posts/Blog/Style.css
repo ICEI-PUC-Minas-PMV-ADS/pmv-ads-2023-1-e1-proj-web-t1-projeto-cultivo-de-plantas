@@ -1492,8 +1492,6 @@ left: 900px;
         width: 100vw;
 
     }
-  
-
     .img_logo_planty{
         width: 170px;
     }
@@ -1507,11 +1505,9 @@ left: 900px;
         left: 84px;
         top: 100px;
     }
-
     .loginCadastro{
         display: none;
     }
-
     .iconLogin{
      display: none;
     }
@@ -1588,10 +1584,7 @@ left: 900px;
     .setaRight{
     position: absolute;
     }
-    
- 
 
-  
     .planta1{
      position: relative;
      top: 10px;
@@ -1608,10 +1601,17 @@ left: 900px;
         left: 380px;
     }
 
-    .footer{
-        display: none;
-       
-        width: 50px;
+    footer{
+        display: flex;
+   
+        width: 100vw;
+    }
+    .footerDwn{
+        font-size: 0.8rem;
+        position: relative;
+        top: 40px;
+        width: 100vw;
+        left: 7px;
     }
 
     .material-symbols-outlined {
@@ -1621,8 +1621,11 @@ left: 900px;
 
    }
 
-   
- 
+   .back-to-top{
+    position: absolute;
+    left: 360px;
+    top:10px;
+   }
 
 .btn_close{
     position: absolute;
@@ -1635,6 +1638,61 @@ left: 900px;
     width: 30px;
 }
 
+  .post{
+  
+    width: 400px;
+    height: 500px;
+}
+
+.image_posts{
+    
+    width: 100px;
+    height: 110px;
+    
+}
+
+
+
+.tituloPost{
+   padding-top: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+}
+.content > p{
+    top: 140px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.7rem;
+    line-height: 25px;
+    
+    width: 300px;
+    height: 300px;
+    right: 0px;
+}
+.saibaMaisPost, .saibaMaisPost2, .saibaMaisPost3{
+    position: absolute;
+    top: 490px;
+    left: 130px;
+}
+
+.par_post2{
+    position: absolute;
+    
+    
+}
+.par_post3{
+ position: absolute;
+}
+
+.tituloCacto{
+    word-break: break-all;
+    position: relative;
+    font-size: 1.1rem;
+    right: 20px;
+    
+}
 
 
 
