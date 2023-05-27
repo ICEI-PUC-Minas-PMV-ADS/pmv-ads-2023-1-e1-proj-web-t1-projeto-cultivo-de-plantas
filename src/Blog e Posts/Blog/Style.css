@@ -479,7 +479,14 @@ footer{
 
 @media (max-width: 1920px) {
 
-
+    navigation {
+        display: none;
+    }
+    
+    .material-symbols-outlined{
+      
+        z-index: -1;
+    }
 
     .logoPlanty{
         position: absolute;
@@ -496,11 +503,11 @@ footer{
      }
  
      .tituloPlantas{
-       
-        padding: 20px;
-        text-align: center;
-        
-      background-color: white;
+       position: relative;
+       bottom: 200px;
+       padding: 20px;
+       text-align: center;
+       background-color: rgb(255, 255, 255);
     }
 
 
@@ -525,6 +532,10 @@ footer{
         display: none;
         position: absolute;
         left: 320px;
+    }
+       .containerCarousel{
+      position: absolute;
+      top: 370px;
     }
 
     footer{
@@ -555,109 +566,18 @@ footer{
 
 
 }
-@media (max-width: 1800px) {
-
-    .logoPlanty{
-        position: absolute;
-        left: 70px;
-        
-    }
-    .loginCadastro{
-        right: 100px;
-    }
-
-    .iconPesquisar{
-        position: absolute;
-        left: 1170px;
-     }
- 
-     .tituloPlantas{
-        top: 250px;
-        padding: 20px;
-        display: flex;
-        align-items: center;
-    }
-    main, section, header, nav{
-
-        padding-left: 20px;
-    
-       }
-
-       .footerDwn{
-        position: absolute;
-        top: 220px;
-        right: 8px;
-        
-    }
-    .setas{
-        position: absolute;
-        left: 200px;
-       }
-    
-       .setaLeft{
-        position: absolute;
-        left: 1400px;
-       }
-
-       .containerCarousel2{
-        display: none;
-        position: absolute;
-        left: 150px;
-
-    }
-}
-@media (max-width: 1700px) {
-
-    .logoPlanty{
-        position: absolute;
-        left: 70px;
-        
-    }
-    .loginCadastro{
-        right: 100px;
-    }
-
-    .iconPesquisar{
-        position: absolute;
-        left: 1120px;
-     }
- 
-     .tituloPlantas{
-        top: 250px;
-        padding: 20px;
-        display: flex;
-        align-items: center;
-    }
-    main, section, header, nav{
-
-        padding-left: 20px;
-    
-       }
-
-       .footerDwn{
-        position: absolute;
-        top: 220px;
-        right: 8px;
-        
-    }
-    .setas{
-        position: absolute;
-        left: 160px;
-       }
-    
-       .setaLeft{
-        position: absolute;
-        left: 1400px;
-       }
-
-       .containerCarousel2{
-        display: none;
-        position: absolute;
-        left: 150px;
-
-    }
-}
 @media (max-width: 1600px) {
+
+
+
+     .tituloPlantas{
+       position:absolute;
+       bottom: 640px;
+      
+       padding: 20px;
+       text-align: center;
+       background-color: rgb(255, 255, 255);
+    }
 
     .logoPlanty{
         position: absolute;
@@ -735,8 +655,27 @@ footer{
 
 
 
- }
+ } 
 @media (max-width: 1440px) {
+
+    navigation {
+        display: none;
+    }
+    
+    .material-symbols-outlined{
+      
+        z-index: -1;
+    }
+
+    .back-to-top{
+        position: absolute;
+        left: 1300px;
+        top: 170px;
+    }
+
+
+    
+
 
     .logoPlanty{
         position: absolute;
@@ -753,10 +692,13 @@ footer{
      }
  
      .tituloPlantas{
-        top: 250px;
-        padding: 20px;
-        display: flex;
-        align-items: center;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        bottom: 680px;
+      
+       
+      
+      
     }
 
     .inputPesquisar{
@@ -786,12 +728,6 @@ footer{
         display: none;
     }
 
-    .containerCarousel2{
-        display: none;
-        position: absolute;
-        left: 118px;
-
-    }
 
    .setas{
     position: absolute;
@@ -800,21 +736,34 @@ footer{
 
    .setaLeft{
     position: absolute;
-    left: 1010px;
+    left: 1090px;
    }
 
-
-  
-
-
-
-
+   .containerCarousel2{
+    position: absolute;
+    left: 240px;
+   }
 
 
 
 
  }
-@media (max-width: 1366px) {
+ @media (max-width: 1366px) {
+
+    navigation {
+        display: none;
+    }
+    
+    .material-symbols-outlined{
+      
+        z-index: -1;
+    }
+
+    .back-to-top{
+        position: absolute;
+        top: 170px;
+        left: 1210px;
+    }
 
     body{
         
@@ -953,274 +902,7 @@ footer{
 
 
  }
-@media (max-width: 1300px) {
 
-    body{
-        
-      width: 100vh;
-    }
-
-    header{
-        width: 100%;
-        padding-left: 20px;
-    }
-    
-    .logoPlanty{
-        position: absolute;
-        left: 10px;
-        
-    }
-
-    .loginCadastro{
-        right: 100px;
-    }
-
-    nav{
-        width: 100%;
-        padding-left: 20px;
-    }
-    .iconPesquisar{
-       position: absolute;
-       left: 850px;
-    }
-
-    .tituloPlantas{
-        top: 250px;
-        padding: 20px;
-        display: flex;
-        align-items: center;
-    }
-
-    .inputPesquisar{
-        width: 500px;
-    }
-    .planta4{
-        display: none;
-    }
-
-    .containerCarousel2{
-        display: none;
-        position: absolute;
-        left: 118px;
-
-    }
-
-   .setas{
-    position: absolute;
-    left: 150px;
-   }
-
-   .setaLeft{
-    position: absolute;
-    left: 1000px;
-   }
-   main{
-    height:2600px ;
-   }
-
-   main, section{
-
-    padding-left: 20px;
-
-   }
-
-   .post{
- 
-    width: 1000px;
-  
-}
-
-.tituloPost{
-   
-    font-style: normal;
-    font-weight: 300;
-    font-size: 34px;
-    line-height: 34px;
-}
-
-.footerUp{
-    display: flex;
-    position: absolute;
-    background-color: rgb(255, 255, 255);
-    right:8px;
-    height: 150px;
-    top: 70px;
-   
-
-}
-.imgFooter{
-    display: flex;
-    position: relative;
-    left: 70px;
-}
-
-.footerDwn{
-    position: absolute;
-    top: 220px;
-    right: 8px;
-    
-}
-.inptFooter{
-    display: flex;
-    position: relative;
-    right: 70px;
-    height: 60px;
-
-}
-.iconPesquisar{
-   position: relative;
-   left: 200px;
-   top: 5px;
-}
-
-.btnVoltar{
- display: none;
-}
-
-.pesquisar-icon-footer{
-    display: none;
-}
-
-    
-
-    
-
-
- }
-@media (max-width: 1200px) {
-
-    body{
-        
-      width: 100vh;
-    }
-
-    header{
-        width: 100%;
-        padding-left: 20px;
-    }
-    
-    .logoPlanty{
-        position: absolute;
-        left: 10px;
-        
-    }
-
-    .loginCadastro{
-        right: 100px;
-    }
-
-    nav{
-        width: 100%;
-        padding-left: 20px;
-    }
-    .iconPesquisar{
-       position: absolute;
-       left: 850px;
-    }
-
-    .tituloPlantas{
-        top: 250px;
-        padding: 20px;
-        display: flex;
-        align-items: center;
-    }
-
-    .inputPesquisar{
-        width: 500px;
-    }
-    .planta4{
-        display: none;
-    }
-
-    .containerCarousel2{
-        display: none;
-        position: absolute;
-        left: 118px;
-
-    }
-
-   .setas{
-    position: absolute;
-    left: 100px;
-   }
-
-   .setaLeft{
-    position: absolute;
-    left: 1000px;
-   }
-   main{
-    height:2600px ;
-   }
-
-   main, section{
-
-    padding-left: 20px;
-
-   }
-
-   .post{
- 
-    width: 1000px;
-  
-}
-
-.tituloPost{
-   
-    font-style: normal;
-    font-weight: 300;
-    font-size: 34px;
-    line-height: 34px;
-}
-
-.footerUp{
-    display: flex;
-    position: absolute;
-    background-color: rgb(255, 255, 255);
-    right:8px;
-    height: 150px;
-    top: 70px;
-   
-
-}
-.imgFooter{
-    display: flex;
-    position: relative;
-    left: 70px;
-}
-
-.footerDwn{
-    position: absolute;
-    top: 220px;
-    right: 8px;
-    
-}
-.inptFooter{
-    display: flex;
-    position: relative;
-    right: 70px;
-    height: 60px;
-
-}
-.iconPesquisar{
-   position: relative;
-   left: 200px;
-   top: 5px;
-}
-
-.btnVoltar{
- display: none;
-}
-
-.pesquisar-icon-footer{
-    display: none;
-}
-
-    
-
-    
-
-
- }
 @media (max-width: 1024px) {
 
    
@@ -1329,7 +1011,22 @@ left: 900px;
 
 
  }
- @media (max-width: 768px) {
+
+@media (max-width: 768px) {
+
+    navigation {
+        display: none;
+    }
+    
+    .material-symbols-outlined{
+      
+        z-index: -1;
+    }
+
+    .back-to-top{
+        position: absolute;
+        top: 170px;
+    }
 
     body{
       width: 768px;
@@ -1406,7 +1103,8 @@ left: 900px;
     
     .containerCarousel{
         position: relative;
-        right: 10px;
+        right: 40px;
+        top: 120px;
     }
 
     .containerCarousel2{
@@ -1479,6 +1177,7 @@ left: 900px;
 }
 
  }
+
  @media (max-width: 425px) {
 
     body{
