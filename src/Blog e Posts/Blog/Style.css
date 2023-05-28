@@ -8,6 +8,9 @@
     
     
 }
+navigation{
+    display: none;
+}
 body{
     overflow-x: hidden;
    background-color: rgb(255, 255, 255);
