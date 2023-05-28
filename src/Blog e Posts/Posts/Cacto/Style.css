@@ -631,16 +631,15 @@ h4{
         left: 380px;
     }
 
-
-
-
-
     .iconPesquisar{
         position: relative;
-        left: 140px;
+        left: 120px;
         top: 4px;
      }
-
+.loginCadastro{
+    position: absolute;
+    left: 760px;
+}
      .post{
       
         display: flex;
@@ -659,12 +658,12 @@ h4{
 
      .leftPost{
         position: absolute;
-        left: 340px;
+        left: 300px;
      }
 
      .containerTextPost{
         position: absolute;
-        left: 180px;
+        left: 150px;
         top: 800px;
         height: 500px;
      }
