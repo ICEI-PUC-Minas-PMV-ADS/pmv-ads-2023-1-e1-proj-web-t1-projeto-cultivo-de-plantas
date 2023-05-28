@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./Imagens/icons8-girassol-16.png" type="image/x-icon">
     <link rel="stylesheet" href="./Style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <title>Cacto</title>
 </head>
 <body>
@@ -16,6 +18,10 @@
         </figure>
 
         <input type="text" placeholder="Pesquisar..." class="inputPesquisar">
+
+        <span id="btn_hamb" class="material-symbols-outlined">
+            menu
+            </span>
 
         <figure class="iconPesquisar">
             <img src="./Imagens/search.png" alt="pesquisar-icon">
@@ -32,6 +38,17 @@
         </div>
 
     </header>
+
+    <navigation id="menu_hamb">
+        <div class="btn_close">
+          <img  class="span_clone " id="btn_close" src="./Imagens/btn_close.png" alt="">
+        </div>
+        <a href="@"><h3>Home</h3></a>
+        <a href="@"><h3>Blog</h3></a>
+        <a href="@"><h3>Fórum</h3></a>
+        <a href="@"><h3>Fale Conosco</h3></a>
+        <a href="@"><h3>Login/Cadastro</h3></a>
+    </navigation>
 
     <nav>
         <ul class="navMenu">

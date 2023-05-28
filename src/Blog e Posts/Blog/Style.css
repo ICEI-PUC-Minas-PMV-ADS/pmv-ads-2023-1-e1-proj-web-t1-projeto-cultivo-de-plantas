@@ -1091,7 +1091,7 @@ left: 900px;
     .tituloPlantas{
         top: 250px;
         padding: 20px;
-        display: flex;
+        bottom: 730px;
         align-items: center;
     }
 
