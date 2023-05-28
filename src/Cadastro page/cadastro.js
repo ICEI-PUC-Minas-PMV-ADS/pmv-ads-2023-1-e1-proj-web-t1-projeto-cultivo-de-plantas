@@ -13,6 +13,7 @@ form.addEventListener('submit', (e) =>  {
    e.preventDefault()
 
    checkInputs()
+
 })
 
 
@@ -35,7 +36,7 @@ function checkInputs() {
       errorValidation(nome, 'Preencha esse campo')
    }
    else{
-      //adicionar classe sucesso
+      //adicionar classe suce
       sucessoValidation(nome)
    }
 
@@ -62,6 +63,7 @@ function checkInputs() {
 
    else{     
       sucessoValidation(usuario)
+
    }
 
    //CELULAR
@@ -71,6 +73,7 @@ function checkInputs() {
    }
    else{
       sucessoValidation(celular)
+
    }
 
    //SENHA
@@ -95,6 +98,25 @@ function checkInputs() {
    }
    else{
       sucessoValidation(confirmSenha)
+   }
+
+
+
+   if (checkInputs() == sucessoValidation){
+
+      let ListaCad = JSON.parse(localStorage.getItem("ListaCad") || "[]")
+
+      ListaCad.push(
+         {
+            nomeCad: nome.value ,
+            emaiCad: email.value ,
+            usuarioCad: usuario.value ,
+            celularCad: celular.value ,
+            senhaCad: senha.value 
+         }
+      )
+
+      localStorage.setItem("ListaCad", JSON.stringify(ListaCad))
    }
 }
 
@@ -126,5 +148,7 @@ function sucessoValidation(input, message) {
    const small = form.querySelector('small')
    small.innerText = message
 }
+
+
 
 
