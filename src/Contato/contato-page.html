@@ -125,26 +125,31 @@
           <form action="index.html" autocomplete="off">
             <h3 class="title">Entre em contato conosco</h3>
             <div class="input-container">
-              <input type="text" name="name" class="input" />
+              <input type="text" name="name" class="input" id="text" />
               <label for="name">Nome</label>
               <span>Username</span>
             </div>
             <div class="input-container">
-              <input type="email" name="email" class="input" />
+              <input type="email" name="email" class="input" id="email" />
               <label for="email">Email</label>
               <span>Email</span>
             </div>
             <div class="input-container">
-              <input type="text" name="assunto" class="input" />
-              <label for="">Assunto</label>
+              <input type="text" name="assunto" class="input" id="subject" />
+              <label for="subject">Assunto</label>
               <span>Assunto</span>
             </div>
             <div class="input-container textarea">
-              <textarea name="message" class="input"></textarea>
+              <textarea name="message" class="input" id="message"></textarea>
               <label for="">Mensagem</label>
               <span>Mensagem</span>
             </div>
-            <input type="submit" value="Enviar" class="btn" />
+            <input
+              onclick="saveData()"
+              type="submit"
+              value="Enviar"
+              class="btn"
+            />
           </form>
         </div>
       </div>

@@ -1,3 +1,5 @@
+/*ANIMAÇÃO*/
+
 const inputs = document.querySelectorAll(".input");
 
 function focusFunc() {
@@ -16,3 +18,4 @@ inputs.forEach((input) => {
   input.addEventListener("focus", focusFunc);
   input.addEventListener("blur", blurFunc);
 });
+
