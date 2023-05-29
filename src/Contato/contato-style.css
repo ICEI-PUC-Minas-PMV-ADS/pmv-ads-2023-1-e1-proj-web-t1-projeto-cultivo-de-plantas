@@ -237,7 +237,6 @@ p {
     background-color: #519B84;
     border-radius: 10px;
     box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1);
-    z-index: 1000;
     overflow: hidden;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -418,10 +417,9 @@ textarea.input {
 }
 
 .modal {
-    z-index: 9999;
     display: none;
     position: fixed;
-    z-index: 1;
+    z-index: 1000;
     left: 0;
     top: 0;
     width: 100%;
@@ -561,6 +559,7 @@ textarea.input {
 
 .back-to-top {
     position: fixed;
+    z-index: 10001;
     bottom: 10px;
     float: right;
     right: 0;
