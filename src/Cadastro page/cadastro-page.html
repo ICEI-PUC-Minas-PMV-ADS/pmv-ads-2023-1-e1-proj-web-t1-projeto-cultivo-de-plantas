@@ -9,14 +9,17 @@
     <title>Cadastro</title>
 </head>
 <body>
+
+     <!--Header-->
+
     <header class="header-container" id="top">
         <div class="column logo">
             <a href="#"><img class="header-logo" src="img/Logo-Planty.png" alt="Logo Original Planty"></a>
         </div>
         <div class="column search">
             <div class="search-box">
-                <input  type="text" placeholder="Pesquisar...">
-                <img src="img/search.png" alt="Ícone de Busca">
+                <input  type="text" id="txtBusca" placeholder="Pesquisar...">
+                <img class="imgLupa" src="img/search.png" alt="Ícone de Busca" id="seach-image">
             </div>
         </div>
         <div class="column login-cadastro">
@@ -25,6 +28,7 @@
         </div>
     </header>
 
+    <!--|Nav-->
 
     <nav>
         <ul class="main-menu">
@@ -35,6 +39,19 @@
         </ul>
     </nav>
 
+    <!--Mobile menu-->
+    <div class="mobile-menu">
+        <ul>
+          <li><a href="#">Login</a></li>
+          <li><a href="#">Cadastro</a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Fórum</a></li>
+          <li><a href="#">Fale Conosco</a></li>
+        </ul>
+      </div>
+
+    <!--Main-->
 
     <main>
         <h1>Cadastre-se</h1>
@@ -100,6 +117,8 @@
             <a href="#top" class="back-to-top"><img src="img/icon-back-to-top.png" alt="Ícone de Back to Top"></a>
         </div>
     </footer>
+
+    <!--JavaScript-->
 
     <script type="text/javascript" src="cadastro.js"></script>
 </body>
