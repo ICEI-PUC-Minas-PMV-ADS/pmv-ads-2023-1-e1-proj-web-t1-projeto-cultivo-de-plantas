@@ -622,6 +622,9 @@ small{
         flex-direction: column;
     }
 
+    #form input{
+        width: 100%;
+    }
 
     .esquerda{
         display: flex;
@@ -649,13 +652,10 @@ small{
         font-size: 9.4px;
     }
 
-    input[type="email"]{
-        width: 100%;
-    }
-
     input[type="text-form-row"]{
         width: 70vw;
     }
+
 
 
     input[type="number"]{
@@ -669,7 +669,7 @@ small{
 
 
     button{
-        width: 50vw;
+        width: 35vw;
         font-size: 12px;
     }    
 
@@ -706,6 +706,70 @@ small{
     }    
 }
 
+@media screen and (min-width:500px) and (max-width:715px){
+    #totalForm{
+        padding-left: 5%;
+    }
+
+    #totalForm input{
+        width: 99%;
+    }
+
+    button{
+        width: 30vw;
+    }
+
+    .back-to-top{
+        width: 12vw;
+        padding-bottom: 4%;
+    }
+}    
+
+@media screen and (min-width:712px) and (max-width:912px){
+    #totalForm{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    button{
+        width: 30vw;
+    }
+
+    #totalForm input{
+        width:99%;
+    }
+}
+
+@media screen and (min-width:912px) and (max-width:1080px){
+    input[type="text-form-row"]{
+        width: 32vw;
+    }
+
+
+    input[type="number"]{
+        width: 32vw;
+    }
+
+
+    input[type="password"]{
+        width: 32vw;
+    }
+
+    #totalForm{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    #totalForm input{
+        width: 99%;
+    }
+
+    button{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+}
 
 @media screen and (min-width:1024px) and (max-width:1440px){
     input[type="text-form"]{
