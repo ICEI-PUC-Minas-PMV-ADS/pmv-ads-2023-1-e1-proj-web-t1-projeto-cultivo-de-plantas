@@ -622,6 +622,9 @@ small{
         flex-direction: column;
     }
 
+    #form input{
+        width: 100%;
+    }
 
     .esquerda{
         display: flex;
@@ -649,13 +652,10 @@ small{
         font-size: 9.4px;
     }
 
-    input[type="email"]{
-        width: 100%;
-    }
-
     input[type="text-form-row"]{
         width: 70vw;
     }
+
 
 
     input[type="number"]{
@@ -669,7 +669,7 @@ small{
 
 
     button{
-        width: 50vw;
+        width: 35vw;
         font-size: 12px;
     }    
 
