@@ -456,6 +456,10 @@ footer{
     font-size: 1.5em;
 
 }
+.material-symbols-outlined{
+      
+    z-index: -1;
+}
 
 
 
@@ -716,6 +720,7 @@ footer{
        .footerDwn{
         position: absolute;
         top: 220px;
+        width: 1500px;
         right: 8px;
         
     }

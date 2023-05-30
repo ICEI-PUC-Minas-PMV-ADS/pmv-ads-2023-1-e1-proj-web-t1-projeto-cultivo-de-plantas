@@ -612,6 +612,53 @@ h4{
 
  
 }
+
+@media (max-width: 1366px) {
+
+
+    .inputPesquisar{
+        width: 600px;
+        
+    }
+
+    .logoPlanty{
+        position: absolute;
+        left: 40px;
+    }
+    .iconPesquisar{
+        position: absolute;
+        left: 880px;
+    }
+
+    .leftPost{
+        position: absolute;
+        left: 90px;
+        top: 110px;
+    }
+
+    .containerTextPost{
+        position: relative;
+        left: 260px;
+        top: 500px;
+    }
+    .loginCadastro{
+        position: absolute;
+        left: 1091px;
+    }
+
+    main{
+
+        height: 1000px;
+       
+    }
+    .btn_backToTop{
+        position: absolute;
+        left: 1280px;
+       
+    }
+
+ 
+}
 @media (max-width: 1024px) {
 
     body{
