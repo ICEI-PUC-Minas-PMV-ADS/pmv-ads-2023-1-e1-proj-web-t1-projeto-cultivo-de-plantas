@@ -581,7 +581,9 @@ small{
     button{
         width: 50vw;
         font-size: 16px;
-    }    
+    }   
+    
+
 }
 
 /* Celulares e Tablets */
@@ -686,7 +688,12 @@ small{
     .copyright{
         font-size: 9px;
     }
-}
+
+    /*Menu Hamburguer*/
+   
+   
+    }
+
 
 
 @media screen and (min-width:481px) and (max-width:497px){
