@@ -1,0 +1,897 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+
+li, a {
+    text-decoration: none;
+    position: relative;
+}
+
+
+.subheader {
+    font-size: 22px;
+    font-weight: 400;
+    color: #519B84;
+    letter-spacing: 5px;
+}
+
+
+body {
+    width: 100vw  
+}
+
+
+body, html {
+    overflow-x: hidden !important;
+}
+
+
+::-webkit-scrollbar {
+    width: 8px;
+ 
+  }
+ 
+  ::-webkit-scrollbar-thumb {
+    background-color: #D5B484;
+    border-radius: 50px;
+}
+
+
+
+
+/* HEADER */
+
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    height: 20vh;
+    width: 100vw;
+    align-items: center;
+    border-bottom: 1px solid #F0F0F0;
+    padding: 0 10%;
+}
+
+
+.column {
+    padding: 10px;
+}
+
+
+.logo {
+    width: auto;
+    margin-right: 10px;
+}
+
+
+.header-logo {
+    width: 200px;
+    transition: all .2s ease-in-out;
+}
+
+
+.header-logo:hover {
+    transform: scale(1.1);
+}
+
+
+.search {
+    width: 40%;
+    margin: 0 5px;
+}
+
+
+input[type="text"]{
+    border: none;
+    outline: none;  
+    width: 339px;
+}
+
+
+.search-box {
+    display: flex;
+    width: 30vw;
+    height: 10vh;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #F0F0F0;
+    border-radius: 50px;
+    padding: 15px 30px;
+}
+
+
+.login-cadastro {
+    width: auto;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+
+.login-cadastro > a {
+    margin-right: 10px;
+    color: #000000;
+}
+
+
+.login-cadastro > a:after {  
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #D5B484;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+
+.login-cadastro > a:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+
+.account-icon {
+    transition: all .2s ease-in-out;
+}
+
+
+.account-icon:hover {
+    transform: scale(1.1);
+}
+
+
+/* NAVIGATION MENU */
+
+
+.main-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    height: 70px;
+}
+
+
+.main-menu > li > a {
+    position: relative;
+    padding: 5px 10px;
+    color: #000000;
+}
+
+
+.main-menu > li > a:after {    
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #D5B484;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+
+.main-menu > li > a:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+
+/* MAIN CAD */
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #EDEAE3;
+    padding-bottom: 15vh;
+}
+
+/*Div com o corpo do formulário*/
+#totalForm{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 0;
+    width: 80%;
+}
+
+/*Divs dentro do corpo do formulário*/
+#totalForm > div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+    
+} 
+
+h1 {
+    text-decoration: none;
+    font-family: 'poppins';
+    color: #3b506b;
+    font-weight: 400;
+    font-size: 2.5em;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+}
+
+label{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+    color: #3b506b;
+}
+
+/*inputs do formulário*/
+input{
+    border: none;
+   
+}
+
+input[type="text-form"]{
+   border: none;
+   border-radius: 10px;
+   width:50vw;
+   height: 4vh;
+   padding-left: 0.5vw;
+   
+}
+
+input[type="email"]{
+    border: none;
+    border-radius: 10px;
+    width:50vw;
+    height: 4vh;
+    padding-left: 0.5vw;
+   
+}
+
+input[type="text-form-row"]{
+    border: none;
+    border-radius: 10px;
+    width:19vw;
+    height: 4vh;
+    padding-left: 0.5vw;  
+}
+
+input[type="number"]{
+    border: none;
+    border-radius: 10px;
+    width:19vw;
+    height: 4vh;
+    padding-left: 0.5vw;
+ 
+}
+
+input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+input[type="password"]{
+    border: none;
+    border-radius: 10px;
+    width:19vw;
+    height: 4vh;
+    padding-left: 0.5vw;
+    border: none;
+    outline: none; 
+}
+
+/*Divs nome e email*/
+#form{
+    width: 100%;
+}
+
+#form input{
+    width: 90%;
+}
+
+ /*Divs do lado direito e esquerdo*/
+
+ #direita , #esquerda {
+    width: 50%;
+}
+
+/*Botão cadastrar*/
+.botao{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    padding-top: 5vh;
+    padding-left: 30%;
+    padding-right: 30%;
+    width: 100%;
+
+}
+
+button{
+    height: 4vh;
+    width: 16vw;
+    border-radius: 20px;
+    border: none;
+    background-color: #519B84;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #fff;
+    font-family: 'poppins';
+    font-weight: 600;
+    font-size: 99%;
+    cursor: pointer;
+}
+
+
+button:hover{
+    background-color: #3f7664;
+}
+
+
+input:hover{
+    background-color: #fefefead;
+    text-decoration: none;  
+}
+
+
+.box-form input:focus-visible{
+    outline: 2px solid #519b84;
+}
+
+
+/* Mensagem de erro */
+
+
+.form small {
+    display: flex;  
+    color: #e61919;
+    visibility: hidden;
+}
+
+
+.direita small {
+    display: flex;
+    flex-direction: row;
+    color: #e61919;
+    visibility: hidden;
+}
+
+.esquerda small {
+    display: flex;
+    flex-direction: row;
+    color: #e61919;
+    visibility: hidden;
+}
+
+
+/* Simulação de validação: Sucesso */
+.form.sucesso input {
+    border: 2px solid #19e619;
+}
+
+
+/* Simulação de validação: Error */
+.form.error input {
+    border: 2px solid #e61919;
+}
+
+
+.form.error small{
+    visibility: visible;
+}
+
+
+.direita.error small{
+    visibility: visible;
+}
+
+
+.esquerda.error small{
+    visibility: visible;
+}
+
+
+
+
+small{
+    font-family: 'poppins';
+}
+
+
+
+
+
+
+
+
+/* COPYRIGHT */
+
+
+.copyright {
+    background-color: #519B84;
+    text-align: center;
+    padding: 15px 0;
+   
+   
+}
+
+
+.copyright > p {
+    color: #fff;
+   
+}
+
+
+/* BACK TO TOP ICON */
+
+
+.back-to-top {
+    position: fixed;
+    bottom: 10px;
+    float: right;
+    right: 0;
+   
+}
+
+
+.back-to-top > img {
+    width: 80%;
+   
+}
+
+
+/* RESPONSIVIDADE */
+
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+
+
+    input[type="text-form"]{
+        width:62vw;        
+     }
+
+
+    input[type="email"]{    
+        width:62vw;
+         
+    }
+    input[type="text-form-row"]{
+        width: 29.4vw;
+    }
+
+
+    input[type="number"]{
+        width: 29.4vw;
+    }
+
+
+    input[type="password"]{
+        width: 29.4vw;
+    }
+
+
+    button{
+        width: 30vw;
+    }
+
+
+}
+
+/* RESPONSIVIDADE */
+
+@media screen and  (max-width:481px) {
+
+
+    input[type="text-form"]{
+        width:70vw;        
+     }
+
+
+     input[type="email"]{    
+        width:70vw;
+     
+    }
+
+
+    .esquerda{
+        float: none;
+       
+    }
+
+
+    input[type="text-form-row"]{
+        width: 70vw;
+    }
+
+
+    input[type="number"]{
+        width: 70vw;
+    }
+
+
+    input[type="password"]{
+        width: 70vw;
+    }
+
+
+    button{
+        width: 50vw;
+        font-size: 12px;
+    }
+
+
+    h1{
+        font-size: 8vw;
+    }
+}
+
+
+
+
+@media screen and (max-width:768px) {
+    input[type="text-form"]{
+        width:70vw;        
+     }
+
+
+     input[type="email"]{    
+        width:70vw;
+     
+    }
+
+
+   
+
+
+    input[type="text-form-row"]{
+        width: 33.2vw;
+    }
+
+
+    input[type="number"]{
+        width: 33.2vw;
+    }
+
+
+    input[type="password"]{
+        width: 33.2vw;
+    }
+
+
+    button{
+        width: 50vw;
+        font-size: 16px;
+    }    
+}
+
+
+@media screen and (max-width:300px){
+    input[type="text-form"]{
+        width:70vw;        
+     }
+
+
+     input[type="email"]{    
+        width:70vw;
+     
+    }
+
+
+   
+
+
+    input[type="text-form-row"]{
+        width: 70vw;
+    }
+
+
+    input[type="number"]{
+        width: 70vw;
+    }
+
+
+    input[type="password"]{
+        width: 70vw;
+    }
+
+
+    button{
+        width: 60vw;
+        font-size: 12px;
+    }    
+}
+
+
+@media screen and (min-width:301px) and (max-width:480px){
+
+    .box-form{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #form input{
+        width: 100%;
+    }
+
+    .esquerda{
+        display: flex;
+        width: 100%;
+    }
+
+
+    .form{
+        display: flex;
+        width: 100%;
+    }
+
+    #totalForm{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    label{
+        font-size: 12px;
+        display: flex;
+        width: 100%;
+    }
+    
+    small{
+        font-size: 9.4px;
+    }
+
+    input[type="text-form-row"]{
+        width: 70vw;
+    }
+
+
+
+    input[type="number"]{
+        width: 70vw;
+    }
+
+
+    input[type="password"]{
+        width: 70vw;
+    }
+
+
+    button{
+        width: 35vw;
+        font-size: 12px;
+    }    
+
+    .back-to-top{
+        width: 15vw;
+        padding-bottom: 2%;
+    }
+
+    .copyright{
+        font-size: 9px;
+    }
+}
+
+
+@media screen and (min-width:481px) and (max-width:497px){
+    input[type="text-form-row"]{
+        width: 33.2vw;
+    }
+
+
+    input[type="number"]{
+        width: 33.2vw;
+    }
+
+
+    input[type="password"]{
+        width:32.1vw;
+    }
+
+
+    button{
+        width: 60vw;
+        font-size: 12px;
+    }    
+}
+
+@media screen and (min-width:500px) and (max-width:715px){
+    #totalForm{
+        padding-left: 5%;
+    }
+
+    #totalForm input{
+        width: 99%;
+    }
+
+    button{
+        width: 30vw;
+    }
+
+    .back-to-top{
+        width: 12vw;
+        padding-bottom: 4%;
+    }
+}    
+
+@media screen and (min-width:712px) and (max-width:912px){
+    #totalForm{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    button{
+        width: 30vw;
+    }
+
+    #totalForm input{
+        width:99%;
+    }
+}
+
+@media screen and (min-width:912px) and (max-width:1080px){
+    input[type="text-form-row"]{
+        width: 32vw;
+    }
+
+
+    input[type="number"]{
+        width: 32vw;
+    }
+
+
+    input[type="password"]{
+        width: 32vw;
+    }
+
+    #totalForm{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    #totalForm input{
+        width: 99%;
+    }
+
+    button{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+}
+
+@media screen and (min-width:1024px) and (max-width:1440px){
+    input[type="text-form"]{
+        width:60vw;        
+     }
+
+
+     input[type="email"]{    
+        width:60vw;
+     
+    }
+
+
+    main{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+
+    input[type="text-form-row"]{
+        width: 28.5vw;
+    }
+
+
+    input[type="number"]{
+        width: 28.5vw;
+    }
+
+
+    input[type="password"]{
+        width: 28.5vw;
+    }
+
+
+    button{
+        width: 50vw;
+        font-size: 12px;
+    }
+}
+
+
+@media screen and (min-width:1441px) and (max-width:2560px){
+    input[type="text-form"]{
+        width:50vw;        
+     }
+
+
+     input[type="email"]{    
+        width:50vw;
+     
+    }
+
+
+    main{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+
+    input[type="text-form-row"]{
+        width: 23.7vw;
+    }
+
+
+    input[type="number"]{
+        width: 23.7vw;
+    }
+
+
+    input[type="password"]{
+        width: 23.7vw;
+    }
+
+
+    button{
+        width: 50vw;
+        font-size: 19px;
+    }
+}
+
+@media screen and (min-width:1440px) and (max-width:1920px){
+
+    .form{
+        display: flex;
+        width: 100%;
+    }
+
+    .esquerda{
+        display: flex;
+        width: 100%;    
+    }
+
+    .direita{
+        display: flex;
+        width: 100%;    
+    }
+
+
+    input[type="text-form-row"]{
+        width: 24vw;
+    }
+
+    input[type="number"]{
+        width: 24vw;
+    }
+
+    input[type="password"]{
+        width: 24vw;
+    }
+
+    button{
+        width: 20vw;
+    }
+
+    .botao{
+        padding-left: 22%;
+        padding-right: 30%;
+    }
+    
+
+    #totalForm{
+        padding-left: 10%;
+        padding-right: 5%;
+    }
+}

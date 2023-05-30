@@ -12,7 +12,8 @@ ul {
     list-style-type: none;
 }
 
-li, a {
+li,
+a {
     text-decoration: none;
     position: relative;
 }
@@ -44,7 +45,8 @@ h3 {
     padding: 10px 0 20px 0;
 }
 
-p, #member-list {
+p,
+#member-list {
     font-size: 17px;
     font-weight: 400;
     color: #3B506B;
@@ -58,13 +60,13 @@ p, #member-list {
     padding: 15px 40px;
     border: none;
     border-radius: 20px;
-    transition: all .2s ease-in-out; 
+    transition: all .2s ease-in-out;
 }
 
 .btn-filled:hover {
     background-color: #D5B484;
     transition: 300ms;
-    transform: scale(1.1); 
+    transform: scale(1.1);
 }
 
 .btn-border-only {
@@ -75,14 +77,14 @@ p, #member-list {
     padding: 15px 40px;
     border: 1px solid #519B84;
     border-radius: 20px;
-    transition: all .2s ease-in-out; 
+    transition: all .2s ease-in-out;
 }
 
 .btn-border-only:hover {
     border: 1px solid #D5B484;
     color: #D5B484;
     transition: 300ms;
-    transform: scale(1.1); 
+    transform: scale(1.1);
 }
 
 .btn-smaller-border-only {
@@ -93,14 +95,14 @@ p, #member-list {
     padding: 7px 40px;
     border: 1px solid #3B506B;
     border-radius: 20px;
-    transition: all .2s ease-in-out; 
+    transition: all .2s ease-in-out;
 }
 
 .btn-smaller-border-only:hover {
     border: 1px solid #D5B484;
     color: #D5B484;
     transition: 300ms;
-    transform: scale(1.1); 
+    transform: scale(1.1);
 }
 
 /* HEADER */
@@ -125,11 +127,11 @@ p, #member-list {
 
 .header-logo {
     width: 200px;
-    transition: all .2s ease-in-out; 
+    transition: all .2s ease-in-out;
 }
 
 .header-logo:hover {
-    transform: scale(1.1); 
+    transform: scale(1.1);
 }
 
 .search {
@@ -143,7 +145,7 @@ p, #member-list {
     border-radius: 50px;
 }
 
-#txtBusca{
+#txtBusca {
     font-size: 18px;
     border: none;
     width: 75%;
@@ -166,12 +168,12 @@ p, #member-list {
     align-items: center;
 }
 
-.login-cadastro > a {
+.login-cadastro>a {
     margin-right: 10px;
     color: #000000;
 }
 
-.login-cadastro > a:after {   
+.login-cadastro>a:after {
     content: "";
     display: block;
     height: 2px;
@@ -182,17 +184,17 @@ p, #member-list {
     width: 0;
 }
 
-.login-cadastro > a:hover:after { 
-    width: 100%; 
-    left: 0; 
+.login-cadastro>a:hover:after {
+    width: 100%;
+    left: 0;
 }
 
 .account-icon {
-    transition: all .2s ease-in-out; 
+    transition: all .2s ease-in-out;
 }
 
 .account-icon:hover {
-    transform: scale(1.1); 
+    transform: scale(1.1);
 }
 
 /* NAVIGATION MENU */
@@ -205,13 +207,13 @@ p, #member-list {
     height: 70px;
 }
 
-.main-menu > li > a {
+.main-menu>li>a {
     position: relative;
     padding: 5px 10px;
     color: #000000;
 }
 
-.main-menu > li > a:after {    
+.main-menu>li>a:after {
     content: "";
     display: block;
     height: 2px;
@@ -222,9 +224,9 @@ p, #member-list {
     width: 0;
 }
 
-.main-menu > li > a:hover:after { 
-    width: 100%; 
-    left: 0; 
+.main-menu>li>a:hover:after {
+    width: 100%;
+    left: 0;
 }
 
 /* HERO SECTION */
@@ -292,7 +294,7 @@ p, #member-list {
     text-align: center;
 }
 
-.categories-box-item > img {
+.categories-box-item>img {
     width: 100%;
 }
 
@@ -319,7 +321,7 @@ p, #member-list {
     gap: 50px;
 }
 
-.blog-box-item > img {
+.blog-box-item>img {
     width: 100%;
 }
 
@@ -375,7 +377,7 @@ p, #member-list {
     padding: 0 8%;
 }
 
-.contact-box-button{
+.contact-box-button {
     display: flex;
     text-align: right;
 }
@@ -402,7 +404,7 @@ p, #member-list {
     padding: 15px 0;
 }
 
-.copyright > p {
+.copyright>p {
     color: #fff;
 }
 
@@ -415,7 +417,7 @@ p, #member-list {
     right: 0;
 }
 
-.back-to-top > img {
+.back-to-top>img {
     width: 80%;
 }
 

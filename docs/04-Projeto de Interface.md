@@ -1,5 +1,5 @@
 
-# Projeto de Interface
+# 4. Projeto de Interface
 
 Durante o desenvolvimento do projeto, ficou estabelecido que a interface do sistema estaria atendendo aos critérios dos requisitos não funcionais e funcionais. Sendo assim, a interface do projeto busca entregar uma navegação intuitiva com acessibilidade e usabilidade, estando aptas para o uso em dispositivos móveis e desktops.
 
@@ -12,6 +12,8 @@ O diagrama apresentado na figura abaixo mostra o fluxo de interação do usuári
 <div align="center">   
   
 ![Fluxo06](https://user-images.githubusercontent.com/116499898/233864356-081c8f34-1e7b-4068-b084-ecdf40dbf331.png)
+
+_User Flow do sistema_
   
 </div>
 

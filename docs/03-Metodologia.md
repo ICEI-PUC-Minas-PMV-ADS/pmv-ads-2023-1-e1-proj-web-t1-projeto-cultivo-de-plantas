@@ -1,5 +1,5 @@
 
-# Metodologia
+# 3. Metodologia
 
 Para o gerenciamento e organização do projeto, utilizaremos os princípios gerais de métodos ágeis, enfatizando a comunicação constante e transparente entre a equipe de desenvolvimento e o cliente, aplicaremos também o kanban e o scrum, a fim de otimizar o processo de desenvolvimento.
 
