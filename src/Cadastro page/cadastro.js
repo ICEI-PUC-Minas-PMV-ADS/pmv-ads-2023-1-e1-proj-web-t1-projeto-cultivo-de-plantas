@@ -102,7 +102,7 @@ function checkInputs() {
 
 
 
-   if (checkInputs() == sucessoValidation){
+   if (nomeValue && emailValue && usuarioValue && celularValue && senhaValue){
 
       let ListaCad = JSON.parse(localStorage.getItem("ListaCad") || "[]")
 
@@ -118,6 +118,7 @@ function checkInputs() {
 
       localStorage.setItem("ListaCad", JSON.stringify(ListaCad))
    }
+
 }
 
 function errorValidation(input, message){
