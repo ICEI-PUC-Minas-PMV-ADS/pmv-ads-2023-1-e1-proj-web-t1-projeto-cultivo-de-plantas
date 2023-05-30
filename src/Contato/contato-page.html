@@ -18,63 +18,60 @@
     ></script>
   </head>
   <body>
-    <header class="header-container">
+    <header class="header-container" id="top">
       <div class="column logo">
-        <a
-          href="/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/src/Home/index.html"
-          ><img
-            class="header-logo"
-            src="imagens/Logo-Planty.png"
+        <a href="/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/index.html"
+          ><img class="header-logo logo_planty"
+            src="./imagens/Logo-Planty.png"
             alt="Logo Original Planty"
         /></a>
       </div>
-      <div class="column search">
+      <div class="column_search">
         <div class="search-box">
-          <p>Pesquisar...</p>
-          <img src="imagens/search.png" alt="Ícone de Busca" />
+          <input type="text" id="txtBusca" placeholder="Pesquisar..." />
+          <a href="#"
+            ><img
+            class="imglupa"
+              id="search-image"
+              src="./Imagens/search.png"
+              alt="Ícone de Busca"
+          /></a>
         </div>
       </div>
       <div class="column login-cadastro">
-        <a
-          href="/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/src/Login page/login-planty.html"
-          >Login / Cadastro</a
-        >
+        <a href="../Login page/login-planty.html">Login</a>
+        <a href="../Cadastro page/cadastro-page.html">Cadastro</a>
         <img
           class="account-icon"
-          src="imagens/account_circle.png"
+          src="./Imagens/account_circle.png"
           alt="Ícone de Usuário"
         />
       </div>
+      <div class="menu-btn">
+        <i class="fa fa-bars fa-2x burger" onclick="menuShow()" ></i>
+      </div>
     </header>
+
 
     <nav>
       <ul class="main-menu">
-        <li>
-          <a
-            href="/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/src/Home/index.html"
-            >Home</a
-          >
-        </li>
-        <li>
-          <a
-            href="/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/src/Blog e Posts/Blog/Index.html"
-            >Blog</a
-          >
-        </li>
-        <li>
-          <a
-            href="#"
-            >Quem somos</a
-          >
-        </li>
-        <li>
-          <a
-            href="/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/src/Contato/contato-page.html"
-            >Fale Conosco</a
-          >
-        </li>
+        <li><a href="/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/index.html">Home</a></li>
+        <li><a href="../Blog e Posts/Blog/Index.html">Blog</a></li>
+        <li><a href="../Quem-somos/about-us.html">Quem somos</a></li>
+        <li><a href="../Contato/contato-page.html">Fale Conosco</a></li>
       </ul>
-    </nav>
+    </nav>    
+      
+    <div class="mobile-menu">
+      <ul>
+        <li><a href="../Login page/login-planty.html">Login</a></li>
+        <li><a href="../Cadastro page/cadastro-page.html">Cadastro</a></li>
+        <li><a href="/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/index.html">Home</a></li>
+        <li><a href="../Blog e Posts/Blog/Index.html">Blog</a></li>
+        <li><a href="../Quem-somos/about-us.html">Quem somos</a></li>
+        <li><a href="../Contato/contato-page.html">Fale Conosco</a></li>
+      </ul>
+    </div>
 
     <div class="container">
       <div class="form">
@@ -129,38 +126,41 @@
               <label for="name">Nome</label>
               <span>Username</span>
             </div>
+            
             <div class="input-container">
               <input type="email" name="email" class="input" id="email" />
               <label for="email">Email</label>
               <span>Email</span>
             </div>
+
             <div class="input-container">
               <input type="text" name="assunto" class="input" id="subject" />
               <label for="subject">Assunto</label>
               <span>Assunto</span>
             </div>
+
             <div class="input-container textarea">
               <textarea name="message" class="input" id="message"></textarea>
               <label for="">Mensagem</label>
-              <span>Mensagem</span>   
-              <br>
-              <div id="myModal" class="modal">
-                <div class="modal-content">
-                  <spam class="close">&times;</spam>
-                  <h3>Mensagem enviada com sucesso!</h3>
-                </div></div>
-                <button id="openModal" class="btn">Enviar</button>
-        </div>  
-              </div> 
-            </div>
-            </form>
+              <span>Mensagem</span>
+              <br>   
+
+            <div id="myModal" class="modal">
+              <div class="modal-content">
+                <spam class="close">&times;</spam>
+                <h3>Mensagem enviada com sucesso!</h3>
+              </div></div>
+               <button id="openModal" class="btn">Enviar</button>
+              </div>  
+          </div> 
+          </div>
           </form>
             </div>
             
       </div>
     </div>
 
-    <script src="animation.js"></script>
+   
     <footer>
       <div class="copyright">
         <p>Projeto Cultivo de Plantas ICEI | Todos os direitos reservados.</p>
@@ -171,6 +171,7 @@
           ><img src="imagens/icon-back-to-top.png" alt="Ícone de Back to Top"
         /></a>
       </div>
-    </footer>
+    </footer> 
+    <script src="script.js"></script>
   </body>
 </html>

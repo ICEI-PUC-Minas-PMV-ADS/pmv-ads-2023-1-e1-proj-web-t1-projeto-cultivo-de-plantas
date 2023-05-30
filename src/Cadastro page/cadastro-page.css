@@ -294,7 +294,7 @@ input[type="password"]{
     outline: none; 
 }
 
-/*Divs nome e emaail*/
+/*Divs nome e email*/
 #form{
     width: 100%;
 }
@@ -490,6 +490,7 @@ small{
 
 }
 
+/* RESPONSIVIDADE */
 
 @media screen and  (max-width:481px) {
 
@@ -615,6 +616,43 @@ small{
 
 
 @media screen and (min-width:301px) and (max-width:480px){
+
+    .box-form{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .esquerda{
+        display: flex;
+        width: 100%;
+    }
+
+
+    .form{
+        display: flex;
+        width: 100%;
+    }
+
+    #totalForm{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    label{
+        font-size: 12px;
+        display: flex;
+        width: 100%;
+    }
+    
+    small{
+        font-size: 9.4px;
+    }
+
+    input[type="email"]{
+        width: 100%;
+    }
+
     input[type="text-form-row"]{
         width: 70vw;
     }
@@ -631,9 +669,18 @@ small{
 
 
     button{
-        width: 60vw;
+        width: 50vw;
         font-size: 12px;
     }    
+
+    .back-to-top{
+        width: 15vw;
+        padding-bottom: 2%;
+    }
+
+    .copyright{
+        font-size: 9px;
+    }
 }
 
 
@@ -739,3 +786,48 @@ small{
     }
 }
 
+@media screen and (min-width:1440px) and (max-width:1920px){
+
+    .form{
+        display: flex;
+        width: 100%;
+    }
+
+    .esquerda{
+        display: flex;
+        width: 100%;    
+    }
+
+    .direita{
+        display: flex;
+        width: 100%;    
+    }
+
+
+    input[type="text-form-row"]{
+        width: 24vw;
+    }
+
+    input[type="number"]{
+        width: 24vw;
+    }
+
+    input[type="password"]{
+        width: 24vw;
+    }
+
+    button{
+        width: 20vw;
+    }
+
+    .botao{
+        padding-left: 22%;
+        padding-right: 30%;
+    }
+    
+
+    #totalForm{
+        padding-left: 10%;
+        padding-right: 5%;
+    }
+}

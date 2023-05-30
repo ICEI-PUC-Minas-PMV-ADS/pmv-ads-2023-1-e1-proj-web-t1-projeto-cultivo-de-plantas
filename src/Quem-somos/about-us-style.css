@@ -289,6 +289,274 @@ body {
     transform: scale(1.1);
 }
 
+/* RODAPÉ */
+
+.footer-container {
+    background-color: #FFFFFf;
+    margin: auto;
+    padding: 80px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1%;
+}
+
+/* COPYRIGHT */
+
+.copyright {
+    background-color: #519B84;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.copyright>p {
+    color: #fff;
+}
+
+/* BACK TO TOP ICON */
+
+.back-to-top {
+    position: fixed;
+    bottom: 10px;
+    float: right;
+    right: 0;
+}
+
+.back-to-top>img {
+    width: 80%;
+}
+
+/* Header, NavBar and Footer */
+
+/*Media para tablets */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    /* HEADER */
+
+    .header-container {
+        display: flex;
+        justify-content: space-between;
+        height: 150px;
+        align-items: center;
+        border-bottom: 1px solid #f0f0f0;
+        padding: 0 10%;
+        background-color: white;
+    }
+
+    .column {
+        padding: 10px;
+    }
+
+    .logo {
+        width: auto;
+        margin-right: 10px;
+    }
+
+    .header-logo {
+        width: 180px;
+        transition: all 0.2s ease-in-out;
+    }
+
+    .header-logo:hover {
+        transform: scale(1.1);
+    }
+
+    .search {
+        width: 40%;
+        margin: 0 5px;
+    }
+
+    .search-box {
+        width: 80%;
+        border: 1px solid #f0f0f0;
+        border-radius: 50px;
+        margin: 0 30px;
+    }
+
+    #txtBusca {
+        font-size: 15px;
+        border: none;
+        width: 40%;
+        position: relative;
+        height: 65px;
+        left: 30px;
+        background: transparent;
+        outline: none;
+    }
+
+    .imglupa {
+        position: relative;
+        left: 40px;
+    }
+
+    #search-image {
+        margin-bottom: -7px;
+        margin-left: 45px;
+        width: 30px;
+    }
+
+    .login-cadastro {
+        width: auto;
+        margin-left: 10px;
+        display: flex;
+        align-items: center;
+    }
+
+    .login-cadastro>a {
+        margin-right: 10px;
+        font-size: 15px;
+        color: #000000;
+    }
+
+    .login-cadastro>a:after {
+        content: "";
+        display: block;
+        height: 2px;
+        left: 50%;
+        position: absolute;
+        background: #d5b484;
+        transition: width 0.3s ease 0s, left 0.3s ease 0s;
+        width: 0;
+    }
+
+    .login-cadastro>a:hover:after {
+        width: 100%;
+        left: 0;
+    }
+
+    .account-icon {
+        transition: all 0.2s ease-in-out;
+        width: 35px;
+    }
+
+    .account-icon:hover {
+        transform: scale(1.1);
+    }
+
+}
+
+/* Mobile Menu */
+
+.menu-btn {
+    display: none;
+    color: #519B84;
+}
+
+.mobile-menu {
+    background-color: #fefefe;
+    display: none;
+}
+
+.mobile-menu a {
+    color: #3B506B;
+}
+
+/* Media para  tablets e celulares  */
+
+@media screen and (max-width: 768px) {
+
+    .main-menu {
+        padding: 1.5rem 4rem;
+        display: none;
+    }
+
+    .login-cadastro {
+        display: none;
+    }
+
+    .menu-btn {
+        display: block;
+        cursor: pointer;
+    }
+
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    .mobile-menu li {
+        display: block;
+        padding-top: 1.2rem;
+    }
+
+    .open {
+        display: block;
+    }
+
+    /* HEADER */
+
+    .header-container {
+        display: flex;
+        justify-content: space-between;
+        height: 150px;
+        align-items: center;
+        border-bottom: 1px solid #f0f0f0;
+        padding: 0 10%;
+        background-color: white;
+    }
+
+    .column {
+        padding: 10px;
+    }
+
+    .logo {
+        width: auto;
+        margin-right: 10px;
+    }
+
+    .header-logo {
+        width: 160px;
+        transition: all 0.2s ease-in-out;
+    }
+
+    .header-logo:hover {
+        transform: scale(1.1);
+    }
+
+    .search {
+        width: 40%;
+        margin: 0 5px;
+        margin-right: 10px;
+    }
+
+    .search-box {
+        width: 80%;
+        border: 1px solid #f0f0f0;
+        border-radius: 50px;
+        margin: 0 0px;
+    }
+
+    .imglupa {
+        position: relative;
+        left: 20px;
+    }
+
+    #txtBusca {
+        font-size: 15px;
+        border: none;
+        width: 40%;
+        position: relative;
+        height: 65px;
+        left: 34px;
+        background: transparent;
+        outline: none;
+    }
+
+    #search-image {
+        margin-bottom: -7px;
+        margin-left: 45px;
+        width: 30px;
+    }
+
+}
+
+/* ABOUT US SECTION */
+
 @media screen and (max-width: 768px) {
     .healing {
         padding: 0px 20px;
@@ -325,49 +593,4 @@ body {
     .about-content .read-more {
         font-size: 16px;
     }
-}
-
-/* RODAPÉ */
-
-.footer-container {
-    background-color: #FFFFFf;
-    margin: auto;
-    padding: 80px;
-}
-
-.footer-content {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 1%;
-}
-
-/* COPYRIGHT */
-
-.copyright {
-    background-color: #519B84;
-    text-align: center;
-    padding: 15px 0;
-}
-
-.copyright>p {
-    color: #fff;
-}
-
-@media screen and (max-width: 768px) {
-    .copyright p {
-        font-size: 16px;
-    }
-}
-
-/* BACK TO TOP ICON */
-
-.back-to-top {
-    position: fixed;
-    bottom: 10px;
-    float: right;
-    right: 0;
-}
-
-.back-to-top>img {
-    width: 80%;
 }
