@@ -1,4 +1,5 @@
 
+/* MODAL */
 document.addEventListener('DOMContentLoaded', function() {
   const openModalButton = document.getElementById('openModal');
   const modal = document.getElementById('myModal');
