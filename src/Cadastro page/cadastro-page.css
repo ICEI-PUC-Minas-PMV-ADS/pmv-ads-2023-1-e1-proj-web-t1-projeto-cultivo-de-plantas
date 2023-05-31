@@ -411,9 +411,19 @@ small{
 }
 
 
-
-
-
+/*Mobile Menu*/
+.menu-btn {
+    display: none;
+  }
+  
+  .mobile-menu {
+    background-color: white;
+    display: none;
+  }
+  
+  .mobile-menu a {
+    color: #000000;
+  }
 
 
 
@@ -453,7 +463,7 @@ small{
 }
 
 
-/* RESPONSIVIDADE */
+/* Responsividade */
 
 
 @media screen and (min-width:769px) and (max-width:1024px) {
@@ -490,7 +500,7 @@ small{
 
 }
 
-/* RESPONSIVIDADE */
+
 
 @media screen and  (max-width:481px) {
 
@@ -553,9 +563,6 @@ small{
     }
 
 
-   
-
-
     input[type="text-form-row"]{
         width: 33.2vw;
     }
@@ -574,9 +581,12 @@ small{
     button{
         width: 50vw;
         font-size: 16px;
-    }    
+    }   
+    
+
 }
 
+/* Celulares e Tablets */
 
 @media screen and (max-width:300px){
     input[type="text-form"]{
@@ -588,9 +598,6 @@ small{
         width:70vw;
      
     }
-
-
-   
 
 
     input[type="text-form-row"]{
@@ -681,7 +688,12 @@ small{
     .copyright{
         font-size: 9px;
     }
-}
+
+    /*Menu Hamburguer*/
+   
+   
+    }
+
 
 
 @media screen and (min-width:481px) and (max-width:497px){
@@ -706,6 +718,8 @@ small{
     }    
 }
 
+
+
 @media screen and (min-width:500px) and (max-width:715px){
     #totalForm{
         padding-left: 5%;
@@ -724,6 +738,7 @@ small{
         padding-bottom: 4%;
     }
 }    
+
 
 @media screen and (min-width:712px) and (max-width:912px){
     #totalForm{
@@ -769,7 +784,97 @@ small{
         padding-right: 10%;
     }
 
-}
+    .header-container {
+        display: flex;
+        justify-content: space-between;
+        height: 150px;
+        align-items: center;
+        border-bottom: 1px solid #f0f0f0;
+        padding: 0 10%;
+        background-color: white;
+      }
+    
+      .column {
+        padding: 10px;
+      }
+    
+      .logo {
+        width: auto;
+        margin-right: 10px;
+      }
+    
+      .header-logo {
+        width: 180px;
+        transition: all 0.2s ease-in-out;
+      }
+    
+      .header-logo:hover {
+        transform: scale(1.1);
+      }
+    
+      .search {
+        width: 40%;
+        margin: 0 5px;
+      }
+    
+      .search-box {
+        width: 90%;
+        border: 1px solid #f0f0f0;
+        border-radius: 50px;
+        margin: 0 30px;
+      }
+    
+      #txtBusca {
+        font-size: 15px;
+        border: none;
+        width: 40%;
+        position: relative;
+        height: 65px;
+        left: 30px;
+        background: transparent;
+        outline: none;
+      }
+    
+    
+    
+      #Lupa{
+       display: flex;
+       width: 10vw;
+       padding-right: 30%;
+       padding-left: 10%;
+      }
+
+      .login-cadastro {
+        width: auto;
+        margin-left: 10px;
+        display: flex;
+        align-items: center;
+      }
+
+      .account-icon {
+        transition: all 0.2s ease-in-out;
+        width: 35px;
+      }
+    
+     
+      
+    
+    }
+
+    @media screen and (min-width:1090px) and (max-width:1440px){
+        #totalForm{
+            padding-left:5%;
+            padding-right: 5%;
+        }
+
+        #totalForm input{
+            width: 99%;
+        }
+
+      
+    }
+
+
 
 @media screen and (min-width:1024px) and (max-width:1440px){
     input[type="text-form"]{
@@ -810,6 +915,7 @@ small{
     }
 }
 
+/*Desktop */
 
 @media screen and (min-width:1441px) and (max-width:2560px){
     input[type="text-form"]{
