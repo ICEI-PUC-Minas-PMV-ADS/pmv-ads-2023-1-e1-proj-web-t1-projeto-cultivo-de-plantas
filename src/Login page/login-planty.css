@@ -533,7 +533,7 @@ h4{
     }
 
     .btn-cadastrar{
-        width: 19vw;
+        width: 15vw;
     }
 
     input[type="email"]{
@@ -665,8 +665,9 @@ h4{
    }
 
    .back-to-top{
-    width: 15vw;
+    width: 20vw;
     padding-bottom: 2%;
+    padding-right: 5%;
    }
 
    /* Header */
@@ -704,6 +705,12 @@ h4{
         border-radius: 90px;
     }
 
+    .back-to-top{
+        padding-right: 5%;
+        padding-bottom: 5%;
+        width: 20vw;
+    }
+
     /* Header */
 
 
@@ -736,8 +743,13 @@ h4{
         border-radius: 90px;
     }
 
+    .back-to-top{
+        width: 20vw;
+    }
+
     /* Header */
 
 
 
 }
+
