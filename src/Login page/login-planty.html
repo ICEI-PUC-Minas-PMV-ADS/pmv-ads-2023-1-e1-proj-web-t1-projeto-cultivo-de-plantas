@@ -8,21 +8,37 @@
     <title>Login</title>
 </head>
 <body>
+
+     <!--Header-->
+
      <header class="header-container" id="top">
         <div class="column logo">
-            <a href="#"><img class="header-logo" src="img/Logo-Planty.png" alt="Logo Original Planty"></a>
+            <a href="/index.html"><img class="header-logo logo_planty" src="img/Logo-Planty.png" alt="Logo Original Planty"></a>
         </div>
+
         <div class="column search">
             <div class="search-box">
-                <input  type="text" placeholder="Pesquisar...">
-                <img src="img/search.png" alt="Ícone de Busca">
+                <input type="text" id="txtBusca" placeholder="Pesquisar..." />
+                <a href="#"
+                  ><img
+                    class="imglupa"
+                    id="search-image"
+                    src="img/search.png"
+                    alt="Ícone de Busca"
+                /></a> 
             </div>
+
         </div>
         <div class="column login-cadastro">
-            <a href="../Login page/login-planty.html">Login / Cadastro</a>
+            <a id="loginCad" href="../Login page/login-planty.html">Login / Cadastro</a>
             <img class="account-icon" src="img/account_circle.png" alt="Ícone de Usuário">
         </div>
+        <div class="menu-btn">
+            <i class="fa fa-bars fa-2x burger" onclick="menuShow()"></i>
+          </div>
     </header>
+
+    <!--Navegação-->
 
     <nav>
         <ul class="main-menu">
@@ -32,8 +48,21 @@
             <li><a href="../Contato/contato-page.html">Fale Conosco</a></li>
         </ul>
     </nav>
+    
+    <!-- Mobile Menu -->
 
- 
+    <div class="mobile-menu">
+        <ul>
+          <li><a href="../Login page/login-planty.html">Login / Cadastro</a></li>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Quem Somos</a></li>
+          <li><a href="#">Fale Conosco</a></li>
+        </ul>
+      </div>
+
+    <!-- Main Login-->
+
     <main>
         <div class="container">
             <div class="esquerda-login">
@@ -70,6 +99,7 @@
         </div>
     </main>
 
+    <!-- Copyright-->
 
         <div class="copyright">
             <p>Projeto Cultivo de Plantas ICEI | Todos os direitos reservados.</p>
@@ -80,5 +110,10 @@
         </div>
     </footer>
     
+    <!-- Link JavaScript -->
+
+    <script type="text/javascript" src="login.js"></script>
+</body>
+
 </body>
 </html>
