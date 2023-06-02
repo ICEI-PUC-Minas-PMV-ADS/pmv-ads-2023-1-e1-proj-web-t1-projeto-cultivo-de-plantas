@@ -164,7 +164,7 @@ input[type="text"]{
     left: 0; 
 }
 
-/* Main Login */
+/* MAIN LOGIN */
 
 main{
     width: 100vw;
@@ -226,7 +226,7 @@ h1{
     padding-right: 6%;
 }
 
-/* Campos */
+/* CAMPOS */
 
 .input-box{
     width: 25vw;
@@ -280,7 +280,7 @@ label{
     font-weight: 400;
 }
 
-/* Botões */
+/* BOTÕES */
 
 .botoes{
     text-decoration: none;
@@ -337,7 +337,7 @@ button{
        
     }
 
-/* Mensagem "Esqueci minha senha" */    
+/* MENSAGEM "ESQUECI MINHA SENHA" */    
 
 h4{
     text-decoration: none;
@@ -350,7 +350,7 @@ h4{
     font-size: 1.1vw;
 }
 
-/* Copyright */
+/* COPYRIGHT */
 
 .copyright {
     background-color: #519B84;
@@ -364,7 +364,7 @@ h4{
     color: #fff;
 }
 
-/* Back To Top Icon */
+/* BACK TO TOP ICON */
 
 .back-to-top {
     position: fixed;
@@ -377,7 +377,7 @@ h4{
     width: 80%;
 }
 
-/* Mobile Menu */
+/* MOBILE MENU */
 .menu-btn {
     display: none;
   }
