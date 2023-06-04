@@ -140,6 +140,12 @@ p {
     margin: 0 5px;
 }
 
+#txtBusca {
+    border: none;
+    outline: none;
+    width: 339px;
+}
+
 .search-box {
     display: flex;
     align-items: center;
