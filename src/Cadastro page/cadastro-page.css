@@ -466,163 +466,10 @@ small{
 /* Responsividade */
 
 
-@media screen and (min-width:769px) and (max-width:1024px) {
-
-
-    input[type="text-form"]{
-        width:62vw;        
-     }
-
-
-    input[type="email"]{    
-        width:62vw;
-         
-    }
-    input[type="text-form-row"]{
-        width: 29.4vw;
-    }
-
-
-    input[type="number"]{
-        width: 29.4vw;
-    }
-
-
-    input[type="password"]{
-        width: 29.4vw;
-    }
-
-
-    button{
-        width: 30vw;
-    }
-
-
-}
-
-
-
-@media screen and  (max-width:481px) {
-
-
-    input[type="text-form"]{
-        width:70vw;        
-     }
-
-
-     input[type="email"]{    
-        width:70vw;
-     
-    }
-
-
-    .esquerda{
-        float: none;
-       
-    }
-
-
-    input[type="text-form-row"]{
-        width: 70vw;
-    }
-
-
-    input[type="number"]{
-        width: 70vw;
-    }
-
-
-    input[type="password"]{
-        width: 70vw;
-    }
-
-
-    button{
-        width: 50vw;
-        font-size: 12px;
-    }
-
-
-    h1{
-        font-size: 8vw;
-    }
-}
-
-
-
-
-@media screen and (max-width:768px) {
-    input[type="text-form"]{
-        width:70vw;        
-     }
-
-
-     input[type="email"]{    
-        width:70vw;
-     
-    }
-
-
-    input[type="text-form-row"]{
-        width: 33.2vw;
-    }
-
-
-    input[type="number"]{
-        width: 33.2vw;
-    }
-
-
-    input[type="password"]{
-        width: 33.2vw;
-    }
-
-
-    button{
-        width: 50vw;
-        font-size: 16px;
-    }   
-    
-
-}
-
 /* Celulares e Tablets */
 
-@media screen and (max-width:300px){
-    input[type="text-form"]{
-        width:70vw;        
-     }
 
-
-     input[type="email"]{    
-        width:70vw;
-     
-    }
-
-
-    input[type="text-form-row"]{
-        width: 70vw;
-    }
-
-
-    input[type="number"]{
-        width: 70vw;
-    }
-
-
-    input[type="password"]{
-        width: 70vw;
-    }
-
-
-    button{
-        width: 60vw;
-        font-size: 12px;
-    }    
-}
-
-
-@media screen and (min-width:301px) and (max-width:480px){
+@media screen and (min-width:200px) and (max-width:480px){
 
     .box-form{
         display: flex;
@@ -690,25 +537,22 @@ small{
     }
 
     /*Menu Hamburguer*/
-   
-   
-    }
+}
 
 
-
-@media screen and (min-width:481px) and (max-width:497px){
+@media screen and (min-width:481px) and (max-width:715px){
     input[type="text-form-row"]{
-        width: 33.2vw;
+        width: 30vw;
     }
 
 
     input[type="number"]{
-        width: 33.2vw;
+        width: 30vw;
     }
 
 
     input[type="password"]{
-        width:32.1vw;
+        width:30vw;
     }
 
 
@@ -716,11 +560,7 @@ small{
         width: 60vw;
         font-size: 12px;
     }    
-}
-
-
-
-@media screen and (min-width:500px) and (max-width:715px){
+    
     #totalForm{
         padding-left: 5%;
     }
@@ -861,7 +701,7 @@ small{
     
     }
 
-    @media screen and (min-width:1090px) and (max-width:1440px){
+    @media screen and (min-width:1081px) and (max-width:1440px){
         #totalForm{
             padding-left:5%;
             padding-right: 5%;

@@ -21,7 +21,7 @@ function checkValida() {
 
     const emailLog = document.getElementById("emailValida").value;
     const senhaLog = document.getElementById("senhaValida").value;
-    let msgError = document.getElementById("msgError");
+
 
     var listaCad = []
     var userValid = {
