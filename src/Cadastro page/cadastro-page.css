@@ -414,15 +414,16 @@ small{
 /*Mobile Menu*/
 .menu-btn {
     display: none;
+    color: #519B84;
   }
   
   .mobile-menu {
-    background-color: white;
+    background-color: #fefefe;
     display: none;
   }
   
   .mobile-menu a {
-    color: #000000;
+    color: #3B506B;
   }
 
 
@@ -536,25 +537,133 @@ small{
         font-size: 9px;
     }
 
-    /*Menu Hamburguer*/
+    /* HEADER */
+    .main-menu {
+        padding: 1.5rem 4rem;
+        display: none;
+    }
+    
+    .login-cadastro {
+        display: none;
+    }
+    
+    .menu-btn {
+        display: block;
+        cursor: pointer;
+    }
+    
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    
+    .mobile-menu li {
+        display: block;
+        padding-top: 1.2rem;
+    }
+    
+    .open {
+        display: block;
+    }
+    
+      /* --- */
+    
+      .header-container {
+        display: flex;
+        justify-content: space-between;
+        height: 150px;
+        align-items: center;
+        border-bottom: 1px solid #f0f0f0;
+        padding: 0 10%;
+        background-color: white;
+        
+      }
+
+      .column {
+        padding: 10px;
+      }
+    
+      .logo {
+        width: auto;
+        margin-right: 10px;
+      }
+    
+      .header-logo {
+        width: 160px;
+        transition: all 0.2s ease-in-out;
+      }
+    
+      .header-logo:hover {
+        transform: scale(1.1);
+      }
+    
+      .search {
+        width: 40%;
+        margin: 0 5px;
+        margin-right: 10px;
+      }
+    
+      .search-box {
+        width: 90%;  
+        height: 100%;  
+        border: 1px solid #f0f0f0;
+        border-radius: 50px;
+        margin: 0 0px; 
+        padding-left: 0%;
+        padding-right: 0%;
+        
+      }
+    
+      .imglupa{
+        position: relative;
+        right: 20px;
+        
+       }
+    
+      #txtBusca {
+        font-size: 15px;
+        border: none;
+        width: 90%;
+        height: 20%;
+        position: relative;
+        height: 65px;
+        left: 34px;
+        background: transparent;
+        outline: none;
+      }
+    
+      #search-image {
+        margin-bottom: -7px;
+        margin-left: 45px;
+        width: 30px;
+      }
+    
+      header{
+        padding-right: 30%;
+        padding-left: 5%;
+      }
+    
+      
+    
+    
+
 }
 
 
 @media screen and (min-width:481px) and (max-width:715px){
-    input[type="text-form-row"]{
-        width: 30vw;
+    
+    #form input {
+        width: 95%;
+    }
+    #esquerda input {
+        width: 90%;
     }
 
-
-    input[type="number"]{
-        width: 30vw;
+    #direita input {
+        width: 90%;
     }
-
-
-    input[type="password"]{
-        width:30vw;
-    }
-
 
     button{
         width: 60vw;
@@ -565,10 +674,6 @@ small{
         padding-left: 5%;
     }
 
-    #totalForm input{
-        width: 99%;
-    }
-
     button{
         width: 30vw;
     }
@@ -577,6 +682,113 @@ small{
         width: 12vw;
         padding-bottom: 4%;
     }
+    .main-menu {
+        padding: 1.5rem 4rem;
+        display: none;
+    }
+    
+    .login-cadastro {
+        display: none;
+    }
+    
+    .menu-btn {
+        display: block;
+        cursor: pointer;
+    }
+    
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    
+    .mobile-menu li {
+        display: block;
+        padding-top: 1.2rem;
+    }
+    
+    .open {
+        display: block;
+    }
+    
+      /* --- */
+    
+    .header-container {
+        display: flex;
+        justify-content: space-between;
+        height: 150px;
+        align-items: center;
+        border-bottom: 1px solid #f0f0f0;
+        padding: 0 10%;
+        background-color: white;
+        
+      }
+    
+    .column {
+        padding: 10px;
+      }
+    
+    .logo {
+        width: auto;
+        margin-right: 10px;
+      }
+    
+    .header-logo {
+        width: 160px;
+        transition: all 0.2s ease-in-out;
+      }
+    
+    .header-logo:hover {
+        transform: scale(1.1);
+      }
+    
+    .search {
+        width: 40%;
+        margin: 0 5px;
+        margin-right: 10px;
+      }
+    
+    .search-box {
+        width: 90%;  
+        height: 100%;  
+        border: 1px solid #f0f0f0;
+        border-radius: 50px;
+        margin: 0 0px; 
+        padding-left: 0%;
+        padding-right: 0%;
+        
+      }
+    
+    .imglupa{
+        position: relative;
+        right: 20px;
+        
+       }
+    
+    #txtBusca {
+        font-size: 15px;
+        border: none;
+        width: 100%;
+        height: 20%;
+        position: relative;
+        height: 65px;
+        left: 34px;
+        background: transparent;
+        outline: none;
+      }
+    
+    #search-image {
+        margin-bottom: -7px;
+        margin-left: 45px;
+        width: 30px;
+      }
+    
+    header{
+        padding-right: 30%;
+        padding-left: 5%;
+      }
+    
 }    
 
 
@@ -590,24 +802,29 @@ small{
         width: 30vw;
     }
 
-    #totalForm input{
-        width:99%;
+    #form input {
+        width: 95%;
+    }
+    #esquerda input {
+        width: 90%;
+    }
+
+    #direita input {
+        width: 90%;
     }
 }
 
 @media screen and (min-width:912px) and (max-width:1080px){
-    input[type="text-form-row"]{
-        width: 32vw;
+   
+    #form input {
+        width: 95%;
+    }
+    #esquerda input {
+        width: 90%;
     }
 
-
-    input[type="number"]{
-        width: 32vw;
-    }
-
-
-    input[type="password"]{
-        width: 32vw;
+    #direita input {
+        width: 90%;
     }
 
     #totalForm{
@@ -615,91 +832,11 @@ small{
         padding-right: 5%;
     }
 
-    #totalForm input{
-        width: 99%;
-    }
-
     button{
         padding-left: 10%;
         padding-right: 10%;
     }
-
-    .header-container {
-        display: flex;
-        justify-content: space-between;
-        height: 150px;
-        align-items: center;
-        border-bottom: 1px solid #f0f0f0;
-        padding: 0 10%;
-        background-color: white;
-      }
-    
-      .column {
-        padding: 10px;
-      }
-    
-      .logo {
-        width: auto;
-        margin-right: 10px;
-      }
-    
-      .header-logo {
-        width: 180px;
-        transition: all 0.2s ease-in-out;
-      }
-    
-      .header-logo:hover {
-        transform: scale(1.1);
-      }
-    
-      .search {
-        width: 40%;
-        margin: 0 5px;
-      }
-    
-      .search-box {
-        width: 90%;
-        border: 1px solid #f0f0f0;
-        border-radius: 50px;
-        margin: 0 30px;
-      }
-    
-      #txtBusca {
-        font-size: 15px;
-        border: none;
-        width: 40%;
-        position: relative;
-        height: 65px;
-        left: 30px;
-        background: transparent;
-        outline: none;
-      }
-    
-    
-    
-      #Lupa{
-       display: flex;
-       width: 10vw;
-       padding-right: 30%;
-       padding-left: 10%;
-      }
-
-      .login-cadastro {
-        width: auto;
-        margin-left: 10px;
-        display: flex;
-        align-items: center;
-      }
-
-      .account-icon {
-        transition: all 0.2s ease-in-out;
-        width: 35px;
-      }
-    
-     
-      
-    
-    }
+}
 
     @media screen and (min-width:1081px) and (max-width:1440px){
         #totalForm{
@@ -707,53 +844,20 @@ small{
             padding-right: 5%;
         }
 
-        #totalForm input{
-            width: 99%;
+        #form input {
+            width: 95%;
+        }
+        #esquerda input {
+            width: 90%;
+        }
+    
+        #direita input {
+            width: 90%;
         }
 
       
     }
 
-
-
-@media screen and (min-width:1024px) and (max-width:1440px){
-    input[type="text-form"]{
-        width:60vw;        
-     }
-
-
-     input[type="email"]{    
-        width:60vw;
-     
-    }
-
-
-    main{
-        padding-left: 5%;
-        padding-right: 5%;
-    }
-
-
-    input[type="text-form-row"]{
-        width: 28.5vw;
-    }
-
-
-    input[type="number"]{
-        width: 28.5vw;
-    }
-
-
-    input[type="password"]{
-        width: 28.5vw;
-    }
-
-
-    button{
-        width: 50vw;
-        font-size: 12px;
-    }
-}
 
 /*Desktop */
 
