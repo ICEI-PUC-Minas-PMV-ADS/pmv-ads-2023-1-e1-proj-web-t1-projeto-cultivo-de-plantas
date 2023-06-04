@@ -380,6 +380,7 @@ h4{
 /* MOBILE MENU */
 .menu-btn {
     display: none;
+    color: #519B84;
   }
   
   .mobile-menu {
@@ -388,7 +389,7 @@ h4{
   }
   
   .mobile-menu a {
-    color: #000000;
+    color: #3B506B;
   }
 
 
