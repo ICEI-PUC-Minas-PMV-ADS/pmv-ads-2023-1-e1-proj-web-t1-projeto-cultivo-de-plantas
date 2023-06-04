@@ -166,6 +166,19 @@ input[type="text"]{
 
 /* MAIN LOGIN */
 
+#msgError {
+  text-align: center;
+  margin: auto;
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 90%;
+  border-radius: 5%;
+  display: none;
+  background-color: #e7e6e6;
+  color:red;
+
+}
+
 main{
     width: 100vw;
     height: 100vh;

@@ -11,10 +11,7 @@
     <link rel="stylesheet" href="login-planty.css">
 
     <!--Ícone Menu Hambúrguer-->
-    <link 
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
 
     <title>Login</title>
 </head>
@@ -83,7 +80,7 @@
             </div>
             <div class="direita-login">
                 <h1>Entre ou Cadastre-se</h1>
-                   
+                <div id="msgError"></div>
                 <div class="input-box">
                     <label for="email" type="email" >E-mail</label>
                     <input type="email" name="email" id="emailValida"
@@ -92,11 +89,10 @@
 
                 <div class="input-box">
                     <label for="senha" type="password" >Senha</label>
-                    <input type="password" name="senha" id="senhavalida"
-                placeholder="Insira sua senha" required>
+                    <input type="password" name="senha" id="senhaValida" placeholder="Insira sua senha" required>
                 </div>
                 <div class="botoes">
-                    <button class="btn-entrar" onclick="checkValida()">Entrar</button>
+                    <button class="btn-entrar" type="submit" onclick="checkValida()">Entrar</button>
 
                     <a href="../Cadastro page/cadastro-page.html">
                         <button class="btn-cadastrar">Cadastrar</button>
