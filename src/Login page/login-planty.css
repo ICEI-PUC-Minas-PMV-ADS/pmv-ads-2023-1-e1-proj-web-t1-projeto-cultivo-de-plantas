@@ -1,4 +1,8 @@
+/* Fonte: Poppins */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+/* Geral */
 
 * {
     font-family: 'Poppins', sans-serif;
@@ -23,7 +27,9 @@ li, a {
     letter-spacing: 5px;
 }
 
-body{
+/* Scrollbar */
+
+body, html {
     width: 100vw;
     overflow-x: hidden !important;
     }
@@ -158,6 +164,8 @@ input[type="text"]{
     left: 0; 
 }
 
+/* MAIN LOGIN */
+
 main{
     width: 100vw;
     height: 100vh;
@@ -204,12 +212,6 @@ main{
     
     
 }
-.input-box{
-    width: 25vw;
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 5%;   
-}
 
 h1{
     font-size: 2.1vw;
@@ -223,6 +225,16 @@ h1{
     padding-left: 6%;
     padding-right: 6%;
 }
+
+/* CAMPOS */
+
+.input-box{
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5%;   
+}
+
 
 input[type="email"]{
     border: none;
@@ -267,6 +279,8 @@ label{
     color: #3B506B;
     font-weight: 400;
 }
+
+/* BOTÕES */
 
 .botoes{
     text-decoration: none;
@@ -322,7 +336,9 @@ button{
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) ;
        
     }
-    
+
+/* MENSAGEM "ESQUECI MINHA SENHA" */    
+
 h4{
     text-decoration: none;
     font-family: 'poppins';
@@ -333,28 +349,6 @@ h4{
     padding-right: 20%;
     font-size: 1.1vw;
 }
-
-.footer-content{
-    width: 100vw;
-    height: 30vh;
-    display: flex;
-    flex-direction: row;
-    align-content: space-between;
-    align-items: center;
-}
-
-.column-logo{
-    display: flex;
-    margin: 5%;
-}
-
-.column-search{
-    display: flex;
-    padding-left: 42%;
-}
-
-
-
 
 /* COPYRIGHT */
 
@@ -383,6 +377,24 @@ h4{
     width: 80%;
 }
 
+/* MOBILE MENU */
+.menu-btn {
+    display: none;
+  }
+  
+  .mobile-menu {
+    background-color: white;
+    display: none;
+  }
+  
+  .mobile-menu a {
+    color: #000000;
+  }
+
+
+/* RESPONSIVIDADE */
+
+/* Tablets e Desktop*/
 
 @media screen and (max-width: 950px){
     .container {
@@ -394,11 +406,11 @@ h4{
         padding-right: 10%;
     }  
     input[type="email"]{
-        width: 29vw; 
+        width: 30vw; 
     }
     
     input[type="password"]{
-        width: 29vw;   
+        width: 30vw;   
     }
     .direita-login{
         padding-left: 1%;
@@ -418,8 +430,326 @@ h4{
     h4{
         font-size: 12px;
     }
+
+    .copyright{
+        padding-top: 3%;
+    }
+
+  
 }
 
 @media screen and (max-width: 600px){
+    
+    main{
+        padding-right: 7%;
+        padding-left: 7%;
+    }
+
+    .direita-login{
+        padding-left: 4%;
+    }
+
+    h1{
+        padding-top: 2%;
+        padding-bottom: 15%;
+        padding-left: 0%;
+        padding-right: 25%;
+        font-size: 23px;
+        width: 100%;
+    }
+    
+    h4{
+        padding-top: 20%;
+        padding-right: 5%;
+        padding-left: 10%;
+        width: 100%;
+        font-size: 12px;
+    }
+
+    input[type="email"]{
+        width: 35vw; 
+    }
+    
+    input[type="password"]{
+        width: 35vw;  
+    } 
+    
+    .botoes{
+        width: 80%;
+        padding-left: 0%;
+    }
+
+    .btn-cadastrar{
+        width: 17vw;
+        padding-right: none;
+    }
+
+    .btn-entrar{
+        width: 30vw; 
+        
+    }
+
+    /* Header*/
+
 
 }
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+    h1{
+        width: 100%;
+        font-size: 25px;
+        padding-bottom: 20%;
+        padding-left: 0%;
+        
+    }
+
+    h4{
+        width: 100%;
+        padding-left: 20%;
+        padding-right: 0%;
+    }
+
+    main{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .container{
+        width: 80vw;
+        padding-right: 5%;
+    }
+
+    .direita-login{
+        padding-left: 0%;
+    }
+
+    .botoes{
+        width: 100%;
+
+    }
+
+    .btn-entrar{
+        width: 15vw;
+    }
+
+    .btn-cadastrar{
+        width: 15vw;
+    }
+
+    input[type="email"]{
+        width: 35vw; 
+    }
+    
+    input[type="password"]{
+        width: 35vw;  
+    } 
+
+   /* Header */ 
+   
+}
+
+@media screen and (max-width: 768px){
+   /* Header */
+
+
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    h1{
+        padding-top: 2%;
+        padding-bottom: 15%;
+        padding-left: 0%;
+        width: 100%;
+        font-size: 25px;
+    }
+
+    h4{
+        padding-top: 20%;
+        padding-right: 7%;
+        padding-left: 15%;
+        width: 100%;
+        font-size: 13px; 
+    }
+
+    .botoes{
+        width: 100%;
+        padding-left: 0%;
+    }
+
+    .btn-cadastrar{
+        width: 14vw;
+        padding-right: none;
+    }
+
+    .btn-entrar{
+        width: 16vw; 
+    }
+
+
+}
+
+@media screen and (width: 1920px){
+    .copyright{
+        font-size: 25px;
+        padding-top: 2%;
+    }
+}
+
+
+
+/* Celulares */
+
+@media screen and (max-width: 428px) {
+    main{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img-login{
+        height: 14vh;
+        width: 20vw;
+        padding-right: 0%;
+        border-radius: 90px;
+    }
+
+    .direita-login{
+        width: 100%;
+        padding-left: 14%;
+    }
+
+    h1{
+        width: 100%;
+        font-weight: 600;
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-bottom: 10%;
+        padding-top: 10%;
+        font-size: 20px;
+    }
+
+   h4{
+        padding-top: 26%;
+        padding-left: 15%;
+        padding-right: 0%;
+   }
+
+   input[type="email"]{
+        width: 53vw; 
+   }
+
+   input[type="password"]{
+        width: 53vw;  
+   } 
+    
+   .botoes{
+    padding-left: 14%;
+    padding-right: 0%;
+   }
+
+   .btn-cadastrar{
+        width: 19vw;
+   }
+
+   .btn-entrar{
+        width: 29vw;
+   }
+
+   .copyright{
+    font-size: 10px;
+   }
+
+   .back-to-top{
+    width: 20vw;
+    padding-bottom: 2%;
+    padding-right: 5%;
+   }
+
+   /* Header */
+
+
+
+}
+
+@media screen and (max-width: 348px) {
+    h1{
+        font-size: 20px;
+    }
+
+    .botoes{
+        width: 90%;
+        padding-left: 10%;
+    }
+
+    .btn-entrar{
+        width: 20vw;  
+    }
+    .btn-cadastrar{
+        width: 20vw;
+    }
+
+    h4{
+        padding-left: 9%;
+        padding-top: 20%;
+    }
+
+    .img-login{
+        height: 12vh;
+        width: 20vw;
+        padding-right: 0%;
+        border-radius: 90px;
+    }
+
+    .back-to-top{
+        padding-right: 5%;
+        padding-bottom: 5%;
+        width: 20vw;
+    }
+
+    /* Header */
+
+
+
+}
+
+@media screen and (max-width: 280px) {
+    .botoes{
+        width: 100%;
+        padding-left: 1%;
+    }
+
+    .btn-cadastrar{
+        width: 25vw;
+    }
+
+    .btn-entrar{
+        width: 25vw;
+    }
+
+    h4{
+       font-size: 11px;
+       padding-left: 3%;
+    }
+
+    .img-login{
+        height: 10vh;
+        width: 20vw;
+        padding-right: 0%;
+        border-radius: 90px;
+    }
+
+    .back-to-top{
+        width: 20vw;
+    }
+
+    /* Header */
+
+
+
+}
+

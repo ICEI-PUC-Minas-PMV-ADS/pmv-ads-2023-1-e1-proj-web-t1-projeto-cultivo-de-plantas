@@ -205,7 +205,8 @@ section{
 
     display: flex;
     position: relative;
-   top: 400px;
+    
+   top: 300px;
    padding: 50px;
     
 }
@@ -359,6 +360,16 @@ footer{
     navigation {
         display: none;
     }
+    .carrossel{
+
+        display: flex;
+        position: relative;
+        right:12px;
+       top: 300px;
+       padding: 50px;
+        
+    }
+
     
     .material-symbols-outlined{
       
@@ -427,6 +438,16 @@ footer{
         top: 35px;
         
     }
+    .carrossel{
+
+        display: flex;
+        position: relative;
+        right:22px;
+       top: 300px;
+       padding: 50px;
+        
+    }
+
 
     .inputPesquisar{
         position: absolute;
@@ -484,13 +505,23 @@ footer{
         left: 70px;
         
     }
+    .carrossel{
+
+        display: flex;
+        position: relative;
+        right:22px;
+       top: 300px;
+       padding: 50px;
+        
+    }
+
     .loginCadastro{
         right: 100px;
     }
 
     .iconPesquisar{
         position: absolute;
-        left: 920px;
+        left: 960px;
      }
  
      .tituloPlantas{
@@ -540,6 +571,16 @@ footer{
         
       width: 100vh;
     }
+    .carrossel{
+
+        display: flex;
+        position: relative;
+        right:30px;
+       top: 300px;
+       padding: 50px;
+        
+    }
+
 
     header{
         width: 100%;
@@ -565,11 +606,13 @@ footer{
     }
     .iconPesquisar{
        position: absolute;
-       left: 850px;
+       left: 870px;
+       bottom: 100px;
     }
 
     .tituloPlantas{
         top: 250px;
+        right: 600px;
         padding: 20px;
         display: flex;
         align-items: center;
@@ -651,11 +694,6 @@ footer{
     height: 60px;
 
 }
-.iconPesquisar{
-   position: relative;
-   left: 200px;
-   top: 5px;
-}
 
 .btnVoltar{
  display: none;
@@ -676,6 +714,17 @@ footer{
     body{
       width: 100vw;
     }
+
+    .carrossel{
+
+        display: flex;
+        position: relative;
+        right:32px;
+       top: 300px;
+       padding: 50px;
+        
+    }
+
 
     .iconPesquisar{
         position: absolute;
@@ -731,6 +780,15 @@ footer{
 
     body{
       width: 100vw;
+    }
+    .carrossel{
+
+        display: flex;
+        position: relative;
+        right:22px;
+       top: 300px;
+       padding: 50px;
+        
     }
 
     nav{
