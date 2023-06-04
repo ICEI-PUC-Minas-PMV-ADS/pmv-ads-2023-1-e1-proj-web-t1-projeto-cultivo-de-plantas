@@ -7,7 +7,7 @@ const usuario = document.getElementById('usuario')
 const celular = document.getElementById('celular')
 const senha = document.getElementById('senha')
 const confirmSenha = document.getElementById('confirmSenha')
-
+let msgSuccess = document.getElementById('msgSuccess')
 
 form.addEventListener('submit', (e) =>  {
    e.preventDefault()
@@ -117,6 +117,14 @@ function checkInputs() {
       )
 
       localStorage.setItem("ListaCad", JSON.stringify(ListaCad))
+      
+      msgSuccess.setAttribute('style', 'display: block');
+      msgSuccess.innerHTML = '<strong> Cadastrado com sucesso!<br> Você será redirecionado para o Login automáticamente :)</strong>'   
+      
+     setTimeout(()=>{
+         window.location.href = '/src/Login page/login-planty.html'
+     }, 4000)  
+   
    }
 
 }

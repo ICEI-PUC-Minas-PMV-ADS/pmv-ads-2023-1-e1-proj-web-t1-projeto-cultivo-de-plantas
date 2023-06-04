@@ -62,8 +62,9 @@
 
     <main>
         <h1>Cadastre-se</h1>
+        <div id="msgSuccess"></div>
         <div class="box-form" id="totalForm">
-
+            
             <div class="form" id="form">
                 <label for="nome" type="text" name="nome">Nome completo:</label>
                 <input type="text-form" id="nome" placeholder="Insira seu nome completo" autocomplete="name" required>
@@ -109,9 +110,11 @@
                 <small>error message</small>
             </div>
            
-                <div class="botao">
-                    <button name="button" type="submit" onclick="checkInputs()" >Cadastrar</button>
-                 </div>
+            <div class="botao">
+                <button name="button" type="submit" onclick="checkInputs()" >Cadastrar</button>
+            </div>
+
+    
         </div>  
            
     </main>

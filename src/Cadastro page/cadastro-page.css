@@ -351,6 +351,16 @@ input:hover{
     outline: 2px solid #519b84;
 }
 
+#msgSuccess{
+    align-items: center;
+    text-align: center;
+    color: #3f7664;
+    background-color: #f0f0f0;
+    padding:5%;
+    border-radius: 5%;
+    display: none;
+    
+}
 
 /* Mensagem de erro */
 
