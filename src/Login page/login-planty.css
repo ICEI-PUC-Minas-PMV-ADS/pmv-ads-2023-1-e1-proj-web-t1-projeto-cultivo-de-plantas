@@ -505,8 +505,14 @@ h4{
 
     h4{
         width: 100%;
-        padding-left: 20%;
-        padding-right: 0%;
+        display: flex;
+
+    }
+
+    .esqSenha{
+        padding-left: 0%;
+        padding-right: 1%;
+        width: 100%;
     }
 
     main{
@@ -550,10 +556,116 @@ h4{
 
 @media screen and (max-width: 768px){
    /* Header */
-
-
-
+   .main-menu {
+    padding: 1.5rem 4rem;
+    display: none;
 }
+
+.login-cadastro {
+    display: none;
+}
+
+.menu-btn {
+    display: block;
+    cursor: pointer;
+}
+
+.mobile-menu ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.mobile-menu li {
+    display: block;
+    padding-top: 1.2rem;
+}
+
+.open {
+    display: block;
+}
+
+  /* --- */
+
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    align-items: center;
+    border-bottom: 1px solid #f0f0f0;
+    padding: 0 10%;
+    background-color: white;
+    
+  }
+
+  .column {
+    padding: 10px;
+  }
+
+  .logo {
+    width: auto;
+    margin-right: 10px;
+  }
+
+  .header-logo {
+    width: 160px;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .header-logo:hover {
+    transform: scale(1.1);
+  }
+
+  .search {
+    width: 40%;
+    margin: 0 5px;
+    margin-right: 10px;
+  }
+
+  .search-box {
+    width: 90%;  
+    height: 100%;  
+    border: 1px solid #f0f0f0;
+    border-radius: 50px;
+    margin: 0 0px; 
+    padding-left: 0%;
+    padding-right: 0%;
+    
+  }
+
+  .imglupa{
+    position: relative;
+    right: 20px;
+    
+   }
+
+  #txtBusca {
+    font-size: 15px;
+    border: none;
+    width: 100%;
+    height: 20%;
+    position: relative;
+    height: 65px;
+    left: 34px;
+    background: transparent;
+    outline: none;
+  }
+
+  #search-image {
+    margin-bottom: -7px;
+    margin-left: 45px;
+    width: 30px;
+  }
+
+  header{
+    padding-right: 30%;
+    padding-left: 5%;
+  }
+
+  
+}
+
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     h1{
@@ -586,14 +698,118 @@ h4{
         width: 16vw; 
     }
 
+    /* HEADER */
 
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    align-items: center;
+    border-bottom: 1px solid #f0f0f0;
+    padding: 0 10%;
+    background-color: white;
+  }
+
+  .column {
+    padding: 10px;
+  }
+
+  .logo {
+    width: auto;
+    margin-right: 10px;
+  }
+
+  .header-logo {
+    width: 180px;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .header-logo:hover {
+    transform: scale(1.1);
+  }
+
+  .search {
+    width: 40%;
+    margin: 0 5px;
+  }
+
+  .search-box {
+    width: 90%;
+    border: 1px solid #f0f0f0;
+    border-radius: 50px;
+    margin: 0 30px;
+  }
+
+  #txtBusca {
+    font-size: 15px;
+    border: none;
+    width: 100%;
+    position: relative;
+    height: 65px;
+    
+    background: transparent;
+    outline: none;
+  }
+
+  .imglupa{
+    position: relative;
+    left: 015px;
+   }
+
+  #search-image {
+    margin-bottom: -7px;
+    margin-left: 45px;
+    width: 30px;
+  }
+
+  .login-cadastro {
+    width: auto;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+  }
+
+  .login-cadastro > a {
+    margin-right: 10px;
+    font-size: 15px;
+    color: #000000;
+  }
+
+  .login-cadastro > a:after {
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #d5b484;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+
+  .login-cadastro > a:hover:after {
+    width: 100%;
+    left: 0;
+  }
+
+  .account-icon {
+    transition: all 0.2s ease-in-out;
+    width: 35px;
+  }
+
+  .account-icon:hover {
+    transform: scale(1.1);
+  }
+  
 }
+
+
 
 @media screen and (width: 1920px){
     .copyright{
         font-size: 25px;
         padding-top: 2%;
     }
+  
 }
 
 
@@ -672,7 +888,129 @@ h4{
 
    /* Header */
 
+   .main-menu {
+    padding: 1.5rem 4rem;
+    display: none;
+  }
 
+  .login-cadastro {
+    display: none;
+  }
+
+  .menu-btn {
+    display: block;
+    cursor: pointer;
+  }
+
+  .burger {
+    position: relative;
+    right: 65px;
+  }
+
+  .menu-btn,.header-logo {
+    position: relative;
+    bottom: 20px;
+
+  }
+  .mobile-menu ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+
+  .mobile-menu li {
+    display: block;
+    padding-top:  1.2rem;
+  }
+
+  .open {
+    display: block;
+  }
+
+  /* HEADER */
+
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    height: 180px;
+    align-items: center;
+    border-bottom: 1px solid #f0f0f0;
+    padding: 0 10%;
+    background-color: white;
+  }
+
+  .column {
+    padding: 10px;
+  }
+
+  .logo {
+    
+    width: auto;
+    margin-right: 10px;
+  }
+  .logo_planty{
+    width: 200px;
+  }
+
+  .header-logo {
+    width: 135px;
+    transition: all 0.2s ease-in-out;
+    position: relative;
+    left: 45px;
+  }
+
+  .header-logo:hover {
+    transform: scale(1.1);
+  }
+
+  .search {
+    width: 40%;
+    margin: 0 5px;
+    margin-right: 10px;
+  }
+ 
+  .imglupa{
+  position: relative;
+  right: 30px;
+ }
+
+  .column_search{
+    position: relative;
+    bottom: 90px;
+    left: 91px;
+    
+  }
+
+  .search-box {
+    width: 250px;
+    border: 1px solid #f0f0f0;
+    border-radius: 50px;
+    margin: 0 0px;
+    position: absolute;
+    top: 110px;
+    left: 80px;
+    right: 87px;
+    height: 60px;
+  }
+
+  #txtBusca {
+    font-size: 15px;
+    border: none;
+    width: 40%;
+    position: relative;
+    height: 65px;
+    left: 34px;
+    background: transparent;
+    outline: none;
+  }
+
+  #search-image {
+    margin-bottom: -7px;
+    margin-left: 45px;
+    width: 30px;
+  }
+  
 
 }
 
@@ -707,13 +1045,134 @@ h4{
 
     .back-to-top{
         padding-right: 5%;
-        padding-bottom: 5%;
+        padding-bottom: 8%;
         width: 20vw;
     }
 
     /* Header */
-
-
+    
+    .main-menu {
+        padding: 1.5rem 4rem;
+        display: none;
+      }
+    
+      .login-cadastro {
+        display: none;
+      }
+    
+      .menu-btn {
+        display: block;
+        cursor: pointer;
+      }
+    
+      .burger {
+        position: relative;
+        right: 65px;
+      }
+    
+      .menu-btn,.header-logo {
+        position: relative;
+        bottom: 20px;
+    
+      }
+      .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+      }
+    
+      .mobile-menu li {
+        display: block;
+        padding-top:  1.2rem;
+      }
+    
+      .open {
+        display: block;
+      }
+    
+      /* HEADER */
+    
+      .header-container {
+        display: flex;
+        justify-content: space-between;
+        height: 180px;
+        align-items: center;
+        border-bottom: 1px solid #f0f0f0;
+        padding: 0 10%;
+        background-color: white;
+      }
+    
+      .column {
+        padding: 10px;
+      }
+    
+      .logo {
+        
+        width: auto;
+        margin-right: 10px;
+      }
+      .logo_planty{
+        width: 200px;
+      }
+    
+      .header-logo {
+        width: 99px;
+        transition: all 0.2s ease-in-out;
+        position: relative;
+        left: 45px;
+      }
+    
+      .header-logo:hover {
+        transform: scale(1.1);
+      }
+    
+      .search {
+        width: 40%;
+        margin: 0 5px;
+        margin-right: 10px;
+      }
+     
+      .imglupa{
+      position: relative;
+      
+     }
+    
+      .column_search{
+        position: relative;
+        bottom: 90px;
+        
+      }
+    
+      .search-box {
+        width: 65vw;
+        border: 1px solid #f0f0f0;
+        border-radius: 50px;
+        margin: 0 0px;
+        position: absolute;
+        top: 110px;
+        right: 50px;
+        height: 60px;
+        left: 52px;
+      }
+    
+      #txtBusca {
+        font-size: 15px;
+        border: none;
+        width: 40%;
+        position: relative;
+        height: 65px;
+        left: 34px;
+        background: transparent;
+        outline: none;
+        
+      }
+    
+      #search-image {
+        margin-bottom: -7px;
+        margin-left: 45px;
+        width: 30px;
+      }
 
 }
 
@@ -732,8 +1191,9 @@ h4{
     }
 
     h4{
-       font-size: 11px;
-       padding-left: 3%;
+       font-size: 10px;
+       padding-left: 0%;
+       display: flex;
     }
 
     .img-login{
@@ -749,7 +1209,186 @@ h4{
 
     /* Header */
 
+    .main-menu {
+        padding: 1.5rem 4rem;
+        display: none;
+      }
+    
+      .login-cadastro {
+        display: none;
+      }
+    
+      .menu-btn {
+        display: block;
+        cursor: pointer;
+      }
+    
+      .burger {
+        position: relative;
+        right: 65px;
+      }
+    
+      .menu-btn,.header-logo {
+        position: relative;
+        bottom: 20px;
+    
+      }
+      .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+      }
+    
+      .mobile-menu li {
+        display: block;
+        padding-top:  1.2rem;
+      }
+    
+      .open {
+        display: block;
+      }
+    
+      /* HEADER */
+    
+      .header-container {
+        display: flex;
+        justify-content: space-between;
+        height: 180px;
+        align-items: center;
+        border-bottom: 1px solid #f0f0f0;
+        padding: 0 10%;
+        background-color: white;
+      }
+    
+      .column {
+        padding: 10px;
+      }
+    
+      .logo {
+        
+        width: auto;
+        margin-right: 10px;
+      }
+      .logo_planty{
+        width: 200px;
+      }
+    
+      .header-logo {
+        width: 88px;
+        transition: all 0.2s ease-in-out;
+        position: relative;
+        left: 45px;
+      }
+
+      i{
+        padding-left: 70px;
+        
+      }
+    
+      .header-logo:hover {
+        transform: scale(1.1);
+      }
+    
+      .search {
+        width: 40%;
+        margin: 0 5px;
+        margin-right: 10px;
+      }
+     
+      .imglupa{
+      position: relative;
+      
+     }
+    
+      .column_search{
+        position: relative;
+        bottom: 90px;
+        
+      }
+    
+      .search-box {
+        width: 65vw;
+        border: 1px solid #f0f0f0;
+        border-radius: 50px;
+        margin: 0 0px;
+        position: absolute;
+        top: 110px;
+        right: 50px;
+        height: 60px;
+        left: 52px;
+      }
+    
+      #txtBusca {
+        font-size: 15px;
+        border: none;
+        width: 40%;
+        position: relative;
+        height: 65px;
+        left: 34px;
+        background: transparent;
+        outline: none;
+        
+      }
+    
+      #search-image {
+        margin-bottom: -7px;
+        margin-left: 45px;
+        width: 30px;
+      }
 
 
+}
+
+@media screen and (min-width: 429px) and (max-width:634px){
+   /* HEADER */
+   
+   .header-logo {
+    width: 120px;
+    transition: all 0.2s ease-in-out;
+    position: relative;
+    left: 0px;
+  }
+  
+  header{
+    border-left: none;
+    
+  }
+  
+  .logo {    
+    width: auto;
+    margin-right: 0px;
+  }
+
+  .search-box {
+    width: 40vw;
+    border: 1px solid #f0f0f0;
+    border-radius: 50px;
+    top: 110px;
+    right: 50px;
+    height: 60px;
+    left: 32px;
+    padding-left: 0px;
+  }
+
+  i{
+    padding-left: 60px;
+  }
+
+  h4{
+   padding-left: 0%;
+   padding-right: 0%;
+   width: 100%;
+   display: flex;
+  }
+
+  .esqSenha{
+    padding-right: 10%;
+    padding-left: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
 }
 
