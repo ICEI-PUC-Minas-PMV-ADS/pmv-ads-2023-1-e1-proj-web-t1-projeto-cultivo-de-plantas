@@ -1,5 +1,4 @@
-// Menu Hamburguer
-
+/* MENU MOBILE */
 function menuShow() {
     let menuMobile = document.querySelector('.mobile-menu');
     if (menuMobile.classList.contains('open')) {
@@ -7,7 +6,7 @@ function menuShow() {
     }else{
         menuMobile.classList.add('open')
     }
-}
+  }
 
 // Login
 
