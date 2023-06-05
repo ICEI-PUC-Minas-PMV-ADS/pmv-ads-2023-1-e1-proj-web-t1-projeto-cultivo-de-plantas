@@ -569,44 +569,6 @@ textarea.input {
         width: 30px;
     }
 
-    .login-cadastro {
-        width: auto;
-        margin-left: 10px;
-        display: flex;
-        align-items: center;
-    }
-
-    .login-cadastro>a {
-        margin-right: 10px;
-        font-size: 15px;
-        color: #000000;
-    }
-
-    .login-cadastro>a:after {
-        content: "";
-        display: block;
-        height: 2px;
-        left: 50%;
-        position: absolute;
-        background: #d5b484;
-        transition: width 0.3s ease 0s, left 0.3s ease 0s;
-        width: 0;
-    }
-
-    .login-cadastro>a:hover:after {
-        width: 100%;
-        left: 0;
-    }
-
-    .account-icon {
-        transition: all 0.2s ease-in-out;
-        width: 35px;
-    }
-
-    .account-icon:hover {
-        transform: scale(1.1);
-    }
-
 }
 
 /* Mobile Menu */
