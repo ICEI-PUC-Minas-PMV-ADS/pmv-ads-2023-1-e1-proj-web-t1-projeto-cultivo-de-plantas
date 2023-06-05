@@ -18,24 +18,22 @@ document.addEventListener('DOMContentLoaded', function() {
   openModalButton.addEventListener('click', function(event) {
     event.preventDefault(); 
 
-    modal.style.display = 'block';
+    const messageInput = document.getElementById('message');
+    const message = messageInput.value.trim();
+
+    if (message !== '') {
+      modal.style.display = 'block';
+    } else {
+      alert('Por favor, preencha o campo de mensagem antes de enviar o formulário.');
+    }
   });
 
-  
   closeButton.addEventListener('click', function() {
     modal.style.display = 'none';
   });
 
- 
   modal.addEventListener('click', function(event) {
     event.stopPropagation();
-  });
-
-  
-  window.addEventListener('click', function(event) {
-    if (event.target == modal) {
-      modal.style.display = 'none';
-    }
   });
 });
 
