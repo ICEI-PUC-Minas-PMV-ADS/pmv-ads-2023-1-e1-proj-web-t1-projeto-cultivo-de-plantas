@@ -890,13 +890,18 @@ h4{
    }
 
    .copyright{
-    font-size: 10px;
+    font-size: 15px;
    }
 
    .back-to-top{
-    width: 20vw;
-    padding-bottom: 2%;
-    padding-right: 5%;
+    width: 15vw;
+    padding-bottom: 8%;
+    padding-right: 0%;
+   }
+
+   .copyright{
+    font-size: 15px;
+    height: 10vh;
    }
 
    /* Header */
