@@ -610,6 +610,7 @@ p,
   
   .menu-btn {
     display: none;
+    color: #3B506B;
   }
   
   .mobile-menu {
@@ -763,7 +764,7 @@ p,
   
     .mobile-menu li {
       display: block;
-      padding-top:  1.2rem;
+      padding-top: 1.2rem;
     }
   
     .open {
