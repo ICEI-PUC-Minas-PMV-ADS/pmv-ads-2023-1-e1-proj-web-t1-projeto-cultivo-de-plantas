@@ -122,7 +122,7 @@ function checkInputs() {
       msgSuccess.innerHTML = '<strong> Cadastrado com sucesso!<br> Você será redirecionado para o Login automáticamente :)</strong>'   
       
      setTimeout(()=>{
-         window.location.href = '/src/Login page/login-planty.html'
+         window.location.href = "../Login page/login-planty.html"
      }, 4000)  
    
    }
@@ -167,4 +167,6 @@ function menuShow() {
        menuMobile.classList.add('open')
    }
 }
+
+
 
