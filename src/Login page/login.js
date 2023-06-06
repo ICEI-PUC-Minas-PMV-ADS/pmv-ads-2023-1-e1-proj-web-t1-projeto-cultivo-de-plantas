@@ -37,7 +37,7 @@ if (emailLog.value == userValid.email && senhaLog == userValid.senha) {
     msgValida.setAttribute('style', 'display: block; color: green');
     msgValida.innerHTML = '<strong>Login realizado com sucesso! <br> Você será redirecionado para o Blog :) </strong>';
     setTimeout(()=>{
-      window.location.href = '/src/Blog e Posts/Blog/Index.html'
+      window.location.href = './src/Blog e Posts/Blog/Index.html'
   }, 4000)    
   
 }
