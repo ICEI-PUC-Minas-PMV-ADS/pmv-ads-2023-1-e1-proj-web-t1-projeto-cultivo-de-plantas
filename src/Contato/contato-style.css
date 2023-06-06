@@ -787,7 +787,7 @@ textarea.input {
     }
 
     .search-box {
-        width: 250px;
+        width: 265px;
         border: 1px solid #f0f0f0;
         border-radius: 50px;
         margin: 0 0px;
@@ -798,6 +798,7 @@ textarea.input {
     }
 
     #txtBusca {
+        font-size: 15px;
         border: none;
         width: 40%;
         position: relative;
