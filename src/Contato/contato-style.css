@@ -569,44 +569,6 @@ textarea.input {
         width: 30px;
     }
 
-    .login-cadastro {
-        width: auto;
-        margin-left: 10px;
-        display: flex;
-        align-items: center;
-    }
-
-    .login-cadastro>a {
-        margin-right: 10px;
-        font-size: 15px;
-        color: #000000;
-    }
-
-    .login-cadastro>a:after {
-        content: "";
-        display: block;
-        height: 2px;
-        left: 50%;
-        position: absolute;
-        background: #d5b484;
-        transition: width 0.3s ease 0s, left 0.3s ease 0s;
-        width: 0;
-    }
-
-    .login-cadastro>a:hover:after {
-        width: 100%;
-        left: 0;
-    }
-
-    .account-icon {
-        transition: all 0.2s ease-in-out;
-        width: 35px;
-    }
-
-    .account-icon:hover {
-        transform: scale(1.1);
-    }
-
 }
 
 /* Mobile Menu */
@@ -704,11 +666,9 @@ textarea.input {
 
     .imglupa {
         position: relative;
-        left: 20px;
     }
 
     #txtBusca {
-        font-size: 15px;
         border: none;
         width: 40%;
         position: relative;
@@ -817,7 +777,7 @@ textarea.input {
 
     .imglupa {
         position: relative;
-        left: 50px;
+
     }
 
     .column_search {
@@ -838,12 +798,11 @@ textarea.input {
     }
 
     #txtBusca {
-        font-size: 15px;
         border: none;
         width: 40%;
         position: relative;
         height: 65px;
-        left: 34px;
+        left: 2px;
         background: transparent;
         outline: none;
     }
@@ -924,4 +883,43 @@ textarea.input {
         padding: 0.45rem 1.2rem;
     }
 
+    @media screen and (min-width: 429px) and (max-width:634px) {
+        /* HEADER */
+
+        .header-logo {
+            width: 120px;
+            transition: all 0.2s ease-in-out;
+            position: relative;
+            left: 0px;
+        }
+
+        header {
+            border-left: none;
+
+        }
+
+        .logo {
+            width: auto;
+            margin-right: 0px;
+        }
+
+        .search-box {
+            width: 40vw;
+            border: 1px solid #f0f0f0;
+            border-radius: 50px;
+            top: 110px;
+            right: 50px;
+            height: 60px;
+            left: 32px;
+            padding-left: 0px;
+        }
+
+        #search-image {
+            margin-bottom: -7px;
+            margin-left: 45px;
+            width: 30px;
+            position: relative;
+            right: 30px;
+        }
+    }
 }
