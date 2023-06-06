@@ -10,34 +10,46 @@ function checkValida() {
 
     const emailLog = document.getElementById("emailValida").value;
     const senhaLog = document.getElementById("senhaValida").value;
-    let msgError = document.getElementById('msgError')
+    let msgValida = document.getElementById('msgValida')
     
+
+var listaCad = []
 var userValid = {
-        email: emailLog ,
-        senha:  senhaLog
+        email: '' ,
+        senha:  ''
     }
     
 
-let listaCad = JSON.parse(localStorage.getItem("ListaCad"))
+ListaCad = JSON.parse(localStorage.getItem("ListaCad"))
     
+ListaCad.forEach((item) => {
+  if(emailLog.value == item.emailCad && senhaLog.value == item.senhaCad.value){
+    userValid = {
+      email: item.emailCad ,
+      senha: item.senhaCad
+    }
+  }
+});
 
-const usuarioEncontrado = listaCad.find((element) => element.emailCad === userValid.email && element.senhaCad === userValid.senha);
-
-if (usuarioEncontrado) {
+if (emailLog.value == userValid.email && senhaLog == userValid.senha) {
    
     console.log("Login bem-sucedido");
-    msgError.textContent = ""; 
+    msgValida.setAttribute('style', 'display: block; color: green');
+    msgValida.innerHTML = '<strong>Login realizado com sucesso! <br> Você será redirecionado para o Blog :) </strong>';
+    setTimeout(()=>{
+      window.location.href = '/src/Blog e Posts/Blog/Index.html'
+  }, 4000)    
+  
 }
 else {
     
     console.log("Login falhou");
-    msgError.setAttribute('style', 'display: block');
-    msgError.innerHTML = '<strong>Email ou senha inválidos</strong>';
+    msgValida.setAttribute('style', 'display: block; color: red')
+    msgValida.innerHTML = '<strong>Email ou senha inválidos</strong>';
     
 }
 
 }
-
 //Menu Hamburguer
 function menuShow() {
     let menuMobile = document.querySelector('.mobile-menu');

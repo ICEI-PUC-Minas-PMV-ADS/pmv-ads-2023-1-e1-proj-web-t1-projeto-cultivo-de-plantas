@@ -166,18 +166,17 @@ input[type="text"]{
 
 /* MAIN LOGIN */
 
-#msgError {
+#msgValida {
   text-align: center;
   margin: auto;
-  margin-bottom: 10px;
-  padding: 5px;
+  margin-bottom: 20px;
   width: 90%;
   border-radius: 5%;
   display: none;
-  background-color: #e7e6e6;
-  color:red;
+  background-color: #e7d6bc;
 
 }
+
 
 main{
     width: 100vw;
