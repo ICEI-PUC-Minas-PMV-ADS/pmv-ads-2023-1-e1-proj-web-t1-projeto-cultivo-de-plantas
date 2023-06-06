@@ -166,18 +166,17 @@ input[type="text"]{
 
 /* MAIN LOGIN */
 
-#msgError {
+#msgValida {
   text-align: center;
   margin: auto;
-  margin-bottom: 10px;
-  padding: 5px;
+  margin-bottom: 20px;
   width: 90%;
   border-radius: 5%;
   display: none;
-  background-color: #e7e6e6;
-  color:red;
+  background-color: #e7d6bc;
 
 }
+
 
 main{
     width: 100vw;
@@ -891,13 +890,18 @@ h4{
    }
 
    .copyright{
-    font-size: 10px;
+    font-size: 15px;
    }
 
    .back-to-top{
-    width: 20vw;
-    padding-bottom: 2%;
-    padding-right: 5%;
+    width: 15vw;
+    padding-bottom: 8%;
+    padding-right: 0%;
+   }
+
+   .copyright{
+    font-size: 15px;
+    height: 10vh;
    }
 
    /* Header */
@@ -1063,6 +1067,10 @@ h4{
         width: 20vw;
     }
 
+    .copyright{
+    font-size: 15px;
+    }
+    
     /* Header */
     
     .main-menu {
@@ -1219,6 +1227,10 @@ h4{
 
     .back-to-top{
         width: 20vw;
+    }
+
+    .copyright{
+      font-size: 15px;
     }
 
     /* Header */
