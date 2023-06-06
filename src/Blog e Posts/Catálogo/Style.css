@@ -747,9 +747,10 @@ footer{
 
     .tituloPlantas{
         top: 250px;
+        right: 420px;
         padding: 20px;
-        display: flex;
-        align-items: center;
+      
+        
     }
 
     .inputPesquisar{
@@ -827,9 +828,9 @@ footer{
 
     .tituloPlantas{
         top: 250px;
+        right:280px;
         padding: 20px;
-        display: flex;
-        align-items: center;
+        
     }
 
     .inputPesquisar{
@@ -852,26 +853,7 @@ footer{
  }
 
 
-navigation{
 
-     display: none;
-     top: 145px;
-     left: 250px;
-     position: absolute;
-     z-index: 2;
-     border-radius: 10px;
-     align-items: center;
-     flex-direction: column;
-     width: 300px;
-     height: 340px;
-     opacity:90%;
-     background-color: #ffffff;
- }
-
- navigation > a > h3{
-     color: #3B506B;
-   
- }
 
  .span_clone{
     position: absolute;
@@ -887,6 +869,31 @@ navigation{
 .btn_backToTop{
     position:relative;
    right:600px;
+
+}
+.btn_fechar{
+    position: absolute;
+    top: -110px;
+    left: 355px;
+   
+}
+
+navigation{
+    
+    display: none;
+    top: 156px;
+    left: 170px;
+    position: absolute;
+    z-index: 2;
+    align-items: center;
+    flex-direction: column;
+    width:420px ;
+    height: 340px;
+    background-color: #ffffff;
+}
+navigation > a > h3{
+    color: #000000;
+    font-weight: 400;
 
 }
 
@@ -937,9 +944,10 @@ navigation{
 
     .tituloPlantas{
         top: 250px;
+        right: 110px;
         padding: 20px;
-        display: flex;
-        align-items: center;
+      
+        
     }
 
     .inputPesquisar{
@@ -960,28 +968,41 @@ navigation{
         left: 310px;
 
  }
+ .footerDwn>h1{
+       
+    font-size: 1.1rem;
+    font-weight: 600;
+ }
 
+ .btn_fechar{
+    position: absolute;
+    top: -105px;
+    left: 343px;
+   
+}
 
 navigation{
+    
+    display: none;
+    top: 150px;
+    left: 2px;
+    position: absolute;
+    z-index: 2;
+    align-items: center;
+    flex-direction: column;
+    width:420px ;
+    height: 340px;
+    background-color: #ffffff;
+}
+navigation > a > h3{
+    color: #000000;
+    font-weight: 400;
 
-     display: none;
-     top: 155px;
-     left: 60px;
-     position: absolute;
-     z-index: 2;
-     border-radius: 10px;
-     align-items: center;
-     flex-direction: column;
-     width: 300px;
-     height: 340px;
-     opacity:90%;
-     background-color: #ffffff;
- }
+}
 
- navigation > a > h3{
-     color: #3B506B;
-   
- }
+
+
+
 
  .span_clone{
     position: absolute;
@@ -997,6 +1018,7 @@ navigation{
 }
 
  }
+
 
 
 
