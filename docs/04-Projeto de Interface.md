@@ -1,4 +1,6 @@
 
+
+
 # 4. Projeto de Interface
 
 Durante o desenvolvimento do projeto, ficou estabelecido que a interface do sistema estaria atendendo aos critérios dos requisitos não funcionais e funcionais. Sendo assim, a interface do projeto busca entregar uma navegação intuitiva com acessibilidade e usabilidade, estando aptas para o uso em dispositivos móveis e desktops.
@@ -76,7 +78,7 @@ O feed de plantas pode ser uma ótima fonte de inspiração para quem está come
 
 ![blog](https://user-images.githubusercontent.com/114627827/233867072-78a7078a-5346-4994-8273-0d1c07c2009c.png)
 
-
+_Wireframe - Feed do Blog_
 
 ## Wireframe - Post Específico
 
@@ -85,7 +87,7 @@ As informações serão exibidas quando os usuários clicarem em alguma planta d
 
 ![Post](https://user-images.githubusercontent.com/114627827/233867063-e8ce549e-c661-4753-aa8a-4ceed7a7bdc5.png)
 
-
+_Wireframe - Post específico_
 
 ## Wireframe - Login
 
@@ -98,7 +100,7 @@ A tela de Login permitirá que o usuário acesse sua conta privada através do p
 
 ![image](https://user-images.githubusercontent.com/127251265/233504794-16d7a6ce-b4df-490e-a7b0-613ac45c2f14.png)
 
-
+_Wireframe - Login_
 
 ## Wireframe - Cadastro
 
@@ -113,7 +115,7 @@ A tela de cadastro disponibilizará um formulário onde o usuário irá inserir 
 
 ![image](https://user-images.githubusercontent.com/127251265/233507649-57eb3013-65e7-480b-bcb4-7a55cf239de6.png)
 
-
+_Wireframe - Cadastro_
 
 ## Wireframe - Esqueci Minha Senha
 
@@ -121,6 +123,7 @@ A tela de esquecimento de senha deverá apresentar local para inserir o código 
 
 ![image](https://user-images.githubusercontent.com/127251265/233508240-e3faeb47-684f-487a-b36b-666c34bf6f49.png)
 
+_Wireframe - Esqueci minha senha_
 
 
 ## Wireframe - Nova Senha
@@ -129,34 +132,21 @@ A tela de nova senha disponibilizará campos para o usuário definir, em caso de
 
 ![image](https://user-images.githubusercontent.com/127251265/233509207-88f1b3a5-5229-4a17-9d1a-443549d8fb5f.png)
 
-
+_Wireframe - nova senha_
 
 ## Wireframe - Contato
 
-A tela de contato será utilizada pelos usuários para reportar incoerências, dúvidas e problemas na aplicação web aos desenvolvedores, para isso, os usuários deverão preencher os campos disponibilizados com o nome completo, o e-mail, o assunto a ser abordado e a mensagem que deseja enviar aos desenvolvedores e logo em seguida clicar no botão "Enviar" para enviar a mensagem ou no botão "Cancelar" caso queira cancelar o envio da mensagem. Além disso, irá ser disponibilizado o Telegram como outro meio de contato, localizado no lado direito da tela.
+A tela de contato será utilizada pelos usuários para reportar incoerências, dúvidas e problemas na aplicação web aos desenvolvedores, para isso, os usuários deverão preencher os campos disponibilizados com o nome, o e-mail, o assunto a ser abordado e a mensagem que deseja enviar aos desenvolvedores e logo em seguida clicar no botão "Enviar" para enviar a mensagem. Além disso, irá ser disponibilizado o Telegram como outro meio de contato, localizado no lado esquerdo da tela.
 
-![image](https://user-images.githubusercontent.com/127251265/233509985-a7448349-ea83-400c-9890-444a9132c3af.png)
+![Wireframe - Contato (2)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/107646150/a4f2dfd4-fb36-4ac4-8d0f-648066b8be5e)
 
-
+_Wireframe - Contato_
 
 ## Wireframe - Fórum
 
-A tela inicial do Fórum será utilizada pelos usuários que já estiverem logados. O usuário poderá visualizar a postagem dos outros membros e poderá interagir com elas. A seguir, é possível visualizar o wireframe:
+A tela "Quem Somos" tem como objetivo permitir que os usuários conheçam a essência do site Planty. Ao clicar no botão localizado logo abaixo da introdução, os usuários serão redirecionados para a página do blog, onde encontrarão uma variedade de postagens relacionadas a plantas. 
 
-![Tela forum](https://user-images.githubusercontent.com/116499898/233811937-b79ff664-fbcf-403c-afc3-9083de09ec6a.png) <br>
-_Wireframe - Fórum_
+![Wireframe - Quem somos](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/107646150/8dc90627-7ba5-42c2-9adb-2fcfbe25eb1c) <br>
+_Wireframe - Quem somos_
 
-Ademais, pela página inicial do fórum, o usuário poderá adicionar um novo tópico de discussão, visualizar os seus tópicos, visualizar os tópicos que foram salvos pelo usuário e visualizar os tópicos em que o usuário participou. Os Wireframes podem ser visualizados a seguir:
-
-![Tela Novo Tópico](https://user-images.githubusercontent.com/116499898/233812186-c6cafa8c-45f4-4543-84bb-124e53dbd01c.png) <br>
-_Wireframe - Novo Tópico_
-
-![Tela meus topicos](https://user-images.githubusercontent.com/116499898/233812216-5090b52a-7bf3-4d02-8cf1-6d5d54b1c3ac.png) <br>
-_Wireframe - Meus Tópicos_
-
-![Tela itens salvos](https://user-images.githubusercontent.com/116499898/233812278-9fc9a183-c7f6-4567-a714-c8e20250ec46.png) <br>
-_Wireframe - Itens Salvos_
-
-![Tela Minhas Participações](https://user-images.githubusercontent.com/116499898/233812341-2cc9f533-692d-4b89-a407-326067572730.png) <br>
-_Wireframe - Minhas Participações_
 

@@ -1,3 +1,6 @@
+
+
+
 # 6. Template do Site
 
 O padrão de layout a ser utilizado pelo site tem como referência a estrutura principal do sistema, que foi elaborada e exibida anteriormente, no tópico de Wireframes.
@@ -31,16 +34,16 @@ A tela do blog apresenta conteúdos que possuem informações dos cuidados neces
 ![Image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/107009327/3c7bcb92-56ca-44e8-aec9-c6637af9d21b)
 
 
-## Fórum
-A tela do fórum apresenta um texto de boas-vindas, onde o usuário cadastrado e logado, poderá ter acesso à dois botões: acesso ao fórum, e nosso Telegram.
+## Quem somos
+A tela do fórum apresenta um texto de apresentação e o usuário poderá ter acesso ao botão: acesso ao blog.
 
-![Image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/107009327/06f068da-b365-4ac6-82ff-649cb6aa0524)
+![Quem somos](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/107646150/d6911adf-5d7f-467b-ac67-04752b84f76f)
 
 
 ## Contato
 A tela de contato apresenta campos para usuários entrarem em contato com os desenvolvedores da aplicação, a fim de tirar dúvidas.
 
-![Image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/107009327/adecfda4-6dad-42f6-bfa8-5d1c981a0faa)
+![Contato-page](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/107646150/85269d6a-17c6-4558-8a29-f891463b3f0b)
 
 
 ## Área de Login

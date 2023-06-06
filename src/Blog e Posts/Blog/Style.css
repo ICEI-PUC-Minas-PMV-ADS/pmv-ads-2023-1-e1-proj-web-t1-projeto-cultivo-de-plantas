@@ -4,7 +4,7 @@
 
 *{
     font-family: 'Poppins';
-    color: #3B506B;
+    color: #070707;
     
     
 }
@@ -1223,22 +1223,23 @@ left: 900px;
     }
 
     navigation{
+        
        display: none;
         top: 145px;
-        left: 60px;
+        left: 0px;
         position: absolute;
         z-index: 2;
         border-radius: 10px;
         align-items: center;
         flex-direction: column;
-        width: 300px;
+        width:420px ;
         height: 340px;
-        opacity:90%;
         background-color: #ffffff;
     }
 
     navigation > a > h3{
-        color: #3B506B;
+        color: #000000;
+        font-weight: 400;
       
     }
 
@@ -1314,7 +1315,7 @@ left: 900px;
         width: 100vw;
     }
     .footerDwn{
-        font-size: 0.8rem;
+        font-size: 0.7rem;
         position: relative;
         top: 40px;
         width: 100vw;
@@ -1335,10 +1336,8 @@ left: 900px;
    }
 
 .btn_close{
-    position: absolute;
-
-    top: 15px;
-    left:250px;
+    position: fixed;
+    
 }
 
 .span_clone{
@@ -1401,8 +1400,11 @@ left: 900px;
     
 }
 
-
-
+.btn_fechar{
+    position: absolute;
+    top: -94px;
+    left: 302px;
+}
 
 
  }
