@@ -60,8 +60,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 | RF-02 | A aplicação deve incluir uma página onde os usuários possam conhecer mais sobre o projeto. | ALTA | 
 | RF-03 | A aplicação deverá ter uma página de login e registro de novos usuários. | ALTA |
 | RF-04 | A aplicação deverá apresentar uma página inicial (home) que inclua seções de contato, blog, posts sobre plantas e suporte. | ALTA | 
-| RF-05 | A aplicação deve incluir uma página de suporte ao usuário | ALTA | 
-| RF-06 | A aplicação deve incluir uma página de suporte caso o usuário esqueça sua senha. | BAIXA | 
+| RF-05 | A aplicação deve incluir uma página de suporte ao usuário. | ALTA | 
+| RF-06 | A aplicação deve incluir uma página de suporte caso o usuário esqueça sua senha. | ALTA | 
 
 
 
