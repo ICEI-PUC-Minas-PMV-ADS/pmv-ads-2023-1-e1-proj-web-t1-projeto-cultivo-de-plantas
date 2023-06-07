@@ -329,10 +329,10 @@ form > input[type="submit"]:houver {
 /* BACK TO TOP ICON */
 
 .back-to-top {
-  position: relative;
-  bottom: 90px;
+  position: fixed;
+  bottom: 10px;
   float: right;
-  right: 0;
+  right: 50px;
 }
 
 .back-to-top > img {

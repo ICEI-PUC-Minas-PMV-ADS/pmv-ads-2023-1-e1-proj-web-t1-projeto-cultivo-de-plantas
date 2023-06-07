@@ -498,5 +498,6 @@ Grandes telas: acima de 1200px
     right: 0;
     width: 50px;
     padding-right: 15px;
+    display: none;
   }
 }
