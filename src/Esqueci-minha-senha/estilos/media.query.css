@@ -365,6 +365,15 @@ Grandes telas: acima de 1200px
     margin-left: 45px;
     width: 30px;
   }
+
+  /* BACK TO TOP ICON */
+    
+  .back-to-top {
+    position: fixed;
+    bottom: 10px;
+    float: right;
+    right: 30px;
+}
   
 }
 
