@@ -125,6 +125,10 @@ _Funcionalidade 6 - Tela de Esqueci minha Senha_
 - index.html
 - style.css
 - cravo.jpg
+- main.js
+- icon-back-to-top.png
+- planty-logo 1.png
+- account_circle.png
 
 ## Tela de Contato (RF-06)
 A tela de contato apresenta campos para usuários entrarem em contato com os desenvolvedores da aplicação, a fim de tirar dúvidas. Além disso, também é disponibilizado o acesso ao nosso canal no Telegram. A tela desenvolvida com HTML e CSS é apresentada na imagem abaixo.
