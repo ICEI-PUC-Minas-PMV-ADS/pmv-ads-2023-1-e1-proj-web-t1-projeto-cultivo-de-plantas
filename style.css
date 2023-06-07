@@ -521,7 +521,7 @@ width: 80%;
     /* HERO SECTION */
     
     .hero-section {
-        height: 35vh;
+        height: 500px;
     }
 
     .hero-content {
@@ -565,5 +565,21 @@ width: 80%;
     /* BACK TO TOP ICON */
     .back-to-top {
         display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    /* HERO SECTION */
+    .hero-section {
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    /* HERO SECTION */
+    .hero-section {
+        height: 650px;
     }
 }
