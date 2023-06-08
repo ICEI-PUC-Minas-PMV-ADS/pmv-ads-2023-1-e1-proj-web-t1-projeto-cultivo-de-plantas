@@ -50,10 +50,12 @@ A tela de contato apresenta campos para usuários entrarem em contato com os des
 A tela de login apresenta campos para usuários já cadastrados, acessarem sua conta de membro da aplicação.
 
 ![Image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/107009327/884661b2-f1e7-4f20-8f72-fcd50fb1532f)
+_Tela desenvolvida por Tayane Milagres e André Guilherme_
 
 
 ## Área de Cadastro
 A tela de cadastro permite que novos usuários criem sua conta de membro da aplicação.
 
 ![Image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/107009327/9590a66d-dff3-42bf-8f36-e890b335f36f)
+_Tela desenvolvida por Tayane Milagres e André Guilherme_
 
