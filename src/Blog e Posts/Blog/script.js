@@ -1,12 +1,4 @@
 
-
- 
-
-
-
-
-
-
 var itemURLs = {
    Bromélia: '../Posts/Bromélia/Index.html',
    Girassol: '../Posts/Girassol/Index.html',
@@ -72,43 +64,9 @@ document.getElementById('searchInput').addEventListener('input', function() {
      resultsElement.appendChild(li);
    }
 
-
-
-
  });
 
  
-
- 
- 
- 
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 var carousel = document.getElementById('carousel_first')
