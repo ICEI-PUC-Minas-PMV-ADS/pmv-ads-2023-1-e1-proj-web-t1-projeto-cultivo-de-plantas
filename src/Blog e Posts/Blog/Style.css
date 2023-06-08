@@ -928,7 +928,6 @@ footer{
        top: 110px;
        left: 420px;
        background-color: rgb(255, 255, 255,80%);
-       
   
     }
 
@@ -1056,6 +1055,7 @@ left: 900px;
     navigation {
         display: none;
     }
+    
     
     .material-symbols-outlined{
       
