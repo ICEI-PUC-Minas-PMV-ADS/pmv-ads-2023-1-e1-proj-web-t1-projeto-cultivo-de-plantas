@@ -8,6 +8,7 @@
     
     
 }
+
 navigation{
     display: none;
 }
@@ -912,10 +913,31 @@ footer{
  }
 
 @media (max-width: 1024px) {
+    body{
+       margin-top: 1px;
+    }
+    header{
+        z-index: 2;
+    }
+    .busca{
+       display: flex;
+       flex-direction: column;
+       position: absolute;
+       font-size: 1rem;
+       border-radius: 10PX;
+       top: 110px;
+       left: 420px;
+       background-color: rgb(255, 255, 255,80%);
+       
+  
+    }
 
-   
- 
-    
+    .busca li{
+        
+        padding-top: 10px;
+        z-index: 5;
+    }
+  
 
     .loginCadastro{
         right: 100px;
@@ -926,9 +948,11 @@ footer{
         top: 100px;
     }
 
+
     nav{
         width: 100%;
         padding-left: 20px;
+        
     }
 
     .tituloPlantas{
@@ -1037,9 +1061,12 @@ left: 900px;
       
         z-index: -1;
     }
-    
 
-  
+    .planta3, .planta4{
+        display: none;
+
+    }
+    
 
     body{
       
@@ -1119,7 +1146,7 @@ left: 900px;
     
     .containerCarousel{
         position: relative;
-        right: 40px;
+        right: 30px;
         top: 120px;
     }
 

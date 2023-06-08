@@ -924,6 +924,7 @@ navigation > a > h3{
     position: absolute;
     left: 360px;
     top: 40px;
+    color: #519B84;
 }
 
 
@@ -977,17 +978,20 @@ navigation > a > h3{
  .btn_fechar{
     position: absolute;
     top: -105px;
-    left: 343px;
+    left: 345px;
+    color: #519B84;
    
 }
 
 navigation{
-    
-    display: none;
+    padding-top: 20px;
+   display: none;
+   font-size: 0.9rem;
     top: 150px;
-    left: 2px;
+    left: 0px;
     position: absolute;
     z-index: 2;
+    border-radius: 10px;
     align-items: center;
     flex-direction: column;
     width:420px ;
