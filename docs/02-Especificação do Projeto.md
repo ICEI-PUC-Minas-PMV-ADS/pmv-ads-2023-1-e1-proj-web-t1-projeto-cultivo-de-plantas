@@ -30,7 +30,7 @@ A partir do estudo da rotina das personas identificadas para o projeto, foram re
 | Laura Martins     | Obter informações específicas de plantas variadas | Identificar o tipo de planta adquirida e seus devidos cuidados |
 | Gustavo Rodrigues | Informações sobre pragas e adoecimentos           | Saber como evitá-las e manter as plantas saudáveis |
 | Gustavo Rodrigues | Obter informações sobre técnicas de Poda          | Efetuar a Poda corretamente e no tempo certo |
-| Laura Martins     | Informações sobre tempo de exposição ao sol e troca de vaso   | Manter a planta saudável e em local adequado |
+| Laura Martins     | Informações sobre tempo de exposição ao sol e tipo de vaso   | Manter a planta saudável e em local adequado |
 | Laura Martins     | Obter informações sobre vitaminas para as plantas             | Garantir o cultivo forte e saudável |
 | Gustavo Rodrigues | Saber como e o que é necessário para cultivar plantas em casa | Adquirir e começar o cultivo de plantas |
 | Gustavo Rodrigues | Informações sobre solo e substratos                  | Garantir um solo favoravel para a planta |
