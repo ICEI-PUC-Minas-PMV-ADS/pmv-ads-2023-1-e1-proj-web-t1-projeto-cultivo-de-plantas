@@ -27,7 +27,7 @@ document.getElementById('senhaForm').addEventListener('submit', function(event) 
     }
 
     else {
-        modal_valida.innerHTML = '<strong>Os códigos ou as senhas não conferem :( </strong>'    
+        modal_valida.innerHTML = '<strong>O código ou as senhas não conferem :( </strong>'    
         modal_valida.setAttribute ('style' , 'display: block; color: red')
 
     }
@@ -39,7 +39,7 @@ document.getElementById('senhaForm').addEventListener('submit', function(event) 
     Girassol: '../Blog e Posts/Posts/Girassol/Index.html',
     Cacto: '../Blog e Posts/Posts/Cacto/Index.html',
     Cebola: '../Blog e Posts/Posts/Cebola/Index.html',
-    Hera_Inglesa: '../Blog e Posts/Posts/Hera_Inglesa/Index.html',
+    Hera_Inglesa: '../Blog e Posts/Posts/Hera-Inglesa/Index.html',
     Hortência: '../Blog e Posts/Posts/Hortência/Index.html',
     Iresine: '../Blog e Posts/Posts/Iresine/Index.html',
     Jasmim: '../Blog e Posts/Posts/Jasmim/Index.html',

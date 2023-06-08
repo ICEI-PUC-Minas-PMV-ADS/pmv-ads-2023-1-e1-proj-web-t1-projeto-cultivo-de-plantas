@@ -78,6 +78,10 @@ html {
   background-color: white;
 }
 
+header{
+  z-index: 2;
+}
+
 .column {
   padding: 10px;
 }
@@ -357,6 +361,7 @@ form > button:houver {
 
 
 /*modal*/
+
 #modal_valida{
 text-align: center;
 padding: 20px;
@@ -379,7 +384,12 @@ background-color:var(--Branco-esfumaçado);
   border-radius: 10PX;
   top: 110px;
   left: 420px;
-  background-color: rgb(255, 255, 255,80%);
+  background-color: #00000036;
 
+}
 
+.busca li{
+
+  padding-top: 10px;
+  z-index: 5;
 }
