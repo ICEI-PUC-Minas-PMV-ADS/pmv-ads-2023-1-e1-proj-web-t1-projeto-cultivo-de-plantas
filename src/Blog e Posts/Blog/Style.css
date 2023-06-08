@@ -920,6 +920,11 @@ footer{
     .loginCadastro{
         right: 100px;
     }
+    .containerCarousel{
+        position: relative;
+        right: 33px;
+        top: 100px;
+    }
 
     nav{
         width: 100%;
@@ -943,28 +948,30 @@ footer{
     }
 
 
-    .planta4, .planta3{
+    .planta4{
         display: none;
     }
     
     .containerCarousel2{
         display: none;
         position: absolute;
-        bottom: 200px;
-        left: 190px;
+        top: 340px;
+        left: 20px;
       
 
     }
 
    .setas{
     position: absolute;
-    left: 150px;
+    left: 20px;
+    top: 340px;
    }
 
    .setaLeft{
     position: absolute;
-    left: 740px;
+    left: 970px;
    }
+  
    main{
     height:2600px ;
    }
@@ -1030,15 +1037,15 @@ left: 900px;
       
         z-index: -1;
     }
+    
 
-    .back-to-top{
-        position: absolute;
-        top: 170px;
-    }
+  
 
     body{
+      
       width: 768px;
       height: auto;
+      
 
     }
     main{
@@ -1063,6 +1070,7 @@ left: 900px;
 
     header{
         width: 100%;
+        top: 1px;
         padding-left: 20px;
     }
     
@@ -1136,11 +1144,18 @@ left: 900px;
    
    }
 
+  
    .back-to-top{
-    position: absolute;
+    position:fixed;
     left: 690px;
-    top: 60px;
+    top: 790px;
+    
    }
+   .btn_backToTop{
+    width: 50px;
+   }
+   
+
 
 
 
@@ -1157,10 +1172,7 @@ left: 900px;
     
 }
 
-.btn_backToTop{
-    width: 50px;
 
-}
 
 .tituloPost{
    padding-top: 10px;
@@ -1223,8 +1235,9 @@ left: 900px;
     }
 
     navigation{
-        
+        padding-top: 20px;
        display: none;
+       font-size: 0.9rem;
         top: 145px;
         left: 0px;
         position: absolute;
@@ -1323,20 +1336,21 @@ left: 900px;
     }
 
     .material-symbols-outlined {
-     
-        left: 320px;
-        top: 50px;
-
+     color: #519B84;
+     left: 320px;
+     top: 50px;
+        
    }
-
+ 
    .back-to-top{
-    position: absolute;
+    position:fixed;
     left: 360px;
-    top:10px;
+    top: 830px;
    }
 
 .btn_close{
     position: fixed;
+    
     
 }
 
@@ -1404,10 +1418,17 @@ left: 900px;
     position: absolute;
     top: -94px;
     left: 302px;
+    color: #519B84;
+    
 }
 
 
+
+
+
  }
+
+ 
 
 
 
