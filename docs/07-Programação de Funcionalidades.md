@@ -104,7 +104,7 @@ _Funcionalidade 4 - Tela de Login_
 ## Tela de Cadastro (RF-03)
 A tela de cadastro permite que novos usuários criem sua conta de membro da aplicação. A tela desenvolvida com HTML e CSS é apresentada na imagem abaixo.
 
-[image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/127251265/250d6a33-61d5-4c00-8cfc-ab702bdc2ff6)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/127251265/250d6a33-61d5-4c00-8cfc-ab702bdc2ff6)
 _Tela desenvolvida por Tayane Milagres e André Guilherme_
 
 _Funcionalidade 5 - Tela de Cadastro_
