@@ -142,7 +142,7 @@ A tela de contato será utilizada pelos usuários para reportar incoerências, d
 
 _Wireframe - Contato_
 
-## Wireframe - Fórum
+## Wireframe - Quem somos
 
 A tela "Quem Somos" tem como objetivo permitir que os usuários conheçam a essência do site Planty. Ao clicar no botão localizado logo abaixo da introdução, os usuários serão redirecionados para a página do blog, onde encontrarão uma variedade de postagens relacionadas a plantas. 
 
