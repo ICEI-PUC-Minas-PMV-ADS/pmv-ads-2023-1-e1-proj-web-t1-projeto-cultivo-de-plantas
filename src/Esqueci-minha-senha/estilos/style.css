@@ -370,3 +370,16 @@ position: relative;
 top: 100px;
 background-color:var(--Branco-esfumaçado);
 }
+
+.busca{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  font-size: 1rem;
+  border-radius: 10PX;
+  top: 110px;
+  left: 420px;
+  background-color: rgb(255, 255, 255,80%);
+
+
+}
