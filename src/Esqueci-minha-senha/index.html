@@ -37,7 +37,7 @@
 
     <!--JavaScript-->
     
-    <script src="main.js"></script>
+    
 
     <!--Header-->
 
@@ -98,39 +98,17 @@
       </ul>
     </div>
 
-    <!--Modal-->
-
-            <!--Sucesso!!!-->
-            <div id="modal_valida">
-              <dialog>
-               <h2>Senha alterada com sucesso!</h2>
-               <button>OK</button>
-              </dialog>
-             
-             <!--Insucesso-->
- 
-              <dialog>
-               <h2>As senhas inseridas devem ser iguais.</h2>
-               <button>OK</button>
-              </dialog>
- 
-              <dialog>
-               <h2>O código inserido está incorreto!</h2>
-               <button>OK</button>
-              </dialog>
-            </div>
- 
-             
 
     <!--Main-->
 
     <main>
+      <div id="modal_valida"></div>
       <section id="esqsenha">
         <div id="imagem"></div>
         <div id="formulario">
           <h1>Esqueceu sua senha?</h1>
           <p>Insira o código que enviamos para seu e-mail:</p>
-          <form action="esquecisenha.php" method="post">
+          <form id="senhaForm">
             <div class="campo">
               <span class="material-symbols-outlined"> terminal </span>
               <input
@@ -162,7 +140,7 @@
               <input
                 type="password"
                 name="senha"
-                id="isenha"
+                id="iconfirme"
                 placeholder="Confirme sua nova senha..."
                 required
                 minlength="8"
@@ -170,10 +148,12 @@
               />
               <label for="isenha">Nova senha</label>
             </div>
-            <input type="submit" value="entrar" />
+            <button type= 'submit' id="enviar">Entrar</button>
           </form>
         </div>
+        
       </section>
+      
     </main>
 
     <!--Footer-->
@@ -201,5 +181,7 @@
         /></a>
       </div>
     </footer>
+
+    <script src="main.js"></script>
   </body>
 </html>

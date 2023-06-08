@@ -69,34 +69,45 @@ function menuShow() {
  }
  
 
-//Função para adicionar o Nome do usuário logado ao lado do icone de usuário
+//////
 
 function checkLogin(usuario) {
-  const isLoggedIn = true; //Estado do Login
+  const isLoggedIn = true; // Estado do Login
 
   var loginCadElement = document.getElementById('loginCad');
   var accountIconElement = document.querySelector('.account-icon');
 
   if (isLoggedIn) {
-      // Se o usuário estiver logado
-      loginCadElement.innerHTML = usuario; 
+    // Se o usuário estiver logado
+    loginCadElement.innerHTML = usuario;
+    loginCadElement.removeAttribute('href');
+
+    var nomeUsuarioLog = JSON.parse(localStorage.getItem('nomeUsuarioLog') || '{}');
+
+    nomeUsuarioLog.nomeUser = String(usuario);
+
+    localStorage.setItem('nomeUsuarioLog', JSON.stringify(nomeUsuarioLog));
+  } else {
+    // Se o usuário não estiver logado
+    loginCadElement.innerHTML = 'Login / Cadastro';
+    accountIconElement.style.display = 'block';
+    
+  }
+}
+
+
+function funcaoNome() {
+  var loginCadElement = document.getElementById('loginCad');
+  var accountIconElement = document.querySelector('.account-icon');
+  var nomeUsuarioLog = JSON.parse(localStorage.getItem('nomeUsuarioLog'));
+
+  if (nomeUsuarioLog) {
+      loginCadElement.innerHTML = nomeUsuarioLog.nomeUser; 
       loginCadElement.removeAttribute('href');
 
-    // Envia o nome do usuário logado para o LocalStorage
-
-    let nomeUsuarioLog = JSON.parse(localStorage.getItem("nomeUsuarioLog") || "[]");
-
-    nomeUsuarioLog.push({
-      nomeUser: String(usuario)
-    });
-    
-    localStorage.setItem("nomeUsuarioLog", JSON.stringify(nomeUsuarioLog));
-
-    
-        
   } else {
-      // Se o usuário não estiver logado
-      loginCadElement.innerHTML = 'Login / Cadastro'; // Restaure o conteúdo original do botão
-      accountIconElement.style.display = 'block'; // Exiba o ícone de usuário
+      
+      loginCadElement.innerHTML = 'Login / Cadastro'; 
+      accountIconElement.style.display = 'block'; 
   }
 }
