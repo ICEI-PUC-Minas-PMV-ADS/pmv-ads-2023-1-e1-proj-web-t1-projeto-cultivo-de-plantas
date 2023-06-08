@@ -35,7 +35,7 @@ A partir do estudo da rotina das personas identificadas para o projeto, foram re
 | Gustavo Rodrigues | Saber como e o que é necessário para cultivar plantas em casa | Adquirir e começar o cultivo de plantas |
 | Gustavo Rodrigues | Informações sobre solo e substratos                  | Garantir um solo favoravel para a planta |
 | Laura Martins     | Poder realizar o login em minha conta de usuário       |  Ter privacidade |
-| Gustavo Rodrigues | Chat para suporte          | Sanar dúvidas, obter ajuda e relatar os problemas técnicos da aplicação |
+| Gustavo Rodrigues | Poder entrar em contato com o suporte          | Sanar dúvidas, obter ajuda e relatar os problemas técnicos da aplicação |
 | Laura Martins     | Poder pesquisar os nomes das plantas  | Achar as informações com maior facilidade |
 | Laura Martins     | Conhecer melhor sobre o projeto             | Saber do que se trata o site |
 
