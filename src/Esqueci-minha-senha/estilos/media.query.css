@@ -165,6 +165,21 @@ Grandes telas: acima de 1200px
  
   /* HEADER */
 
+  #modal_valida{
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 50%;
+    border-radius: 5%;
+    display: none;
+    position: relative;
+    
+    
+    background-color:var(--Branco-esfumaçado);
+    }
+
   .header-container {
     display: flex;
     justify-content: space-between;
@@ -271,6 +286,20 @@ Grandes telas: acima de 1200px
 
 @media screen and (max-width: 768px) {
 
+  #modal_valida{
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    margin-top: 10px;
+    width: 80%;
+    border-radius: 5%;
+    display: none;
+    background-color:var(--Branco-esfumaçado);
+    }
+
+    
+
+
   .main-menu {
     padding: 1.5rem 4rem;
     display: none;
@@ -365,6 +394,15 @@ Grandes telas: acima de 1200px
     margin-left: 45px;
     width: 30px;
   }
+
+  /* BACK TO TOP ICON */
+    
+  .back-to-top {
+    position: fixed;
+    bottom: 10px;
+    float: right;
+    right: 30px;
+}
   
 }
 
@@ -498,5 +536,6 @@ Grandes telas: acima de 1200px
     right: 0;
     width: 50px;
     padding-right: 15px;
+    display: none;
   }
 }

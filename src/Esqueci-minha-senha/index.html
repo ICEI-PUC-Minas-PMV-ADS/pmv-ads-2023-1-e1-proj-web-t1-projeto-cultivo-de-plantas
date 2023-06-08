@@ -11,7 +11,9 @@
     />
     <link rel="stylesheet" href="./estilos/style.css" />
     <link rel="stylesheet" href="./estilos/media.query.css" />
+
     <!--Símbolos e ícones-->
+
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
@@ -21,7 +23,9 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+
     <!--Fonte Poppins-->
+
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;800&display=swap"
@@ -31,9 +35,6 @@
   </head>
   <body>
     
-    <!--JavaScript-->
-    <script src="main.js"></script>
-
     <!--Header-->
 
     <header class="header-container" id="top">
@@ -93,15 +94,17 @@
       </ul>
     </div>
 
+
     <!--Main-->
 
     <main>
+      <div id="modal_valida"></div>
       <section id="esqsenha">
         <div id="imagem"></div>
         <div id="formulario">
           <h1>Esqueceu sua senha?</h1>
           <p>Insira o código que enviamos para seu e-mail:</p>
-          <form action="esquecisenha.php" method="post">
+          <form id="senhaForm">
             <div class="campo">
               <span class="material-symbols-outlined"> terminal </span>
               <input
@@ -133,7 +136,7 @@
               <input
                 type="password"
                 name="senha"
-                id="isenha"
+                id="iconfirme"
                 placeholder="Confirme sua nova senha..."
                 required
                 minlength="8"
@@ -141,10 +144,12 @@
               />
               <label for="isenha">Nova senha</label>
             </div>
-            <input type="submit" value="entrar" />
+            <button type= 'submit' id="enviar">Entrar</button>
           </form>
         </div>
+        
       </section>
+      
     </main>
 
     <!--Footer-->
@@ -172,5 +177,8 @@
         /></a>
       </div>
     </footer>
+
+    <!--JavaScript-->
+    <script src="main.js"></script>
   </body>
 </html>

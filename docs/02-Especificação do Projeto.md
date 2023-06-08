@@ -25,25 +25,20 @@ A partir do estudo da rotina das personas identificadas para o projeto, foram re
 
 | Eu como...[Persona] | ...quero/desejo...[O que] | ...para...[Por que] |
 | :-------------------: | :-------------------------: | :-------------------: | 
-| Laura Martins     | Visualizar informações sobre o horário recomendado para regar as plantas         | Criar uma rotina e regá-las no momento apropriado |
+| Laura Martins     | Visualizar informações sobre como regar as plantas         | Criar uma rotina e regá-las no momento apropriado |
 | Laura Martins    | Visualizar informações sobre o melhor tipo de adubo e momento correto de adubagem | Garantir de maneira correta uma boa fertilização das plantas |
 | Laura Martins     | Obter informações específicas de plantas variadas | Identificar o tipo de planta adquirida e seus devidos cuidados |
 | Gustavo Rodrigues | Informações sobre pragas e adoecimentos           | Saber como evitá-las e manter as plantas saudáveis |
 | Gustavo Rodrigues | Obter informações sobre técnicas de Poda          | Efetuar a Poda corretamente e no tempo certo |
-| Laura Martins     | Informações sobre tempo de exposição ao sol e troca de vaso   | Manter a planta saudável e em local adequado |
+| Laura Martins     | Informações sobre tempo de exposição ao sol e tipo de vaso   | Manter a planta saudável e em local adequado |
 | Laura Martins     | Obter informações sobre vitaminas para as plantas             | Garantir o cultivo forte e saudável |
-| Gustavo Rodrigues | Saber como e o que é necessário para cultivar plantas em casa | Adquirir e começar o cultivo de plantas para fins estéticos e alimentícios em casa |
-| Laura Martins     | Cronograma de cuidados para determinado tipo de planta | Facilitar o planejamento do cuidado com cultivo de plantas   |
-| Gustavo Rodrigues | Informações sobre raízes e substratos                  | Garantir um bom suporte, fixação para as plantas e nutrição correta |
-| Laura Martins     | Informações sobre benefícios que o cultivo acarreta à saúde   | Garantir o bem estar e incentivar as pessoas a cultivarem plantas |
-| Laura Martins     | Local para compartilhar fotos de plantas               | Criar vínculos com a comunidade |
-| Gustavo Rodrigues | Compartilhar minhas dicas sobre plantas                | Acrescentar informações sobre determinadas plantas |
-| Laura Martins     | Poder realizar o login em minha conta de usuário       |  Ter privacidade e notificações personalizadas |
-| Gustavo Rodrigues | Chat para suporte          | Sanar dúvidas, obter ajuda e relatar os problemas técnicos da aplicação |
-| Laura Martins     | Pesquisar os nomes científicos das plantas  | Aprender a identificação global das plantas e encontrar sua planta com maior facilidade |
-| Gustavo Rodrigues | Mensagem de alerta sobre mudança de cuidados coma as plantas | Se manter atualizado sobre os cuidados |
-| Laura Martins     | Favoritar as dicas de minha preferência               | Facilitar o acesso dessas informações no futuro |
-| Gustavo Rodrigues | Um fórum                   | Compartilhar conhecimento e experiencia sobre plantas com outros usuários |
+| Gustavo Rodrigues | Saber como e o que é necessário para cultivar plantas em casa | Adquirir e começar o cultivo de plantas |
+| Gustavo Rodrigues | Informações sobre solo e substratos                  | Garantir um solo favoravel para a planta |
+| Laura Martins     | Poder realizar o login em minha conta de usuário       |  Ter privacidade |
+| Gustavo Rodrigues | Poder entrar em contato com o suporte          | Sanar dúvidas, obter ajuda e relatar os problemas técnicos da aplicação |
+| Laura Martins     | Poder pesquisar os nomes das plantas  | Achar as informações com maior facilidade |
+| Laura Martins     | Conhecer melhor sobre o projeto             | Saber do que se trata o site |
+
 
 
 ## 2.3 Requisitos
@@ -56,13 +51,12 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 | ID    | Descrição dos Requisitos | Prioridade |
 | :-----: | :------------------------ | :----------: | 
-| RF-01 | A aplicação deverá ter um catálogo com espécies de plantas mais comumente cultivadas no Brasil, com informações aos cuidados necessários, como: rega, podas e adubagem      | ALTA |
-| RF-02 | A aplicação deve incluir um recurso de pesquisa utilizando tanto o nome comum quanto o nome científico das plantas | ALTA | 
-| RF-03 | A aplicação deverá ter uma página de login e registro de novos usuários | ALTA |
-| RF-04 | A aplicação deve contar com um sistema de  que gera notificações relacionadas a eventos pré-determinados | ALTA | 
-| RF-05 | A aplicação deve permitir que os usuários comentem e compartilhem suas dicas | BAIXA |
-| RF-06 | A aplicação deve incluir uma página de suporte ao usuário | BAIXA | 
-| RF-07 | A aplicação deve fornecer uma opção para os usuários marcarem suas dicas como favoritas | BAIXA | 
+| RF-01 | A aplicação deverá ter um catálogo com espécies de plantas mais comumente cultivadas no Brasil, com informações aos cuidados necessários, como: rega, podas e adubagem.      | ALTA |
+| RF-02 | A aplicação deve incluir uma página onde os usuários possam conhecer mais sobre o projeto. | ALTA | 
+| RF-03 | A aplicação deverá ter uma página de login e registro de novos usuários. | ALTA |
+| RF-04 | A aplicação deverá apresentar uma página inicial (home) que inclua seções de contato, blog, posts sobre plantas e suporte. | ALTA | 
+| RF-05 | A aplicação deve incluir uma página de suporte ao usuário. | ALTA | 
+| RF-06 | A aplicação deve incluir uma página de suporte caso o usuário esqueça sua senha. | ALTA | 
 
 
 

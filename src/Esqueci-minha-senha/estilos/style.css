@@ -274,12 +274,12 @@ div.campo > input {
   color: black;
 }
 
-div.campo > input:focus-within {
+div.campo > button:focus-within {
   background-color: white;
   border: none;
 }
 
-form > input[type="submit"] {
+form > button {
   display: block;
   font-size: 0.8em;
   width: 100%;
@@ -291,7 +291,7 @@ form > input[type="submit"] {
   color: var(--Branco-esfumaçado);
 }
 
-form > input[type="submit"]:houver {
+form > button:houver {
   background-color: #b7d692;
 }
 
@@ -329,10 +329,10 @@ form > input[type="submit"]:houver {
 /* BACK TO TOP ICON */
 
 .back-to-top {
-  position: relative;
-  bottom: 90px;
+  position: fixed;
+  bottom: 10px;
   float: right;
-  right: 0;
+  right: 50px;
 }
 
 .back-to-top > img {
@@ -353,4 +353,20 @@ form > input[type="submit"]:houver {
 
 .mobile-menu a {
   color: #000000;
+}
+
+
+/*modal*/
+#modal_valida{
+text-align: center;
+padding: 20px;
+margin: auto;
+margin-top: 20px;
+margin-bottom: 20px;
+width: 50%;
+border-radius: 5%;
+display: none;
+position: relative;
+top: 100px;
+background-color:var(--Branco-esfumaçado);
 }

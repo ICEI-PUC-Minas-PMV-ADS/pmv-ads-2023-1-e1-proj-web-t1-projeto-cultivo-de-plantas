@@ -53,21 +53,6 @@ _Wireframe - Homepage_
 
 
 
-## Wireframe - Área do Membro
-
-A tela de Área do Membro deverá mostrar as informações do perfil. O bloco do conteúdo então, deverá disponibilizar:
-
-- **Foto de perfil:** mostrará a foto atual e opção de alterar a foto do perfil;
-
-- **Nome:** exibirá o nome do perfil e opção de alterá-lo;
-
-- **Meus tópicos:** informará a quantidade de tópicos no fórum abertos pelo usuário.
-
-![Image](https://user-images.githubusercontent.com/107009327/233867372-e362826d-e706-4107-a6e9-b0c2059cbd05.png)
-_Wireframe - Área do membro_
-
-
-
 ## Wireframe - Feed do Blog
 
 
@@ -142,7 +127,7 @@ A tela de contato será utilizada pelos usuários para reportar incoerências, d
 
 _Wireframe - Contato_
 
-## Wireframe - Fórum
+## Wireframe - Quem somos
 
 A tela "Quem Somos" tem como objetivo permitir que os usuários conheçam a essência do site Planty. Ao clicar no botão localizado logo abaixo da introdução, os usuários serão redirecionados para a página do blog, onde encontrarão uma variedade de postagens relacionadas a plantas. 
 

@@ -122,7 +122,7 @@ function checkInputs() {
       msgSuccess.innerHTML = '<strong> Cadastrado com sucesso!<br> Você será redirecionado para o Login automáticamente :)</strong>'   
       
      setTimeout(()=>{
-         window.location.href = '/src/Login page/login-planty.html'
+         window.location.href = "../Login page/login-planty.html"
      }, 4000)  
    
    }
@@ -168,3 +168,21 @@ function menuShow() {
    }
 }
 
+
+function funcaoNome() {
+   var loginCadElement = document.getElementById('loginCad');
+   var accountIconElement = document.querySelector('.account-icon');
+   var nomeUsuarioLog = JSON.parse(localStorage.getItem('nomeUsuarioLog'));
+
+   if (nomeUsuarioLog) {
+       loginCadElement.innerHTML = nomeUsuarioLog.nomeUser; 
+       loginCadElement.removeAttribute('href');
+
+   } else {
+       
+       loginCadElement.innerHTML = 'Login / Cadastro'; 
+       accountIconElement.style.display = 'block'; 
+   }
+ }
+
+ 
