@@ -79,7 +79,7 @@ _Funcionalidade 3 - Tela do Post_
 ## Tela de Login (RF-03)
 A tela de login apresenta campos para usuários já cadastrados, acessarem sua conta de membro da aplicação. A tela desenvolvida com HTML e CSS é apresentada na imagem abaixo.
 
-![Image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/107009327/4c171365-7318-4908-8b3a-5a0aa4ef8323)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/127251265/5fdaf284-566e-407c-98d5-44387bf58f14)
 _Tela desenvolvida por Tayane Milagres e André Guilherme_
 
 _Funcionalidade 4 - Tela de Login_
