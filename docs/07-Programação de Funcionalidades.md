@@ -79,7 +79,8 @@ _Funcionalidade 3 - Tela do Post_
 ## Tela de Login (RF-03)
 A tela de login apresenta campos para usuários já cadastrados, acessarem sua conta de membro da aplicação. A tela desenvolvida com HTML e CSS é apresentada na imagem abaixo.
 
-![Image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/107009327/4c171365-7318-4908-8b3a-5a0aa4ef8323)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/127251265/5fdaf284-566e-407c-98d5-44387bf58f14)
+_Tela desenvolvida por Tayane Milagres e André Guilherme_
 
 _Funcionalidade 4 - Tela de Login_
 
@@ -89,15 +90,22 @@ _Funcionalidade 4 - Tela de Login_
 <ins>**Artefatos da funcionalidade**</ins>
 - login-planty.html
 - login-planty.css
+- login.js
 - img-login.png
 - login-img.jpg
 - login-plant.png
+- Logo-Planty.png
+- icons8-girassol-16.png
+- icon-back-to-top.png
+- account_circle.png
+- search.png
 
 
 ## Tela de Cadastro (RF-03)
 A tela de cadastro permite que novos usuários criem sua conta de membro da aplicação. A tela desenvolvida com HTML e CSS é apresentada na imagem abaixo.
 
-![Image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/107009327/56cd2302-e267-4168-aafc-3dffe25e3265)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/127251265/250d6a33-61d5-4c00-8cfc-ab702bdc2ff6)
+_Tela desenvolvida por Tayane Milagres e André Guilherme_
 
 _Funcionalidade 5 - Tela de Cadastro_
 
@@ -107,9 +115,16 @@ _Funcionalidade 5 - Tela de Cadastro_
 <ins>**Artefatos da funcionalidade**</ins>
 - cadastro-page.html
 - cadastro-page.css
+- cadastro.js
 - img-login.png
 - login-img.jpg
 - login-plant.png
+- Logo-Planty.png
+- icons8-girassol-16.png
+- icon-back-to-top.png
+- account_circle.png
+- search.png
+
 
 ## Tela de Esqueci minha Senha (RF-04)
 A tela de esqueci minha senha apresenta campos para usuários já cadastrados, mas que não conseguem acessar sua conta de membro, possam solicitar uma nova senha. A tela desenvolvida com HTML e CSS é apresentada na imagem abaixo.
