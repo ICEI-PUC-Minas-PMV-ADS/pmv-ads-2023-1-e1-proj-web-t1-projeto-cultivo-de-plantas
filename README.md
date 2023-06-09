@@ -1,19 +1,44 @@
-# Instruções de utilização
+## Integrantes
 
-## Instalação do Site
+* <html><head></head><body><a href="https://github.com/AndreeGS">André Guilherme Santos de Oliveira</a></body></html>
+* <html><head></head><body><a href="https://github.com/brunasantos-dev">Bruna Santos</a></body></html>
+* <html><head></head><body><a href="https://github.com/GabrielBruno7">Gabriel Bruno de Oliveira Souza</a></body></html>
+* <html><head></head><body><a href="https://github.com/joaoalmei">João Vitor Jorge Almeida</a></body></html>
+* <html><head></head><body><a href="https://github.com/luanagpinax">Luana Guimarães Pina</a></body></html>
+* <html><head></head><body><a href="https://github.com/taymilagres">Tayane Ferreira Milagres</a></body></html>
 
-O site em HTML/CSS/JS é um projeto estático, logo pode ser utilizado tanto em servidores...
+## Orientador
 
-## Histórico de versões
+* <html><head></head><body><a href="https://github.com/joycecpc">Joyce Christina de Paiva Carvalho</a></body></html>
 
-### [0.1.0] - 02/05/2023
-#### Adicionado
-- Estrutura do Header
-- Estrutura da Navegação Principal
-- Estrutura da seção de "Hero"
-- Estrutura de seção de "Categorias"
+## Instruções de utilização
 
-### [0.1.1] - 03/05/2023
-#### Adicionado
-- Estrutura da seção "Conteúdos em Destaque"
-- Estrutura da seção "Seja um Membro"
+Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+
+# Documentação
+
+<ol>
+<li><a href="docs/01-Documentação de Contexto.md"> Documentação de Contexto</a></li>
+<li><a href="docs/02-Especificação do Projeto.md"> Especificação do Projeto</a></li>
+<li><a href="docs/03-Metodologia.md"> Metodologia</a></li>
+<li><a href="docs/04-Projeto de Interface.md"> Projeto de Interface</a></li>
+<li><a href="docs/05-Arquitetura da Solução.md"> Arquitetura da Solução</a></li>
+<li><a href="docs/06-Template padrão do Site.md"> Template padrão do Site</a></li>
+<li><a href="docs/07-Programação de Funcionalidades.md"> Programação de Funcionalidades</a></li>
+<li><a href="docs/08-Plano de Testes de Software.md"> Plano de Testes de Software</a></li>
+<li><a href="docs/09-Registro de Testes de Software.md"> Registro de Testes de Software</a></li>
+<li><a href="docs/10-Apresentação do Projeto.md"> Apresentação do Projeto</a></li>
+<li><a href="docs/11-Referências.md"> Referências</a></li>
+</ol>
+
+# Hospedagem
+
+* Insira o endereço eletrônico público de acesso ao conteúdo publicado. 
+
+# Armazenamento do Código-Fonte
+
+* <a href="src/README.md">Código Fonte</a>
+
+# Armazenamento da Apresentação
+
+* <a href="presentation/README.md">Apresentação da solução</a>
