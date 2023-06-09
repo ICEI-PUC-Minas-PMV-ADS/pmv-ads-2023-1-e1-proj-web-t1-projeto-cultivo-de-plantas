@@ -190,6 +190,10 @@ Grandes telas: acima de 1200px
     background-color: white;
   }
 
+  header{
+    z-index: 2;
+  }
+
   .column {
     padding: 10px;
   }
