@@ -136,7 +136,7 @@ _Tela desenvolvida por João Vitor_
 _Funcionalidade 6 - Tela de Esqueci minha Senha_
 
 <ins>**Requisitos atendidos**</ins>
-- RF-04
+- RF-06 
 
 <ins>**Artefatos da funcionalidade**</ins>
 - index.html
