@@ -1,3 +1,70 @@
+var itemURLs = {
+  Bromélia: '../Bromélia/Index.html',
+  Espada_de_são_Jorge: '../Espada-de-são-Jorge/Index.html',
+  Girassol: '../Girassol/Index.html',
+  Cacto: '../Cacto/Index.html',
+  Cebola: '../Cebola/Index.html',
+  Hera_Inglesa: '../Hera-Inglesa/Index.html',
+  Hortência: '../Hortência/Index.html',
+  Iresine: '../Iresine/Index.html',
+  Jasmim: '../Jasmim/Index.html',
+  Lavanda: '../Lavanda/Index.html',
+  Lírio: '../Lírio/Index.html',
+  Neoregélia: '../Neoregélia/Index.html',
+  Orquidea: '../Orquidea/Index.html',
+  Palmeira_Dama: '../Palmeira-Dama/Index.html',
+  Pitanga: '../Pitanga/Index.html',
+  Roseira: '../Roseira/Index.html',
+  Samambaia: '../Samambaia/Index.html',
+  Tomate: '../Tomate/Index.html',
+  Torênia: '../Torênia/Index.html',
+  Trapoeraba: '../Trapoeraba/Index.html'
+};
+
+var plantas = ['Bromélia', 'Cacto', 'Girassol', 'Cebola', 'Espada_de_são_Jorge', 'Hera_Inglesa', 'Hortência', 'Iresine', 'Jasmim', 'Lavanda' , 'Lírio', 'Neoregélia', 'Orquidea','Palmeira_Dama','Pitanga' ,'Roseira' ,'Samambaia','Tomate','Torênia','Trapoeraba'];
+localStorage.setItem('meuVetor', JSON.stringify( plantas));
+
+document.getElementById('searchInput').addEventListener('input', function() {
+  var searchTerm = this.value.toLowerCase();
+  var storedVetor = JSON.parse(localStorage.getItem('meuVetor'));
+  var searchResults = [];
+
+  // Percorre o vetor e verifica se o termo de pesquisa está contido em cada item
+  for (var i = 0; i < storedVetor.length; i++) {
+    var item = storedVetor[i].toLowerCase();
+    if (item.indexOf(searchTerm) !== -1) {
+      searchResults.push(storedVetor[i]);
+    }
+  }
+
+  // Atualiza a lista de resultados na página
+  var resultsElement = document.getElementById('searchResults');
+  resultsElement.innerHTML = '';
+
+  for (var j = 0; j < searchResults.length; j++) {
+    var li = document.createElement('li');
+    
+    var link = document.createElement('a');
+    var itemText = searchResults[j];
+
+    if (itemURLs.hasOwnProperty(itemText)) {
+      link.href = itemURLs[itemText];
+    } else {
+      link.href = '#'; // Defina um URL padrão para itens não mapeados
+    }
+    li.classList.add('searchResult');
+
+    link.textContent = itemText;
+
+    link.addEventListener('click', function() {
+      window.location.href = this.href;
+    });
+
+    li.appendChild(link);
+    resultsElement.appendChild(li);
+  }
+
+});
 
 
 

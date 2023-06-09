@@ -1,6 +1,7 @@
 
 var itemURLs = {
    Bromélia: '../Posts/Bromélia/Index.html',
+   Espada_de_são_Jorge: '../Posts/Espada-de-são-Jorge/Index.html',
    Girassol: '../Posts/Girassol/Index.html',
    Cacto: '../Posts/Cacto/Index.html',
    Cebola: '../Posts/Cebola/Index.html',
@@ -21,7 +22,7 @@ var itemURLs = {
    Trapoeraba: '../Posts/Trapoeraba/Index.html'
 };
 
-var plantas = ['Bromélia', 'Cacto', 'Girassol', 'Cebola', 'Espada-de-são-Jorge', 'Hera_Inglesa', 'Hortência', 'Iresine', 'Jasmim', 'Lavanda' , 'Lírio', 'Neoregélia', 'Orquidea','Palmeira_Dama','Pitanga' ,'Roseira' ,'Samambaia','Tomate','Torênia','Trapoeraba'];
+var plantas = ['Bromélia', 'Cacto', 'Girassol', 'Cebola', 'Espada_de_são_Jorge', 'Hera_Inglesa', 'Hortência', 'Iresine', 'Jasmim', 'Lavanda' , 'Lírio', 'Neoregélia', 'Orquidea','Palmeira_Dama','Pitanga' ,'Roseira' ,'Samambaia','Tomate','Torênia','Trapoeraba'];
 localStorage.setItem('meuVetor', JSON.stringify( plantas));
 
 document.getElementById('searchInput').addEventListener('input', function() {

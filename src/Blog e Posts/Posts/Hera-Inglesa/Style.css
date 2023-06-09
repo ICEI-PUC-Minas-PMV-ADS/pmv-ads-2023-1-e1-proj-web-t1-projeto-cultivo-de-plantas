@@ -503,8 +503,32 @@ h4{
 
 
 
-
 @media (max-width: 1920px) {
+    header{
+        position: absolute;
+        top: 1px;
+        z-index: 2;
+    }
+    .busca{
+       
+       display: flex;
+       flex-direction: column;
+       position: absolute;
+       font-size: 1rem;
+       border-radius: 10PX;
+       top: 110px;
+       left: 650px;
+       background-color: rgb(255, 255, 255);
+       width: 600px;
+       text-align: center;
+  
+    }
+
+    .busca li{
+        padding-top: 10px;
+        z-index: 5;
+    }
+
 
     .iconPesquisar{
         position: absolute;
@@ -537,6 +561,30 @@ h4{
  
 }
 @media (max-width: 1600px) {
+    header{
+        position: absolute;
+        top: 1px;
+        z-index: 2;
+    }
+    .busca{
+       
+       display: flex;
+       flex-direction: column;
+       position: absolute;
+       font-size: 1rem;
+       border-radius: 10PX;
+       top: 110px;
+       left: 480px;
+       background-color: rgb(255, 255, 255);
+       width: 600px;
+       text-align: center;
+  
+    }
+
+    .busca li{
+        padding-top: 10px;
+        z-index: 5;
+    }
 
     .logoPlanty{
         position: absolute;
@@ -573,6 +621,31 @@ h4{
  
 }
 @media (max-width: 1440px) {
+    header{
+        position: absolute;
+        top: 1px;
+        z-index: 2;
+    }
+    .busca{
+       
+       display: flex;
+       flex-direction: column;
+       position: absolute;
+       font-size: 1rem;
+       border-radius: 10PX;
+       top: 110px;
+       left: 400px;
+       background-color: rgb(255, 255, 255);
+       width: 600px;
+       text-align: center;
+  
+    }
+
+    .busca li{
+        padding-top: 10px;
+        z-index: 5;
+    }
+
 
     .logoPlanty{
         position: absolute;
@@ -613,6 +686,30 @@ h4{
  
 }
 @media (max-width: 1366px) {
+    header{
+        position: absolute;
+        top: 1px;
+        z-index: 2;
+    }
+    .busca{
+       
+       display: flex;
+       flex-direction: column;
+       position: absolute;
+       font-size: 1rem;
+       border-radius: 10PX;
+       top: 110px;
+       left: 370px;
+       background-color: rgb(255, 255, 255);
+       width: 600px;
+       text-align: center;
+  
+    }
+
+    .busca li{
+        padding-top: 10px;
+        z-index: 5;
+    }
 
 
     .inputPesquisar{
@@ -659,6 +756,30 @@ h4{
  
 }
 @media (max-width: 1024px) {
+    header{
+        position: absolute;
+        top: 1px;
+        z-index: 2;
+    }
+    .busca{
+       
+       display: flex;
+       flex-direction: column;
+       position: absolute;
+       font-size: 1rem;
+       border-radius: 10PX;
+       top: 110px;
+       left: 380px;
+       background-color: rgb(255, 255, 255);
+       width: 300px;
+       text-align: center;
+  
+    }
+
+    .busca li{
+        padding-top: 10px;
+        z-index: 5;
+    }
 
     body{
       margin: 0;
@@ -727,27 +848,60 @@ h4{
 }
 @media (max-width: 768px) {
 
+    header{
+        position: absolute;
+        top: 1px;
+        z-index: 2;
+    }
+    .busca{
+       
+       display: flex;
+       flex-direction: column;
+       position: absolute;
+       font-size: 1rem;
+       border-radius: 10PX;
+       top: 180px;
+       left: 210px;
+       background-color: rgb(255, 255, 255);
+       width: 300px;
+       text-align: center;
+  
+    }
+
+    .busca li{
+        padding-top: 10px;
+        z-index: 5;
+    }
+
+    
+
     navigation{
         display: none;
-         top: 145px;
-         top: 210px;
-         left: 224px;
-         position: absolute;
-         z-index: 2;
-         border-radius: 10px;
-         align-items: center;
-         flex-direction: column;
-         width: 300px;
-         height: 340px;
-         opacity:90%;
-         background-color: #ffffff;
-     }
+        top: 200px;
+        position: absolute;
+        z-index: 2;
+        align-items: center;
+        flex-direction: column;
+        width:770px ;
+        height: 340px;
+        background-color: #ffffff;
+        
+    }
+    navigation > a > h3{
+        color: #000000;
+        font-weight: 400;
+        
+    
+    }
+    
      .material-symbols-outlined {
      position: absolute;
      left: 470px;
      top: 70px;
+     color: #519B84;
 
    }
+   
    .imagemPlanta2, .imagemPlanta3{
     position: absolute;
     top: 60px;
@@ -763,10 +917,12 @@ h4{
 .span_clone{
     width: 30px;
 }
-
-    nav{
-        display: none
-    }
+nav{
+    display: none;
+    
+    
+    
+}
 
     body{
       display: flex;
@@ -852,18 +1008,70 @@ h4{
         width: 50px;
         bottom: 45px;
     }
+    .btn_fechar{
+        position: absolute;
+        top: -129px;
+        left: 471px;
+        color: #519B84;
 
-
+}
 }
 @media (max-width: 425px) {
 
+    header{
+        position: absolute;
+        top: 1px;
+        z-index: 1;
+    }
+    .busca{
+       
+       display: flex;
+       flex-direction: column;
+       position: absolute;
+       font-size: 1rem;
+       border-radius: 10PX;
+       top: 165px;
+       left: 1px;
+       background-color: rgb(255, 255, 255);
+       width: 400px;
+       text-align: center;
+  
+    }
+
+    .busca li{
+        padding-top: 10px;
+        z-index: 5;
+    }
    
+    
+
+navigation{
+        
+    display: none;
+    top: 200px;
+    left: 2px;
+    position: absolute;
+    z-index: 2;
+    align-items: center;
+    flex-direction: column;
+    width:420px ;
+    height: 340px;
+    background-color: #ffffff;
+}
+navigation > a > h3{
+    color: #000000;
+    font-weight: 400;
+
+}
+
+ 
      .material-symbols-outlined {
      position: absolute;
      left:310px;
      top: 70px;
 
    }
+   
    .imagemPlanta2, .imagemPlanta3{
     position: absolute;
     top: 60px;
@@ -873,6 +1081,11 @@ h4{
     position: absolute;
     top: 15px;
     left:250px;
+}
+.btn_fechar{
+    position: absolute;
+    top: -130px;
+    left: 308px;
 }
 
 .span_clone{
@@ -907,7 +1120,7 @@ h4{
         left: 20px;
         top: 20px;
     }
-    
+   
 
 
     .iconPesquisar{
@@ -959,6 +1172,11 @@ h4{
         position:absolute;
         top: 1700px;
     }
+    .footerDwn>h1{
+       
+       font-size: 1.1rem;
+       font-weight: 600;
+    }
     .loginCadastro{
         display: none;
     }
@@ -968,37 +1186,6 @@ h4{
         width: 50px;
         bottom: 45px;
     }
-    .footerDwn>h1{
-       
-        font-size: 1.1rem;
-        font-weight: 600;
-     }
-
-     .btn_fechar{
-        position: absolute;
-        top: -130px;
-        left: 308px;
-    }
-
-    navigation{
-        
-        display: none;
-        top: 200px;
-        left: 2px;
-        position: absolute;
-        z-index: 2;
-        align-items: center;
-        flex-direction: column;
-        width:420px ;
-        height: 340px;
-        background-color: #ffffff;
-    }
-    navigation > a > h3{
-        color: #000000;
-        font-weight: 400;
-    
-    }
-
 
 
 }

@@ -356,6 +356,29 @@ footer{
 
 
 @media (max-width: 1920px) {
+    header{
+        position: absolute;
+        top: 1px;
+        z-index: 2;
+    }
+    .busca{
+       display: flex;
+       flex-direction: column;
+       position: absolute;
+       font-size: 1rem;
+       border-radius: 10PX;
+       top: 110px;
+       left: 670px;
+       background-color: rgb(255, 255, 255);
+       width: 600px;
+       text-align: center;
+  
+    }
+
+    .busca li{
+        padding-top: 10px;
+        z-index: 5;
+    }
 
     navigation {
         display: none;
@@ -431,6 +454,29 @@ footer{
 
 }
 @media (max-width: 1600px) {
+    header{
+        position: absolute;
+        top: 1px;
+        z-index: 2;
+    }
+    .busca{
+       display: flex;
+       flex-direction: column;
+       position: absolute;
+       font-size: 1rem;
+       border-radius: 10PX;
+       top: 120px;
+       left: 505px;
+       background-color: rgb(255, 255, 255);
+       width: 600px;
+       text-align: center;
+  
+    }
+
+    .busca li{
+        padding-top: 10px;
+        z-index: 5;
+    }
 
     .logoPlanty{
         position: absolute;
@@ -499,6 +545,29 @@ footer{
 
 }
 @media (max-width: 1440px) {
+    header{
+        position: absolute;
+        top: 1px;
+        z-index: 2;
+    }
+    .busca{
+       display: flex;
+       flex-direction: column;
+       position: absolute;
+       font-size: 1rem;
+       border-radius: 10PX;
+       top: 120px;
+       left: 470px;
+       background-color: rgb(255, 255, 255);
+       width: 600px;
+       text-align: center;
+  
+    }
+
+    .busca li{
+        padding-top: 10px;
+        z-index: 5;
+    }
 
     .logoPlanty{
         position: absolute;
@@ -566,6 +635,30 @@ footer{
 
  }
 @media (max-width: 1366px) {
+    header{
+        position: absolute;
+        top: 1px;
+        z-index: 2;
+    }
+    .busca{
+       display: flex;
+       flex-direction: column;
+       position: absolute;
+       font-size: 1rem;
+       border-radius: 10PX;
+       top: 120px;
+       left: 400px;
+       background-color: rgb(255, 255, 255);
+       width: 600px;
+       text-align: center;
+  
+    }
+
+    .busca li{
+        padding-top: 10px;
+        z-index: 5;
+    }
+
 
     body{
         
@@ -710,6 +803,30 @@ footer{
 
  }
 @media (max-width: 1024px) {
+    header{
+        position: absolute;
+        top: 1px;
+        z-index: 2;
+    }
+    .busca{
+       display: flex;
+       flex-direction: column;
+       position: absolute;
+       font-size: 1rem;
+       border-radius: 10PX;
+       top: 120px;
+       left: 320px;
+       background-color: rgb(255, 255, 255);
+       width: 400px;
+       text-align: center;
+  
+    }
+
+    .busca li{
+        padding-top: 10px;
+        z-index: 5;
+    }
+
 
     body{
       width: 100vw;
@@ -778,6 +895,30 @@ footer{
 
 }
  @media (max-width: 768px) {
+    header{
+        position: absolute;
+        top: 1px;
+        z-index: 2;
+    }
+    .busca{
+       display: flex;
+       flex-direction: column;
+       position: absolute;
+       font-size: 1rem;
+       border-radius: 10PX;
+       top: 140px;
+       left: 200px;
+       background-color: rgb(255, 255, 255);
+       width: 400px;
+       text-align: center;
+       z-index: -1;
+  
+    }
+
+    .busca li{
+        padding-top: 10px;
+        z-index: 2;
+    }
 
     body{
       width: 100vw;
@@ -862,6 +1003,7 @@ footer{
 }
 
 .material-symbols-outlined{
+    color: #519B84;
     position: absolute;
     left: 540px;
     top: 40px;
@@ -873,8 +1015,9 @@ footer{
 }
 .btn_fechar{
     position: absolute;
-    top: -110px;
+    top: -115px;
     left: 355px;
+    color: #519B84;
    
 }
 
@@ -900,6 +1043,29 @@ navigation > a > h3{
  }
 
 @media (max-width: 425px) {
+    header{
+        position: absolute;
+        top: 1px;
+        z-index: 2;
+    }
+    .busca{
+       display: flex;
+       flex-direction: column;
+       position: absolute;
+       font-size: 1rem;
+       border-radius: 10PX;
+       top: 150px;
+       left: 100px;
+       background-color: #F0F0F0;
+       width: 250px;
+       text-align: center;
+  
+    }
+
+    .busca li{
+        padding-top: 10px;
+        z-index: 5;
+    }
 
     
     body{
@@ -977,9 +1143,10 @@ navigation > a > h3{
 
  .btn_fechar{
     position: absolute;
-    top: -105px;
+    top: -109px;
     left: 345px;
     color: #519B84;
+   
    
 }
 

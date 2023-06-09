@@ -487,6 +487,30 @@ footer{
 
 @media (max-width: 1920px) {
 
+    header{
+        position: absolute;
+        top: 1px;
+        z-index: 2;
+    }
+    .busca{
+       display: flex;
+       flex-direction: column;
+       position: absolute;
+       font-size: 1rem;
+       border-radius: 10PX;
+       top: 110px;
+       left: 670px;
+       background-color: rgb(255, 255, 255);
+       width: 600px;
+       text-align: center;
+  
+    }
+
+    .busca li{
+        padding-top: 10px;
+        z-index: 5;
+    }
+
     navigation {
         display: none;
     }
@@ -567,6 +591,7 @@ footer{
    }
 
    body{
+    
     background-color: #EDEAE3;
    }
    
@@ -575,6 +600,30 @@ footer{
 
 }
 @media (max-width: 1600px) {
+
+    header{
+        position: absolute;
+        top: 1px;
+        z-index: 2;
+    }
+    .busca{
+       display: flex;
+       flex-direction: column;
+       position: absolute;
+       font-size: 1rem;
+       border-radius: 10PX;
+       top: 110px;
+       left: 520px;
+       background-color: rgb(255, 255, 255);
+       width: 600px;
+       text-align: center;
+  
+    }
+
+    .busca li{
+        padding-top: 10px;
+        z-index: 5;
+    }
 
 
 
@@ -665,6 +714,31 @@ footer{
 
  } 
 @media (max-width: 1440px) {
+
+
+    header{
+        position: absolute;
+        top: 1px;
+        z-index: 2;
+    }
+    .busca{
+       display: flex;
+       flex-direction: column;
+       position: absolute;
+       font-size: 1rem;
+       border-radius: 10PX;
+       top: 110px;
+       left: 430px;
+       background-color: rgb(255, 255, 255);
+       width: 600px;
+       text-align: center;
+  
+    }
+
+    .busca li{
+        padding-top: 10px;
+        z-index: 5;
+    }
 
     navigation {
         display: none;
@@ -759,6 +833,31 @@ footer{
  }
  @media (max-width: 1366px) {
 
+
+
+    header{
+        position: absolute;
+        top: 1px;
+        z-index: 2;
+    }
+    .busca{
+       display: flex;
+       flex-direction: column;
+       position: absolute;
+       font-size: 1rem;
+       border-radius: 10PX;
+       top: 110px;
+       left: 460px;
+       background-color: rgb(255, 255, 255);
+       width: 500px;
+       text-align: center;
+  
+    }
+
+    .busca li{
+        padding-top: 10px;
+        z-index: 5;
+    }
     navigation {
         display: none;
     }
@@ -913,10 +1012,14 @@ footer{
  }
 
 @media (max-width: 1024px) {
+ 
+  
     body{
        margin-top: 1px;
     }
     header{
+        position: absolute;
+        top: 1px;
         z-index: 2;
     }
     .busca{
@@ -926,15 +1029,20 @@ footer{
        font-size: 1rem;
        border-radius: 10PX;
        top: 110px;
-       left: 420px;
-       background-color: rgb(255, 255, 255,80%);
+       left: 260px;
+       background-color: rgb(255, 255, 255);
+       width: 500px;
+       text-align: center;
   
     }
 
     .busca li{
-        
         padding-top: 10px;
         z-index: 5;
+    }
+  
+    .busca ul li a{
+       color: red;
     }
   
 
@@ -1051,6 +1159,30 @@ left: 900px;
  }
 
 @media (max-width: 768px) {
+
+    header{
+        position: absolute;
+        top: 1px;
+        z-index: 2;
+    }
+    .busca{
+       display: flex;
+       flex-direction: column;
+       position: absolute;
+       font-size: 1rem;
+       border-radius: 10PX;
+       top: 110px;
+       left: 250px;
+       background-color: rgb(255, 255, 255);
+       width: 300px;
+       text-align: center;
+  
+    }
+
+    .busca li{
+        padding-top: 10px;
+        z-index: 5;
+    }
 
     navigation {
         display: none;
@@ -1175,7 +1307,7 @@ left: 900px;
    .back-to-top{
     position:fixed;
     left: 690px;
-    top: 790px;
+    top: 800px;
     
    }
    .btn_backToTop{
@@ -1226,6 +1358,29 @@ left: 900px;
  }
 
  @media (max-width: 425px) {
+    header{
+        position: absolute;
+        top: 1px;
+        z-index: 2;
+    }
+    .busca{
+       display: flex;
+       flex-direction: column;
+       position: absolute;
+       font-size: 1rem;
+       border-radius: 10PX;
+       top: 150px;
+       left: 100px;
+       background-color: #F0F0F0;
+       width: 250px;
+       text-align: center;
+  
+    }
+
+    .busca li{
+        padding-top: 10px;
+        z-index: 5;
+    }
 
     body{
         width: 100vw;
@@ -1370,9 +1525,9 @@ left: 900px;
    }
  
    .back-to-top{
-    position:fixed;
+    position:absolute;
     left: 360px;
-    top: 830px;
+    top: 10px;
    }
 
 .btn_close{
