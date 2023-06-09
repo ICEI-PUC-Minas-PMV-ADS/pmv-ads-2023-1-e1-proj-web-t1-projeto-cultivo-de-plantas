@@ -38,12 +38,13 @@ A tela do blog apresenta conteúdos que possuem informações dos cuidados neces
 A tela do fórum apresenta um texto de apresentação e o usuário poderá ter acesso ao botão: acesso ao blog.
 
 ![Quem somos](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/107646150/d6911adf-5d7f-467b-ac67-04752b84f76f)
-
+_Tela desenvolvida por Bruna Santos_
 
 ## Contato
 A tela de contato apresenta campos para usuários entrarem em contato com os desenvolvedores da aplicação, a fim de tirar dúvidas.
 
 ![Contato-page](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/107646150/85269d6a-17c6-4558-8a29-f891463b3f0b)
+_Tela desenvolvida por Bruna Santos_
 
 
 ## Área de Login
