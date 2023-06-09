@@ -124,6 +124,8 @@ function funcaoNome() {
 }
 
 
+//Funcao para alterar a senha
+
 
   
   
