@@ -189,11 +189,7 @@ Grandes telas: acima de 1200px
     padding: 0 10%;
     background-color: white;
   }
-
-  header{
-    z-index: 2;
-  }
-
+  
   .column {
     padding: 10px;
   }

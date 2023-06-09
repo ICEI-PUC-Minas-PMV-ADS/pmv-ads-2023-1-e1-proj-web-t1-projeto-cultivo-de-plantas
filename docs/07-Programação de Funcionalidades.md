@@ -131,6 +131,8 @@ A tela de esqueci minha senha apresenta campos para usuários já cadastrados, m
 
 ![Esqueci-minha-senha](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/127165847/c8e7833a-eb71-4cf4-9912-85b1fa1f221d)
 
+_Tela desenvolvida por João Vitor_
+
 _Funcionalidade 6 - Tela de Esqueci minha Senha_
 
 <ins>**Requisitos atendidos**</ins>
