@@ -82,11 +82,11 @@ function checkLogin(usuario) {
     loginCadElement.innerHTML = usuario;
     loginCadElement.removeAttribute('href');
 
-    var nomeUsuarioLog = JSON.parse(localStorage.getItem('nomeUsuarioLog') || '{}');
+    var nomeUsuarioLog = JSON.parse(sessionStorage.getItem('nomeUsuarioLog') || '{}');
 
     nomeUsuarioLog.nomeUser = String(usuario);
 
-    localStorage.setItem('nomeUsuarioLog', JSON.stringify(nomeUsuarioLog));
+    sessionStorage.setItem('nomeUsuarioLog', JSON.stringify(nomeUsuarioLog));
   } else {
     // Se o usuário não estiver logado
     loginCadElement.innerHTML = 'Login / Cadastro';
