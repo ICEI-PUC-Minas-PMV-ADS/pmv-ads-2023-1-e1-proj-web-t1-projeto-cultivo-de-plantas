@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 
@@ -864,14 +865,25 @@ small{
         border-radius: 10PX;
         top: 110px;
         left: 420px;
-        background-color: rgb(255, 255, 255,80%);
+        background-color: black;
+        width: 25%;
+        text-align: center;
+        margin-top: 5px;
    
+     }
+
+     .searchResult{
+        color: red;
+
+
      }
  
      .busca li{
          
          padding-top: 10px;
          z-index: 5;
+
+         
      }
 }
 

@@ -68,11 +68,10 @@ A tabela a seguir apresenta os requisitos não funcionais que o projeto deverá 
 | ID      | Descrição do Requisito | Prioridade |
 | :----:  | :---------------------- | :----------: |
 | RNF-01 | O site deve ser responsivo permitindo a visualização em dispositivos móveis.        | ALTA |
-| RNF-02 | O site deve ser publicado na plataforma GITHUB PAGES.                     | ALTA |
+| RNF-02 | O site deve ser publicado na plataforma Vercel.                     | ALTA |
 | RNF-03 | O projeto deve ser implementado se valendo de HTML semântico.                       | ALTA |
-| RNF-04 | O site deve conter acessibilidade e SEO de no mínimo 80% pela extensão Lighthouse.  | MÉDIA |
-| RNF-05 | O site deve conter um bom nível de contraste entre os elementos.                    | MÉDIA | 
-| RNF-06 | O site deverá ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge). | BAIXA |
+| RNF-04 | O site deve conter um bom nível de contraste entre os elementos.                    | MÉDIA | 
+| RNF-05 | O site deverá ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge). | BAIXA |
 
 ## 2.3.3 Restrições
 

@@ -33,14 +33,13 @@
     />
     <title>esqueciminhasenha</title>
   </head>
-  <body>
+  <body onload="funcaoNome()">
     
     <!--Header-->
 
     <header class="header-container" id="top">
       <div class="column logo">
-        <a href="#"
-          ><img
+          <img
             class="header-logo logo_planty"
             src="./Imagens/Planty-logo 1.png"
             alt="Logo Original Planty"
@@ -52,7 +51,7 @@
           <div class="busca">
             <ul class="searchResult"id="searchResults"></ul>
             </div>
-          <img
+            <img
               class="imglupa"
               id="search-image"
               src="./Imagens/search.png"
@@ -61,7 +60,7 @@
         </div>
       </div>
       <div class="column login-cadastro">
-        <a href="../Login page/login-planty.html">Login / Cadastro</a>
+        <a id="loginCad"href="../Login page/login-planty.html">Login / Cadastro</a>
         <img
           class="account-icon"
           src="./Imagens/account_circle.png"
@@ -71,6 +70,7 @@
       <div class="menu-btn">
         <i class="fa fa-bars fa-2x burger" onclick="menuShow()"></i>
       </div>
+      
     </header>
 
     <!--Nav-->
@@ -184,3 +184,6 @@
     <script src="main.js"></script>
   </body>
 </html>
+
+
+
