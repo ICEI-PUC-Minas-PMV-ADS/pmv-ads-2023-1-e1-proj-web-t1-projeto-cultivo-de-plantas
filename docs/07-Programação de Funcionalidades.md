@@ -145,65 +145,53 @@ _Funcionalidade 6 - Tela de Esqueci minha Senha_
 - planty-logo 1.png
 - account_circle.png
 
-## Tela de Contato (RF-06)
+## Tela de Contato (RF-05)
 A tela de contato apresenta campos para usuários entrarem em contato com os desenvolvedores da aplicação, a fim de tirar dúvidas. Além disso, também é disponibilizado o acesso ao nosso canal no Telegram. A tela desenvolvida com HTML e CSS é apresentada na imagem abaixo.
 
-![Image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/107009327/be93a368-7494-40b0-84da-835fde1643db)
+![Contato-page](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/107646150/8375adc0-451b-4782-87d7-847bc55b7dbd)
+_Tela desenvolvida por Bruna Santos_
 
 _Funcionalidade 7 - Tela de Contato_
 
 <ins>**Requisitos atendidos**</ins>
-- RF-06
+- RF-05
 
 <ins>**Artefatos da funcionalidade**</ins>
 - contato-page.html
 - contato-style.css
 - reset.css
-- mulher-no-notebook.png
+- script.js
 
-## Tela do Fórum (RF-05)
+- account_circle.png
+- closeup-plantas.jpg
+- icon-back-to-top.png
+- icons8-girassol-16.png
+- Logo-Planty.png
+- search.png
+
+
+
+## Tela do Quem somos (RF-02)
 A tela do fórum apresenta um texto de boas-vindas, onde o usuário cadastrado e logado, poderá ter acesso à dois botões: acesso ao fórum, e nosso Telegram. A tela desenvolvida com HTML e CSS é apresentada na imagem abaixo.
 
-![Image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/107009327/c6266b7b-d031-43d6-93fe-f03ffedbba91)
+![Quem somos](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/107646150/6e40b130-6e8e-4a38-9e96-220843725cfb)
+_Tela desenvolvida por Bruna Santos_
 
-_Funcionalidade 8 - Tela do Fórum_
+_Funcionalidade 8 - Quem somos_
+
 
 <ins>**Requisitos atendidos**</ins>
-- RF-05
+- RF-02
 
 <ins>**Artefatos da funcionalidade**</ins>
-- forum-page.html
-- forum-page-style.css
+- about-us.html
+- about-us-style.css
 - reset.css
-- homem-cultivando-planta.png
+- script.js
+- account_circle.png
+- planty-content.jpg
+- icon-back-to-top.png
+- icons8-girassol-16.png
+- Logo-Planty.png
+- search.png
 
-## Tela de Novo Tópico no Fórum (RF-05)
-A tela de novo tópico no fórum apresenta um campo, onde o usuário cadastrado e logado, poderá criar novos tópicos de discussão no fórum. A tela desenvolvida com HTML e CSS é apresentada na imagem abaixo.
-
-![Image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/107009327/fde38813-7e6c-4d81-b2a9-38e4e03ae48c)
-
-_Funcionalidade 9 - Tela de Novo Tópico no Fórum_
-
-<ins>**Requisitos atendidos**</ins>
-- RF-05
-
-<ins>**Artefatos da funcionalidade**</ins>
-- forum_topico.html
-- forum_topico.css
-
-## Tela de Tópicos do Fórum Salvos (RF-05 e RF-07)
-A tela “Fórum-Salvos” será apresentada os itens salvos pelo usuário logado. O usuário poderá comentar no item e também compartilhá-lo. A tela desenvolvida com HTML e CSS é apresentada na imagem abaixo.
-
-![Image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/107009327/056956ce-2ad5-4092-9233-2b8953387389)
-
-_Funcionalidade 10 - Tela de Tópicos do Fórum Salvos_
-
-<ins>**Requisitos atendidos**</ins>
-- RF-05
-- RF-07
-
-<ins>**Artefatos da funcionalidade**</ins>
-- Fórum-Salvos.html
-- forum-salvos.css
-- coracao-like.png
-- estrela-salvo.png
