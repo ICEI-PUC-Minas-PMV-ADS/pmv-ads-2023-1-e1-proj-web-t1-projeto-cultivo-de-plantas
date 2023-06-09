@@ -714,6 +714,10 @@ footer{
 
  } 
 @media (max-width: 1440px) {
+    .containerCarousel{
+        position: absolute;
+        left: 250px;
+    }
 
 
     header{
