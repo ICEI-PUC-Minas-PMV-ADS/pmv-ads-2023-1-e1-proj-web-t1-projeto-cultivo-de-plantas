@@ -384,7 +384,7 @@ background-color:var(--Branco-esfumaçado);
   border-radius: 10PX;
   top: 110px;
   left: 420px;
-  background-color: #00000036;
+  background-color: var(--Branco-esfumaçado)
 
 }
 
