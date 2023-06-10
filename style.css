@@ -110,6 +110,19 @@ p,
     transform: scale(1.1);
 }
 
+/* Scroll Bar */
+
+::-webkit-scrollbar {
+    width: 8px;
+ 
+  }
+ 
+  ::-webkit-scrollbar-thumb {
+    background-color: #D5B484;
+    border-radius: 50px;
+}
+
+
 /* HEADER */
 
 .header-container {
