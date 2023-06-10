@@ -20,6 +20,7 @@ Os testes funcionais a serem realizados no site são descritos a seguir.
 | **Passos** 	| 1. Acessar o navegador; <br>2. Informar o endereço do site;<br>3. Visualizar a página Home;<br>4. Clicar na barra de pesquisa;<br> 5. Preencher o nome da planta desejada. 	|
 | **Critérios de Êxito** 	| O usuário deve visualizar o nome da planta pesquisada e visualizar sua postagem ao clicar nela. |
 
+<br><br>
 
 | **Tela esqueci minha senha**                                      |
 |-----------------------------------------------------------------|
