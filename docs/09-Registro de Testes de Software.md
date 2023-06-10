@@ -1,12 +1,22 @@
 # Registro de Testes de Software
 
-<span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>, <a href="8-Plano de Testes de Software.md"> Plano de Testes de Software</a>
+Os resultados obtidos nos testes de software realizados são descritos abaixo.
 
-Relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado em um plano de testes pré-definido.
+| **Caso de Teste** 	| **CT-01 – Envio de mensagem para o suporte** 	|
+|:---:	|:---:	|
+| **Usuário 1**  	| Usuário realizou o teste sem dificuldades. 	 |
+| **Quantidade de erros**  	| 0 |
+| **Comentários e observações**  	| O usuário achou a tela intuitiva e não encontrou dificuldades para preencher os dados.  |
 
-## Avaliação
+![Screenshot 2023-06-09 at 23-57-41 Fale conosco](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/107646150/27fdefb0-37ac-4176-8cc4-caa96d457f90)
+_Teste do usuário 1 na tela contato._
 
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
 
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
+| **Caso de Teste** 	| **CT-01 – Envio de mensagem para o suporte** 	|
+|:---:	|:---:	|
+| **Usuário 2**  	| Usuário teve dificuldade para enviar a mensagem pois não preencheu todos os campos. 	 |
+| **Quantidade de erros**  	| 1 |
+| **Comentários e observações**  	| Uma mensagem sinalizando que todos os campos devem ser preenchidos antes de apertar o botão enviar.  |
+
+![mensagem](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/107646150/92f036c6-ed0f-40ef-9f6a-292a6c448918)
+_Teste do usuário 2 na tela contato._
