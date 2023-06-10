@@ -110,9 +110,9 @@ if (emailLog.value == userValid.email && senhaLog == userValid.senha) {
     console.log("Login bem-sucedido");
     msgValida.setAttribute('style', 'display: block; color: green');
     msgValida.innerHTML = '<strong>Login realizado com sucesso! <br> Você será redirecionado para o Blog :) </strong>';
-   /* setTimeout(()=>{
+    setTimeout(()=>{
       window.location.href = '/src/Blog e Posts/Blog/Index.html'
-  }, 4000)  */  
+  }, 4000)  
 
   //função para alterar o nome
   checkLogin(userValid.usuario)
