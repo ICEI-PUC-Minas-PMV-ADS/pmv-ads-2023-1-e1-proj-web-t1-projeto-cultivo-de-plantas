@@ -41,8 +41,8 @@ document.getElementById('senhaForm').addEventListener('submit', function(event) 
     }
 
     else  {
-      modal_valida.innerHTML = '<strong>O usuário ou as senhas não conferem 😦 </strong>';
-      modal_valida.setAttribute('style', 'display: block; color: red');
+      document.getElementById('modal-valida-body').innerHTML = '<strong>O usuário ou as senhas não conferem 😦 </strong>';
+      document.getElementById('modal').style.display = 'block';
     }
   });
   // Fechar o modal ao clicar no botão "X"
