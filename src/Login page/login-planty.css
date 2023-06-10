@@ -718,6 +718,10 @@ h4{
     display: none;
 }
 
+.account-icon{
+  display: none;
+}
+
 .menu-btn {
     display: block;
     cursor: pointer;
@@ -816,20 +820,11 @@ h4{
     padding-right: 30%;
     padding-left: 5%;
   }
-
-  .account-icon{
-    display: none;
-  }
-
-  .login-cadastro{
-    display: none;
-  }
-
   
 }
 
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
     h1{
         padding-top: 2%;
         padding-bottom: 15%;

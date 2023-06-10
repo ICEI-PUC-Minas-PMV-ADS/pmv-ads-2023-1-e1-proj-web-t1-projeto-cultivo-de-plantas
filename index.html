@@ -16,28 +16,46 @@
 <body onload="funcaoNome()">
     <header class="header-container" id="top">
         <div class="column logo">
-            <a href="#"><img class="header-logo" src="/img/Logo-Planty.png" alt="Logo Original Planty"></a>
+            <a href="./index.html"><img class="header-logo" src="./img/Logo-Planty.png" alt="Logo Original Planty"></a>
         </div>
         <div class="column search">
             <div class="search-box">
                 <input type="text" id="txtBusca" placeholder="Pesquisar..."/>
-                <a href="#"><img id="search-image" src="/img/search.png" alt="Ícone de Busca"></a>
+                <a href="#"><img id="search-image" src="./img/search.png" alt="Ícone de Busca"></a>
+                <div class="busca">
+                    <ul class="searchResult"id="searchResults"></ul>
+                </div> 
             </div>
         </div>
         <div class="column login-cadastro">
-            <a id="loginCad" href="../src/Login page/login-planty.html">Login / Cadastro</a>
+            <a id="loginCad" href="./src/Login page/login-planty.html">Login / Cadastro</a>
             <img class="account-icon" src="img/account_circle.png" alt="Ícone de Usuário">
         </div>
+        <div class="menu-btn">
+            <i class="fa fa-bars fa-2x burger" onclick="menuShow()"></i>
+          </div>
     </header>
 
     <nav>
         <ul class="main-menu">
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="/src/Blog e Posts/Blog/Index.html">Blog</a></li>
-            <li><a href="../src/Quem-somos/about-us.html">Quem Somos</a></li>
-            <li><a href="../src/Contato/contato-page.html">Fale Conosco</a></li>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./src/Blog e Posts/Blog/Index.html">Blog</a></li>
+            <li><a href="./src/Quem-somos/about-us.html">Quem somos</a></li>
+            <li><a href="./src/Contato/contato-page.html">Fale Conosco</a></li>
         </ul>
     </nav>
+
+    <!-- Mobile Menu-->
+
+    <div class="mobile-menu">
+        <ul>
+          <li><a href="./src/Login page/login-planty.html">Login / Cadastro</a></li>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./src/Blog e Posts/Blog/Index.html">Blog</a></li>
+          <li><a href="./src/Quem-somos/about-us.html">Quem Somos</a></li>
+          <li><a href="./src/Contato/contato-page.html">Fale Conosco</a></li>
+        </ul>
+      </div>
 
     <section class="hero-section">
             <div class="hero-content">
@@ -47,8 +65,8 @@
                     <h1 class="hero-bold-title">Simplificado</h1>
                     <p class="hero-text">Cultivar plantas nunca foi tão fácil - simplifique o cultivo de suas plantas com nosso site completo e informativo!</p>
                     <div class="hero-buttons">
-                        <a href='../src/Blog e Posts/Blog/Index.html' class="btn-filled">Acessar o blog</a>
-                        <a href='../src/Login page/login-planty.html' class="btn-border-only">Cadastrar-se</a>
+                        <a href='./src/Blog e Posts/Blog/Index.html' class="btn-filled">Acessar o blog</a>
+                        <a href='./src/Login page/login-planty.html' class="btn-border-only">Cadastrar-se</a>
                     </div>
                 </div>
             </div>
@@ -64,25 +82,25 @@
                 <div class="categories-box-item">
                     <img src="img/plantas-para-casa.png" alt="Categoria Plantas para Casa">
                     <h3 class="categories-title">Plantas para Casa</h3>
-                    <a href='../src/Blog e Posts/Blog/Index.html' class="btn-smaller-border-only">Saiba mais</a>
+                    <a href='./src/Blog e Posts/Blog/Index.html' class="btn-smaller-border-only">Saiba mais</a>
                 </div>
     
                 <div class="categories-box-item">
                     <img src="img/plantas-para-jardim.png" alt="Categoria Plantas para Jardim">
                     <h3 class="categories-title">Plantas para Jardim</h3>
-                    <a href='../src/Blog e Posts/Blog/Index.html' class="btn-smaller-border-only">Saiba mais</a>
+                    <a href='./src/Blog e Posts/Blog/Index.html' class="btn-smaller-border-only">Saiba mais</a>
                 </div>
     
                 <div class="categories-box-item">
                     <img src="img/plantas-grandes.png" alt="Categoria Plantas Grandes">
                     <h3 class="categories-title">Plantas Grandes</h3>
-                    <a href='../src/Blog e Posts/Blog/Index.html' class="btn-smaller-border-only">Saiba mais</a>
+                    <a href='./src/Blog e Posts/Blog/Index.html' class="btn-smaller-border-only">Saiba mais</a>
                 </div>
     
                 <div class="categories-box-item">
                     <img src="img/plantas-pequenas.png" alt="Categoria Plantas Pequenas">
                     <h3 class="categories-title">Plantas Pequenas</h3>
-                    <a href='../src/Blog e Posts/Blog/Index.html' class="btn-smaller-border-only">Saiba mais</a>
+                    <a href='./src/Blog e Posts/Blog/Index.html' class="btn-smaller-border-only">Saiba mais</a>
                 </div>
             </div>
         </section>
@@ -96,19 +114,19 @@
                 <div class="blog-box-item">
                     <img src="img/tudo-sobre-cactos.png" alt="Tudo sobre Cactos">
                     <h3 class="categories-title">Tudo sobre Cactos</h3>
-                    <a href='../src/Blog e Posts/Posts/Cacto/Index.html' class="btn-smaller-border-only">Saiba mais</a>
+                    <a href='./src/Blog e Posts/Posts/Cacto/Index.html' class="btn-smaller-border-only">Saiba mais</a>
                 </div>
     
                 <div class="blog-box-item">
                     <img src="img/tudo-sobre-samambaias.png" alt="Tudo Sobre Samambaias">
                     <h3 class="categories-title">Tudo Sobre Samambaias</h3>
-                    <a href='../src/Blog e Posts/Posts/Samambaia/Index.html' class="btn-smaller-border-only">Saiba mais</a>
+                    <a href='./src/Blog e Posts/Posts/Samambaia/Index.html' class="btn-smaller-border-only">Saiba mais</a>
                 </div>
     
                 <div class="blog-box-item">
                     <img src="img/tudo-sobre-roseiras.png" alt="Tudo Sobre Roseiras">
                     <h3 class="categories-title">Tudo Sobre Roseiras</h3>
-                    <a href='../src/Blog e Posts/Posts/Roseira/Index.html' class="btn-smaller-border-only">Saiba mais</a>
+                    <a href='./src/Blog e Posts/Posts/Roseira/Index.html' class="btn-smaller-border-only">Saiba mais</a>
                 </div>
             </div>
         </section>
@@ -129,7 +147,7 @@
                     </ul>
                     <p>Essa troca de conhecimento é extremamente valiosa, pois permite aprender com a experiência de outras pessoas e conhecer novas técnicas e estratégias para o cultivo de plantas. Dessa forma, você poderá ampliar seu conhecimento e tornar-se um melhor cultivador.</p>
                     <div class="member-box-btn">
-                        <a href='../src/Login page/login-planty.html' class="btn-smaller-border-only">Cadastre-se gratuitamente</a>
+                        <a href='./src/Cadastro page/cadastro-page.html' class="btn-smaller-border-only">Cadastre-se gratuitamente</a>
                     </div>
                 </div>
             </div>
@@ -144,7 +162,7 @@
                 </div>
                 <div>
                     <div class="contact-box-button">
-                        <a href='../src/Contato/contato-page.html' class="btn-smaller-border-only">Entre em contato</a>
+                        <a href='./src/Contato/contato-page.html' class="btn-smaller-border-only">Entre em contato</a>
                     </div>
                 </div>
             </div>
@@ -159,5 +177,6 @@
             <a href="#top" class="back-to-top"><img src="img/icon-back-to-top.png" alt="Ícone de Back to Top"></a>
         </div>
     </footer>
+    <script src="/java.js"></script>
 </body>
 </html>

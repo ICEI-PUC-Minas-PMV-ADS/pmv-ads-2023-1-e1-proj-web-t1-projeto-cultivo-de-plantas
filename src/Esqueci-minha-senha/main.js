@@ -27,8 +27,8 @@ document.getElementById('senhaForm').addEventListener('submit', function(event) 
 
     if (senha === senhaconfirm && usuarioLog == item.usuarioCad) {
       
-    modal_valida.innerHTML = '<strong>A senha foi alterada com sucesso! :) <br> Você será redirecionado para o Blog!</strong>'    
-    modal_valida.setAttribute ('style' , 'display: block; color: green')
+      document.getElementById('modal-valida-body').innerHTML = '<strong>A senha foi alterada com sucesso! 🙂 <br> Você será redirecionado para o login!</strong>';
+      document.getElementById('modal').style.display = 'block';
     
     console.log('Nova senha cadastrada com sucesso!');
   
@@ -41,10 +41,14 @@ document.getElementById('senhaForm').addEventListener('submit', function(event) 
     }
 
     else  {
-        modal_valida.innerHTML = '<strong>O usuário ou as senhas não conferem :( </strong>'    
-        modal_valida.setAttribute ('style' , 'display: block; color: red')
+      modal_valida.innerHTML = '<strong>O usuário ou as senhas não conferem 😦 </strong>';
+      modal_valida.setAttribute('style', 'display: block; color: red');
     }
   });
+  // Fechar o modal ao clicar no botão "X"
+document.getElementById('modal-close').addEventListener('click', function() {
+  document.getElementById('modal').style.display = 'none';
+});
 });
 
   var itemURLs = {

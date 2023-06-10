@@ -39,7 +39,7 @@
 
     <header class="header-container" id="top">
       <div class="column logo">
-          <img
+        <a href="/index.html"><img
             class="header-logo logo_planty"
             src="./Imagens/Planty-logo 1.png"
             alt="Logo Original Planty"
@@ -100,12 +100,20 @@
     <!--Main-->
 
     <main>
-      <div id="modal_valida"></div>
+      <!-- Modal -->
+<div id="modal">
+  <div id="modal-content">
+    <span id="modal-close">&times;</span>
+    <div id="modal-valida-body">
+      <!-- Conteúdo da mensagem de validação será inserido aqui -->
+    </div>
+  </div>
+</div>
       <section id="esqsenha">
         <div id="imagem"></div>
         <div id="formulario">
           <h1>Esqueceu sua senha?</h1>
-          <p>Confirme seu email e cadastre uma nova senha:</p>
+          <p>Confirme seu usuário e cadastre uma nova senha:</p>
           <form id="senhaForm">
             <div class="campo">
               <span class="material-symbols-outlined">
