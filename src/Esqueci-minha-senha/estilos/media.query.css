@@ -155,8 +155,6 @@ Grandes telas: acima de 1200px
   }
 }
 
-
-
 /* Header, NavBar and Footer */
 
 /*Media para tablets */
@@ -284,7 +282,7 @@ Grandes telas: acima de 1200px
 
 /* Media para  tablets e celulares  */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 770px) {
 
   #modal_valida{
     text-align: center;
@@ -406,7 +404,7 @@ Grandes telas: acima de 1200px
   
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 426px) {
 
   .main-menu {
     padding: 1.5rem 4rem;
