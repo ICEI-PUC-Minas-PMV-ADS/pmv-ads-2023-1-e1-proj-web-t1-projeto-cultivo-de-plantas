@@ -155,6 +155,34 @@ p {
     padding: 15px 30px;
 }
 
+/*BARRA DE PESQUISA*/
+.busca {
+
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    font-size: 1rem;
+    border-radius: 10px;
+    top: 110px;
+    left: 39%;
+    background-color: rgb(255, 255, 255);
+    width: 25%;
+    text-align: center;
+    margin-top: 5px;
+    float: left;
+    z-index: 10000;
+
+}
+
+.busca li {
+    padding-top: 10px;
+    z-index: 5;
+}
+
+.busca ul li a {
+    color: #000000;
+}
+
 .login-cadastro {
     width: auto;
     margin-left: 10px;
