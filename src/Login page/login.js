@@ -66,6 +66,17 @@ document.getElementById('txtBusca').addEventListener('input', function() {
     resultsElement.appendChild(li);
   }
 
+  document.addEventListener('click', function(event) {
+    var searchBar = document.getElementById('txtBusca');
+    var searchResults = document.getElementById('searchResults');
+  
+    // Verifica se o clique ocorreu fora da barra de pesquisa
+    if (event.target !== searchBar && !searchBar.contains(event.target)) {
+      // Limpa os resultados da pesquisa
+      searchResults.innerHTML = '';
+    }
+  });
+
 });
 
 
@@ -93,9 +104,9 @@ var userValid = {
     }
     
 
-ListaCad = JSON.parse(localStorage.getItem("ListaCad"))
+listaCad = JSON.parse(localStorage.getItem("ListaCad"))
     
-ListaCad.forEach((item) => {
+listaCad.forEach((item) => {
   if(emailLog.value == item.emailCad && senhaLog.value == item.senhaCad.value){
     userValid = {
       email: item.emailCad ,
@@ -110,9 +121,9 @@ if (emailLog.value == userValid.email && senhaLog == userValid.senha) {
     console.log("Login bem-sucedido");
     msgValida.setAttribute('style', 'display: block; color: green');
     msgValida.innerHTML = '<strong>Login realizado com sucesso! <br> Você será redirecionado para o Blog :) </strong>';
-   /* setTimeout(()=>{
+    setTimeout(()=>{
       window.location.href = '/src/Blog e Posts/Blog/Index.html'
-  }, 4000)  */  
+  }, 4000)  
 
   //função para alterar o nome
   checkLogin(userValid.usuario)

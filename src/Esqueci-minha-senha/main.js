@@ -10,24 +10,33 @@ function menuShow() {
 document.getElementById('senhaForm').addEventListener('submit', function(event) {
     event.preventDefault();
   
-    const codigoValida = '12345'; // Código pré-definido
+    
   
-    var codigo = document.getElementById('icodigo').value;
+   
     var senha = document.getElementById('isenha').value;
     var senhaconfirm = document.getElementById('iconfirme').value;
     var modal_valida = document.querySelector('#modal_valida')
 
-    if (codigo === codigoValida && senha === senhaconfirm) {
+    if (senha === senhaconfirm) {
       
-    modal_valida.innerHTML = '<strong>A senha foi alterada com sucesso! :)</strong>'    
+    modal_valida.innerHTML = '<strong>A senha foi alterada com sucesso! :) <br> Você será redirecionado para o Blog!</strong>'    
     modal_valida.setAttribute ('style' , 'display: block; color: green')
     
+    
+    setTimeout(() => {
+      window.location.href = '../Login page/login-planty.html'
+    }, 4000);
+
+  
     console.log('Nova senha cadastrada com sucesso!');
-      // Restante do código para realizar a ação desejada
+  
+
+    alterarSenha();
+
     }
 
     else {
-        modal_valida.innerHTML = '<strong>O código ou as senhas não conferem :( </strong>'    
+        modal_valida.innerHTML = '<strong>O e-mail ou as senhas não conferem :( </strong>'    
         modal_valida.setAttribute ('style' , 'display: block; color: red')
 
     }
@@ -125,9 +134,19 @@ function funcaoNome() {
 
 
 //Funcao para alterar a senha
+function alterarSenha() {
+  var usuarioLog = document.getElementById('iusuario').value;
+  var novaSenha = document.getElementById('isenha');
+  var ListaCad = [];
+  
+  ListaCad = JSON.parse(localStorage.getItem("ListaCad"));
+  
+  ListaCad.forEach(item => {
+    if (usuarioLog == item.usuarioCad) {
+      item.senhaCad = novaSenha.value;
+      localStorage.setItem("ListaCad", JSON.stringify(ListaCad));
+    }
+  });
+}
 
-
-  
-  
-  
 

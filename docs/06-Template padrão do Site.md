@@ -28,10 +28,23 @@ A tela principal apresenta as categorias mais procuradas, conteúdos do blog em 
 ![Image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/107009327/a0bc87a1-390b-4b74-995a-e1d12689bfa7)
 
 
-## Feed do Blog
-A tela do blog apresenta conteúdos que possuem informações dos cuidados necessários com as plantas, como adubagem, solo, poda e doenças.
+## Blog
+Blog de plantas, um lugar aonde o usuário irá aprender sobre plantas e jardinagem.
 
-![Image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/107009327/3c7bcb92-56ca-44e8-aec9-c6637af9d21b)
+![Page Blog](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/114627827/8b1d635e-5e7f-46a1-ab76-a04dae169f17)
+_Tela desenvolvida por Gabriel Bruno_
+
+## Catálogo
+A tela de catálogo apresenta mais de 15 plantas que o usuário poderá ter acesso a suas principais caracteristicas.
+
+![Page Catálogo](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/114627827/5c13fb74-ac86-4ebf-8fa2-3e7e8a705c8d)
+_Tela desenvolvida por Gabriel Bruno_
+
+## Post
+Tela de post aonde o usuário aprende sobre poda, rega, pragas e doenças e sobre o solo da planta escolhida.
+
+![Page post](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/114627827/dd73f0e1-1125-49b5-b46c-617f814bbe00)
+_Tela desenvolvida por Gabriel Bruno_
 
 
 ## Quem somos
