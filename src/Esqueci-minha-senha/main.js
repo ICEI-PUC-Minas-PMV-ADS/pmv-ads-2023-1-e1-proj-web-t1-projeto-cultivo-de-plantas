@@ -36,7 +36,7 @@ document.getElementById('senhaForm').addEventListener('submit', function(event) 
     }
 
     else {
-        modal_valida.innerHTML = '<strong>O código ou as senhas não conferem :( </strong>'    
+        modal_valida.innerHTML = '<strong>O e-mail ou as senhas não conferem :( </strong>'    
         modal_valida.setAttribute ('style' , 'display: block; color: red')
 
     }
