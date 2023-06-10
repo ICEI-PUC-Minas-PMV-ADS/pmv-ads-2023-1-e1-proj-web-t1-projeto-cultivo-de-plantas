@@ -32,37 +32,28 @@ _Funcionalidade 1 - Página Inicial_
 <ins>**Instruções de acesso**</ins>
 Através de um navegador da internet, acesse a seguinte URL: https://luanagpinax.github.io
 
-## Tela do Blog (RF-01 e RF-02)
+## Tela do Blog (RF-01)
 A tela do blog apresenta conteúdos que possuem informações dos cuidados necessários com as plantas, como adubagem, solo, poda e doenças. A tela desenvolvida com HTML e CSS é apresentada na imagem abaixo.
 
-![Image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/107009327/59635d3d-e12f-4656-98af-2e5e86fb4b6a)
+![Page Blog](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/114627827/c0b548ff-d1b5-42df-9005-232839e0fd4d)
+_Tela desenvolvida por Gabriel Bruno_
 
 _Funcionalidade 2 - Tela do Blog_
 
 <ins>**Requisitos atendidos**</ins>
 - RF-01
-- RF-02
-
 <ins>**Artefatos da funcionalidade**</ins>
 - index.html
 - style.css
 - script.js
-- Publicação1.png
-- Publicação2.png
-- Publicação3.png
-- Roseira.png
-- Samambaia.png
-- Hera-inglesa.png
-- Lirio-da-paz.png
-- jasmin.png
-- cactus.png
-- espada-de-são-Jorge.png
-- palmeira-dama.png
+- imagens
+
 
 ## Tela do Post (RF-01)
 A tela do post apresenta informações aos cuidados necessários, como adubagem, solo, poda e doenças, da planta escolhida pelo usuário. A tela desenvolvida com HTML e CSS é apresentada na imagem abaixo.
 
-![Image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/107009327/63b03550-8e86-456d-bdc2-9fa05c1b0be6)
+![Page post](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/114627827/a1f34a75-c4f9-47c6-8b06-63662d645abe)
+_Tela desenvolvida por Gabriel Bruno_
 
 _Funcionalidade 3 - Tela do Post_
 
@@ -73,7 +64,26 @@ _Funcionalidade 3 - Tela do Post_
 - index.html
 - style.css
 - script.js
-- hera-inglesa.png
+- imagens
+
+## Catálogo (RF-01)
+A tela de catálogo apresenta 20 variadas plantas para o usuário escolher.
+
+![Page Catálogo](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/114627827/09c885f6-14e1-4e84-ba0a-3643e608d359)
+_Tela desenvolvida por Gabriel Bruno_
+
+_Funcionalidade 3 - Catálogo_
+
+<ins>**Requisitos atendidos**</ins>
+- RF-01
+
+<ins>**Artefatos da funcionalidade**</ins>
+- index.html
+- style.css
+- script.js
+- imagens
+
+
 
 
 ## Tela de Login (RF-03)
