@@ -285,6 +285,7 @@ footer{
     width: 100vw;
     height: 290px;
     z-index: 5;
+    padding-left: 3px;
 }
 
 .footerUp{
@@ -363,7 +364,7 @@ footer{
         z-index: 2;
     }
     .busca{
-       display: flex;
+       display: none;
        flex-direction: column;
        position: absolute;
        font-size: 1rem;
@@ -443,9 +444,9 @@ footer{
         
     }
     .back-to-top{
-        position: absolute;
+        position: fixed;
         left: 1710PX;
-        top: 170px;
+        top: 760px;
     }
 
     footer{
@@ -461,7 +462,7 @@ footer{
         z-index: 2;
     }
     .busca{
-       display: flex;
+       display: none;
        flex-direction: column;
        position: absolute;
        font-size: 1rem;
@@ -502,7 +503,7 @@ footer{
         left:470px;
     }
     .loginCadastro{
-        right: 150px;
+        right: 1px;
         top: 50px;
     }
 
@@ -537,11 +538,12 @@ footer{
         
     }
     .back-to-top{
-        position: absolute;
-        left: 1410PX;
-        top: 170px;
-    }
-
+        top: 760px;
+        position: fixed;
+        left: 1500px;
+        
+     }
+    
    
 
 }
@@ -552,7 +554,7 @@ footer{
         z-index: 2;
     }
     .busca{
-       display: flex;
+       display: none;
        flex-direction: column;
        position: absolute;
        font-size: 1rem;
@@ -628,10 +630,13 @@ footer{
     }
 
     .back-to-top{
-        position: absolute;
-        left: 1210PX;
-        top: 170px;
-    }
+        top: 760px;
+        position: fixed;
+        left: 1200px;
+        
+     }
+    
+    
 
 
  }
@@ -642,7 +647,7 @@ footer{
         z-index: 2;
     }
     .busca{
-       display: flex;
+       display: none;
        flex-direction: column;
        position: absolute;
        font-size: 1rem;
@@ -796,6 +801,13 @@ footer{
 .pesquisar-icon-footer{
     display: none;
 }
+.back-to-top{
+    top: 760px;
+    position: fixed;
+    left: 1200px;
+    
+ }
+
 
     
 
@@ -804,13 +816,18 @@ footer{
 
  }
 @media (max-width: 1024px) {
+
+    .loginCadastro{
+        position: absolute;
+        left: 770px;
+    }
     header{
         position: absolute;
         top: 1px;
         z-index: 2;
     }
     .busca{
-       display: flex;
+       display: none;
        flex-direction: column;
        position: absolute;
        font-size: 1rem;
@@ -888,13 +905,18 @@ footer{
         left: 310px;
 
  }
-
-.btn_backToTop{
-    position: relative;
-    right: 300px;
+ footer{
+    padding-left: 3px;
+ }
+ .back-to-top{
+    top: 760px;
+    position: fixed;
+    left: 900px;
+    
+ }
 }
 
-}
+
  @media (max-width: 768px) {
     header{
         position: absolute;
@@ -902,7 +924,7 @@ footer{
         z-index: 2;
     }
     .busca{
-       display: flex;
+       display: none;
        flex-direction: column;
        position: absolute;
        font-size: 1rem;
@@ -952,8 +974,6 @@ footer{
         left: 700px;
     }
 
-
-
   .img_logo_planty{
     position: absolute;
     width: 200px;
@@ -965,8 +985,6 @@ footer{
         left: 170px;
         
     }
-
-
 
     .tituloPlantas{
         top: 250px;
@@ -994,9 +1012,6 @@ footer{
 
  }
 
-
-
-
  .span_clone{
     position: absolute;
     width: 40px;
@@ -1009,11 +1024,7 @@ footer{
     left: 540px;
     top: 40px;
 }
-.btn_backToTop{
-    position:relative;
-   right:600px;
 
-}
 .btn_fechar{
     position: absolute;
     top: -115px;
@@ -1040,24 +1051,38 @@ navigation > a > h3{
     font-weight: 400;
 
 }
+footer{
+    padding-left: 3px;
+}
+.back-to-top{
+    top: 780px;
+    position: fixed;
+    left: 690px;
+    
+ }
+ .btn_backToTop{
+    width: 60px;
+    
+ }
 
  }
 
 @media (max-width: 425px) {
     header{
+        
         position: absolute;
         top: 1px;
         z-index: 2;
     }
     .busca{
-       display: flex;
+       display: none;
        flex-direction: column;
        position: absolute;
        font-size: 1rem;
        border-radius: 10PX;
        top: 150px;
        left: 100px;
-       background-color: #F0F0F0;
+       background-color: #ffffff;
        width: 250px;
        text-align: center;
   
@@ -1079,7 +1104,7 @@ navigation > a > h3{
 
     .iconPesquisar{
         position: absolute;
-        left: 320px;
+        left: 260px;
         top: 87px;
     }
 
@@ -1089,7 +1114,7 @@ navigation > a > h3{
   
 .material-symbols-outlined{
     position: absolute;
-    left: 360px;
+    left: 300px;
     top: 40px;
     color: #519B84;
 }
@@ -1098,13 +1123,13 @@ navigation > a > h3{
 
   .img_logo_planty{
     position: absolute;
-    width: 200px;
+    width: 140px;
   }
     
     .logoPlanty{
         position: absolute;
-        top: 1px;
-        left: 10px;
+        top: 10px;
+        left: 70px;
         
     }
 
@@ -1120,9 +1145,9 @@ navigation > a > h3{
 
     .inputPesquisar{
         position: absolute; 
-        left: 28px;
+        left: 100px;
         top: 90px;
-        width: 390px;
+        width: 250px;
     }
     
     .planta4, .planta3, .planta1{
@@ -1145,7 +1170,7 @@ navigation > a > h3{
  .btn_fechar{
     position: absolute;
     top: -109px;
-    left: 345px;
+    left: 284px;
     color: #519B84;
    
    
@@ -1182,12 +1207,14 @@ navigation > a > h3{
     left: 230px;
 }
 
-.btn_backToTop{
-    
-    position:relative;
-   right:900px;
+.back-to-top{
+    position: absolute;
+    left: 360px;
+    top: 180px;
 
 }
+
+
 
  }
 
