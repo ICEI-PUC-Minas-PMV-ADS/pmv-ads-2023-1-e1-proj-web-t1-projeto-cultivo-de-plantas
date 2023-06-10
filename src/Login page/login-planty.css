@@ -492,9 +492,9 @@ h4{
 
   #msgValida {
     text-align: center;
-    margin: auto;
+    margin-left: 10px;
     margin-bottom: 20px;
-    width: 75%;
+    width: 60%;
     border-radius: 5%;
     display: none;
     background-color: #e7d6bc;
@@ -1058,6 +1058,18 @@ h4{
 /* Celulares */
 
 @media screen and (max-width: 428px) {
+
+  #msgValida {
+    text-align: center;
+    margin-left: auto;
+    margin-bottom: 20px;
+    width: 90%;
+    border-radius: 5%;
+    display: none;
+    background-color: #e7d6bc;
+  }
+    
+
     main{
         padding-left: 5%;
         padding-right: 5%;
