@@ -129,7 +129,7 @@ _Funcionalidade 5 - Tela de Cadastro_
 ## Tela de Esqueci minha Senha (RF-04)
 A tela de esqueci minha senha apresenta campos para usuários já cadastrados, mas que não conseguem acessar sua conta de membro, possam solicitar uma nova senha. A tela desenvolvida com HTML e CSS é apresentada na imagem abaixo.
 
-![Esqueci-minha-senha](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/127165847/c8e7833a-eb71-4cf4-9912-85b1fa1f221d)
+![Esqueci-minha-senha](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/127165847/1a8aac1c-1dac-4701-92df-6cc7550ca408)
 
 _Tela desenvolvida por João Vitor_
 
