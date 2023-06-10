@@ -510,8 +510,7 @@ small{
 
 /* Celulares e Tablets */
 
-
-@media screen and (min-width:200px) and (max-width:480px){
+@media screen and (min-width:100px) and (max-width:428px){
     
 
     .box-form{
@@ -641,7 +640,8 @@ small{
     margin-right: 10px;
     }
   .logo_planty{
-    width: 200px;
+    width: 20vw;
+
     }
 
   .header-logo {
@@ -658,7 +658,7 @@ small{
   .search {
     width: 40%;
     margin: 0 5px;
-    margin-right: 10px;
+    margin-right: 2%;
     }
  
   .imglupa{
@@ -673,37 +673,67 @@ small{
     }
 
   .search-box {
-    width: 250px;
+    width: 60%;
     border: 1px solid #f0f0f0;
     border-radius: 50px;
     margin: 0 0px;
     position: absolute;
     top: 110px;
-    left: 80px;
+    left: 20%;
     right: 87px;
     height: 60px;
     }
 
-  #txtBusca {
+  #searchInput {
     font-size: 15px;
     border: none;
-    width: 40%;
+    width: 100%;
     position: relative;
     height: 65px;
-    left: 34px;
+    left: 1%;
     background: transparent;
     outline: none;
     }
 
   #search-image {
     margin-bottom: -7px;
-    margin-left: 45px;
-    width: 30px;
+    margin-left: none;
+    width: 10vw;
     }
+
+  .imgLupa{
+    left: none;   
+    border: none;
+    padding-right: 0%;
+    width: 7vw;
+  }
+
+  /* Lista de pesquisa*/
+
+  .busca{
+       
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    font-size: 0.9rem;
+    border-radius: 10px;
+    top: 90%;
+    left: 5%;
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    text-align: center;
+    margin-top: 5px;
+    z-index: 5; 
+  }
+ 
+  i{
+    padding-left: 4%;
+  }
+
 }
 
 
-@media screen and (min-width:481px) and (max-width:715px){
+@media screen and (min-width:429px) and (max-width:715px){
     
     #form input {
         width: 95%;
@@ -762,10 +792,15 @@ small{
     .open {
         display: block;
     }
+
+    input[type="text"]{
+        padding-right: 20%;
+        
+     }
     
       /* --- */
     
-    .header-container {
+      .header-container {
         display: flex;
         justify-content: space-between;
         height: 150px;
@@ -776,33 +811,33 @@ small{
         
       }
     
-    .column {
+      .column {
         padding: 10px;
       }
     
-    .logo {
-        width: auto;
-        margin-right: 10px;
+      .logo {
+        width: 20%;
+        margin-right: 15%;
       }
     
-    .header-logo {
-        width: 160px;
+      .header-logo {
+        width: 22vw;
         transition: all 0.2s ease-in-out;
       }
     
-    .header-logo:hover {
+      .header-logo:hover {
         transform: scale(1.1);
       }
     
-    .search {
-        width: 40%;
+      .search {
+        width: 50%;
         margin: 0 5px;
-        margin-right: 10px;
+        margin-right: 10%;
       }
     
-    .search-box {
-        width: 90%;  
-        height: 100%;  
+      .search-box {
+        width: 28vw;   
+        height: 8vh;
         border: 1px solid #f0f0f0;
         border-radius: 50px;
         margin: 0 0px; 
@@ -811,36 +846,68 @@ small{
         
       }
     
-    .imglupa{
+      .imglupa{
         position: relative;
-        right: 20px;
+        
         
        }
     
-    #txtBusca {
+       #searchInput {
         font-size: 15px;
         border: none;
         width: 100%;
         height: 20%;
         position: relative;
         height: 65px;
-        left: 34px;
+        left: 15%;  
         background: transparent;
         outline: none;
       }
     
-    #search-image {
+      #search-image {
         margin-bottom: -7px;
         margin-left: 45px;
-        width: 30px;
+        left: none;
       }
     
-    header{
+      header{
         padding-right: 30%;
         padding-left: 5%;
       }
     
-}    
+      .account-icon{
+        display: none;
+      }
+    
+      .login-cadastro{
+        display: none;
+      }
+
+ 
+  /* Lista de pesquisa*/
+
+  .busca{
+       
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    font-size: 0.9rem;
+    border-radius: 10px;
+    top: 12%;
+    left: 40%;
+    background-color: rgb(255, 255, 255);
+    width: 25%;
+    text-align: center;
+    margin-top: 5px;
+    z-index: 5; 
+  }
+
+ 
+}
+
+
+
+    
 
 
 @media screen and (min-width:712px) and (max-width:912px){
@@ -863,6 +930,10 @@ small{
     #direita input {
         width: 90%;
     }
+
+    /* Lista de pesquisa*/
+
+  
 }
 
 @media screen and (min-width:912px) and (max-width:1080px){
