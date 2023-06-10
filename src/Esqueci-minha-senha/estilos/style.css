@@ -376,20 +376,33 @@ top: 100px;
 background-color:var(--Branco-esfumaçado);
 }
 
+/* DADOS DE PESQUISA */
+
 .busca{
+       
   display: flex;
   flex-direction: column;
   position: absolute;
   font-size: 1rem;
-  border-radius: 10PX;
+  border-radius: 10px;
   top: 110px;
-  left: 420px;
-  background-color: var(--Branco-esfumaçado)
+  left: 39%;
+  background-color: rgb(255, 255, 255);
+  width: 25%;
+  text-align: center;
+  margin-top: 5px;
+  float: left;
+  z-index: 5;
+
 
 }
 
 .busca li{
-
-  padding-top: 10px;
-  z-index: 5;
+   padding-top: 10px;
+   z-index: 5;
 }
+
+.busca ul li a{
+  color: #000000;
+}
+
