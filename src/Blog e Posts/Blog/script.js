@@ -116,7 +116,7 @@ btn_close.addEventListener('click', closeMenuHamb)
 
 function closeMenuHamb(){
    menu_hamb.style.display = 'none'
-}
+};
 
 
 
@@ -140,7 +140,7 @@ function funcaoNome() {
 }
 
 
-
+;
 
 
 
