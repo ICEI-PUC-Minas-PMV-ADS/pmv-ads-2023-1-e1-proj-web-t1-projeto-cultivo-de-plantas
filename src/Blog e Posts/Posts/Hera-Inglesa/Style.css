@@ -511,7 +511,7 @@ h4{
     }
     .busca{
        
-       display: flex;
+       display: none;
        flex-direction: column;
        position: absolute;
        font-size: 1rem;
@@ -568,7 +568,7 @@ h4{
     }
     .busca{
        
-       display: flex;
+       display: none;
        flex-direction: column;
        position: absolute;
        font-size: 1rem;
@@ -628,7 +628,7 @@ h4{
     }
     .busca{
        
-       display: flex;
+       display: none;
        flex-direction: column;
        position: absolute;
        font-size: 1rem;
@@ -693,7 +693,7 @@ h4{
     }
     .busca{
        
-       display: flex;
+       display: none;
        flex-direction: column;
        position: absolute;
        font-size: 1rem;
@@ -763,7 +763,7 @@ h4{
     }
     .busca{
        
-       display: flex;
+       display: none;
        flex-direction: column;
        position: absolute;
        font-size: 1rem;
@@ -784,7 +784,7 @@ h4{
     body{
       margin: 0;
       padding: 0;
-      background-color: rgb(2, 175, 123);
+   
       
     }
     .btn_backToTop{
@@ -855,13 +855,14 @@ h4{
     }
     .busca{
        
-       display: flex;
+       display: none;
        flex-direction: column;
        position: absolute;
        font-size: 1rem;
        border-radius: 10PX;
-       top: 180px;
-       left: 210px;
+       top: 165px;
+       left: 203px;
+       height: auto;
        background-color: rgb(255, 255, 255);
        width: 300px;
        text-align: center;
@@ -959,6 +960,7 @@ nav{
      .textLogin{
         display: none;
      }
+     
      .iconLogin{
         position: relative;
         left: 1155px;
@@ -1025,7 +1027,7 @@ nav{
     }
     .busca{
        
-       display: flex;
+       display: none;
        flex-direction: column;
        position: absolute;
        font-size: 1rem;
@@ -1181,7 +1183,7 @@ navigation > a > h3{
         display: none;
     }
     .btn_backToTop{
-        position: absolute;
+        position: fixed;
         left: 360px;
         width: 50px;
         bottom: 45px;

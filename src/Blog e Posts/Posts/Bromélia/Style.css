@@ -532,7 +532,7 @@ h4{
     }
     .busca{
        
-       display: flex;
+       display: none;
        flex-direction: column;
        position: absolute;
        font-size: 1rem;
@@ -589,7 +589,7 @@ h4{
     }
     .busca{
        
-       display: flex;
+       display: none;
        flex-direction: column;
        position: absolute;
        font-size: 1rem;
@@ -649,7 +649,7 @@ h4{
     }
     .busca{
        
-       display: flex;
+       display: none;
        flex-direction: column;
        position: absolute;
        font-size: 1rem;
@@ -714,7 +714,7 @@ h4{
     }
     .busca{
        
-       display: flex;
+       display: none;
        flex-direction: column;
        position: absolute;
        font-size: 1rem;
@@ -784,7 +784,7 @@ h4{
     }
     .busca{
        
-       display: flex;
+       display: none;
        flex-direction: column;
        position: absolute;
        font-size: 1rem;
@@ -805,7 +805,7 @@ h4{
     body{
       margin: 0;
       padding: 0;
-      background-color: rgb(2, 175, 123);
+   
       
     }
     .btn_backToTop{
@@ -876,7 +876,7 @@ h4{
     }
     .busca{
        
-       display: flex;
+       display: none;
        flex-direction: column;
        position: absolute;
        font-size: 1rem;
@@ -1048,7 +1048,7 @@ nav{
     }
     .busca{
        
-       display: flex;
+       display: none;
        flex-direction: column;
        position: absolute;
        font-size: 1rem;
@@ -1204,7 +1204,7 @@ navigation > a > h3{
         display: none;
     }
     .btn_backToTop{
-        position: absolute;
+        position: fixed;
         left: 360px;
         width: 50px;
         bottom: 45px;

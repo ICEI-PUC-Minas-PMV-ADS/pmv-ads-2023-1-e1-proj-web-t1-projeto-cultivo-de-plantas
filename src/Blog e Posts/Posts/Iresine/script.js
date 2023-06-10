@@ -1,8 +1,3 @@
-document.addEventListener('DOMContentLoaded', function() {
-  var resultsElement = document.getElementById('searchResults');
-  resultsElement.style.display = 'none'; // Oculta a div de resultados inicialmente
-});
-
 var itemURLs = {
   Bromélia: '../Bromélia/Index.html',
   Espada_de_são_Jorge: '../Espada-de-são-Jorge/Index.html',
@@ -30,41 +25,35 @@ var plantas = ['Bromélia', 'Cacto', 'Girassol', 'Cebola', 'Espada_de_são_Jorge
 localStorage.setItem('meuVetor', JSON.stringify(plantas));
 
 document.addEventListener('DOMContentLoaded', function() {
-  var resultsElement = document.getElementById('searchResults');
-  resultsElement.style.display = 'none'; // Oculta a div de resultados inicialmente
-});
+  var searchInput = document.getElementById('searchInput');
+  var searchResults = document.getElementById('searchResults');
+  var buscaDiv = document.querySelector('.busca');
 
-document.getElementById('searchInput').addEventListener('input', function() {
-  var searchTerm = this.value.toLowerCase();
-  var storedVetor = JSON.parse(localStorage.getItem('meuVetor'));
-  var searchResults = [];
+  searchInput.addEventListener('input', function() {
+    var searchTerm = this.value.toLowerCase();
+    var storedVetor = JSON.parse(localStorage.getItem('meuVetor'));
+    var searchResults = [];
 
-  // Percorre o vetor e verifica se o termo de pesquisa está contido em cada item
-  for (var i = 0; i < storedVetor.length; i++) {
-    var item = storedVetor[i].toLowerCase();
-    if (item.indexOf(searchTerm) !== -1) {
-      searchResults.push(storedVetor[i]);
+    for (var i = 0; i < storedVetor.length; i++) {
+      var item = storedVetor[i].toLowerCase();
+      if (item.indexOf(searchTerm) !== -1) {
+        searchResults.push(storedVetor[i]);
+      }
     }
-  }
 
-  // Atualiza a lista de resultados na página
-  var resultsElement = document.getElementById('searchResults');
-  resultsElement.innerHTML = '';
+    var resultsElement = document.getElementById('searchResults');
+    resultsElement.innerHTML = '';
 
-  if (searchResults.length === 0) {
-    resultsElement.style.display = 'none'; // Oculta a div de resultados
-  } else {
-    resultsElement.style.display = 'block'; // Exibe a div de resultados
     for (var j = 0; j < searchResults.length; j++) {
       var li = document.createElement('li');
-      
+
       var link = document.createElement('a');
       var itemText = searchResults[j];
 
       if (itemURLs.hasOwnProperty(itemText)) {
         link.href = itemURLs[itemText];
       } else {
-        link.href = '#'; // Defina um URL padrão para itens não mapeados
+        link.href = '#';
       }
       li.classList.add('searchResult');
 
@@ -77,7 +66,21 @@ document.getElementById('searchInput').addEventListener('input', function() {
       li.appendChild(link);
       resultsElement.appendChild(li);
     }
-  }
+
+    if (searchTerm.trim().length > 0) {
+      buscaDiv.style.display = 'block';
+    } else {
+      buscaDiv.style.display = 'none';
+    }
+  });
+
+  document.addEventListener('click', function(event) {
+    var searchBar = document.getElementById('searchInput');
+
+    if (event.target !== searchBar && !searchBar.contains(event.target)) {
+      searchResults.innerHTML = '';
+    }
+  });
 });
 
 function poda() {
