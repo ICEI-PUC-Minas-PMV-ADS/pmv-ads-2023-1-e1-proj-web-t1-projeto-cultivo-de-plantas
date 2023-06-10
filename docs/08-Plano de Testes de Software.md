@@ -22,33 +22,3 @@ Os testes funcionais a serem realizados no site são descritos a seguir.
 
 
 
-# Plano de testes de software
-
-_Tela esqueci minha senha_
-
-| **CT-1: Reset de senha com sucesso** |
-|:---:|:---:|
-| Requisitos associados | RF-06: A aplicação deve incluir uma página de suporte caso o usuário esqueça sua senha. |
-| Objetivo | Verificar se o sistema assegura e corrobora os dados inseridos, permitindo assim que o usuário altere sua senha com sucesso. |
-| **Passo 1:** | Clique em "Esqueci minha senha" na tela de login. |
-| **Passo 2:** | Preencha todos os seguintes campos de maneira correta:
-  - E-mail;
-  - Nova senha;
-  - Validação da nova senha. |
-| **Passo 3:** | Após preencher todos os campos corretamente, clique no botão "entrar". A seguinte mensagem deverá aparecer: "A senha foi alterada com sucesso! :)". Dentro de alguns segundos, o usuário será redirecionado ao blog. |
-| **Critério de êxito:** | O sistema fará a alteração da senha do usuário no localstorage, substituindo a senha antiga pela nova senha cadastrada, e em seguida redirecionará o usuário ao blog. |
-
-| **CT-2: O código ou senhas não conferem** |
-|:---:|:---:|
-| Requisitos associados | RF-06: A aplicação deve incluir uma página de suporte caso o usuário esqueça sua senha. |
-| **Objetivo:** | Verificar se o sistema capta as informações descoincidentes nos campos e-mail, nova senha e validação de senha. Se tudo ocorrer bem, após o usuário clicar em "entrar", o sistema deve apresentar a seguinte mensagem: "O e-mail ou as senhas não conferem :(", interditando a entrada e o redirecionamento do usuário. |
-| **Passo 1:** | Clique em "Esqueci minha senha" na tela de login. |
-| **Passo 2:** | Preencha TODOS ou UM dos seguintes campos com informações divergentes:
-  - E-mail;
-  - Nova senha;
-  - Validação da nova senha. |
-| **Passo 3:** | Após preencher todos os campos, clique no botão "entrar". A seguinte mensagem deverá aparecer: "O e-mail ou as senhas não conferem :(". O usuário deverá preencher todos os campos novamente de maneira correta para que o CT-01 ocorra. |
-| **Critérios de êxito:** | O sistema impede que o usuário efetue a alteração de senha e apresenta a seguinte mensagem: "O e-mail ou as senhas não conferem :(". Além disso, o sistema também barrará o redirecionamento ao blog. |
-
-| **CT-3: Campo em branco e/ou não cumprimento dos requisitos de senha** |
-|:---:|:---:|
