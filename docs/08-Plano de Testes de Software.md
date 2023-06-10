@@ -1,19 +1,20 @@
 # Plano de Testes de Software
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>
+Os requisitos para realização dos testes de software são:
 
-Apresente os cenários de testes utilizados na realização dos testes da sua aplicação. Escolha cenários de testes que demonstrem os requisitos sendo satisfeitos.
+Site publicado na Internet
+Navegador da Internet - Chrome, Firefox ou Edge
+Conectividade de Internet para acesso às plataformas (APISs)
+Os testes funcionais a serem realizados no site são descritos a seguir.
 
-Enumere quais cenários de testes foram selecionados para teste. Neste tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.
- 
-## Ferramentas de Testes (Opcional)
+| **Caso de Teste** 	| **CTU-01 – Envio de mensagem para o suporte** 	|
+|:---:	|:---:	|
+| **Objetivo do Teste** 	| Verificar se o sistema permite que o usuário consiga enviar uma mensagem para o suporte. 	|
+| **Passos** 	| 1. Acessar o navegador; <br>2. Informar o endereço do site;<br>3. Visualizar a página Home;<br>4. Clicar em fale conosco;<br> 5. Preencher os campos necessários do formulário. 	|
+| **Critérios de Êxito** 	| O usuário deve receber um aviso de "mensagem enviada com sucesso" assim que ela for enviada. |
 
-Comente sobre as ferramentas de testes utilizadas.
- 
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-> - [Criação e Geração de Planos de Teste de Software](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
+| **Caso de Teste** 	| **CTU-02 – Barra de pesquisa**	|
+|:---:	|:---:	|
+| **Objetivo do Teste** 	| Verificar se o sistema permite que o usuário faça buscas das postagens do site na barra de pesquisa. 	|
+| **Passos** 	| 1. Acessar o navegador; <br>2. Informar o endereço do site;<br>3. Visualizar a página Home;<br>4. Clicar na barra de pesquisa;<br> 5. Preencher o nome da planta desejada. 	|
+| **Critérios de Êxito** 	| O usuário deve visualizar o nome da planta pesquisada e visualizar sua postagem ao clicar nela. |
