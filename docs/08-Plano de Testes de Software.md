@@ -26,34 +26,34 @@ Os testes funcionais a serem realizados no site são descritos a seguir.
 
 _Tela esqueci minha senha_
 
-|**CT-1: Resete de senha com sucesso**|
-|:---: |:---: |
-|Requisitos associados: RF-06: A aplicação deve incluir uma página de suporte caso o usuário esqueça sua senha.|
-|Objetivo:| Verificar se o sistema assegura e corrobora os dados inseridos, permitindo assim que o user altere sua senha com sucesso.
-|**Passo 1:**| Clique em "Esqueci minha senha" na tela de login;|
+| **CT-1: Resete de senha com sucesso**                                                                                                          |
+|:---:  |:---:    |
+|  Requisitos associados: RF-06: A aplicação deve incluir uma página de suporte caso o usuário esqueça sua senha.                                |
 <br>
-|**Passo 2:**| Preencha todos os seguintes campos de maneira correta:
-<br>
-E-mail;
-Nova senha;
-Validação da nova senha.|
-<br>
-|**Passo 3:**| Após preencher todos os campos corretamente, clique no botão entrar. A seguinte mensagem deverá aparecer: "A senha foi alterada com sucesso! :)". Dentro de alguns segundos, o user será redirecionado ao blog.|
-|**Critério de êxito:**| O sistema fará a alteração da senha do user no localstorage, substituindo a senha antiga pela nova senha cadastrada e em seguida redirecionará o user ao blog.|
-
-
-|**CT-2: O código ou senhas não conferem**|
-|:---: |:---: |
-|Requisitos associados: RF-06: A aplicação deve incluir uma página de suporte caso o usuário esqueça sua senha.|
-|**Objetivo:**| Verificar se o sistema capta as informações descoincidentes nos campos e-mail, nova senha e validação de senha. Se tudo ocorrer bem, após o user clicar em "entrar" o sistema deve apresentar a seguinte mensagem: "O email ou as senhas não conferem :(" interdizendo a entrada e o redirecionamento do user.|
-|**Passo 1:**| Clique em "Esqueci minha senha" na tela de login;|
-|**Passo 2:**| Preencha TODOS ou UM dos seguintes campos com informações divergentes:
+|  **Objetivo:**  | Verificar se o sistema assegura e corrobora os dados inseridos, permitindo assim que o user altere sua senha com sucesso.    |
+|  **Passo 1:**   | Clique em "Esqueci minha senha" na tela de login;                                                                            |
+|  **Passo 2:**   | Preencha todos os seguintes campos de maneira correta:                                                            
 <br>
 E-mail;
 Nova senha;
-Validação da nova senha.|
-|**Passo 3:**| Após preencher todos os campos, clique no botão entrar. A seguinte mensagem deverá aparecer:"O e-mail ou as senhas não conferem :(". O user deverá preencher todos os campos novamente, de maneira correta para que CT-01 ocorra.|
-|**Critérios de êxito:**| O sistema impede que o user efetue a alteração de senha e apresenta a seguinte mensagem: "O e-mail ou as senhas não conferem :(". Ademais o sistema também barrará o redirecionamento ao blog.|
+Validação da nova senha.                                                                                                                         |
+<br>
+|  **Passo 3:**   | Após preencher todos os campos corretamente, clique no botão entrar. A seguinte mensagem deverá aparecer: "A senha foi alterada com sucesso! :)". Dentro de alguns segundos, o user será redirecionado ao blog.          |
+|  **Critério de êxito:**   | O sistema fará a alteração da senha do user no localstorage, substituindo a senha antiga pela nova senha cadastrada e em seguida redirecionará o user ao blog. |
+
+
+| **CT-2: O código ou senhas não conferem**|
+|:---:  |:---:    |
+|     Requisitos associados: RF-06: A aplicação deve incluir uma página de suporte caso o usuário esqueça sua senha.    |
+| **Objetivo:**   | Verificar se o sistema capta as informações descoincidentes nos campos e-mail, nova senha e validação de senha. Se tudo ocorrer bem, após o user clicar em "entrar" o sistema deve apresentar a seguinte mensagem: "O email ou as senhas não conferem :(" interdizendo a entrada e o redirecionamento do user.    |
+|  **Passo 1:**   | Clique em "Esqueci minha senha" na tela de login; |
+|  **Passo 2:**   | Preencha TODOS ou UM dos seguintes campos com informações divergentes:
+<br>
+E-mail;
+Nova senha;
+Validação da nova senha.    |
+|  **Passo 3:**   | Após preencher todos os campos, clique no botão entrar. A seguinte mensagem deverá aparecer:"O e-mail ou as senhas não conferem :(". O user deverá preencher todos os campos novamente, de maneira correta para que CT-01 ocorra.   |
+|**Critérios de êxito:**| O sistema impede que o user efetue a alteração de senha e apresenta a seguinte mensagem: "O e-mail ou as senhas não conferem :(". Ademais o sistema também barrará o redirecionamento ao blog. |
 
 
 |**CT-3: Campo em branco e/ou não cumprimento dos requisitos de senha**|
