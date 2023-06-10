@@ -13,7 +13,7 @@ O diagrama apresentado na figura abaixo mostra o fluxo de interação do usuári
 
 <div align="center">   
   
-![Fluxo06](https://user-images.githubusercontent.com/116499898/233864356-081c8f34-1e7b-4068-b084-ecdf40dbf331.png)
+![Image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/116499898/e732e38a-2250-4842-9819-dffd07e0c280)
 
 _User Flow do sistema_
   
