@@ -26,13 +26,13 @@ Os testes funcionais a serem realizados no site são descritos a seguir.
 
 _Tela esqueci minha senha_
 
-| **CT-1: Resete de senha com sucesso**                                                                                                          |
-|:---:  |:---:    |
-|  Requisitos associados: RF-06: A aplicação deve incluir uma página de suporte caso o usuário esqueça sua senha.                                |
+| **CT-1: Resete de senha com sucesso**  |
+|:---:  |:---:  |
+|  Requisitos associados: RF-06: A aplicação deve incluir uma página de suporte caso o usuário esqueça sua senha. |
 <br>
-|  **Objetivo:**  | Verificar se o sistema assegura e corrobora os dados inseridos, permitindo assim que o user altere sua senha com sucesso.    |
-|  **Passo 1:**   | Clique em "Esqueci minha senha" na tela de login;                                                                            |
-|  **Passo 2:**   | Preencha todos os seguintes campos de maneira correta:                                                            
+|  **Objetivo:**| Verificar se o sistema assegura e corrobora os dados inseridos, permitindo assim que o user altere sua senha com sucesso.    |
+|  **Passo 1:** | Clique em "Esqueci minha senha" na tela de login;                                                                            |
+|  **Passo 2:** | Preencha todos os seguintes campos de maneira correta:                                                            
 <br>
 E-mail;
 Nova senha;
