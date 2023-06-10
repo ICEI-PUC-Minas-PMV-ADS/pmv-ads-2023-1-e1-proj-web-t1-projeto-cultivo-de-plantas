@@ -27,7 +27,7 @@ document.getElementById('senhaForm').addEventListener('submit', function(event) 
 
     if (senha === senhaconfirm && usuarioLog == item.usuarioCad) {
       
-      document.getElementById('modal-valida-body').innerHTML = '<strong>A senha foi alterada com sucesso! 🙂 <br> Você será redirecionado para o Blog!</strong>';
+      document.getElementById('modal-valida-body').innerHTML = '<strong>A senha foi alterada com sucesso! 🙂 <br> Você será redirecionado para o login!</strong>';
       document.getElementById('modal').style.display = 'block';
     
     console.log('Nova senha cadastrada com sucesso!');
