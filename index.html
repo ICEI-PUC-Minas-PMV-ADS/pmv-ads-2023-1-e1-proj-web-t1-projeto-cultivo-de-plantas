@@ -13,19 +13,24 @@
     <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
 </head>
 
-<body>
+<body onload="funcaoNome()">
     <header class="header-container" id="top">
         <div class="column logo">
             <a href="../index.html"><img class="header-logo" src="img/Logo-Planty.png" alt="Logo Original Planty"></a>
         </div>
         <div class="column search">
             <div class="search-box">
-                <input type="text" id="txtBusca" placeholder="Pesquisar..."/>
-                <a href="#"><img id="search-image" src="img/search.png" alt="Ícone de Busca"></a>
+                <input  type="text" id="searchInput" placeholder="Pesquisar...">
+                
+                <div class="busca">
+                    <ul class="searchResult"id="searchResults"></ul>
+                </div>
+
+                <img class="imgLupa" src="img/search.png" alt="Ícone de Busca" id="seach-image">
             </div>
         </div>
         <div class="column login-cadastro">
-            <a href="../src/Login page/login-planty.html">Login / Cadastro</a>
+            <a id="loginCad" href="../src/Login page/login-planty.html">Login / Cadastro</a>
             <img class="account-icon" src="img/account_circle.png" alt="Ícone de Usuário">
         </div>
     </header>
