@@ -195,11 +195,17 @@ p,
 }
 
 .account-icon {
+    left: 130px;
+    margin-left: 5px;
     transition: all .2s ease-in-out;
+    
 }
 
-.account-icon:hover {
-    transform: scale(1.1);
+.account-icon:hover{
+    
+    left: 130px;
+    transform: scale(1.1); 
+   
 }
 
 /* NAVIGATION MENU */

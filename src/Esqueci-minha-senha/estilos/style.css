@@ -78,10 +78,6 @@ html {
   background-color: white;
 }
 
-header{
-  z-index: 2;
-}
-
 .column {
   padding: 10px;
 }
@@ -103,6 +99,10 @@ header{
 .search {
   width: 40%;
   margin: 0 5px;
+}
+
+.column_search {
+position: relative;
 }
 
 .search-box {
@@ -376,20 +376,29 @@ top: 100px;
 background-color:var(--Branco-esfumaçado);
 }
 
+/* DADOS DE PESQUISA */
+
 .busca{
   display: flex;
   flex-direction: column;
   position: absolute;
   font-size: 1rem;
-  border-radius: 10PX;
-  top: 110px;
-  left: 420px;
-  background-color: var(--Branco-esfumaçado)
-
+  border-radius: 10px;
+  top: 60px;
+  left: 10%;
+  background-color: rgb(255, 255, 255);
+  width: 65%;
+  text-align: center;
+  margin-top: 5px;
+  z-index: 5;
 }
 
 .busca li{
-
-  padding-top: 10px;
-  z-index: 5;
+   padding-top: 10px;
+   z-index: 5;
 }
+
+.busca ul li a{
+  color: #000000;
+}
+

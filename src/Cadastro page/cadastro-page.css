@@ -733,7 +733,7 @@ small{
 }
 
 
-@media screen and (min-width:429px) and (max-width:715px){
+@media screen and (min-width:429px) and (max-width:768px){
     
     #form input {
         width: 95%;
@@ -842,7 +842,7 @@ small{
         border-radius: 50px;
         margin: 0 0px; 
         padding-left: 0%;
-        padding-right: 0%;
+        padding-right: 5%;
         
       }
     
@@ -894,7 +894,7 @@ small{
     font-size: 0.9rem;
     border-radius: 10px;
     top: 12%;
-    left: 40%;
+    left: 41%;
     background-color: rgb(255, 255, 255);
     width: 25%;
     text-align: center;
@@ -910,7 +910,7 @@ small{
     
 
 
-@media screen and (min-width:712px) and (max-width:912px){
+@media screen and (min-width:768px) and (max-width:912px){
     #totalForm{
         padding-left: 5%;
         padding-right: 5%;
@@ -931,8 +931,41 @@ small{
         width: 90%;
     }
 
-    /* Lista de pesquisa*/
+    #searchInput {
+        font-size: 15px;
+        border: none;
+        width: 100%;
+        height: 20%;
+        position: relative;
+        height: 65px;
+        left: 3%;  
+        background: transparent;
+        outline: none;
+      }
+    
+      #search-image {
+        margin-bottom: -7px;
+        margin-left: 45px;
+        left: none;
+      }
 
+    /* Lista de pesquisa*/
+    
+    .busca{
+       
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        font-size: 0.9rem;
+        border-radius: 10px;
+        top: 12%;
+        left: 41%;
+        background-color: rgb(255, 255, 255);
+        width: 25%;
+        text-align: center;
+        margin-top: 5px;
+        z-index: 5; 
+      }
   
 }
 
@@ -986,6 +1019,24 @@ small{
 
          
      }
+
+      /* Lista de pesquisa*/
+    
+    .busca{
+       
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        font-size: 0.9rem;
+        border-radius: 10px;
+        top: 12%;
+        left: 37%;
+        background-color: rgb(255, 255, 255);
+        width: 28%;
+        text-align: center;
+        margin-top: 5px;
+        z-index: 5; 
+      }
 }
 
     @media screen and (min-width:1081px) and (max-width:1440px){
@@ -1005,6 +1056,24 @@ small{
             width: 90%;
         }
 
+
+        /* Lista de pesquisa*/
+    
+    .busca{
+       
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        font-size: 0.9rem;
+        border-radius: 10px;
+        top: 12%;
+        left: 36%;
+        background-color: rgb(255, 255, 255);
+        width: 28%;
+        text-align: center;
+        margin-top: 5px;
+        z-index: 5; 
+      }
       
     }
 
@@ -1048,6 +1117,24 @@ small{
         width: 50vw;
         font-size: 19px;
     }
+
+    /* Lista de pesquisa*/
+    
+    .busca{
+       
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        font-size: 0.9rem;
+        border-radius: 10px;
+        top: 12%;
+        left: 37%;
+        background-color: rgb(255, 255, 255);
+        width: 25%;
+        text-align: center;
+        margin-top: 5px;
+        z-index: 5; 
+      }
 }
 
 @media screen and (min-width:1440px) and (max-width:1920px){
@@ -1094,4 +1181,20 @@ small{
         padding-left: 10%;
         padding-right: 5%;
     }
+
+    .busca{
+       
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        font-size: 0.9rem;
+        border-radius: 10px;
+        top: 12%;
+        left: 37%;
+        background-color: rgb(255, 255, 255);
+        width: 25%;
+        text-align: center;
+        margin-top: 5px;
+        z-index: 5; 
+      }
 }

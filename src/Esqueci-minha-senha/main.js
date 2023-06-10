@@ -112,7 +112,16 @@ document.getElementById('senhaForm').addEventListener('submit', function(event) 
       resultsElement.appendChild(li);
     }
  
- 
+    document.addEventListener('click', function(event) {
+      var searchBar = document.getElementById('txtBusca');
+      var searchResults = document.getElementById('searchResults');
+
+      // Verifica se o clique ocorreu fora da barra de pesquisa
+      if (event.target !== searchBar && !searchBar.contains(event.target)) {
+        // Limpa os resultados da pesquisa
+        searchResults.innerHTML = '';
+      }
+    });
  
  
   });
