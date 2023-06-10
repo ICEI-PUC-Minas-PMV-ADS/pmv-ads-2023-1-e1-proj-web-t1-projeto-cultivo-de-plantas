@@ -93,9 +93,9 @@ var userValid = {
     }
     
 
-ListaCad = JSON.parse(localStorage.getItem("ListaCad"))
+listaCad = JSON.parse(localStorage.getItem("ListaCad"))
     
-ListaCad.forEach((item) => {
+listaCad.forEach((item) => {
   if(emailLog.value == item.emailCad && senhaLog.value == item.senhaCad.value){
     userValid = {
       email: item.emailCad ,
