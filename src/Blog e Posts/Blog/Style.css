@@ -923,6 +923,11 @@ footer{
     .planta4{
         display: none;
     }
+    .containerCarousel{
+        position: relative;
+        left: -30px;
+        top: 100px;
+    }
 
     .containerCarousel2{
         display: none;
@@ -1047,7 +1052,7 @@ footer{
     }
   
     .busca ul li a{
-       color: red;
+       color: rgb(0, 0, 0);
     }
   
 
@@ -1056,7 +1061,7 @@ footer{
     }
     .containerCarousel{
         position: relative;
-        right: 33px;
+        left: -30px;
         top: 100px;
     }
 
@@ -1282,9 +1287,10 @@ left: 900px;
     }
     
     .containerCarousel{
-        position: relative;
-        right: 30px;
-        top: 120px;
+        position: absolute;
+        top: 340px;
+        
+       left: 47px;
     }
 
     .containerCarousel2{
@@ -1468,12 +1474,11 @@ left: 900px;
     }
     
     .containerCarousel{
-        position: relative;
-        bottom: 130px;
-        right: 1px;
-        width: 200px;
-        height: auto;
-      
+       position: relative;
+       bottom: 130px;
+       left: 1px;
+       width: 200px;
+       height: auto;
        align-items: center;
        justify-content: center;
        top: 5px;

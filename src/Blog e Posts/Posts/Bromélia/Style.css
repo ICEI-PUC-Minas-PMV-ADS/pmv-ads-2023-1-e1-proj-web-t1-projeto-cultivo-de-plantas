@@ -881,8 +881,9 @@ h4{
        position: absolute;
        font-size: 1rem;
        border-radius: 10PX;
-       top: 180px;
-       left: 210px;
+       top: 165px;
+       left: 203px;
+       height: auto;
        background-color: rgb(255, 255, 255);
        width: 300px;
        text-align: center;
