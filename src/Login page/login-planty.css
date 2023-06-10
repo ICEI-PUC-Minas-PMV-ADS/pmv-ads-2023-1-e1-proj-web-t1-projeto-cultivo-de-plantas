@@ -489,56 +489,66 @@ h4{
 }
 
 @media screen and (max-width: 600px){
+
+  #msgValida {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 75%;
+    border-radius: 5%;
+    display: none;
+    background-color: #e7d6bc;
+  }
     
-    main{
-        padding-right: 7%;
-        padding-left: 7%;
-        padding-top: 5%;
-    }
+  main{
+    padding-right: 7%;
+    padding-left: 7%;
+    padding-top: 5%;
+  }
 
-    .direita-login{
-        padding-left: 4%;
-    }
+  .direita-login{
+    padding-left: 4%;
+  }
 
-    h1{
-        padding-top: 2%;
-        padding-bottom: 15%;
-        padding-left: 0%;
-        padding-right: 25%;
-        font-size: 23px;
-        width: 100%;
-    }
+  h1{
+    padding-top: 2%;
+    padding-bottom: 15%;
+    padding-left: 0%;
+    padding-right: 25%;
+    font-size: 23px;
+    width: 100%;
+  }
     
-    h4{
-        padding-top: 20%;
-        padding-right: 5%;
-        padding-left: 10%;
-        width: 100%;
-        font-size: 12px;
-    }
+  h4{
+    padding-top: 20%;
+    padding-right: 5%;
+    padding-left: 10%;
+    width: 100%;
+    font-size: 12px;
+  }
 
-    input[type="email"]{
-        width: 35vw; 
-    }
+  input[type="email"]{
+    width: 35vw; 
+  }
     
-    input[type="password"]{
-        width: 35vw;  
-    } 
+  input[type="password"]{
+    width: 35vw;  
+  } 
     
-    .botoes{
-        width: 80%;
-        padding-left: 0%;
-    }
+  .botoes{
+    width: 80%;
+    padding-left: 0%;
+  }
 
-    .btn-cadastrar{
-        width: 17vw;
-        padding-right: none;
-    }
+  .btn-cadastrar{
+    width: 17vw;
+    padding-right: none;
+  }
 
-    .btn-entrar{
-        width: 30vw; 
+  .btn-entrar{
+    width: 30vw; 
         
-    }
+  }
 
     /* Header*/
 

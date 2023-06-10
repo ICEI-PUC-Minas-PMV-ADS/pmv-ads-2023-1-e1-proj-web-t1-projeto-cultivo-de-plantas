@@ -123,7 +123,7 @@ function checkInputs() {
    const senhaValue = senha.value.trim()
    const confirmSenhaValue = confirmSenha.value.trim()
 
-
+   let validacao = true
 
    //NOME
 
@@ -131,6 +131,8 @@ function checkInputs() {
       //mostrar o erro
       //adicionar a classe erro
       errorValidation(nome, 'Preencha esse campo')
+
+      validacao = false
    }
    else{
       //adicionar classe suce
@@ -143,6 +145,8 @@ function checkInputs() {
       //mostrar o erro
       //adicionar a classe erro
       errorValidation(email, 'Preencha esse campo')
+      
+      validacao = false
    }
    else{
       sucessoValidation(email)
@@ -152,10 +156,14 @@ function checkInputs() {
 
    if(usuarioValue === "") {
       errorValidation(usuario, 'Preencha esse campo')
+
+      validacao = false
    }
 
    else if(usuarioValue.length <= 2){     
       errorValidation(usuario, 'Precisa ter no mínimo 3 caracteres')
+
+      validacao = false
    }
 
    else{     
@@ -167,7 +175,17 @@ function checkInputs() {
 
    if(celularValue === "") {
       errorValidation(celular, 'Preencha esse campo')
+
+      validacao = false
    }
+
+   else if (celularValue.length < 10){
+      errorValidation(celular, 'Preencha o campo com no mínimo 10 caracteres')
+
+      validacao = false
+
+   }
+
    else{
       sucessoValidation(celular)
 
@@ -177,9 +195,13 @@ function checkInputs() {
 
    if(senhaValue === "") {
       errorValidation(senha, 'Preencha esse campo')
+
+      validacao = false
    }
    else if(senhaValue.length < 7){
       errorValidation(senha, 'Senha deve ter no mínimo 8 caracteres')
+
+      validacao = false
    }
    else {
       sucessoValidation(senha)
@@ -189,9 +211,13 @@ function checkInputs() {
 
    if(confirmSenhaValue === "") {
       errorValidation(confirmSenha, 'Preencha esse campo')
+
+      validacao = false
    }
    else if (senhaValue !== confirmSenhaValue) {
       errorValidation(confirmSenha, 'As senhas estão erradas')
+
+      validacao = false
    }
    else{
       sucessoValidation(confirmSenha)
@@ -199,7 +225,7 @@ function checkInputs() {
 
 
 
-   if (nomeValue && emailValue && usuarioValue && celularValue && senhaValue){
+   if ( validacao && nomeValue && emailValue && usuarioValue && celularValue && senhaValue){
 
       let ListaCad = JSON.parse(localStorage.getItem("ListaCad") || "[]")
 
@@ -218,13 +244,17 @@ function checkInputs() {
       msgSuccess.setAttribute('style', 'display: block');
       msgSuccess.innerHTML = '<strong> Cadastrado com sucesso!<br> Você será redirecionado para o Login automáticamente :)</strong>'   
       
+     
      setTimeout(()=>{
          window.location.href = "../Login page/login-planty.html"
      }, 4000)  
-   
+     
    }
 
 }
+
+
+
 
 function errorValidation(input, message){
    const form = input.parentElement;

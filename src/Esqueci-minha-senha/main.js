@@ -7,41 +7,45 @@ function menuShow() {
     }
 }
 
+
+//Valida Senha e usuário
+
 document.getElementById('senhaForm').addEventListener('submit', function(event) {
     event.preventDefault();
   
-    
-  
-   
     var senha = document.getElementById('isenha').value;
     var senhaconfirm = document.getElementById('iconfirme').value;
     var modal_valida = document.querySelector('#modal_valida')
+    var usuarioLog = document.getElementById('iusuario').value;
 
-    if (senha === senhaconfirm) {
+    var ListaCad = [];
+  
+    ListaCad = JSON.parse(localStorage.getItem("ListaCad"));
+
+
+    ListaCad.forEach(item => {
+
+    if (senha === senhaconfirm && usuarioLog == item.usuarioCad) {
       
     modal_valida.innerHTML = '<strong>A senha foi alterada com sucesso! :) <br> Você será redirecionado para o Blog!</strong>'    
     modal_valida.setAttribute ('style' , 'display: block; color: green')
     
-    
-    setTimeout(() => {
-      window.location.href = '../Login page/login-planty.html'
-    }, 4000);
-
-  
     console.log('Nova senha cadastrada com sucesso!');
   
 
     alterarSenha();
-
+    
+    setTimeout(() => {
+      window.location.href = '../Login page/login-planty.html'
+    }, 4000);
     }
 
-    else {
-        modal_valida.innerHTML = '<strong>O e-mail ou as senhas não conferem :( </strong>'    
+    else  {
+        modal_valida.innerHTML = '<strong>O usuário ou as senhas não conferem :( </strong>'    
         modal_valida.setAttribute ('style' , 'display: block; color: red')
-
     }
-
   });
+});
 
   var itemURLs = {
     Bromélia: '../Blog e Posts/Posts/Bromélia/Index.html',
@@ -133,7 +137,7 @@ function funcaoNome() {
 }
 
 
-//Funcao para alterar a senha
+//Funcao para alterar a senha no LocalStorage
 function alterarSenha() {
   var usuarioLog = document.getElementById('iusuario').value;
   var novaSenha = document.getElementById('isenha');
