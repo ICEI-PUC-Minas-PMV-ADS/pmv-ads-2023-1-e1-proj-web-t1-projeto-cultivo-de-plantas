@@ -80,17 +80,17 @@ header{
     align-items: center;
 }
 
-.iconLogin{
-    position: absolute;
+.account-icon {
     left: 130px;
+    margin-left: 5px;
+    transition: all .2s ease-in-out;
     
-   
 }
-.iconLogin:hover{
-    position: absolute;
+
+.account-icon:hover{
+    
     left: 130px;
     transform: scale(1.1); 
-    transition: 0.5s;
    
 }
 

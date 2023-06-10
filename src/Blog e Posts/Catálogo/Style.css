@@ -96,19 +96,20 @@ header{
     align-items: center;
 }
 
-.iconLogin{
-    position: absolute;
+
+.account-icon {
     left: 130px;
-   
-}
-.iconLogin:hover{
-    position: absolute;
-    left: 130px;
-    transform: scale(1.1); 
-    transition: 0.5s;
-   
+    margin-left: 5px;
+    transition: all .2s ease-in-out;
+    
 }
 
+.account-icon:hover{
+    
+    left: 130px;
+    transform: scale(1.1); 
+   
+}
 
 nav{
     position: absolute;
