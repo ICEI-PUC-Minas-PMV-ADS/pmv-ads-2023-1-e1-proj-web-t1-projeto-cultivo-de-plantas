@@ -35,7 +35,7 @@ var itemURLs = {
   var plantas = ['Bromélia', 'Cacto', 'Girassol', 'Cebola', 'Espada_de_são_Jorge', 'Hera_Inglesa', 'Hortência', 'Iresine', 'Jasmim', 'Lavanda' , 'Lírio', 'Neoregélia', 'Orquidea','Palmeira_Dama','Pitanga' ,'Roseira' ,'Samambaia','Tomate','Torênia','Trapoeraba'];
   localStorage.setItem('meuVetor', JSON.stringify( plantas));
   
-  document.getElementById('searchInput').addEventListener('input', function() {
+  document.getElementById('txtBusca').addEventListener('input', function() {
     var searchTerm = this.value.toLowerCase();
     var storedVetor = JSON.parse(localStorage.getItem('meuVetor'));
     var searchResults = [];
@@ -76,7 +76,7 @@ var itemURLs = {
     }
   
     document.addEventListener('click', function(event) {
-      var searchBar = document.getElementById('searchInput');
+      var searchBar = document.getElementById('txtBusca');
       var searchResults = document.getElementById('searchResults');
     
       // Verifica se o clique ocorreu fora da barra de pesquisa
