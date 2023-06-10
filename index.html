@@ -16,31 +16,46 @@
 <body onload="funcaoNome()">
     <header class="header-container" id="top">
         <div class="column logo">
-            <a href="#"><img class="header-logo" src="/img/Logo-Planty.png" alt="Logo Original Planty"></a>
+            <a href="./index.html"><img class="header-logo" src="./img/Logo-Planty.png" alt="Logo Original Planty"></a>
         </div>
         <div class="column search">
             <div class="search-box">
                 <input type="text" id="txtBusca" placeholder="Pesquisar..."/>
-                <a href="#"><img id="search-image" src="/img/search.png" alt="Ícone de Busca"></a>
+                <a href="#"><img id="search-image" src="./img/search.png" alt="Ícone de Busca"></a>
                 <div class="busca">
                     <ul class="searchResult"id="searchResults"></ul>
                 </div> 
             </div>
         </div>
         <div class="column login-cadastro">
-            <a id="loginCad" href="../src/Login page/login-planty.html">Login / Cadastro</a>
+            <a id="loginCad" href="./src/Login page/login-planty.html">Login / Cadastro</a>
             <img class="account-icon" src="img/account_circle.png" alt="Ícone de Usuário">
         </div>
+        <div class="menu-btn">
+            <i class="fa fa-bars fa-2x burger" onclick="menuShow()"></i>
+          </div>
     </header>
 
     <nav>
         <ul class="main-menu">
-            <li><a href="../../../index.html">Home</a></li>
-            <li><a href="/src/Blog e Posts/Blog/Index.html">Blog</a></li>
-            <li><a href="/src/Quem-somos/about-us.html">Quem somos</a></li>
-            <li><a href="/src/Contato/contato-page.html">Fale Conosco</a></li>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./src/Blog e Posts/Blog/Index.html">Blog</a></li>
+            <li><a href="./src/Quem-somos/about-us.html">Quem somos</a></li>
+            <li><a href="./src/Contato/contato-page.html">Fale Conosco</a></li>
         </ul>
     </nav>
+
+    <!-- Mobile Menu-->
+
+    <div class="mobile-menu">
+        <ul>
+          <li><a href="./src/Login page/login-planty.html">Login / Cadastro</a></li>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./src/Blog e Posts/Blog/Index.html">Blog</a></li>
+          <li><a href="./src/Quem-somos/about-us.html">Quem Somos</a></li>
+          <li><a href="./src/Contato/contato-page.html">Fale Conosco</a></li>
+        </ul>
+      </div>
 
     <section class="hero-section">
             <div class="hero-content">

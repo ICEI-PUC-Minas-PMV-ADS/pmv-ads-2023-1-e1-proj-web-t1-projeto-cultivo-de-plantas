@@ -179,6 +179,21 @@ p,
     margin-left: 35px;
 }
 
+/* Mobile Menu */
+
+.menu-btn {
+    display: none;
+  }
+  
+  .mobile-menu {
+    background-color: white;
+    display: none;
+  }
+  
+  .mobile-menu a {
+    color: #000000;
+  }
+
 /*BARRA DE PESQUISA*/
 
 .busca {
@@ -631,4 +646,253 @@ p,
     .hero-section {
         height: 650px;
     }
+}
+
+/* Media para  tablets e celulares  */
+
+@media screen and (max-width: 800px) {
+
+
+    #modal_valida{
+      text-align: center;
+      padding: 20px;
+      position: relative;
+      margin-top: 10px;
+      width: 80%;
+      border-radius: 5%;
+      display: none;
+      background-color:var(--Branco-esfumaçado);
+      }
+  
+    .main-menu {
+      padding: 1.5rem 4rem;
+      display: none;
+    }
+  
+    .login-cadastro {
+      display: none;
+    }
+  
+    .menu-btn {
+      display: block;
+      cursor: pointer;
+    }
+  
+    .mobile-menu ul {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      padding-bottom: 1rem;
+    }
+  
+    .mobile-menu li {
+      display: block;
+      padding-top:  1.2rem;
+    }
+  
+    .open {
+      display: block;
+    }
+  
+    /* HEADER */
+  
+    .header-container {
+      display: flex;
+      justify-content: space-between;
+      height: 150px;
+      align-items: center;
+      border-bottom: 1px solid #f0f0f0;
+      padding: 0 10%;
+      background-color: white;
+    }
+  
+    .column {
+      padding: 10px;
+    }
+  
+    .logo {
+      width: auto;
+      margin-right: 10px;
+    }
+  
+    .header-logo {
+      width: 160px;
+      transition: all 0.2s ease-in-out;
+    }
+  
+    .header-logo:hover {
+      transform: scale(1.1);
+    }
+  
+    .search {
+      width: 40%;
+      margin: 0 5px;
+      margin-right: 10px;
+    }
+  
+    .search-box {
+      width: 80%;
+      border: 1px solid #f0f0f0;
+      border-radius: 50px;
+      margin: 0 0px;
+    }
+  
+    .imglupa{
+      position: relative;
+      left: 20px;
+     }
+  
+    #txtBusca {
+      font-size: 15px;
+      border: none;
+      width: 40%;
+      position: relative;
+      height: 65px;
+      left: 34px;
+      background: transparent;
+      outline: none;
+    }
+  
+    #search-image {
+      margin-bottom: -7px;
+      margin-left: 45px;
+      width: 30px;
+    }
+  
+    /* BACK TO TOP ICON */
+      
+    .back-to-top {
+      position: fixed;
+      bottom: 10px;
+      float: right;
+      right: 30px;
+  }
+    
+  }
+
+  @media screen and (max-width: 500px){
+   /* Header */
+
+   .main-menu {
+    padding: 1.5rem 4rem;
+    display: none;
+  }
+
+  .login-cadastro {
+    display: none;
+  }
+
+  .menu-btn {
+    display: block;
+    cursor: pointer;
+  }
+
+  .burger {
+    position: relative;
+    right: 65px;
+  }
+
+  .menu-btn,.header-logo {
+    position: relative;
+    bottom: 20px;
+
+  }
+  .mobile-menu ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+
+  .mobile-menu li {
+    display: block;
+    padding-top:  1.2rem;
+  }
+
+  .open {
+    display: block;
+  }
+
+  /* HEADER */
+
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    height: 180px;
+    align-items: center;
+    border-bottom: 1px solid #f0f0f0;
+    padding: 0 10%;
+    background-color: white;
+  }
+
+  .column {
+    padding: 10px;
+  }
+
+  .logo {
+    
+    width: auto;
+    margin-right: 10px;
+  }
+  .logo_planty{
+    width: 200px;
+  }
+
+  .header-logo {
+    width: 135px;
+    transition: all 0.2s ease-in-out;
+    position: relative;
+    left: 45px;
+  }
+
+  .header-logo:hover {
+    transform: scale(1.1);
+  }
+
+  .search {
+    width: 40%;
+    margin: 0 5px;
+    margin-right: 10px;
+  }
+ 
+  .imglupa{
+  position: relative;
+  right: 30px;
+ }
+
+  .column_search{
+    position: relative;
+    bottom: 90px;
+    left: 91px;
+    
+  }
+
+  .search-box {
+    width: 280px;
+    border: 1px solid #f0f0f0;
+    border-radius: 50px;
+    margin: 0 0px;
+    position: absolute;
+    top: 110px;
+    left: 110px;
+    right: 87px;
+    height: 60px;
+  }
+
+  #txtBusca {
+    font-size: 15px;
+    border: none;
+    width: 40%;
+    position: relative;
+    height: 65px;
+    left: 34px;
+    background: transparent;
+    outline: none;
+  }
+
+  #search-image {
+    margin-bottom: -7px;
+    margin-left: 45px;
+    width: 30px;
+  }
 }
