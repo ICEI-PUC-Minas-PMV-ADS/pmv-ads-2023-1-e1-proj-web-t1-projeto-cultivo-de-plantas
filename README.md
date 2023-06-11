@@ -6,7 +6,7 @@
 
 `1° SEMESTRE`
 
-O Planty é um projeto dedicado a fornecer orientações fundamentais para o cultivo de plantas. Nossa missão é oferecer aos usuários uma plataforma confiável e de fácil navegação, onde tanto os iniciantes que estão dando os primeiros passos no mundo da jardinagem, quanto os entusiastas experientes, possam encontrar tudo o que precisam para cultivar suas plantas com sucesso. 
+O Planty é um site dedicado a fornecer orientações fundamentais para o cultivo de plantas. Nossa missão é oferecer aos usuários uma plataforma confiável e de fácil navegação, onde tanto os iniciantes que estão dando os primeiros passos no mundo da jardinagem, quanto os entusiastas experientes, possam encontrar tudo o que precisam para cultivar suas plantas com sucesso. 
 
 ## Integrantes
 
