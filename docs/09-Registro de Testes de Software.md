@@ -63,7 +63,7 @@ _Teste do usuário 1 na tela login com sucesso._
 
 <br><br>
 
-| **Caso de Teste** 	| **CT-07 –  Login** 	|
+| **Caso de Teste** 	| **CT-07 –  Login em uma conta não cadastrada** 	|
 |:---:	|:---:	|
 | **Usuário 1**  	| Usuário realizou o teste sem dificuldades. 	 |
 | **Quantidade de erros**  	| 0 |
@@ -74,7 +74,7 @@ _Teste do usuário 1 na tela login insucesso._
 
 <br><br>
 
-| **Caso de Teste** 	| **CT-08 –  Cadastro** 	|
+| **Caso de Teste** 	| **CT-08 –  Cadastro de uma nova conta de usuário** 	|
 |:---:	|:---:	|
 | **Usuário 1**  	| Usuário realizou o teste sem dificuldades. 	 |
 | **Quantidade de erros**  	| 0 |
@@ -85,7 +85,7 @@ _Teste do usuário 1 na tela cadastro com sucesso._
 
 <br><br>
 
-| **Caso de Teste** 	| **CT-09 –  Cadastro** 	|
+| **Caso de Teste** 	| **CT-09 –  Cadastrar uma conta sem preencher nenhum campo do formulário** 	|
 |:---:	|:---:	|
 | **Usuário 1**  	| Usuário realizou o teste sem dificuldades. 	 |
 | **Quantidade de erros**  	| 0 |
