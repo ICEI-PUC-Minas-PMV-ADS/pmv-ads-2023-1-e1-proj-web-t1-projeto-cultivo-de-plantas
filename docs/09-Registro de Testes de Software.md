@@ -22,7 +22,29 @@ _Teste do usuário 1 na tela contato._
 
 _Teste do usuário 2 na tela contato._
 
+| Caso de Teste | Descrição                                   | Resultados                                                                                                                                     |
+|---------------|---------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
+| CT-02         | Senha alterada com sucesso!                 | User(x): O user preencheu os campos corretamente e alterou a senha sem dificuldades. <br> Quantidade de erros: 0 <br> Comentários e observações: Senha alterada de maneira rápida e prática. |
 
+![Sucesso](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/127165847/bd14197a-bc18-4d88-988e-a6f244d02c61)
+
+_Teste na alteração da senha_
+
+| Caso de Teste | Descrição                                   | Resultados                                                                                                                                     |
+|---------------|---------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
+| CT-03         | O usuário ou senhas não conferem            | User(x): O user preencheu os campos de maneira desatenciosa, errando seu nome de usuário ou alguma das senhas. <br> Quantidade de erros: 1 <br> Comentários e observações: Senha não alterada, uma mensagem sinaliza que um ou mais campos não contém elementos. Ou seja, foram preenchidos de forma desigual ou completamente erradas. |
+
+![Usuário ou senha não conferem](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/127165847/6b3bae7a-417f-4032-a5e3-292e78e28e7f)
+
+_Teste em caso de falha em alterar a senha_
+
+| Caso de Teste | Descrição                                   | Resultados                                                                                                                                     |
+|---------------|---------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
+| CT-04         | Preenchimento dos campos de maneira correta | User(x): O user deixou de preencher um ou mais campos ou então, preencheu os campos de maneira equivocada não respeitando os requisitos. <br> Quantidade de erros: 2 <br> Comentários e observações: Senha não alterada, uma mensagem sinaliza para que o preenchimento do campo seja feito de forma que atenda os requisitos. |
+
+![Preencha e Requisitos 2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/127165847/ddf0c292-e0ba-4848-a2f9-085ca892087a)
+
+_Teste na falta de elementos nos campos_
 
 | **Caso de Teste** 	| **CT-05 –  Login em uma conta cadastrada** 	|
 |:---:	|:---:	|
