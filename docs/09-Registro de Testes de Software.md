@@ -74,7 +74,7 @@ _Teste do usuário 1 na tela login insucesso._
 
 <br><br>
 
-| **Caso de Teste** 	| **CT-08 –  Login** 	|
+| **Caso de Teste** 	| **CT-08 –  Cadastro** 	|
 |:---:	|:---:	|
 | **Usuário 1**  	| Usuário realizou o teste sem dificuldades. 	 |
 | **Quantidade de erros**  	| 0 |
@@ -85,7 +85,7 @@ _Teste do usuário 1 na tela cadastro com sucesso._
 
 <br><br>
 
-| **Caso de Teste** 	| **CT-09 –  Login** 	|
+| **Caso de Teste** 	| **CT-09 –  Cadastro** 	|
 |:---:	|:---:	|
 | **Usuário 1**  	| Usuário realizou o teste sem dificuldades. 	 |
 | **Quantidade de erros**  	| 0 |
