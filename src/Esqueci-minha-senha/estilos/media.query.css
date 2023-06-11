@@ -310,6 +310,7 @@ Grandes telas: acima de 1200px
   .menu-btn {
     display: block;
     cursor: pointer;
+    color: var(--Verde-água);
   }
 
   .mobile-menu ul {
@@ -418,6 +419,7 @@ Grandes telas: acima de 1200px
   .menu-btn {
     display: block;
     cursor: pointer;
+    color: var(--Verde-água);
   }
 
   .burger {

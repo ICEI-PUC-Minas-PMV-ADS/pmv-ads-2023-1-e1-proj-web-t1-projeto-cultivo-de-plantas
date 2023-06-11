@@ -348,6 +348,7 @@ form > button:houver {
 
 .menu-btn {
   display: none;
+  color: var(--Verde-água)
 }
 
 .mobile-menu {
