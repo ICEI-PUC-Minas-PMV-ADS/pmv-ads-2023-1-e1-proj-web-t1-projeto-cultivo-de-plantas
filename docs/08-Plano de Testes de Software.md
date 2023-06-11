@@ -91,3 +91,32 @@ Os testes funcionais a serem realizados no site são descritos a seguir.
 | **Objetivo** | Verificar se o sistema não cadastra o usuário e emite uma mensagem avisando que é necessario preencher os campos |
 | **Passos**   | 1. Acessar o navegador <br> 2. Informar o endereço do site <br> 3. Visualizar a página Home <br> 4. Clicar no Login/Cadastro para acessar a tela de login <br> 5. Clicar no botão "Cadastrar" para redirecionar para a tela de cadastro <br> 6. Não preencher os campos <br> 7.  Clicar no botão "Cadastrar" |
 | **Critérios de Êxito** | O sistema não cadastra o usuário e emite uma mensagem de "Preencha esse campo" em todos os campos do formulário  |
+
+
+
+| **Caso de teste** |  **CT-9: Navegação Blog** |
+|----| :-----: |
+| **Tela** | BLOG |
+| **Requisitos associados** | RF-01: A aplicação deverá ter um catálogo com espécies de plantas mais comumente cultivadas no Brasil, com informações aos cuidados necessários, como: rega, podas e adubagem. |
+| **Objetivo** | Verificar se os posts estão sendo apresentadas corretamente na página. |
+| **Passos**   | 1. Acessar o navegador. <br> 2. Informar o endereço do site. <br> 3. Acessar página Blog. <br> 4. Rolar tela para baixo. |
+| **Critérios de Êxito** | Quando o usuário rolar a página para baixo, ele deverá ter acesso a 3 posts sobre plantas. |
+
+
+| **Caso de teste** |  **CT-10: Navegação Catálogo** |
+|----| :-----: |
+| **Tela** | Catálogo |
+| **Requisitos associados** | RF-01: A aplicação deverá ter um catálogo com espécies de plantas mais comumente cultivadas no Brasil, com informações aos cuidados necessários, como: rega, podas e adubagem. |
+| **Objetivo** | Verificar se as 20 plantas estão sendo mostradas corretamente na página. |
+| **Passos**   | 1. Acessar o navegador. <br> 2. Informar o endereço do site. <br> 3. Acessar página Blog. <br> 4. Acessar o segundo post sobre o catálogo. |
+| **Critérios de Êxito** | Quando o usuário rolar a página para baixo, ele deverá ter acesso a 20 posts sobre plantas. |
+
+
+
+| **Caso de teste** |  **CT-11: Navegação Post** |
+|----| :-----: |
+| **Tela** | POST |
+| **Requisitos associados** | RF-01: A aplicação deverá ter um catálogo com espécies de plantas mais comumente cultivadas no Brasil, com informações aos cuidados necessários, como: rega, podas e adubagem. |
+| **Objetivo** | O usuário deverá conseguir acessar sobre a poda, adubagem, solo e outras caracteristicas de variados tipos de plantas. |
+| **Passos**   | 1. Acessar o navegador. <br> 2. Informar o endereço do site. <br> 3. Clicar em qualquer post sobre plantas. <br> 4. Acessar poda, solo, adubagem ou pragas e doenças para saber mais sobre a planta escolhida. |
+| **Critérios de Êxito** | Quando o usuário clicar em poda, solo, adubagem ou pragas e doenças deverá conseguir ler sobre essas informações. |
