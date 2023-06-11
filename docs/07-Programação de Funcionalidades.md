@@ -67,6 +67,27 @@ _Tela desenvolvida por Gabriel Bruno | Funcionalidade 2 - Tela do Blog_
 - Roseira.png
 - samambaia.png
 
+<ins>**Estrutura de Dados**</ins>
+```
+//Função nome
+function funcaoNome() {
+  var loginCadElement = document.getElementById('loginCad');
+  var loginCadHamburguer = document.getElementById('LoginCadHamb')
+  var accountIconElement = document.querySelector('.account-icon');
+  var nomeUsuarioLog = JSON.parse(sessionStorage.getItem('nomeUsuarioLog'));
+
+  if (nomeUsuarioLog) {
+      loginCadElement.innerHTML = nomeUsuarioLog.nomeUser; 
+      loginCadElement.removeAttribute('href');
+      loginCadHamburguer.innerHTML = nomeUsuarioLog.nomeUser;
+      loginCadElement.removeAttribute('href')
+  } else {
+      loginCadElement.innerHTML = 'Login / Cadastro'; 
+      accountIconElement.style.display = 'block'; 
+  }
+}
+```
+
 <ins>**Instruções de acesso**</ins>
 - Através de um navegador da internet, acesse a seguinte URL: [CLIQUE AQUI.](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/src/Blog%20e%20Posts/Blog/Index.html)
 
