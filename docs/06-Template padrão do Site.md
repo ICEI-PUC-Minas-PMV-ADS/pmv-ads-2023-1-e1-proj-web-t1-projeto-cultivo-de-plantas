@@ -15,7 +15,7 @@ O template criado está disponível no site [GitHub](https://github.com/ICEI-PUC
 
 - **Tela Principal**
 - **Feed do Blog**
-- **Fórum**
+- **Quem Somos**
 - **Contato**
 - **Área de Login**
 - **Área de Cadastro**
