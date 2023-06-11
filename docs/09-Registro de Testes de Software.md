@@ -33,6 +33,8 @@ _Teste do usuário 2 na tela contato._
 
 _Teste na alteração da senha_
 
+<br><br>
+
 | Caso de Teste | Descrição                                   | Resultados                                                                                                                                     |
 |---------------|---------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
 | CT-03         | O usuário ou senhas não conferem            | User(x): O user preencheu os campos de maneira desatenciosa, errando seu nome de usuário ou alguma das senhas. <br> Quantidade de erros: 0 <br> Comentários e observações: Senha não alterada, uma mensagem sinaliza que um ou mais campos não contém elementos. Ou seja, foram preenchidos de forma desigual ou completamente erradas. |
