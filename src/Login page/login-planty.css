@@ -629,7 +629,7 @@ h4{
 
    /* Header */ 
    #loginCad{
-    display: none;
+    display: block;
    }
 
    .account-icon{

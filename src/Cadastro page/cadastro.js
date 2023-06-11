@@ -298,18 +298,21 @@ function menuShow() {
 //Função nome
 function funcaoNome() {
    var loginCadElement = document.getElementById('loginCad');
+   var loginCadHamburguer = document.getElementById('LoginCadHamb')
    var accountIconElement = document.querySelector('.account-icon');
    var nomeUsuarioLog = JSON.parse(sessionStorage.getItem('nomeUsuarioLog'));
-
+ 
    if (nomeUsuarioLog) {
        loginCadElement.innerHTML = nomeUsuarioLog.nomeUser; 
        loginCadElement.removeAttribute('href');
-
+       loginCadHamburguer.innerHTML = nomeUsuarioLog.nomeUser;
+       loginCadElement.removeAttribute('href')
+ 
    } else {
-       
+ 
        loginCadElement.innerHTML = 'Login / Cadastro'; 
        accountIconElement.style.display = 'block'; 
+ 
    }
  }
-
  

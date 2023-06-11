@@ -122,7 +122,7 @@ if (emailLog.value == userValid.email && senhaLog == userValid.senha) {
     msgValida.setAttribute('style', 'display: block; color: green');
     msgValida.innerHTML = '<strong>Login realizado com sucesso! <br> Você será redirecionado para o Blog :) </strong>';
     setTimeout(()=>{
-      window.location.href = '/src/Blog e Posts/Blog/Index.html'
+      window.location.href = '../Blog e Posts/Blog/Index.html'
   }, 4000)  
 
   //função para alterar o nome
@@ -180,16 +180,20 @@ function checkLogin(usuario) {
 
 function funcaoNome() {
   var loginCadElement = document.getElementById('loginCad');
+  var loginCadHamburguer = document.getElementById('LoginCadHamb')
   var accountIconElement = document.querySelector('.account-icon');
   var nomeUsuarioLog = JSON.parse(sessionStorage.getItem('nomeUsuarioLog'));
 
   if (nomeUsuarioLog) {
       loginCadElement.innerHTML = nomeUsuarioLog.nomeUser; 
       loginCadElement.removeAttribute('href');
+      loginCadHamburguer.innerHTML = nomeUsuarioLog.nomeUser;
+      loginCadElement.removeAttribute('href')
 
   } else {
       
       loginCadElement.innerHTML = 'Login / Cadastro'; 
       accountIconElement.style.display = 'block'; 
+      
   }
 }

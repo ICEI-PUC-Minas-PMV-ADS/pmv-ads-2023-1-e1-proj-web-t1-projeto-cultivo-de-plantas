@@ -16,8 +16,8 @@ Apesar do alto interesse por plantas, muitas pessoas ainda têm dúvidas e dific
 O objetivo principal desse projeto é a criação de um site com informações atualizadas e completas, que facilite o acesso à informações sobre o cultivo de plantas. Sendo assim, os objetivos específicos do projeto são: 
 
 - Fornecer informações atualizadas sobre os devidos cuidados a serem adotados nas plantas mais comumente cultivadas no Brasil; 
-- Criação de lembretes e notificações avisando os usuários quando regar, fertilizar, podar e realizar os demais cuidados necessários para com suas plantas; 
-- Criação de uma área restrita para a comunidade trocar ideias, dicas e experiências. 
+- Fornecer informações confiáveis sobre melhores práticos no cuidado das plantas; 
+- Cadastro de novos usuários que desejam tornar-se parte da comunidade. 
 
 ## 1.3 Justificativa
 
