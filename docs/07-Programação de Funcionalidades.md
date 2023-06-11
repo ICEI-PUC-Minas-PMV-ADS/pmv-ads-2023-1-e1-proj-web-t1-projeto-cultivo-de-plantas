@@ -14,7 +14,21 @@ _Tela desenvolvida por Luana Pina | Funcionalidade 1 - Página Inicial_
 - index.html
 - style.css
 - java.js
-- Imagens
+- account_circle.png
+- Hero-Image.png
+- icon-back-to-top.png
+- icon-chevron.png
+- icons8-girassol-16.png
+- Logo-Planty.png
+- plantas-grandes.png
+- plantas-para-casa.png
+- plantas-para-jardim.png
+- plantas-pequenas.png
+- search.png
+- seja-um-membro.png
+- tudo-sobre-cactos.png
+- tudo-sobre-roseiras.png
+- tudo-sobre-samambaias.png
 
 <ins>**Estrutura de Dados**</ins>
 ```
@@ -23,7 +37,7 @@ _Tela desenvolvida por Luana Pina | Funcionalidade 1 - Página Inicial_
 ```
 
 <ins>**Instruções de acesso**</ins>
-Através de um navegador da internet, acesse a seguinte URL: [CLIQUE AQUI.](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/)
+- Através de um navegador da internet, acesse a seguinte URL: [CLIQUE AQUI.](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/)
 
 ## Tela do Blog (RF-01)
 A tela do blog apresenta conteúdos que possuem informações dos cuidados necessários com as plantas, como adubagem, solo, poda e doenças. A tela desenvolvida com HTML e CSS é apresentada na imagem abaixo.
@@ -38,10 +52,23 @@ _Tela desenvolvida por Gabriel Bruno | Funcionalidade 2 - Tela do Blog_
 - Index.html
 - Style.css
 - script.js
-- Imagens
+- arrow_back_ios_new.png
+- btn_close.png
+- cactus.png
+- Espada_de_são_jorge.png
+- Hera_inglesa.png
+- Hortência.png
+- jasmin.png
+- Lirio_da_paz.png
+- lirio.png
+- Palmeira-dama.png
+- Planty-logo-1.ico
+- Planty-logo-1.png
+- Roseira.png
+- samambaia.png
 
 <ins>**Instruções de acesso**</ins>
-Através de um navegador da internet, acesse a seguinte URL: [CLIQUE AQUI.](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/src/Blog%20e%20Posts/Blog/Index.html)
+- Através de um navegador da internet, acesse a seguinte URL: [CLIQUE AQUI.](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/src/Blog%20e%20Posts/Blog/Index.html)
 
 
 ## Tela do Post (RF-01)
@@ -57,10 +84,12 @@ _Tela desenvolvida por Gabriel Bruno | Funcionalidade 3 - Tela do Post_
 - index.html
 - style.css
 - script.js
-- Imagens
+- Roseira.png
+- Roseira2.png
+- Roseira3.png
 
 <ins>**Instruções de acesso**</ins>
-Através de um navegador da internet, acesse a seguinte URL: [CLIQUE AQUI.](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/src/Blog%20e%20Posts/Posts/Palmeira-Dama/Index.html)
+- Através de um navegador da internet, acesse a seguinte URL: [CLIQUE AQUI.](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/src/Blog%20e%20Posts/Posts/Roseira/Index.html)
 
 
 ## Catálogo (RF-01)
@@ -76,10 +105,33 @@ _Tela desenvolvida por Gabriel Bruno | Funcionalidade 4 - Catálogo_
 - index.html
 - style.css
 - script.js
-- Imagens
+- Publicação1.png
+- Publicação2.png
+- Publicação3.png
+- Bromélia.png
+- cactus.png
+- Cebola.png
+- Espada_de_são_jorge.png
+- Girassol.png
+- Hera_inglesa.png
+- Hortência.png
+- Iresine.png
+- jasmin.png
+- Lavanda.png
+- Lirio_da_paz.png
+- lirio.png
+- Neoregélia.png
+- Orquidea.png
+- Palmeira-dama.png
+- Pitanga.png
+- Roseira.png
+- samambaia.png
+- Tomate.png
+- Torênia.png
+- Trapoeraba_roxa.png
 
 <ins>**Instruções de acesso**</ins>
-Através de um navegador da internet, acesse a seguinte URL: [CLIQUE AQUI.](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/src/Blog%20e%20Posts/Cat%C3%A1logo/Index.html)
+- Através de um navegador da internet, acesse a seguinte URL: [CLIQUE AQUI.](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/src/Blog%20e%20Posts/Cat%C3%A1logo/Index.html)
 
 
 ## Tela de Login (RF-03)
@@ -95,10 +147,10 @@ _Tela desenvolvida por Tayane Milagres e André Guilherme | Funcionalidade 5 - T
 - login-planty.html
 - login-planty.css
 - login.js
-- Imagens
+- img-login.png
 
 <ins>**Instruções de acesso**</ins>
-Através de um navegador da internet, acesse a seguinte URL: [CLIQUE AQUI.](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/src/Login%20page/login-planty.html)
+- Através de um navegador da internet, acesse a seguinte URL: [CLIQUE AQUI.](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/src/Login%20page/login-planty.html)
 
 ## Tela de Cadastro (RF-03)
 A tela de cadastro permite que novos usuários criem sua conta de membro da aplicação. A tela desenvolvida com HTML e CSS é apresentada na imagem abaixo.
@@ -113,10 +165,9 @@ _Tela desenvolvida por Tayane Milagres e André Guilherme | Funcionalidade 6 - T
 - cadastro-page.html
 - cadastro-page.css
 - cadastro.js
-- Imagens
 
 <ins>**Instruções de acesso**</ins>
-Através de um navegador da internet, acesse a seguinte URL: [CLIQUE AQUI.](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/src/Cadastro%20page/cadastro-page.html)
+- Através de um navegador da internet, acesse a seguinte URL: [CLIQUE AQUI.](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/src/Cadastro%20page/cadastro-page.html)
 
 ## Tela de Esqueci minha Senha (RF-06)
 A tela de esqueci minha senha apresenta campos para usuários já cadastrados, mas que não conseguem acessar sua conta de membro, possam solicitar uma nova senha. A tela desenvolvida com HTML e CSS é apresentada na imagem abaixo.
@@ -132,10 +183,10 @@ _Tela desenvolvida por João Vitor | Funcionalidade 7 - Tela de Esqueci minha Se
 - style.css
 - media.query.css
 - main.js
-- Imagens
+- cravo.jpg
 
 <ins>**Instruções de acesso**</ins>
-Através de um navegador da internet, acesse a seguinte URL: [CLIQUE AQUI.](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/src/Esqueci-minha-senha/index.html)
+- Através de um navegador da internet, acesse a seguinte URL: [CLIQUE AQUI.](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/src/Esqueci-minha-senha/index.html)
 
 ## Tela de Contato (RF-05)
 A tela de contato apresenta campos para usuários entrarem em contato com os desenvolvedores da aplicação, a fim de tirarem dúvidas. Além disso, também é disponibilizado o acesso ao nosso canal no Telegram. A tela desenvolvida com HTML e CSS é apresentada na imagem abaixo.
@@ -151,10 +202,10 @@ _Tela desenvolvida por Bruna Santos | Funcionalidade 8 - Tela de Contato_
 - contato-style.css
 - reset.css
 - script.js
-- Imagens
+- closeup-plantas.jpg
 
 <ins>**Instruções de acesso**</ins>
-Através de um navegador da internet, acesse a seguinte URL: [CLIQUE AQUI.](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/src/Contato/contato-page.html)
+- Através de um navegador da internet, acesse a seguinte URL: [CLIQUE AQUI.](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/src/Contato/contato-page.html)
 
 ## Tela do Quem somos (RF-02)
 A página de quem somos apresenta um breve texto de apresentação do projeto. A tela desenvolvida com HTML e CSS é apresentada na imagem abaixo.
@@ -171,7 +222,7 @@ _Tela desenvolvida por Bruna Santos | Funcionalidade 9 - Quem somos_
 - about-us-style.css
 - reset.css
 - script.js
-- Imagens
+- planty-content.jpg
 
 <ins>**Instruções de acesso**</ins>
-Através de um navegador da internet, acesse a seguinte URL: [CLIQUE AQUI.](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/src/Quem-somos/about-us.html)
+- Através de um navegador da internet, acesse a seguinte URL: [CLIQUE AQUI.](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/src/Quem-somos/about-us.html)
