@@ -13,7 +13,7 @@ _Teste do usuário 1 na tela contato._
 
 <br><br>
 
-| **Caso de Teste** 	| **CT-02 – Envio de mensagem para o suporte** 	|
+| **Caso de Teste** 	| **CT-01 – Envio de mensagem para o suporte** 	|
 |:---:	|:---:	|
 | **Usuário 2**  	| Usuário teve dificuldade para mandar a mensagem pois não preencheu todos os campos. Um aviso induziu o usuário a preencher todos os campos e assim prosseguisse com o botão enviar.	 |
 | **Quantidade de erros**  	| 0 |
