@@ -122,6 +122,6 @@ Os testes funcionais a serem realizados no site são descritos a seguir.
 |:---:	|:---:	|
 | **Tela** | Página Inicial |
 | **Requisitos associados** | RF-04: A aplicação deverá apresentar uma página inicial (home) que inclua seções de contato, blog, posts sobre plantas e suporte. |
-| **Objetivo** | O usuário deverá conseguir acessar a página inicial e, ao clicar nos links, ser redirecionado para onde deseja. |
-| **Passos**   | 1. Acessar o navegador. <br> 2. Informar o endereço do site. <br> 3. Clicar em qualquer botão da página. <br> 4. Ser redirecionado para a página escolhida. |
+| **Objetivo** | O usuário deverá conseguir acessar a página inicial e, ao clicar nos botões e/ou links, ser redirecionado para onde deseja. |
+| **Passos**   | 1. Acessar o navegador; <br> 2. Informar o endereço do site; <br> 3. Clicar em qualquer botão e/ou link na página inicial; <br> 4. Ser redirecionado para a página escolhida. |
 | **Critérios de Êxito** | Quando o usuário clicar em qualquer botão ou link na página inicial, ele deverá ser redirecionado para a página desejada. |
