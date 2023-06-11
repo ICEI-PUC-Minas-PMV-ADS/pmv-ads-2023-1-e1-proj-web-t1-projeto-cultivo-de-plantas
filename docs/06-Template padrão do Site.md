@@ -26,7 +26,7 @@ A responsividade segue o padrão do CSS puro.
 A tela principal apresenta as categorias mais procuradas, conteúdos do blog em destaque, seção sobre a área de membro e seus benefícios, seção para usuários entrar em contato.
 
 ![Image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/107009327/a0bc87a1-390b-4b74-995a-e1d12689bfa7)
-
+_Tela desenvolvida por Luana Pina_
 
 ## Blog
 Blog de plantas, um lugar aonde o usuário irá aprender sobre plantas e jardinagem.
