@@ -4,9 +4,8 @@ Apresentaremos a seguir as telas desenvolvidas para cada uma das funcionalidades
 ## Página Principal (RF-04)
 A página principal da aplicação apresenta as categorias mais procuradas, conteúdos do blog em destaque, seção sobre a área de membro e seus benefícios, seção para usuários entrar em contato. A tela desenvolvida com HTML e CSS é apresentada na imagem abaixo.
 
-![Image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/107009327/d2149265-7a8a-4aa2-a870-659538cfe8af)
-_Tela desenvolvida por Luana Pina_
-_Funcionalidade 1 - Página Inicial_
+![screencapture-icei-puc-minas-pmv-ads-github-io-pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas-index-html-2023-06-11-16_14_48](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/107009327/34f8d991-bc12-494e-9367-aec694440b2b)
+_Tela desenvolvida por Luana Pina | Funcionalidade 1 - Página Inicial_
 
 <ins>**Requisitos atendidos**</ins>
 - RF-04
@@ -24,8 +23,7 @@ Através de um navegador da internet, acesse a seguinte URL: [CLIQUE AQUI.](http
 A tela do blog apresenta conteúdos que possuem informações dos cuidados necessários com as plantas, como adubagem, solo, poda e doenças. A tela desenvolvida com HTML e CSS é apresentada na imagem abaixo.
 
 ![Page Blog](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/114627827/c0b548ff-d1b5-42df-9005-232839e0fd4d)
-_Tela desenvolvida por Gabriel Bruno_
-_Funcionalidade 2 - Tela do Blog_
+_Tela desenvolvida por Gabriel Bruno | Funcionalidade 2 - Tela do Blog_
 
 <ins>**Requisitos atendidos**</ins>
 - RF-01
@@ -44,8 +42,7 @@ Através de um navegador da internet, acesse a seguinte URL: [CLIQUE AQUI.](http
 A tela do post apresenta informações aos cuidados necessários, como adubagem, solo, poda e doenças, da planta escolhida pelo usuário. A tela desenvolvida com HTML e CSS é apresentada na imagem abaixo.
 
 ![Page post](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/114627827/a1f34a75-c4f9-47c6-8b06-63662d645abe)
-_Tela desenvolvida por Gabriel Bruno_
-_Funcionalidade 3 - Tela do Post_
+_Tela desenvolvida por Gabriel Bruno | Funcionalidade 3 - Tela do Post_
 
 <ins>**Requisitos atendidos**</ins>
 - RF-01
@@ -64,8 +61,7 @@ Através de um navegador da internet, acesse a seguinte URL: [CLIQUE AQUI.](http
 A tela de catálogo apresenta todas as plantas cdastradas na aplicação. A tela desenvolvida com HTML e CSS é apresentada na imagem abaixo.
 
 ![Page Catálogo](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/114627827/09c885f6-14e1-4e84-ba0a-3643e608d359)
-_Tela desenvolvida por Gabriel Bruno_
-_Funcionalidade 4 - Catálogo_
+_Tela desenvolvida por Gabriel Bruno | Funcionalidade 4 - Catálogo_
 
 <ins>**Requisitos atendidos**</ins>
 - RF-01
@@ -84,8 +80,7 @@ Através de um navegador da internet, acesse a seguinte URL: [CLIQUE AQUI.](http
 A tela de login apresenta campos para usuários já cadastrados, acessarem sua conta de membro da aplicação. A tela desenvolvida com HTML e CSS é apresentada na imagem abaixo.
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/127251265/5fdaf284-566e-407c-98d5-44387bf58f14)
-_Tela desenvolvida por Tayane Milagres e André Guilherme_
-_Funcionalidade 5 - Tela de Login_
+_Tela desenvolvida por Tayane Milagres e André Guilherme | Funcionalidade 5 - Tela de Login_
 
 <ins>**Requisitos atendidos**</ins>
 - RF-03
@@ -103,8 +98,7 @@ Através de um navegador da internet, acesse a seguinte URL: [CLIQUE AQUI.](http
 A tela de cadastro permite que novos usuários criem sua conta de membro da aplicação. A tela desenvolvida com HTML e CSS é apresentada na imagem abaixo.
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/127251265/250d6a33-61d5-4c00-8cfc-ab702bdc2ff6)
-_Tela desenvolvida por Tayane Milagres e André Guilherme_
-_Funcionalidade 6 - Tela de Cadastro_
+_Tela desenvolvida por Tayane Milagres e André Guilherme | Funcionalidade 6 - Tela de Cadastro_
 
 <ins>**Requisitos atendidos**</ins>
 - RF-03
@@ -122,8 +116,7 @@ Através de um navegador da internet, acesse a seguinte URL: [CLIQUE AQUI.](http
 A tela de esqueci minha senha apresenta campos para usuários já cadastrados, mas que não conseguem acessar sua conta de membro, possam solicitar uma nova senha. A tela desenvolvida com HTML e CSS é apresentada na imagem abaixo.
 
 ![Esqueci-minha-senha](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/127165847/1a8aac1c-1dac-4701-92df-6cc7550ca408)
-_Tela desenvolvida por João Vitor_
-_Funcionalidade 7 - Tela de Esqueci minha Senha_
+_Tela desenvolvida por João Vitor | Funcionalidade 7 - Tela de Esqueci minha Senha_
 
 <ins>**Requisitos atendidos**</ins>
 - RF-06 
@@ -142,8 +135,7 @@ Através de um navegador da internet, acesse a seguinte URL: [CLIQUE AQUI.](http
 A tela de contato apresenta campos para usuários entrarem em contato com os desenvolvedores da aplicação, a fim de tirarem dúvidas. Além disso, também é disponibilizado o acesso ao nosso canal no Telegram. A tela desenvolvida com HTML e CSS é apresentada na imagem abaixo.
 
 ![Contato-page](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/107646150/8375adc0-451b-4782-87d7-847bc55b7dbd)
-_Tela desenvolvida por Bruna Santos_
-_Funcionalidade 8 - Tela de Contato_
+_Tela desenvolvida por Bruna Santos | Funcionalidade 8 - Tela de Contato_
 
 <ins>**Requisitos atendidos**</ins>
 - RF-05
@@ -162,8 +154,7 @@ Através de um navegador da internet, acesse a seguinte URL: [CLIQUE AQUI.](http
 A página de quem somos apresenta um breve texto de apresentação do projeto. A tela desenvolvida com HTML e CSS é apresentada na imagem abaixo.
 
 ![Quem somos](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/107646150/6e40b130-6e8e-4a38-9e96-220843725cfb)
-_Tela desenvolvida por Bruna Santos_
-_Funcionalidade 9 - Quem somos_
+_Tela desenvolvida por Bruna Santos | Funcionalidade 9 - Quem somos_
 
 
 <ins>**Requisitos atendidos**</ins>
