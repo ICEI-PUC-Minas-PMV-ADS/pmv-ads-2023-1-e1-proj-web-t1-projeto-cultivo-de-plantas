@@ -88,6 +88,27 @@ _Tela desenvolvida por Gabriel Bruno | Funcionalidade 3 - Tela do Post_
 - Roseira2.png
 - Roseira3.png
 
+<ins>**Estrutura de Dados**</ins>
+```
+//Função nome
+function funcaoNome() {
+  var loginCadElement = document.getElementById('loginCad');
+  var loginCadHamburguer = document.getElementById('LoginCadHamb')
+  var accountIconElement = document.querySelector('.account-icon');
+  var nomeUsuarioLog = JSON.parse(sessionStorage.getItem('nomeUsuarioLog'));
+
+  if (nomeUsuarioLog) {
+      loginCadElement.innerHTML = nomeUsuarioLog.nomeUser; 
+      loginCadElement.removeAttribute('href');
+      loginCadHamburguer.innerHTML = nomeUsuarioLog.nomeUser;
+      loginCadElement.removeAttribute('href')
+  } else {
+      loginCadElement.innerHTML = 'Login / Cadastro'; 
+      accountIconElement.style.display = 'block'; 
+  }
+}
+```
+
 <ins>**Instruções de acesso**</ins>
 - Através de um navegador da internet, acesse a seguinte URL: [CLIQUE AQUI.](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/src/Blog%20e%20Posts/Posts/Roseira/Index.html)
 
@@ -130,6 +151,27 @@ _Tela desenvolvida por Gabriel Bruno | Funcionalidade 4 - Catálogo_
 - Torênia.png
 - Trapoeraba_roxa.png
 
+<ins>**Estrutura de Dados**</ins>
+```
+//Função nome
+function funcaoNome() {
+  var loginCadElement = document.getElementById('loginCad');
+  var loginCadHamburguer = document.getElementById('LoginCadHamb')
+  var accountIconElement = document.querySelector('.account-icon');
+  var nomeUsuarioLog = JSON.parse(sessionStorage.getItem('nomeUsuarioLog'));
+
+  if (nomeUsuarioLog) {
+      loginCadElement.innerHTML = nomeUsuarioLog.nomeUser; 
+      loginCadElement.removeAttribute('href');
+      loginCadHamburguer.innerHTML = nomeUsuarioLog.nomeUser;
+      loginCadElement.removeAttribute('href')
+  } else {
+      loginCadElement.innerHTML = 'Login / Cadastro'; 
+      accountIconElement.style.display = 'block'; 
+  }
+}
+```
+
 <ins>**Instruções de acesso**</ins>
 - Através de um navegador da internet, acesse a seguinte URL: [CLIQUE AQUI.](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/src/Blog%20e%20Posts/Cat%C3%A1logo/Index.html)
 
@@ -149,6 +191,27 @@ _Tela desenvolvida por Tayane Milagres e André Guilherme | Funcionalidade 5 - T
 - login.js
 - img-login.png
 
+
+<ins>**Estrutura de Dados**</ins>
+```
+var listaCad = []
+var userValid = {
+        email: '' ,
+        senha:  '',
+        usuario: ''
+    }
+listaCad = JSON.parse(localStorage.getItem("ListaCad"))  
+listaCad.forEach((item) => {
+  if(emailLog.value == item.emailCad && senhaLog.value == item.senhaCad.value){
+    userValid = {
+      email: item.emailCad ,
+      senha: item.senhaCad ,
+      usuario: item.usuarioCad
+    }
+  }
+});
+
+```
 <ins>**Instruções de acesso**</ins>
 - Através de um navegador da internet, acesse a seguinte URL: [CLIQUE AQUI.](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/src/Login%20page/login-planty.html)
 
@@ -166,6 +229,26 @@ _Tela desenvolvida por Tayane Milagres e André Guilherme | Funcionalidade 6 - T
 - cadastro-page.css
 - cadastro.js
 
+<ins>**Estrutura de Dados**</ins>
+```
+if ( validacao && nomeValue && emailValue && usuarioValue && celularValue && senhaValue){
+      let ListaCad = JSON.parse(localStorage.getItem("ListaCad") || "[]")
+      ListaCad.push(
+         {
+            nomeCad: nome.value ,
+            emaiCad: email.value ,
+            usuarioCad: usuario.value ,
+            celularCad: celular.value ,
+            senhaCad: senha.value 
+         }
+      )
+      localStorage.setItem("ListaCad", JSON.stringify(ListaCad))
+      
+      msgSuccess.setAttribute('style', 'display: block');
+      msgSuccess.innerHTML = '<strong> Cadastrado com sucesso!<br> Você será redirecionado para o Login automáticamente :)</strong>'   
+      }
+
+```
 <ins>**Instruções de acesso**</ins>
 - Através de um navegador da internet, acesse a seguinte URL: [CLIQUE AQUI.](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/src/Cadastro%20page/cadastro-page.html)
 
@@ -184,7 +267,24 @@ _Tela desenvolvida por João Vitor | Funcionalidade 7 - Tela de Esqueci minha Se
 - media.query.css
 - main.js
 - cravo.jpg
-
+<ins>**Estrutura de Dados**</ins>
+```
+function alterarSenha() {
+  var usuarioLog = document.getElementById('iusuario').value;
+  var novaSenha = document.getElementById('isenha');
+  
+  var ListaCad = [];
+  
+  ListaCad = JSON.parse(localStorage.getItem("ListaCad"));
+  
+  ListaCad.forEach(item => {
+    if (usuarioLog == item.usuarioCad) {
+      item.senhaCad = novaSenha.value;
+      localStorage.setItem("ListaCad", JSON.stringify(ListaCad));
+    }
+  });
+}
+```
 <ins>**Instruções de acesso**</ins>
 - Através de um navegador da internet, acesse a seguinte URL: [CLIQUE AQUI.](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/src/Esqueci-minha-senha/index.html)
 
@@ -204,6 +304,26 @@ _Tela desenvolvida por Bruna Santos | Funcionalidade 8 - Tela de Contato_
 - script.js
 - closeup-plantas.jpg
 
+<ins>**Estrutura de Dados**</ins>
+```
+//Função nome
+function funcaoNome() {
+  var loginCadElement = document.getElementById('loginCad');
+  var loginCadHamburguer = document.getElementById('LoginCadHamb')
+  var accountIconElement = document.querySelector('.account-icon');
+  var nomeUsuarioLog = JSON.parse(sessionStorage.getItem('nomeUsuarioLog'));
+
+  if (nomeUsuarioLog) {
+      loginCadElement.innerHTML = nomeUsuarioLog.nomeUser; 
+      loginCadElement.removeAttribute('href');
+      loginCadHamburguer.innerHTML = nomeUsuarioLog.nomeUser;
+      loginCadElement.removeAttribute('href')
+  } else {
+      loginCadElement.innerHTML = 'Login / Cadastro'; 
+      accountIconElement.style.display = 'block'; 
+  }
+}
+```
 <ins>**Instruções de acesso**</ins>
 - Através de um navegador da internet, acesse a seguinte URL: [CLIQUE AQUI.](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/src/Contato/contato-page.html)
 
@@ -224,5 +344,25 @@ _Tela desenvolvida por Bruna Santos | Funcionalidade 9 - Quem somos_
 - script.js
 - planty-content.jpg
 
+<ins>**Estrutura de Dados**</ins>
+```
+//Função nome
+function funcaoNome() {
+  var loginCadElement = document.getElementById('loginCad');
+  var loginCadHamburguer = document.getElementById('LoginCadHamb')
+  var accountIconElement = document.querySelector('.account-icon');
+  var nomeUsuarioLog = JSON.parse(sessionStorage.getItem('nomeUsuarioLog'));
+
+  if (nomeUsuarioLog) {
+      loginCadElement.innerHTML = nomeUsuarioLog.nomeUser; 
+      loginCadElement.removeAttribute('href');
+      loginCadHamburguer.innerHTML = nomeUsuarioLog.nomeUser;
+      loginCadElement.removeAttribute('href')
+  } else {
+      loginCadElement.innerHTML = 'Login / Cadastro'; 
+      accountIconElement.style.display = 'block'; 
+  }
+}
+```
 <ins>**Instruções de acesso**</ins>
 - Através de um navegador da internet, acesse a seguinte URL: [CLIQUE AQUI.](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/src/Quem-somos/about-us.html)
