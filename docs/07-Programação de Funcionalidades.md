@@ -16,6 +16,12 @@ _Tela desenvolvida por Luana Pina | Funcionalidade 1 - Página Inicial_
 - java.js
 - Imagens
 
+<ins>**Estrutura de Dados**</ins>
+```
+  var plantas = ['Bromélia', 'Cacto', 'Girassol', 'Cebola', 'Espada_de_são_Jorge', 'Hera_Inglesa', 'Hortência', 'Iresine', 'Jasmim', 'Lavanda' , 'Lírio', 'Neoregélia', 'Orquidea','Palmeira_Dama','Pitanga' ,'Roseira' ,'Samambaia','Tomate','Torênia','Trapoeraba'];
+  localStorage.setItem('meuVetor', JSON.stringify( plantas));
+```
+
 <ins>**Instruções de acesso**</ins>
 Através de um navegador da internet, acesse a seguinte URL: [CLIQUE AQUI.](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/)
 
