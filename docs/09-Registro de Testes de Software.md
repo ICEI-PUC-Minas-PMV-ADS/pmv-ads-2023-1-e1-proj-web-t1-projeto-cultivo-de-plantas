@@ -15,9 +15,9 @@ _Teste do usuário 1 na tela contato._
 
 | **Caso de Teste** 	| **CT-02 – Envio de mensagem para o suporte** 	|
 |:---:	|:---:	|
-| **Usuário 2**  	| Usuário teve dificuldade para enviar a mensagem pois não preencheu todos os campos. 	 |
-| **Quantidade de erros**  	| 1 |
-| **Comentários e observações**  	| Uma mensagem sinalizando que todos os campos devem ser preenchidos antes de apertar o botão enviar.  |
+| **Usuário 2**  	| Usuário teve dificuldade para mandar a mensagem pois não preencheu todos os campos. Um aviso induziu o usuário a preencher todos os campos e assim prosseguisse com o botão enviar.	 |
+| **Quantidade de erros**  	| 0 |
+| **Comentários e observações**  	| O usuário não deixou nenhuma observação.  |
 
 ![mensagem](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/107646150/068b38e5-8b08-40ec-8e21-24c2b5790287)
 
