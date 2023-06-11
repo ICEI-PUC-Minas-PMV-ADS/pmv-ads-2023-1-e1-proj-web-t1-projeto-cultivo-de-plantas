@@ -21,3 +21,44 @@ _Teste do usuário 1 na tela contato._
 ![mensagem](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/107646150/068b38e5-8b08-40ec-8e21-24c2b5790287)
 
 _Teste do usuário 2 na tela contato._
+
+
+
+| **Caso de Teste** 	| **CT-05 –  Login em uma conta cadastrada** 	|
+|:---:	|:---:	|
+| **Usuário 1**  	| Usuário realizou o teste sem dificuldades. 	 |
+| **Quantidade de erros**  	| 0 |
+| **Comentários e observações**  	| O usuário teve sucesso ao fazer Login  |
+
+![screencapture-127-0-0-1-5500-src-Login-page-login-planty-html-2023-06-08-11_24_10 login bem sucedido](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/116499898/0b08889c-2217-409a-a3fa-147f750e4ad1)
+_Teste do usuário 1 na tela login com sucesso._
+
+
+| **Caso de Teste** 	| **CT-06 –  Login** 	|
+|:---:	|:---:	|
+| **Usuário 1**  	| Usuário realizou o teste sem dificuldades. 	 |
+| **Quantidade de erros**  	| 0 |
+| **Comentários e observações**  	| O usuário teve insucesso ao tentar fazer Login sem estar cadastrado no sistema  |
+
+![screencapture-127-0-0-1-5500-src-Login-page-login-planty-html-2023-06-08-11_33_46 login com erro](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/116499898/e01afa91-1568-4177-a4a1-e034abe0e9d3)
+_Teste do usuário 1 na tela login insucesso._
+
+
+| **Caso de Teste** 	| **CT-07 –  Login** 	|
+|:---:	|:---:	|
+| **Usuário 1**  	| Usuário realizou o teste sem dificuldades. 	 |
+| **Quantidade de erros**  	| 0 |
+| **Comentários e observações**  	| O usuário teve sucesso ao realizar o cadastro  |
+
+![screencapture-127-0-0-1-5500-src-Cadastro-page-cadastro-page-html-2023-06-08-11_55_45 cadastro com sucesso](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/116499898/0a3d6a93-3fe1-4f99-bb8c-eb10d10238b5)
+_Teste do usuário 1 na tela cadastro com sucesso._
+
+
+| **Caso de Teste** 	| **CT-08 –  Login** 	|
+|:---:	|:---:	|
+| **Usuário 1**  	| Usuário realizou o teste sem dificuldades. 	 |
+| **Quantidade de erros**  	| 0 |
+| **Comentários e observações**  	| O usuário teve insucesso ao tentar realizar o cadastro sem preencher os campos  |
+
+![screencapture-127-0-0-1-5500-src-Cadastro-page-cadastro-page-html-2023-06-08-11_53_01 cadastro com erro](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/116499898/74267deb-ae30-4f3d-ae16-2a307666e733)
+_Teste do usuário 1 na tela cadastro com insucesso._
