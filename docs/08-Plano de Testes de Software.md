@@ -55,3 +55,39 @@ Os testes funcionais a serem realizados no site são descritos a seguir.
 |   - Validação da nova senha                                    |
 | **Passo 3:** Clique no botão entrar e uma das seguintes mensagens deverá aparecer: "Aumente o texto para 8 caracteres, no momento você está usando x" ou "Preencha esse campo". O usuário deverá preencher todos os campos novamente, de maneira correta para que CT-01 ocorra. |
 | **Critérios de êxito:** O sistema impede que o usuário efetue a alteração de senha e apresenta alguma das seguintes mensagens: "Aumente o texto para 8 caracteres, no momento você está usando x" ou "Preencha esse campo". Além disso, o sistema também barrará o redirecionamento ao blog. |
+
+
+| **Caso de teste** |  **CT-5: Login em uma conta cadastrada** |
+|----| :-----: |
+| **Tela** | Login |
+| **Requisitos associados** | RF-03: A aplicação deverá ter uma página de login e registro de novos usuários |
+| **Objetivo** | Verificar se o sistema reconhece os dados inseridos e permite que o usúario faça login |
+| **Passos**   | 1. Acessar o navegador <br> 2. Informar o endereço do site <br> 3. Visualizar a página Home <br> 4. Clicar no Login/Cadastro para acessar a tela de login <br> 5. Preencher os campos "E-mail" e "Senha" <br> 6. Clicar no botão "Entrar" |
+| **Critérios de Êxito** | O sistema conecta o usuário à conta cadastrada, emite uma mensagem de "Login realizado com sucesso! Você será redirecionado para o Blog :)" e direciona o usuário para a tela Blog |
+
+| **Caso de teste** |  **CT-6: Login em uma conta não cadastrada** |
+|----| :-----: |
+| **Tela** | Login |
+| **Requisitos associados** | RF-03: A aplicação deverá ter uma página de login e registro de novos usuários |
+| **Objetivo** | Verificar se o sistema bloqueia o acesso para usuários não cadastrados |
+| **Pré condição** | Usuário não possuir seus dados cadastrados no sistema |
+| **Passos**   | 1. Acessar o navegador <br> 2. Informar o endereço do site <br> 3. Visualizar a página Home <br> 4. Clicar no Login/Cadastro para acessar a tela de login <br> 5. Preencher os campos "E-mail" e "Senha" com dados não cadastrados <br> 6. Clicar no botão "Entrar" |
+| **Critérios de Êxito** | O sistema não permite o login, emite uma mensagem de "Email ou senha inválidos" e não direciona o usuário para a tela Blog |
+
+
+| **Caso de teste** |  **CT-7: Cadastro de uma nova conta de usuário** |
+|----| :-----: |
+| **Tela** | Cadastro |
+| **Requisitos associados** | RF-03: A aplicação deverá ter uma página de login e registro de novos usuários |
+| **Objetivo** |  Verificar se o sistema cadastra corretamente os dados inseridos pelo usuário para a criação de uma nova conta |
+| **Passos**   | 1. Acessar o navegador <br> 2. Informar o endereço do site <br> 3. Visualizar a página Home <br> 4. Clicar no Login/Cadastro para acessar a tela de login <br> 5. Clicar no botão "Cadastrar" para redirecionar para a tela de cadastro <br> 6. Preencher todos os campos com as informações necessárias <br> 7. Clicar no botão "Cadastrar" |
+| **Critérios de Êxito** | O sistema cadastra os dados e emite a mensagem "Cadastrado com sucesso! Você será redirecionado para o login automaticamente" e direciona o usuário para a tela de login |
+
+
+| **Caso de teste** |  **CT-8: Cadastrar uma conta sem preencher nenhum campo do formulário** |
+|----| :-----: |
+| **Tela** | Cadastro |
+| **Requisitos associados** | RF-03: A aplicação deverá ter uma página de login e registro de novos usuários |
+| **Objetivo** | Verificar se o sistema não cadastra o usuário e emite uma mensagem avisando que é necessario preencher os campos |
+| **Passos**   | 1. Acessar o navegador <br> 2. Informar o endereço do site <br> 3. Visualizar a página Home <br> 4. Clicar no Login/Cadastro para acessar a tela de login <br> 5. Clicar no botão "Cadastrar" para redirecionar para a tela de cadastro <br> 6. Não preencher os campos <br> 7.  Clicar no botão "Cadastrar" |
+| **Critérios de Êxito** | O sistema não cadastra o usuário e emite uma mensagem de "Preencha esse campo" em todos os campos do formulário  |
