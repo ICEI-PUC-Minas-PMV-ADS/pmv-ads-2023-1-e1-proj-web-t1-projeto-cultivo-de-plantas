@@ -27,7 +27,7 @@ _Teste do usuário 2 na tela contato._
 
 | Caso de Teste | Descrição                                   | Resultados                                                                                                                                     |
 |---------------|---------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
-| CT-03         | Senha alterada com sucesso!                 | User(x): O user preencheu os campos corretamente e alterou a senha sem dificuldades. <br> Quantidade de erros: 0 <br> Comentários e observações: Senha alterada de maneira rápida e prática. |
+| CT-02         | Senha alterada com sucesso!                 | User(x): O user preencheu os campos corretamente e alterou a senha sem dificuldades. <br> Quantidade de erros: 0 <br> Comentários e observações: Senha alterada de maneira rápida e prática. |
 
 ![Sucesso](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/127165847/bd14197a-bc18-4d88-988e-a6f244d02c61)
 _Teste na alteração da senha_
@@ -36,7 +36,7 @@ _Teste na alteração da senha_
 
 | Caso de Teste | Descrição                                   | Resultados                                                                                                                                     |
 |---------------|---------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
-| CT-04         | O usuário ou senhas não conferem            | User(x): O user preencheu os campos de maneira desatenciosa, errando seu nome de usuário ou alguma das senhas. <br> Quantidade de erros: 0 <br> Comentários e observações: Senha não alterada, uma mensagem sinaliza que um ou mais campos não contém elementos. Ou seja, foram preenchidos de forma desigual ou completamente erradas. |
+| CT-03         | O usuário ou senhas não conferem            | User(x): O user preencheu os campos de maneira desatenciosa, errando seu nome de usuário ou alguma das senhas. <br> Quantidade de erros: 0 <br> Comentários e observações: Senha não alterada, uma mensagem sinaliza que um ou mais campos não contém elementos. Ou seja, foram preenchidos de forma desigual ou completamente erradas. |
 
 ![Usuário ou senha não conferem](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/127165847/6b3bae7a-417f-4032-a5e3-292e78e28e7f)
 _Teste em caso de falha em alterar a senha_
@@ -45,14 +45,14 @@ _Teste em caso de falha em alterar a senha_
 
 | Caso de Teste | Descrição                                   | Resultados                                                                                                                                     |
 |---------------|---------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
-| CT-05         | Preenchimento dos campos de maneira correta | User(x): O user deixou de preencher um ou mais campos ou então, preencheu os campos de maneira equivocada não respeitando os requisitos. <br> Quantidade de erros: 0 <br> Comentários e observações: Senha não alterada, uma mensagem sinaliza para que o preenchimento do campo seja feito de forma que atenda os requisitos. |
+| CT-04         | Preenchimento dos campos de maneira correta | User(x): O user deixou de preencher um ou mais campos ou então, preencheu os campos de maneira equivocada não respeitando os requisitos. <br> Quantidade de erros: 0 <br> Comentários e observações: Senha não alterada, uma mensagem sinaliza para que o preenchimento do campo seja feito de forma que atenda os requisitos. |
 
 ![Preencha e Requisitos 2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/127165847/ddf0c292-e0ba-4848-a2f9-085ca892087a)
 _Teste na falta de elementos nos campos_
 
 <br><br>
 
-| **Caso de Teste** 	| **CT-06 –  Login em uma conta cadastrada** 	|
+| **Caso de Teste** 	| **CT-05 –  Login em conta cadastrada** 	|
 |:---:	|:---:	|
 | **Usuário 1**  	| Usuário realizou o teste sem dificuldades. 	 |
 | **Quantidade de erros**  	| 0 |
@@ -63,7 +63,7 @@ _Teste do usuário 1 na tela login com sucesso._
 
 <br><br>
 
-| **Caso de Teste** 	| **CT-07 –  Login em uma conta não cadastrada** 	|
+| **Caso de Teste** 	| **CT-06 –  Login em conta não cadastrada** 	|
 |:---:	|:---:	|
 | **Usuário 1**  	| Usuário realizou o teste sem dificuldades. 	 |
 | **Quantidade de erros**  	| 0 |
@@ -74,7 +74,7 @@ _Teste do usuário 1 na tela login insucesso._
 
 <br><br>
 
-| **Caso de Teste** 	| **CT-08 –  Cadastro de uma nova conta de usuário** 	|
+| **Caso de Teste** 	| **CT-07 –  Cadastro de nova conta de usuário** 	|
 |:---:	|:---:	|
 | **Usuário 1**  	| Usuário realizou o teste sem dificuldades. 	 |
 | **Quantidade de erros**  	| 0 |
@@ -85,7 +85,7 @@ _Teste do usuário 1 na tela cadastro com sucesso._
 
 <br><br>
 
-| **Caso de Teste** 	| **CT-09 –  Cadastrar uma conta sem preencher nenhum campo do formulário** 	|
+| **Caso de Teste** 	| **CT-08 –  Cadastrar uma conta sem preencher nenhum campo do formulário** 	|
 |:---:	|:---:	|
 | **Usuário 1**  	| Usuário realizou o teste sem dificuldades. 	 |
 | **Quantidade de erros**  	| 0 |
@@ -96,7 +96,7 @@ _Teste do usuário 1 na tela cadastro com insucesso._
 
 <br><br>
 
-| **Caso de Teste** 	| **CT-10 –  Acesso BLOG** 	|
+| **Caso de Teste** 	| **CT-9 –  Acesso BLOG** 	|
 |:---:	|:---:	|
 | **Usuário 1**  	| Usuário realizou o teste sem dificuldades. 	 |
 | **Quantidade de erros**  	| 0 |
@@ -107,7 +107,7 @@ _Teste do usuário na tela Blog._
 
 <br><br>
 
-| **Caso de Teste** 	| **CT-11 –  Acesso Catálogo** 	|
+| **Caso de Teste** 	| **CT-10 –  Acesso Catálogo** 	|
 |:---:	|:---:	|
 | **Usuário 1**  	| Usuário realizou o teste sem dificuldades. 	 |
 | **Quantidade de erros**  	| 0 |
@@ -118,7 +118,7 @@ _Teste do usuário na tela Catálogo._
 
 <br><br>
 
-| **Caso de Teste** 	| **CT-12 –  Acesso Posts** 	|
+| **Caso de Teste** 	| **CT-11 –  Acesso Posts** 	|
 |:---:	|:---:	|
 | **Usuário 1**  	| Usuário realizou o teste sem dificuldades. 	 |
 | **Quantidade de erros**  	| 0 |
@@ -129,7 +129,7 @@ _Teste do usuário na tela Posts específicos (roseira)._
 
 <br><br>
 
-| **Caso de Teste** 	| **CT-13 –  Links da página inicial** 	|
+| **Caso de Teste** 	| **CT-12 –  Links da página inicial** 	|
 |:---:	|:---:	|
 | **Usuário 1**  	| Usuário realizou o teste sem dificuldades. 	 |
 | **Quantidade de erros**  	| 0 |
