@@ -22,6 +22,10 @@ _Teste do usuário 1 na tela contato._
 
 _Teste do usuário 2 na tela contato._
 
+
+
+
+
 | Caso de Teste | Descrição                                   | Resultados                                                                                                                                     |
 |---------------|---------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
 | CT-02         | Senha alterada com sucesso!                 | User(x): O user preencheu os campos corretamente e alterou a senha sem dificuldades. <br> Quantidade de erros: 0 <br> Comentários e observações: Senha alterada de maneira rápida e prática. |
@@ -45,6 +49,10 @@ _Teste em caso de falha em alterar a senha_
 ![Preencha e Requisitos 2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/127165847/ddf0c292-e0ba-4848-a2f9-085ca892087a)
 
 _Teste na falta de elementos nos campos_
+
+
+
+
 
 | **Caso de Teste** 	| **CT-05 –  Login em uma conta cadastrada** 	|
 |:---:	|:---:	|
