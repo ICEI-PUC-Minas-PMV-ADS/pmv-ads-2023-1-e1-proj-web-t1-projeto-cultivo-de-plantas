@@ -11,7 +11,7 @@ Relembre abaixo a figura que corresponde à estrutura principal do sistema:
 _Wireframe - Estrutura principal do sistema_
 
 
-O template criado está disponível no site [GitHub](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/tree/main/src/Home) e é composto pelos seguintes layouts:
+O template criado está disponível no site GitHub e é composto pelos seguintes layouts:
 
 - **Tela Principal**
 - **Feed do Blog**
@@ -23,58 +23,58 @@ O template criado está disponível no site [GitHub](https://github.com/ICEI-PUC
 A responsividade segue o padrão do CSS puro.
 
 ## Tela Principal
-A tela principal apresenta as categorias mais procuradas, conteúdos do blog em destaque, seção sobre a área de membro e seus benefícios, seção para usuários entrar em contato.
+A tela principal apresenta as categorias mais procuradas, conteúdos do blog em destaque, seção sobre a área de membro e seus benefícios, e seção para os usuários entrarem em contato.
 
-![Image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/107009327/a0bc87a1-390b-4b74-995a-e1d12689bfa7)
+![UI DESIGN - Página Inicial](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/107009327/421e34b6-1f2b-495b-bc8f-3d135abde12d)
 _Tela desenvolvida por Luana Pina_
 
 ## Blog
-Blog de plantas, um lugar aonde o usuário irá aprender sobre plantas e jardinagem.
+Na página do feed do blog, o usuário terá acesso à diversos conteúdos relacionados ao cultivo de plantas.
 
 ![Page Blog](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/114627827/8b1d635e-5e7f-46a1-ab76-a04dae169f17)
 _Tela desenvolvida por Gabriel Bruno_
 
 ## Catálogo
-A tela de catálogo apresenta mais de 15 plantas que o usuário poderá ter acesso a suas principais caracteristicas.
+A página de catálogo apresenta todas as plantas cadastradas no site, onde o usuário poderá ter acesso a suas principais características.
 
 ![Page Catálogo](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/114627827/5c13fb74-ac86-4ebf-8fa2-3e7e8a705c8d)
 _Tela desenvolvida por Gabriel Bruno_
 
 ## Post
-Tela de post aonde o usuário aprende sobre poda, rega, pragas e doenças e sobre o solo da planta escolhida.
+Na página do post, o usuário poderá aprender sobre a poda, rega, solo, pragas e doenças da planta escolhida.
 
 ![Page post](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/114627827/dd73f0e1-1125-49b5-b46c-617f814bbe00)
 _Tela desenvolvida por Gabriel Bruno_
 
 
 ## Quem somos
-A tela do fórum apresenta um texto de apresentação e o usuário poderá ter acesso ao botão: acesso ao blog.
+A página de quem somos apresenta um breve texto de apresentação do projeto.
 
 ![Quem somos](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/107646150/d6911adf-5d7f-467b-ac67-04752b84f76f)
 _Tela desenvolvida por Bruna Santos_
 
 ## Contato
-A tela de contato apresenta campos para usuários entrarem em contato com os desenvolvedores da aplicação, a fim de tirar dúvidas.
+A tela de contato apresenta campos para os usuários entrarem em contato com os desenvolvedores da aplicação, a fim de tirarem dúvidas.
 
 ![Contato-page](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/107646150/85269d6a-17c6-4558-8a29-f891463b3f0b)
 _Tela desenvolvida por Bruna Santos_
 
 
 ## Área de Login
-A tela de login apresenta campos para usuários já cadastrados, acessarem sua conta de membro da aplicação.
+A tela de login apresenta campos para usuários já cadastrados acessarem sua conta de membro.
 
-![Image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/107009327/884661b2-f1e7-4f20-8f72-fcd50fb1532f)
+![UI DESIGN - Login](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/107009327/9f47bdc8-9f75-4966-86ac-4a4e258f19a9)
 _Tela desenvolvida por Tayane Milagres e André Guilherme_
 
 
 ## Área de Cadastro
-A tela de cadastro permite que novos usuários criem sua conta de membro da aplicação.
+A tela de cadastro permite que novos usuários criem sua conta de membro.
 
-![Image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/107009327/9590a66d-dff3-42bf-8f36-e890b335f36f)
+![UI DESIGN - Cadastro](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/107009327/6dfd9bc6-9b9d-4bc1-b792-76a2e60ade0e)
 _Tela desenvolvida por Tayane Milagres e André Guilherme_
 
 ## Esqueci minha Senha
 A tela esqueci minha senha permite que usuários já cadastrados criem uma nova senha de acesso.
 
-![WhatsApp Image 2023-05-13 at 18 05 42](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/107009327/a23ffd03-e768-4468-b44e-00d4915d59cc)
+![UI DESIGN - Esqueci minha senha](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/107009327/e7677163-3c80-4c3b-8c02-92931ce08b98)
 _Tela desenvolvida por João Almeida_
