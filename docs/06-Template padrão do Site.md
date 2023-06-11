@@ -73,3 +73,8 @@ A tela de cadastro permite que novos usuários criem sua conta de membro da apli
 ![Image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/107009327/9590a66d-dff3-42bf-8f36-e890b335f36f)
 _Tela desenvolvida por Tayane Milagres e André Guilherme_
 
+## Esqueci minha Senha
+A tela esqueci minha senha permite que usuários já cadastrados criem uma nova senha de acesso.
+
+![WhatsApp Image 2023-05-13 at 18 05 42](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/107009327/a23ffd03-e768-4468-b44e-00d4915d59cc)
+_Tela desenvolvida por João Almeida_
