@@ -62,3 +62,39 @@ _Teste do usuário 1 na tela cadastro com sucesso._
 
 ![screencapture-127-0-0-1-5500-src-Cadastro-page-cadastro-page-html-2023-06-08-11_53_01 cadastro com erro](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/116499898/74267deb-ae30-4f3d-ae16-2a307666e733)
 _Teste do usuário 1 na tela cadastro com insucesso._
+
+
+| **Caso de Teste** 	| **CT-09 –  Acesso BLOG** 	|
+|:---:	|:---:	|
+| **Usuário 1**  	| Usuário realizou o teste sem dificuldades. 	 |
+| **Quantidade de erros**  	| 0 |
+| **Comentários e observações**  	| O usuário teve sucesso ao tentar navegar pela página Blog. |
+
+![Page Blog](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/114627827/03f35462-0b0e-4c65-8104-67aa032987fd)
+_Teste do usuário na tela Blog._
+
+
+| **Caso de Teste** 	| **CT-10 –  Acesso Catálogo** 	|
+|:---:	|:---:	|
+| **Usuário 1**  	| Usuário realizou o teste sem dificuldades. 	 |
+| **Quantidade de erros**  	| 0 |
+| **Comentários e observações**  	| O usuário teve sucesso ao tentar navegar pela página Catálogo. |
+
+![Page Catálogo](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/114627827/628e33f9-7e7e-451c-a701-ff016a11b5fd)
+_Teste do usuário na tela Catálogo._
+
+| **Caso de Teste** 	| **CT-11 –  Acesso Posts** 	|
+|:---:	|:---:	|
+| **Usuário 1**  	| Usuário realizou o teste sem dificuldades. 	 |
+| **Quantidade de erros**  	| 0 |
+| **Comentários e observações**  	| O usuário teve sucesso ao tentar navegar pelos posts. |
+
+![Page post](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/114627827/9a03f379-d2d0-4a3b-a796-e135bcb2bb36)
+_Teste do usuário na tela Posts específicos (roseira)._
+
+
+
+
+
+
+
