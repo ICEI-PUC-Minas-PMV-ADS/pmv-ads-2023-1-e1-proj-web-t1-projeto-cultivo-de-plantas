@@ -32,7 +32,7 @@ _Teste na alteração da senha_
 
 | Caso de Teste | Descrição                                   | Resultados                                                                                                                                     |
 |---------------|---------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
-| CT-03         | O usuário ou senhas não conferem            | User(x): O user preencheu os campos de maneira desatenciosa, errando seu nome de usuário ou alguma das senhas. <br> Quantidade de erros: 1 <br> Comentários e observações: Senha não alterada, uma mensagem sinaliza que um ou mais campos não contém elementos. Ou seja, foram preenchidos de forma desigual ou completamente erradas. |
+| CT-03         | O usuário ou senhas não conferem            | User(x): O user preencheu os campos de maneira desatenciosa, errando seu nome de usuário ou alguma das senhas. <br> Quantidade de erros: 0 <br> Comentários e observações: Senha não alterada, uma mensagem sinaliza que um ou mais campos não contém elementos. Ou seja, foram preenchidos de forma desigual ou completamente erradas. |
 
 ![Usuário ou senha não conferem](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/127165847/6b3bae7a-417f-4032-a5e3-292e78e28e7f)
 
@@ -40,7 +40,7 @@ _Teste em caso de falha em alterar a senha_
 
 | Caso de Teste | Descrição                                   | Resultados                                                                                                                                     |
 |---------------|---------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
-| CT-04         | Preenchimento dos campos de maneira correta | User(x): O user deixou de preencher um ou mais campos ou então, preencheu os campos de maneira equivocada não respeitando os requisitos. <br> Quantidade de erros: 2 <br> Comentários e observações: Senha não alterada, uma mensagem sinaliza para que o preenchimento do campo seja feito de forma que atenda os requisitos. |
+| CT-04         | Preenchimento dos campos de maneira correta | User(x): O user deixou de preencher um ou mais campos ou então, preencheu os campos de maneira equivocada não respeitando os requisitos. <br> Quantidade de erros: 0 <br> Comentários e observações: Senha não alterada, uma mensagem sinaliza para que o preenchimento do campo seja feito de forma que atenda os requisitos. |
 
 ![Preencha e Requisitos 2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas/assets/127165847/ddf0c292-e0ba-4848-a2f9-085ca892087a)
 
