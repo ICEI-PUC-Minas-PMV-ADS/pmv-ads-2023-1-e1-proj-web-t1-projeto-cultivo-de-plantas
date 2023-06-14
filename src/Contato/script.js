@@ -18,13 +18,24 @@ document.addEventListener('DOMContentLoaded', function() {
   openModalButton.addEventListener('click', function(event) {
     event.preventDefault(); 
 
+    const textInput = document.getElementById('text');
+    const emailInput = document.getElementById('email');
+    const subjectInput = document.getElementById('subject');
     const messageInput = document.getElementById('message');
+
+    const text = textInput.value.trim();
+    const email = emailInput.value.trim();
+    const subject = subjectInput.value.trim();
     const message = messageInput.value.trim();
 
-    if (message !== '') {
-      modal.style.display = 'block';
+    if (text !== '' && email !== '' && subject !== '' && message !== '') {
+      if (email.includes('@')) { 
+        modal.style.display = 'block';
+      } else {
+        alert('Por favor, preencha o campo de e-mail corretamente.');
+      }
     } else {
-      alert('Por favor, preencha o campo de mensagem antes de enviar o formulário.');
+      alert('Por favor, preencha todos os campos antes de enviar a mensagem.');
     }
   });
 
@@ -36,6 +47,7 @@ document.addEventListener('DOMContentLoaded', function() {
     event.stopPropagation();
   });
 });
+
 
 
 
