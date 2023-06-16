@@ -1,3 +1,103 @@
+
+
+
+
+
+// Obtém referências para os elementos do DOM
+const commentButton = document.getElementById('commentButton');
+const commentSection = document.getElementById('commentSection');
+const commentInput = document.getElementById('commentInput');
+const submitButton = document.getElementById('submitButton');
+const commentList = document.getElementById('commentList');
+const closeButton = document.getElementById('closeButton');
+
+// Função para salvar os comentários no Local Storage
+function saveComments(comments) {
+  localStorage.setItem('comments', JSON.stringify(comments));
+}
+
+// Função para carregar os comentários do Local Storage
+function loadComments() {
+  const savedComments = localStorage.getItem('comments');
+  if (savedComments) {
+    return JSON.parse(savedComments);
+  }
+  return null;
+}
+
+// Adiciona alguns comentários iniciais
+function addInitialComments() {
+  const initialComments = [
+    '#Luiza : Eu amo girassóis!',
+    '#VascoDaGama75 : Os girassóis são lindos e brilhantes.',
+    '#Lírio45 : Girassóis sempre me fazem sorrir.',
+    '#Vitor : A cor amarela dos girassóis é tão vibrante!',
+    '#Gabriel : Os girassóis são minhas flores favoritas.',
+  ];
+  initialComments.forEach((commentText) => {
+    const comment = document.createElement('p');
+    comment.textContent = commentText;
+    commentList.appendChild(comment);
+  });
+
+  saveComments(initialComments);
+}
+
+// Adiciona um evento de clique ao botão de comentário
+commentButton.addEventListener('click', function() {
+  commentSection.style.display = 'block'; // Mostra a seção de comentários
+});
+
+// Adiciona um evento de clique ao botão de envio
+submitButton.addEventListener('click', function() {
+  const commentText = commentInput.value.trim(); // Obtém o texto do comentário removendo espaços em branco extras
+
+  if (commentText.length >= 10) {
+    const comment = document.createElement('p');
+    comment.textContent = commentText;
+    commentList.appendChild(comment);
+
+    // Carrega os comentários salvos do Local Storage
+    const comments = loadComments();
+    if (comments) {
+      comments.push(commentText);
+      saveComments(comments);
+    } else {
+      saveComments([commentText]);
+    }
+
+    // Limpa o campo de entrada de comentário
+    commentInput.value = '';
+  } else {
+    alert('O comentário deve ter pelo menos 10 caracteres.');
+  }
+});
+
+// Adiciona um evento de clique ao botão de fechar
+closeButton.addEventListener('click', function() {
+  commentSection.style.display = 'none'; // Esconde a seção de comentários
+});
+
+// Carrega os comentários salvos do Local Storage ao carregar a página
+window.addEventListener('DOMContentLoaded', function() {
+  const comments = loadComments();
+
+  if (!comments) {
+    addInitialComments();
+  } else {
+    comments.forEach((commentText) => {
+      const comment = document.createElement('p');
+      comment.textContent = commentText;
+      commentList.appendChild(comment);
+    });
+  }
+});
+
+
+
+
+
+
 var itemURLs = {
   Bromélia: '../Bromélia/Index.html',
   Espada_de_são_Jorge: '../Espada-de-são-Jorge/Index.html',

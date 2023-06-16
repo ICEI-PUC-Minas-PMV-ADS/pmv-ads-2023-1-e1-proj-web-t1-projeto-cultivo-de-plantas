@@ -481,6 +481,7 @@ h4{
     top: 630px;
     justify-content: center;
     gap: 20px;
+    left: 36px;
     
 }
 .btn-one, .btn-two, .btn-three{
@@ -498,6 +499,73 @@ h4{
 
 }
 
+.btn_comentario{
+    z-index: 10;
+    position: absolute;
+    left: 700px;
+    top: 1030px;
+}
+
+.modal-coments{
+    position: absolute;
+    top: 100px;
+    z-index: 120;
+}
+
+
+.btn_coment{
+    position: absolute;
+    left: 160px;
+    bottom: 20px;
+    outline: none;
+    border: none;
+    background-color: #D5B484;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+
+}
+
+#commentSection {
+    display: none;
+    margin-top: 10px;
+  }
+  
+  #commentInput {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  
+  #commentList p {
+    word-wrap: break-word;
+  }
+  
+  #commentList {
+    margin-top: 10px;
+    border: 1px solid #ffffff;
+    padding: 10px;
+    white-space: pre-line;
+  }
+
+  #closeButton{
+    position: relative;
+    color: rgb(255, 255, 255);
+    left: 1px;
+    bottom: 20px;
+    z-index: 20;
+  }
+  
+  
+  .modal-coments{
+    background-color: #D5B484;
+    border: rgb(255, 255, 255) solid 10px;
+    border-radius: 10%;
+    padding: 30px;
+    position: absolute;
+    top: 500px;
+  }
+  
 
 
 
@@ -1083,6 +1151,7 @@ nav{
 
 }
 }
+
 @media (max-width: 425px) {
 
     header{
