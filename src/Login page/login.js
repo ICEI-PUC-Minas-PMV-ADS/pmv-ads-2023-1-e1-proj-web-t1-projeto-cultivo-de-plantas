@@ -105,40 +105,46 @@ var userValid = {
     
 
 listaCad = JSON.parse(localStorage.getItem("ListaCad"))
-    
-listaCad.forEach((item) => {
-  if(emailLog.value == item.emailCad && senhaLog.value == item.senhaCad.value){
-    userValid = {
-      email: item.emailCad ,
-      senha: item.senhaCad ,
-      usuario: item.usuarioCad
-    }
-  }
-});
 
-if (emailLog.value == userValid.email && senhaLog == userValid.senha) {
-   
+if (listaCad && listaCad.length > 0){
+    
+  listaCad.forEach((item) => {
+    if(emailLog.value == item.emailCad && senhaLog.value === item.senhaCad){
+      userValid = {
+        email: item.emailCad ,
+        senha: item.senhaCad ,
+        usuario: item.usuarioCad
+      }
+    }
+  });
+
+  if (emailLog.value == userValid.email && senhaLog === userValid.senha.senha) {
     console.log("Login bem-sucedido");
     msgValida.setAttribute('style', 'display: block; color: green');
     msgValida.innerHTML = '<strong>Login realizado com sucesso! <br> Você será redirecionado para o Blog :) </strong>';
     setTimeout(()=>{
-      window.location.href = '../Blog e Posts/Blog/Index.html'
-  }, 4000)  
+        window.location.href = '../Blog e Posts/Blog/Index.html'
+      }, 4000)  
 
-  //função para alterar o nome
-  checkLogin(userValid.usuario)
-  
-}
-else {
+    //função para alterar o nome
+    checkLogin(userValid.usuario)
+  }
     
+  else {
     console.log("Login falhou");
     msgValida.setAttribute('style', 'display: block; color: red')
     msgValida.innerHTML = '<strong>Email ou senha inválidos</strong>';
-    
-    
+  }
+}
+
+else {
+  console.log("Login falhou");
+  msgValida.setAttribute('style', 'display: block; color: red')
+  msgValida.innerHTML = '<strong>Email ou senha inválidos</strong>';
 }
 
 }
+
 
 //Menu Hamburguer
 function menuShow() {
