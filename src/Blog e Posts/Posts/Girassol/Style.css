@@ -881,6 +881,16 @@ h4{
  
 }
 @media (max-width: 1024px) {
+    .modal-coments{
+        position: absolute;
+        top: 400px;
+    }
+    .btn_comentario{
+        z-index: 10;
+        position: absolute;
+        left: 380px;
+        top: 1030px;
+    }
     header{
         position: absolute;
         top: 1px;
@@ -972,6 +982,16 @@ h4{
  
 }
 @media (max-width: 768px) {
+    .modal-coments{
+        position: absolute;
+        top: 400px;
+    }
+    .btn_comentario{
+        z-index: 10;
+        position: absolute;
+        left: 260px;
+        top: 1030px;
+    }
 
     header{
         position: absolute;
@@ -1145,6 +1165,27 @@ nav{
 }
 
 @media (max-width: 425px) {
+
+    #closeButton {
+        position: absolute;
+        color: #3B506B;
+        left: 370px;
+        top: 15px;
+        bottom: 20px;
+        z-index: 20;
+        cursor: pointer;
+    }
+
+    .modal-coments{
+        position: absolute;
+        top: 400px;
+    }
+    .btn_comentario{
+        z-index: 10;
+        position: absolute;
+        left: 100px;
+        top: 1030px;
+    }
 
     header{
         position: absolute;
