@@ -1,6 +1,6 @@
 
 
-// Obtém referências para os elementos do DOM
+
 const commentButton = document.getElementById('commentButton');
 const commentSection = document.getElementById('commentSection');
 const nameInput = document.getElementById('nameInput');
@@ -9,12 +9,12 @@ const submitButton = document.getElementById('submitButton');
 const commentList = document.getElementById('commentList');
 const closeButton = document.getElementById('closeButton');
 
-// Função para salvar os comentários no Local Storage
+
 function saveComments(comments) {
   localStorage.setItem('comments', JSON.stringify(comments));
 }
 
-// Função para carregar os comentários do Local Storage
+
 function loadComments() {
   const savedComments = localStorage.getItem('comments');
   if (savedComments) {
@@ -23,14 +23,14 @@ function loadComments() {
   return [];
 }
 
-// Adiciona alguns comentários iniciais
+
 function addInitialComments() {
   const initialComments = [
     { name: 'Luiza', comment: 'Eu amo girassóis!' },
     { name: 'VascoDaGama75', comment: 'Os girassóis são lindos e brilhantes.' },
     { name: 'Lírio45', comment: 'Girassóis sempre me fazem sorrir.' },
     { name: 'Vitor', comment: 'A cor amarela dos girassóis é tão vibrante!' },
-    { name: 'Gabriel', comment: 'Os girassóis são minhas flores favoritas.' }
+    { name: 'Gabriel', comment: 'Os girassóis são minhas flores favoritas.' },
   ];
   initialComments.forEach((comment) => {
     const commentElement = createCommentElement(comment.name, comment.comment);
@@ -40,60 +40,48 @@ function addInitialComments() {
   saveComments(initialComments);
 }
 
-// Cria um elemento de comentário
+
 function createCommentElement(name, comment) {
-  const commentContainer = document.createElement('div');
-  commentContainer.className = 'comment-container';
-
-  const nameElement = document.createElement('span');
-  nameElement.className = 'comment-name';
-  nameElement.textContent = name + ': ';
-
-  const commentText = document.createElement('p');
-  commentText.className = 'comment-text';
-  commentText.textContent = comment;
-
-  commentContainer.appendChild(nameElement);
-  commentContainer.appendChild(commentText);
-
-  return commentContainer;
+  const commentElement = document.createElement('p');
+  commentElement.textContent = `${name}: ${comment}`;
+  return commentElement;
 }
 
-// Adiciona um evento de clique ao botão de comentário
+
 commentButton.addEventListener('click', function() {
-  commentSection.style.display = 'block'; // Mostra a seção de comentários
+  commentSection.style.display = 'block'; 
 });
 
-// Adiciona um evento de clique ao botão de envio
+
 submitButton.addEventListener('click', function() {
-  const name = nameInput.value.trim(); // Obtém o nome do usuário
-  const commentText = commentInput.value.trim(); // Obtém o texto do comentário removendo espaços em branco extras
+  const name = nameInput.value.trim(); 
+  const commentText = commentInput.value.trim(); 
 
   if (name.length === 0) {
     alert('Por favor, insira seu nome.');
-  } else if (commentText.length < 10) {
-    alert('O comentário deve ter pelo menos 10 caracteres.');
-  } else {
+  } else if (commentText.length >= 10) {
     const commentElement = createCommentElement(name, commentText);
     commentList.insertBefore(commentElement, commentList.firstChild);
 
-    // Carrega os comentários salvos do Local Storage
+    
     const comments = loadComments();
-    comments.unshift({ name, comment: commentText }); // Adiciona o comentário no início do array
+    comments.unshift({ name, comment: commentText }); 
     saveComments(comments);
 
-    // Limpa os campos de entrada de nome e comentário
+    
     nameInput.value = '';
     commentInput.value = '';
+  } else {
+    alert('O comentário deve ter pelo menos 10 caracteres.');
   }
 });
 
-// Adiciona um evento de clique ao botão de fechar
+
 closeButton.addEventListener('click', function() {
-  commentSection.style.display = 'none'; // Esconde a seção de comentários
+  commentSection.style.display = 'none'; 
 });
 
-// Carrega os comentários salvos do Local Storage ao carregar a página
+
 window.addEventListener('DOMContentLoaded', function() {
   const comments = loadComments();
 
@@ -106,6 +94,8 @@ window.addEventListener('DOMContentLoaded', function() {
     });
   }
 });
+
+
 
 
 
