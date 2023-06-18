@@ -1,11 +1,9 @@
 
 
-
-
-
 // Obtém referências para os elementos do DOM
 const commentButton = document.getElementById('commentButton');
 const commentSection = document.getElementById('commentSection');
+const nameInput = document.getElementById('nameInput');
 const commentInput = document.getElementById('commentInput');
 const submitButton = document.getElementById('submitButton');
 const commentList = document.getElementById('commentList');
@@ -22,25 +20,31 @@ function loadComments() {
   if (savedComments) {
     return JSON.parse(savedComments);
   }
-  return null;
+  return [];
 }
 
 // Adiciona alguns comentários iniciais
 function addInitialComments() {
   const initialComments = [
-    '#Luiza : Eu amo girassóis!',
-    '#VascoDaGama75 : Os girassóis são lindos e brilhantes.',
-    '#Lírio45 : Girassóis sempre me fazem sorrir.',
-    '#Vitor : A cor amarela dos girassóis é tão vibrante!',
-    '#Gabriel : Os girassóis são minhas flores favoritas.',
+    { name: 'Luiza', comment: 'Eu amo girassóis!' },
+    { name: 'VascoDaGama75', comment: 'Os girassóis são lindos e brilhantes.' },
+    { name: 'Lírio45', comment: 'Girassóis sempre me fazem sorrir.' },
+    { name: 'Vitor', comment: 'A cor amarela dos girassóis é tão vibrante!' },
+    { name: 'Gabriel', comment: 'Os girassóis são minhas flores favoritas.' },
   ];
-  initialComments.forEach((commentText) => {
-    const comment = document.createElement('p');
-    comment.textContent = commentText;
-    commentList.appendChild(comment);
+  initialComments.forEach((comment) => {
+    const commentElement = createCommentElement(comment.name, comment.comment);
+    commentList.appendChild(commentElement);
   });
 
   saveComments(initialComments);
+}
+
+// Cria um elemento de comentário
+function createCommentElement(name, comment) {
+  const commentElement = document.createElement('p');
+  commentElement.textContent = `${name}: ${comment}`;
+  return commentElement;
 }
 
 // Adiciona um evento de clique ao botão de comentário
@@ -50,23 +54,20 @@ commentButton.addEventListener('click', function() {
 
 // Adiciona um evento de clique ao botão de envio
 submitButton.addEventListener('click', function() {
+  const name = nameInput.value.trim(); // Obtém o nome do usuário
   const commentText = commentInput.value.trim(); // Obtém o texto do comentário removendo espaços em branco extras
 
   if (commentText.length >= 10) {
-    const comment = document.createElement('p');
-    comment.textContent = commentText;
-    commentList.appendChild(comment);
+    const commentElement = createCommentElement(name, commentText);
+    commentList.insertBefore(commentElement, commentList.firstChild);
 
     // Carrega os comentários salvos do Local Storage
     const comments = loadComments();
-    if (comments) {
-      comments.push(commentText);
-      saveComments(comments);
-    } else {
-      saveComments([commentText]);
-    }
+    comments.unshift({ name, comment: commentText }); // Adiciona o comentário no início do array
+    saveComments(comments);
 
-    // Limpa o campo de entrada de comentário
+    // Limpa os campos de entrada de nome e comentário
+    nameInput.value = '';
     commentInput.value = '';
   } else {
     alert('O comentário deve ter pelo menos 10 caracteres.');
@@ -82,16 +83,17 @@ closeButton.addEventListener('click', function() {
 window.addEventListener('DOMContentLoaded', function() {
   const comments = loadComments();
 
-  if (!comments) {
+  if (comments.length === 0) {
     addInitialComments();
   } else {
-    comments.forEach((commentText) => {
-      const comment = document.createElement('p');
-      comment.textContent = commentText;
-      commentList.appendChild(comment);
+    comments.forEach((comment) => {
+      const commentElement = createCommentElement(comment.name, comment.comment);
+      commentList.appendChild(commentElement);
     });
   }
 });
+
+
 
 
 

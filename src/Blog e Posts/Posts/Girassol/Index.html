@@ -62,12 +62,25 @@
         <button class="btn_coment" id="commentButton">Comentar</button>
       </div>
       
-      <div class="modal-coments" id="commentSection" style="display: none;">
+      <div class="modal-coments" id="commentSection">
+
         <i id="closeButton" class="fas fa-times"></i>
-        <textarea id="commentInput" placeholder="Digite seu comentário" maxlength="200"></textarea>
+
+        <div class="block-name">
+            <label for="name">Nome</label>
+            <input type="text" id="nameInput" placeholder="Seu nome" required>
+        </div>
+
+        <div class="block-coment">
+            <label for="name">Comentário</label>
+            <textarea required id="commentInput" placeholder="Digite seu comentário" maxlength="45"></textarea>
+        </div>
+
         <button id="submitButton">Enviar</button>
         <div id="commentList"></div>
       </div>
+      
+      
       
 
 

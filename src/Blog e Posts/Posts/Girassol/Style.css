@@ -506,14 +506,9 @@ h4{
     top: 1030px;
 }
 
-.modal-coments{
-    position: absolute;
-    top: 100px;
-    z-index: 120;
-}
-
 
 .btn_coment{
+    cursor: pointer;
     position: absolute;
     left: 160px;
     bottom: 20px;
@@ -526,44 +521,82 @@ h4{
 
 }
 
+#submitButton{
+    border-radius: 40px;
+    border: 2px solid #3B506B;
+    background-color: white;
+    cursor: pointer;
+}
+
 #commentSection {
     display: none;
-    margin-top: 10px;
+    
+  }
+
+  .block-coment{
+    margin-top: 20px;
   }
   
   #commentInput {
+    border: solid 2px #3B506B;
+    outline: none;
     width: 100%;
-    height: 100px;
+    height: 60px;
+    border-radius: 10px;
     margin-bottom: 10px;
   }
   
   #commentList p {
     word-wrap: break-word;
+    
   }
-  
-  #commentList {
-    margin-top: 10px;
-    border: 1px solid #ffffff;
-    padding: 10px;
-    white-space: pre-line;
+  #nameInput{
+   width: 200px;
+   outline: none;
+   border: 2px solid #3B506B;
+   cursor: pointer;
+   border-radius: 10px;
   }
 
+  #commentList {
+    border-radius: 10px;
+    margin-top: 10px;
+    border: 2px solid #3B506B;
+    padding: 10px;
+    white-space: pre-line;
+    max-height: 200px;
+    overflow-y: auto;
+  }
+  
+
   #closeButton{
-    position: relative;
-    color: rgb(255, 255, 255);
-    left: 1px;
+    position: absolute;
+    color: #3B506B;
+    left: 484px;
+    top: 15px;
     bottom: 20px;
     z-index: 20;
+    cursor: pointer;
+
+  }
+  .block-name{
+    display: flex;
+    flex-direction: column;
+    
   }
   
   
   .modal-coments{
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
     background-color: #D5B484;
-    border: rgb(255, 255, 255) solid 10px;
+    border: #3B506B solid 10px;
     border-radius: 10%;
     padding: 30px;
     position: absolute;
     top: 500px;
+    
   }
   
 
