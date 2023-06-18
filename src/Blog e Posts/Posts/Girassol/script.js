@@ -30,7 +30,7 @@ function addInitialComments() {
     { name: 'VascoDaGama75', comment: 'Os girassóis são lindos e brilhantes.' },
     { name: 'Lírio45', comment: 'Girassóis sempre me fazem sorrir.' },
     { name: 'Vitor', comment: 'A cor amarela dos girassóis é tão vibrante!' },
-    { name: 'Gabriel', comment: 'Os girassóis são minhas flores favoritas.' },
+    { name: 'Gabriel', comment: 'Os girassóis são minhas flores favoritas.' }
   ];
   initialComments.forEach((comment) => {
     const commentElement = createCommentElement(comment.name, comment.comment);
@@ -42,9 +42,21 @@ function addInitialComments() {
 
 // Cria um elemento de comentário
 function createCommentElement(name, comment) {
-  const commentElement = document.createElement('p');
-  commentElement.textContent = `${name}: ${comment}`;
-  return commentElement;
+  const commentContainer = document.createElement('div');
+  commentContainer.className = 'comment-container';
+
+  const nameElement = document.createElement('span');
+  nameElement.className = 'comment-name';
+  nameElement.textContent = name + ': ';
+
+  const commentText = document.createElement('p');
+  commentText.className = 'comment-text';
+  commentText.textContent = comment;
+
+  commentContainer.appendChild(nameElement);
+  commentContainer.appendChild(commentText);
+
+  return commentContainer;
 }
 
 // Adiciona um evento de clique ao botão de comentário
@@ -57,7 +69,11 @@ submitButton.addEventListener('click', function() {
   const name = nameInput.value.trim(); // Obtém o nome do usuário
   const commentText = commentInput.value.trim(); // Obtém o texto do comentário removendo espaços em branco extras
 
-  if (commentText.length >= 10) {
+  if (name.length === 0) {
+    alert('Por favor, insira seu nome.');
+  } else if (commentText.length < 10) {
+    alert('O comentário deve ter pelo menos 10 caracteres.');
+  } else {
     const commentElement = createCommentElement(name, commentText);
     commentList.insertBefore(commentElement, commentList.firstChild);
 
@@ -69,8 +85,6 @@ submitButton.addEventListener('click', function() {
     // Limpa os campos de entrada de nome e comentário
     nameInput.value = '';
     commentInput.value = '';
-  } else {
-    alert('O comentário deve ter pelo menos 10 caracteres.');
   }
 });
 
@@ -92,7 +106,6 @@ window.addEventListener('DOMContentLoaded', function() {
     });
   }
 });
-
 
 
 
