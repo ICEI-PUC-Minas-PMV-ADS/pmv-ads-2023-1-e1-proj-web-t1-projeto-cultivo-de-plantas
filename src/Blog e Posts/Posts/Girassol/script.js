@@ -95,9 +95,29 @@ window.addEventListener('DOMContentLoaded', function() {
   }
 });
 
+function funcaoNome() {
+  var loginCadElement = document.getElementById('loginCad');
+  var loginCadHamburguer = document.getElementById('LoginCadHamb')
+  var accountIconElement = document.querySelector('.account-icon');
+  var nomeUsuarioLog = JSON.parse(sessionStorage.getItem('nomeUsuarioLog'));
 
 
+  if (nomeUsuarioLog) {
+      loginCadElement.innerHTML = nomeUsuarioLog.nomeUser; 
+      loginCadElement.removeAttribute('href');
+      loginCadHamburguer.innerHTML = nomeUsuarioLog.nomeUser;
+      loginCadElement.removeAttribute('href')
 
+      document.getElementById('commentButton').style.display = 'block';
+
+
+  } else {
+
+      loginCadElement.innerHTML = 'Login / Cadastro'; 
+      accountIconElement.style.display = 'block'; 
+
+  }
+}
 
 
 
@@ -281,27 +301,5 @@ function closeMenuHamb(){
 }
 
 ;
-function funcaoNome() {
-  var loginCadElement = document.getElementById('loginCad');
-  var loginCadHamburguer = document.getElementById('LoginCadHamb')
-  var accountIconElement = document.querySelector('.account-icon');
-  var nomeUsuarioLog = JSON.parse(sessionStorage.getItem('nomeUsuarioLog'));
-
-  if (nomeUsuarioLog) {
-      loginCadElement.innerHTML = nomeUsuarioLog.nomeUser; 
-      loginCadElement.removeAttribute('href');
-      loginCadHamburguer.innerHTML = nomeUsuarioLog.nomeUser;
-      loginCadElement.removeAttribute('href')
-
-  } else {
-
-      loginCadElement.innerHTML = 'Login / Cadastro'; 
-      accountIconElement.style.display = 'block'; 
-
-  }
-}
-;
-
-
 
   
