@@ -53,6 +53,34 @@
         <a href="../../../Contato/contato-page.html"><h3>Fale Conosco</h3></a>
         
     </navigation>
+    
+
+    
+    <div class="btn_comentario">
+        <button class="btn_coment" id="commentButton" style="display: none;">Comentar</button>
+      </div>
+      
+      <div class="modal-coments" id="commentSection">
+
+        <i id="closeButton"class="fa fa-times"></i>
+    
+        <div class="block-name">
+          <label for="name">Nome</label>
+          <input type="text" maxlength="10" id="nameInput" placeholder="Seu nome" required>
+        </div>
+    
+        <div class="block-coment">
+          <label for="name">Comentário</label>
+          <textarea required id="commentInput" placeholder="Digite seu comentário" maxlength="45"></textarea>
+        </div>
+    
+        <button id="submitButton">Enviar</button>
+        <div id="commentList"></div>
+
+        
+        
+      </div>
+    
 
     <nav>
         <ul class="navMenu">

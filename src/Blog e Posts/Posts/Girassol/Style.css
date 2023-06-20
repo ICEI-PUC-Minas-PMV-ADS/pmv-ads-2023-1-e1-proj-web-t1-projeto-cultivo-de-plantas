@@ -498,6 +498,109 @@ h4{
 
 }
 
+.btn_comentario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    position: absolute;
+    left: 700px;
+    top: 1030px;
+    text-align: center;
+}
+
+
+.btn_coment{
+   background-color: #D5B484;
+   outline: none;
+   border: none;
+   padding: 10px;
+   border-radius: 20px;
+   font-weight: 600;
+   color: white;
+}
+
+#submitButton{
+    border-radius: 40px;
+    border: 2px solid #3B506B;
+    background-color: white;
+    cursor: pointer;
+}
+
+#commentSection {
+    display: none;
+    
+  }
+
+  .block-coment{
+    margin-top: 20px;
+  }
+  
+  #commentInput {
+    border: solid 2px #3B506B;
+    outline: none;
+    width: 100%;
+    height: 60px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #commentList p {
+    word-wrap: break-word;
+    
+  }
+  #nameInput{
+   width: 200px;
+   outline: none;
+   border: 2px solid #3B506B;
+   cursor: pointer;
+   border-radius: 10px;
+  }
+
+  #commentList {
+    border-radius: 10px;
+    margin-top: 10px;
+    border: 2px solid #3B506B;
+    padding: 10px;
+    white-space: pre-line;
+    max-height: 200px;
+    overflow-y: auto;
+  }
+  
+
+  #closeButton{
+    position: absolute;
+    color: #fd0000;
+    left: 1px;
+    top: 1px;
+    z-index: 11;
+    cursor: pointer;
+
+  }
+  .block-name{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  
+  .modal-coments{
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #D5B484;
+    border: #3B506B solid 10px;
+    border-radius: 10%;
+    padding: 30px;
+    position: absolute;
+    top: 500px;
+    
+  }
+  
+
+
+
+
 
 
 
@@ -506,6 +609,17 @@ h4{
 
 
 @media (max-width: 1920px) {
+    .btn_comentario{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 10;
+        position: absolute;
+        left: 40px;
+        top: 1030px;
+        text-align: center;
+    }
+    
     header{
         position: absolute;
         top: 1px;

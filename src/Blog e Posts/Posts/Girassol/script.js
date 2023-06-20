@@ -1,3 +1,119 @@
+const commentButton = document.getElementById('commentButton');
+const commentSection = document.getElementById('commentSection');
+const nameInput = document.getElementById('nameInput');
+const commentInput = document.getElementById('commentInput');
+const submitButton = document.getElementById('submitButton');
+const commentList = document.getElementById('commentList');
+const closeButton = document.getElementById('closeButton');
+
+function saveComments(comments) {
+  localStorage.setItem('comments', JSON.stringify(comments));
+}
+
+function loadComments() {
+  const savedComments = localStorage.getItem('comments');
+  if (savedComments) {
+    return JSON.parse(savedComments);
+  }
+  return [];
+}
+
+function addInitialComments() {
+  const initialComments = [
+    { name: 'Luiza', comment: 'Eu amo girassóis!' },
+    { name: 'VascoDaGama75', comment: 'Os girassóis são lindos e brilhantes.' },
+    { name: 'Lírio45', comment: 'Girassóis sempre me fazem sorrir.' },
+    { name: 'Vitor', comment: 'A cor amarela dos girassóis é tão vibrante!' },
+    { name: 'Gabriel', comment: 'Os girassóis são minhas flores favoritas.' },
+  ];
+  initialComments.forEach((comment) => {
+    const commentElement = createCommentElement(comment.name, comment.comment);
+    commentList.appendChild(commentElement);
+  });
+
+  saveComments(initialComments);
+}
+
+function createCommentElement(name, comment) {
+  const commentElement = document.createElement('p');
+  commentElement.textContent = `${nameInput.value}: ${comment}`;
+  return commentElement;
+}
+
+commentButton.addEventListener('click', function() {
+  commentSection.style.display = 'block'; 
+});
+
+submitButton.addEventListener('click', function() {
+  const name = 'loginCad'; // Define o valor do nome como "loginCad"
+  const commentText = commentInput.value.trim(); 
+
+  if (commentText.length >= 10) {
+    const commentElement = createCommentElement(name, commentText);
+    commentList.insertBefore(commentElement, commentList.firstChild);
+
+    const comments = loadComments();
+    comments.unshift({ name, comment: commentText }); 
+    saveComments(comments);
+
+    commentInput.value = '';
+    nameInput.disabled = true; // Impede que o usuário digite outro nome
+  } else {
+    alert('O comentário deve ter pelo menos 10 caracteres.');
+  }
+});
+
+
+
+window.addEventListener('DOMContentLoaded', function() {
+  const comments = loadComments();
+
+  if (comments.length === 0) {
+    addInitialComments();
+  } else {
+    comments.forEach((comment) => {
+      const commentElement = createCommentElement(comment.name, comment.comment);
+      commentList.appendChild(commentElement);
+    });
+  }
+
+  // Atualizar o campo de input de nome com o nome do usuário logado
+  const loggedInUserName = document.getElementById('loggedInUserName');
+  const nomeUsuarioLog = JSON.parse(sessionStorage.getItem('nomeUsuarioLog'));
+  if (nomeUsuarioLog) {
+    loggedInUserName.textContent = nomeUsuarioLog.nomeUser;
+    nameInput.value = nomeUsuarioLog.nomeUser;
+  }
+});
+
+function funcaoNome() {
+  var loginCadElement = document.getElementById('loginCad');
+  var loginCadHamburguer = document.getElementById('LoginCadHamb');
+  var accountIconElement = document.querySelector('.account-icon');
+  var nomeUsuarioLog = JSON.parse(sessionStorage.getItem('nomeUsuarioLog'));
+
+  if (nomeUsuarioLog) {
+    loginCadElement.textContent = nomeUsuarioLog.nomeUser;
+    loginCadElement.removeAttribute('href');
+    loginCadHamburguer.textContent = nomeUsuarioLog.nomeUser;
+    loginCadHamburguer.removeAttribute('href');
+    document.getElementById('commentButton').style.display = 'flex';
+    nameInput.value = nomeUsuarioLog.nomeUser;
+    nameInput.disabled = true; // Impede que o usuário digite outro nome
+  } else {
+    loginCadElement.innerHTML = '<h3>Login/Cadastro</h3>';
+    accountIconElement.style.display = 'block';
+  }
+}
+
+funcaoNome();
+
+
+
+
+
+
+
 var itemURLs = {
   Bromélia: '../Bromélia/Index.html',
   Espada_de_são_Jorge: '../Espada-de-são-Jorge/Index.html',
@@ -176,27 +292,4 @@ function closeMenuHamb(){
 }
 
 ;
-function funcaoNome() {
-  var loginCadElement = document.getElementById('loginCad');
-  var loginCadHamburguer = document.getElementById('LoginCadHamb')
-  var accountIconElement = document.querySelector('.account-icon');
-  var nomeUsuarioLog = JSON.parse(sessionStorage.getItem('nomeUsuarioLog'));
 
-  if (nomeUsuarioLog) {
-      loginCadElement.innerHTML = nomeUsuarioLog.nomeUser; 
-      loginCadElement.removeAttribute('href');
-      loginCadHamburguer.innerHTML = nomeUsuarioLog.nomeUser;
-      loginCadElement.removeAttribute('href')
-
-  } else {
-
-      loginCadElement.innerHTML = 'Login / Cadastro'; 
-      accountIconElement.style.display = 'block'; 
-
-  }
-}
-;
-
-
-
-  
