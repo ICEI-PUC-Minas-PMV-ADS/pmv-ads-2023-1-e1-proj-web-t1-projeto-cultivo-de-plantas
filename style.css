@@ -696,6 +696,11 @@ p,
         display: block;
     }
 
+    .busca {
+        left: 35%;
+        width: 35%;
+    }
+
     /* HEADER */
 
     .header-container {
@@ -817,6 +822,12 @@ p,
         display: block;
     }
 
+    .busca {
+        top: 60px;
+        left: 0;
+        width: 100%;
+    }
+
     /* HEADER */
 
     .header-container {
@@ -879,7 +890,7 @@ p,
         margin: 0 0px;
         position: absolute;
         top: 110px;
-        left: 110px;
+        left: 90px;
         right: 87px;
         height: 60px;
     }
