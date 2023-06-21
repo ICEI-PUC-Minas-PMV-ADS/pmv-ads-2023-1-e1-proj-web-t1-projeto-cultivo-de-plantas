@@ -44,6 +44,11 @@ commentButton.addEventListener('click', function() {
   commentSection.style.display = 'block'; 
 });
 
+//Fechar a área de comentários
+closeButton.addEventListener('click', function() {
+  commentSection.style.display = 'none'; 
+});
+
 submitButton.addEventListener('click', function() {
   const name = 'loginCad'; // Define o valor do nome como "loginCad"
   const commentText = commentInput.value.trim(); 
