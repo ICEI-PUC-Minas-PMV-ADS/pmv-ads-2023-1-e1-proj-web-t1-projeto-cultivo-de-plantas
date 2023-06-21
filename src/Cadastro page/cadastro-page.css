@@ -1118,7 +1118,6 @@ small{
         font-size: 19px;
     }
 
-    /* Lista de pesquisa*/
     
     .busca{
        
@@ -1136,6 +1135,7 @@ small{
         z-index: 5; 
       }
 }
+
 
 @media screen and (min-width:1440px) and (max-width:1920px){
 
@@ -1198,3 +1198,78 @@ small{
         z-index: 5; 
       }
 }
+
+@media screen and (min-width:1444px) and (max-width: 2600px) {
+    .form{
+        display: flex;
+        width: 100%;
+    }
+
+    .esquerda{
+        display: flex;
+        width: 100%;    
+    }
+
+    .direita{
+        display: flex;
+        width: 100%;    
+    }
+
+    input[type="text"]{
+        width: 22vw;
+    }
+
+    input[type="text-form-row"]{
+        width: 24vw;
+    }
+
+    input[type="number"]{
+        width: 24vw;
+    }
+
+    input[type="password"]{
+        width: 24vw;
+    }
+
+    button{
+        width: 20vw;
+    }
+
+    .botao{
+        padding-left: 22%;
+        padding-right: 30%;
+    }
+    
+
+    #totalForm{
+        padding-left: 10%;
+        padding-right: 5%;
+    }
+
+    .busca{
+       
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        font-size: 0.9rem;
+        border-radius: 10px;
+        top: 12%;
+        left: 37%;
+        background-color: rgb(255, 255, 255);
+        width: 25%;
+        text-align: center;
+        margin-top: 5px;
+        z-index: 5; 
+      }
+
+    .copyright{
+        font-size: 20px;
+    }  
+
+    .back-to-top{
+        width: 5vw;
+        right: 2%;
+    }
+}
+
+

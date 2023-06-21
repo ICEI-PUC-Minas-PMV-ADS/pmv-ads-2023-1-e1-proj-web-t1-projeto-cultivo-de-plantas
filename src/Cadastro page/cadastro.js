@@ -81,19 +81,7 @@ document.getElementById('searchInput').addEventListener('input', function() {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+// VALIDAÇÕES
 
 const form = document.getElementById('total-form')
 const esquerda = document.getElementById('esquerda')
@@ -148,6 +136,12 @@ function checkInputs() {
       
       validacao = false
    }
+
+   else if (!/^[\w\.-]+@\w+\.\w+$/.test(emailValue)) {
+      errorValidation(email, 'Digite um endereço de e-mail válido');
+      validacao = false;
+   }
+
    else{
       sucessoValidation(email)
    }
