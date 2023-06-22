@@ -26,6 +26,7 @@ function addInitialComments() {
     { name: 'Vitor', comment: 'A cor amarela dos girassóis é tão vibrante!' },
     { name: 'Gabriel', comment: 'Os girassóis são minhas flores favoritas.' },
   ];
+
   initialComments.forEach((comment) => {
     const commentElement = createCommentElement(comment.name, comment.comment);
     commentList.appendChild(commentElement);
@@ -36,29 +37,29 @@ function addInitialComments() {
 
 function createCommentElement(name, comment) {
   const commentElement = document.createElement('p');
-  commentElement.textContent = `${nameInput.value}: ${comment}`;
+  commentElement.textContent = `${name}: ${comment}`;
   return commentElement;
 }
 
 commentButton.addEventListener('click', function() {
-  commentSection.style.display = 'block'; 
+  commentSection.style.display = 'block';
 });
 
-//Fechar a área de comentários
+// Fechar a área de comentários
 closeButton.addEventListener('click', function() {
-  commentSection.style.display = 'none'; 
+  commentSection.style.display = 'none';
 });
 
 submitButton.addEventListener('click', function() {
-  const name = 'loginCad'; // Define o valor do nome como "loginCad"
-  const commentText = commentInput.value.trim(); 
+  const name = nameInput.value.trim();
+  const commentText = commentInput.value.trim();
 
   if (commentText.length >= 10) {
     const commentElement = createCommentElement(name, commentText);
     commentList.insertBefore(commentElement, commentList.firstChild);
 
     const comments = loadComments();
-    comments.unshift({ name, comment: commentText }); 
+    comments.unshift({ name, comment: commentText });
     saveComments(comments);
 
     commentInput.value = '';
@@ -67,8 +68,6 @@ submitButton.addEventListener('click', function() {
     alert('O comentário deve ter pelo menos 10 caracteres.');
   }
 });
-
-
 
 window.addEventListener('DOMContentLoaded', function() {
   const comments = loadComments();
