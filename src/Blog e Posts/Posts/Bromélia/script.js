@@ -1,3 +1,116 @@
+const commentButton = document.getElementById('commentButton');
+const commentSection = document.getElementById('commentSection');
+const nameInput = document.getElementById('nameInput');
+const commentInput = document.getElementById('commentInput');
+const submitButton = document.getElementById('submitButton');
+const commentList = document.getElementById('commentList');
+const closeButton = document.getElementById('closeButton');
+
+function saveCommentsForPlant(plantName, comments) {
+  localStorage.setItem(`comments_${plantName}`, JSON.stringify(comments));
+}
+
+function loadCommentsForPlant(plantName) {
+  const savedComments = localStorage.getItem(`comments_${plantName}`);
+  if (savedComments) {
+    return JSON.parse(savedComments);
+  }
+  return [];
+}
+
+function addInitialCommentsForPlant(plantName) {
+  const initialComments = [
+    { name: 'JoséVit', comment: 'Minha bromélia está florescendo lindamente!' },
+    { name: 'JuliaROSA', comment: 'Adoro a variedade de cores das folhas da bromélia.' },
+    { name: 'Geraldo12', comment: 'A bromélia é uma planta perfeita para ambientes internos.' },
+    { name: 'Serjãoaoao', comment: 'É importante evitar o acúmulo de água no centro da bromélia.' },
+    { name: 'Barbie1211', comment: 'Estou pensando em transplantar minha bromélia para um vaso maior.' },
+  ];
+
+  initialComments.forEach((comment) => {
+    const commentElement = createCommentElement(comment.name, comment.comment);
+    commentList.appendChild(commentElement);
+  });
+
+  saveCommentsForPlant(plantName, initialComments);
+}
+
+function createCommentElement(name, comment) {
+  const commentElement = document.createElement('p');
+  commentElement.textContent = `${name}: ${comment}`;
+  return commentElement;
+}
+
+commentButton.addEventListener('click', function() {
+  commentSection.style.display = 'block';
+});
+
+closeButton.addEventListener('click', function() {
+  commentSection.style.display = 'none';
+});
+
+submitButton.addEventListener('click', function() {
+  const name = nameInput.value.trim();
+  const commentText = commentInput.value.trim();
+
+  if (commentText.length >= 10) {
+    const commentElement = createCommentElement(name, commentText);
+    commentList.insertBefore(commentElement, commentList.firstChild);
+
+    const plantName = 'Bromélia'; // Nome da planta específica
+    const comments = loadCommentsForPlant(plantName);
+    comments.unshift({ name, comment: commentText });
+    saveCommentsForPlant(plantName, comments);
+
+    commentInput.value = '';
+    nameInput.disabled = true;
+  } else {
+    alert('O comentário deve ter pelo menos 10 caracteres.');
+  }
+});
+
+window.addEventListener('DOMContentLoaded', function() {
+  const plantName = 'Bromélia'; // Nome da planta específica
+  const comments = loadCommentsForPlant(plantName);
+
+  if (comments.length === 0) {
+    addInitialCommentsForPlant(plantName);
+  } else {
+    comments.forEach((comment) => {
+      const commentElement = createCommentElement(comment.name, comment.comment);
+      commentList.appendChild(commentElement);
+    });
+  }
+
+  const loggedInUserName = document.getElementById('loggedInUserName');
+  const nomeUsuarioLog = JSON.parse(sessionStorage.getItem('nomeUsuarioLog'));
+  if (nomeUsuarioLog) {
+    loggedInUserName.textContent = nomeUsuarioLog.nomeUser;
+    nameInput.value = nomeUsuarioLog.nomeUser;
+  }
+});
+
+function funcaoNome() {
+  var loginCadElement = document.getElementById('loginCad');
+  var loginCadHamburguer = document.getElementById('LoginCadHamb');
+  var accountIconElement = document.querySelector('.account-icon');
+  var nomeUsuarioLog = JSON.parse(sessionStorage.getItem('nomeUsuarioLog'));
+
+  if (nomeUsuarioLog) {
+    loginCadElement.textContent = nomeUsuarioLog.nomeUser;
+    loginCadElement.removeAttribute('href');
+    loginCadHamburguer.textContent = nomeUsuarioLog.nomeUser;
+    loginCadHamburguer.removeAttribute('href');
+    document.getElementById('commentButton').style.display = 'flex';
+    nameInput.value = nomeUsuarioLog.nomeUser;
+    nameInput.disabled = true;
+  } else {
+    loginCadElement.innerHTML = '<h3>Login/Cadastro</h3>';
+    accountIconElement.style.display = 'block';
+  }
+}
+
+funcaoNome();
 
 var itemURLs = {
   Bromélia: '../Bromélia/Index.html',
@@ -176,26 +289,6 @@ function closeMenuHamb(){
    menu_hamb.style.display = 'none'
 }
 ;
-
-function funcaoNome() {
-  var loginCadElement = document.getElementById('loginCad');
-  var loginCadHamburguer = document.getElementById('LoginCadHamb')
-  var accountIconElement = document.querySelector('.account-icon');
-  var nomeUsuarioLog = JSON.parse(sessionStorage.getItem('nomeUsuarioLog'));
-
-  if (nomeUsuarioLog) {
-      loginCadElement.innerHTML = nomeUsuarioLog.nomeUser; 
-      loginCadElement.removeAttribute('href');
-      loginCadHamburguer.innerHTML = nomeUsuarioLog.nomeUser;
-      loginCadElement.removeAttribute('href')
-
-  } else {
-
-      loginCadElement.innerHTML = 'Login / Cadastro'; 
-      accountIconElement.style.display = 'block'; 
-
-  }
-}
 
 
   

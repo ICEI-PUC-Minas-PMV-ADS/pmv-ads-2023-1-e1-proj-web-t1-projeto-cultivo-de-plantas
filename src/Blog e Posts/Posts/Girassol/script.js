@@ -6,25 +6,25 @@ const submitButton = document.getElementById('submitButton');
 const commentList = document.getElementById('commentList');
 const closeButton = document.getElementById('closeButton');
 
-function saveComments(comments) {
-  localStorage.setItem('comments', JSON.stringify(comments));
+function saveCommentsForPlant(plantName, comments) {
+  localStorage.setItem(`comments_${plantName}`, JSON.stringify(comments));
 }
 
-function loadComments() {
-  const savedComments = localStorage.getItem('comments');
+function loadCommentsForPlant(plantName) {
+  const savedComments = localStorage.getItem(`comments_${plantName}`);
   if (savedComments) {
     return JSON.parse(savedComments);
   }
   return [];
 }
 
-function addInitialComments() {
+function addInitialCommentsForPlant(plantName) {
   const initialComments = [
     { name: 'Luiza', comment: 'Eu amo girassóis!' },
     { name: 'VascoDaGama75', comment: 'Os girassóis são lindos e brilhantes.' },
     { name: 'Lírio45', comment: 'Girassóis sempre me fazem sorrir.' },
     { name: 'Vitor', comment: 'A cor amarela dos girassóis é tão vibrante!' },
-    { name: 'Gabriel', comment: 'Os girassóis são minhas flores favoritas.' },
+    { name: 'Gabriel', comment: 'Gosto muito dos girassóis, cultivo a mais de 55 anos.' },
   ];
 
   initialComments.forEach((comment) => {
@@ -32,7 +32,7 @@ function addInitialComments() {
     commentList.appendChild(commentElement);
   });
 
-  saveComments(initialComments);
+  saveCommentsForPlant(plantName, initialComments);
 }
 
 function createCommentElement(name, comment) {
@@ -45,7 +45,6 @@ commentButton.addEventListener('click', function() {
   commentSection.style.display = 'block';
 });
 
-// Fechar a área de comentários
 closeButton.addEventListener('click', function() {
   commentSection.style.display = 'none';
 });
@@ -58,22 +57,24 @@ submitButton.addEventListener('click', function() {
     const commentElement = createCommentElement(name, commentText);
     commentList.insertBefore(commentElement, commentList.firstChild);
 
-    const comments = loadComments();
+    const plantName = 'girassol'; // Nome da planta específica
+    const comments = loadCommentsForPlant(plantName);
     comments.unshift({ name, comment: commentText });
-    saveComments(comments);
+    saveCommentsForPlant(plantName, comments);
 
     commentInput.value = '';
-    nameInput.disabled = true; // Impede que o usuário digite outro nome
+    nameInput.disabled = true;
   } else {
     alert('O comentário deve ter pelo menos 10 caracteres.');
   }
 });
 
 window.addEventListener('DOMContentLoaded', function() {
-  const comments = loadComments();
+  const plantName = 'girassol'; // Nome da planta específica
+  const comments = loadCommentsForPlant(plantName);
 
   if (comments.length === 0) {
-    addInitialComments();
+    addInitialCommentsForPlant(plantName);
   } else {
     comments.forEach((comment) => {
       const commentElement = createCommentElement(comment.name, comment.comment);
@@ -81,7 +82,6 @@ window.addEventListener('DOMContentLoaded', function() {
     });
   }
 
-  // Atualizar o campo de input de nome com o nome do usuário logado
   const loggedInUserName = document.getElementById('loggedInUserName');
   const nomeUsuarioLog = JSON.parse(sessionStorage.getItem('nomeUsuarioLog'));
   if (nomeUsuarioLog) {
@@ -103,7 +103,7 @@ function funcaoNome() {
     loginCadHamburguer.removeAttribute('href');
     document.getElementById('commentButton').style.display = 'flex';
     nameInput.value = nomeUsuarioLog.nomeUser;
-    nameInput.disabled = true; // Impede que o usuário digite outro nome
+    nameInput.disabled = true;
   } else {
     loginCadElement.innerHTML = '<h3>Login/Cadastro</h3>';
     accountIconElement.style.display = 'block';
@@ -111,8 +111,6 @@ function funcaoNome() {
 }
 
 funcaoNome();
-
-
 
 
 

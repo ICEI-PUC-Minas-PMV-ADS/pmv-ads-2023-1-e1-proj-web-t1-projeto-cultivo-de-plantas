@@ -498,11 +498,128 @@ h4{
 }
 
 
+.btn_comentario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    position: absolute;
+    left: 700px;
+    top: 1030px;
+    text-align: center;
+}
+
+
+.btn_coment{
+   background-color: #D5B484;
+   outline: none;
+   border: none;
+   padding: 10px;
+   border-radius: 20px;
+   font-weight: 600;
+   color: white;
+}
+
+#submitButton{
+    border-radius: 40px;
+    border: 2px solid #3B506B;
+    background-color: white;
+    cursor: pointer;
+}
+
+#commentSection {
+    display: none;
+    
+  }
+
+  .block-coment{
+    margin-top: 20px;
+  }
+  
+  #commentInput {
+    border: solid 2px #3B506B;
+    outline: none;
+    width: 100%;
+    height: 60px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #commentList p {
+    word-wrap: break-word;
+    
+  }
+  #nameInput{
+   width: 200px;
+   outline: none;
+   border: 2px solid #3B506B;
+   cursor: pointer;
+   border-radius: 10px;
+  }
+
+  #commentList {
+    border-radius: 10px;
+    margin-top: 10px;
+    border: 2px solid #3B506B;
+    padding: 10px;
+    white-space: pre-line;
+    max-height: 200px;
+    overflow-y: auto;
+  }
+  
+
+  #closeButton{
+    position: absolute;
+    color: #3B506B;
+    left: 484px;
+    top: 20px;
+    z-index: 11;
+    cursor: pointer;
+
+  }
+  .block-name{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  
+  .modal-coments{
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #D5B484;
+    border: #3B506B solid 10px;
+    border-radius: 10%;
+    padding: 30px;
+    position: absolute;
+    top: 500px;
+    
+  }
+  
+
+
+
+
+
+
+
 
 
 
 
 @media (max-width: 1920px) {
+    .btn_comentario{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 10;
+        position: absolute;
+        left: 493px;
+        top: 1030px;
+        text-align: center;
+    }
+    
     header{
         position: absolute;
         top: 1px;
@@ -559,7 +676,89 @@ h4{
 
  
 }
+@media (max-width: 1680px) {
+    .btn_comentario{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 10;
+        position: absolute;
+        left: 332px;
+        top: 1030px;
+        text-align: center;
+    }
+
+
+    header{
+        position: absolute;
+        top: 1px;
+        z-index: 2;
+    }
+    .busca{
+       
+       display: none;
+       flex-direction: column;
+       position: absolute;
+       font-size: 1rem;
+       border-radius: 10PX;
+       top: 110px;
+       left: 480px;
+       background-color: rgb(255, 255, 255);
+       width: 600px;
+       text-align: center;
+  
+    }
+
+    .busca li{
+        padding-top: 10px;
+        z-index: 5;
+    }
+
+    .logoPlanty{
+        position: absolute;
+        left: 100px;
+    }
+    .iconPesquisar{
+        position: absolute;
+        left: 1090px;
+    }
+
+    .leftPost{
+        position: absolute;
+        left: 170px;
+        top: 110px;
+    }
+
+    .containerTextPost{
+        position: relative;
+        left: 200px;
+        top: 500px;
+    }
+
+    main{
+
+        height: 1000px;
+       
+    }
+    .btn_backToTop{
+        position: absolute;
+        left: 1400px;
+       bottom: 20px;
+    }
+
+ 
+}
 @media (max-width: 1600px) {
+    .btn_comentario{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 10;
+        position: absolute;
+        left: 332px;
+        top: 1030px;
+        text-align: center;
+    }
     header{
         position: absolute;
         top: 1px;
@@ -620,6 +819,16 @@ h4{
  
 }
 @media (max-width: 1440px) {
+    .btn_comentario{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 10;
+        position: absolute;
+        left: 252px;
+        top: 1030px;
+        text-align: center;
+    }
     header{
         position: absolute;
         top: 1px;
@@ -685,6 +894,16 @@ h4{
  
 }
 @media (max-width: 1366px) {
+    .btn_comentario{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 10;
+        position: absolute;
+        left: 252px;
+        top: 1030px;
+        text-align: center;
+    }
     header{
         position: absolute;
         top: 1px;
@@ -755,6 +974,29 @@ h4{
  
 }
 @media (max-width: 1024px) {
+    .btn-fotos{
+        display: flex;
+        flex-direction: row;
+        width: 150px;
+        height: 20px;
+        position: absolute;
+        top: 630px;
+        justify-content: center;
+        gap: 20px;
+        left: 70px;
+        
+    }
+    .btn_comentario{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 10;
+        position: absolute;
+        left: 542px;
+        top: 970px;
+        text-align: center;
+        z-index: 1;
+    }
     header{
         position: absolute;
         top: 1px;
@@ -846,6 +1088,29 @@ h4{
  
 }
 @media (max-width: 768px) {
+    .btn-fotos{
+        display: flex;
+        flex-direction: row;
+        width: 150px;
+        height: 20px;
+        position: absolute;
+        top: 630px;
+        justify-content: center;
+        gap: 20px;
+        left: 70px;
+        
+    }
+    .btn_comentario{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 10;
+        position: absolute;
+        left: 420px;
+        top: 970px;
+        text-align: center;
+        z-index: 1;
+    }
 
     header{
         position: absolute;
@@ -1018,6 +1283,39 @@ nav{
 }
 }
 @media (max-width: 425px) {
+    
+  #closeButton{
+    position: absolute;
+    color: #3B506B;
+    left: 36px;
+    top: 20px;
+    z-index: 11;
+    cursor: pointer;
+
+  }
+    .btn-fotos{
+        display: flex;
+        flex-direction: row;
+        width: 150px;
+        height: 20px;
+        position: absolute;
+        top: 630px;
+        justify-content: center;
+        gap: 20px;
+        left: 70px;
+        
+    }
+    .btn_comentario{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 10;
+        position: absolute;
+        left: 240px;
+        top: 970px;
+        text-align: center;
+        z-index: 1;
+    }
 
     header{
         position: absolute;

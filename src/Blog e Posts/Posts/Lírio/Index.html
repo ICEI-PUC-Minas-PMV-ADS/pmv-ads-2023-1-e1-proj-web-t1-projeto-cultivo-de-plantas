@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./Style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" crossorigin="anonymous" />
     <title>Lírio</title>
 </head>
 <body onload="funcaoNome()">
@@ -51,6 +52,32 @@
         <a href="../../../Contato/contato-page.html"><h3>Fale Conosco</h3></a>
         
     </navigation>
+
+     
+    <div class="btn_comentario">
+        <button class="btn_coment" id="commentButton" style="display: none;">Comentar</button>
+      </div>
+      
+      <div class="modal-coments" id="commentSection">
+
+        <i id="closeButton"class="fas fa-times"></i>
+    
+        <div class="block-name">
+          <label for="name">Nome</label>
+          <input type="text" maxlength="10" id="nameInput" placeholder="Seu nome" required>
+        </div>
+    
+        <div class="block-coment">
+          <label for="name">Comentário</label>
+          <textarea required id="commentInput" placeholder="Digite seu comentário" maxlength="45"></textarea>
+        </div>
+    
+        <button id="submitButton">Enviar</button>
+        <div id="commentList"></div>
+
+        
+        
+      </div>
 
     <nav>
         <ul class="navMenu">
