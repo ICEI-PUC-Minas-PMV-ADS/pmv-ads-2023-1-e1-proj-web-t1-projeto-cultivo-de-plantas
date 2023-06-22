@@ -545,10 +545,7 @@ h4{
     margin-bottom: 10px;
   }
   
-  #commentList p {
-    word-wrap: break-word;
-    
-  }
+ 
   #nameInput{
    width: 200px;
    outline: none;
@@ -564,7 +561,9 @@ h4{
     padding: 10px;
     white-space: pre-line;
     max-height: 200px;
+    max-width: 430px;
     overflow-y: auto;
+    
   }
   
 

@@ -585,6 +585,7 @@ h4{
     padding: 10px;
     white-space: pre-line;
     max-height: 200px;
+    max-width: 430px;
     overflow-y: auto;
   }
   
