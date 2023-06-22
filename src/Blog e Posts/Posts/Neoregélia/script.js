@@ -115,26 +115,26 @@ funcaoNome();
 
 
 var itemURLs = {
-  Bromélia: '../Bromélia/Index.html',
-  Espada_de_são_Jorge: '../Espada-de-são-Jorge/Index.html',
-  Girassol: '../Girassol/Index.html',
-  Cacto: '../Cacto/Index.html',
-  Cebola: '../Cebola/Index.html',
-  Hera_Inglesa: '../Hera-Inglesa/Index.html',
-  Hortência: '../Hortência/Index.html',
-  Iresine: '../Iresine/Index.html',
-  Jasmim: '../Jasmim/Index.html',
-  Lavanda: '../Lavanda/Index.html',
-  Lírio: '../Lírio/Index.html',
-  Neoregélia: '../Neoregélia/Index.html',
-  Orquidea: '../Orquidea/Index.html',
-  Palmeira_Dama: '../Palmeira-Dama/Index.html',
-  Pitanga: '../Pitanga/Index.html',
-  Roseira: '../Roseira/Index.html',
-  Samambaia: '../Samambaia/Index.html',
-  Tomate: '../Tomate/Index.html',
-  Torênia: '../Torênia/Index.html',
-  Trapoeraba: '../Trapoeraba/Index.html'
+  Bromélia: '../Posts/Bromélia/Index.html',
+  Espada_de_são_Jorge: '../Posts/Espada-de-são-Jorge/Index.html',
+  Girassol: '../Posts/Girassol/Index.html',
+  Cacto: '../Posts/Cacto/Index.html',
+  Cebola: '../Posts/Cebola/Index.html',
+  Hera_Inglesa: '../Posts/Hera-Inglesa/Index.html',
+  Hortência: '../Posts/Hortência/Index.html',
+  Iresine: '../Posts/Iresine/Index.html',
+  Jasmim: '../Posts/Jasmim/Index.html',
+  Lavanda: '../Posts/Lavanda/Index.html',
+  Lírio: '../Posts/Lírio/Index.html',
+  Neoregélia: '../Posts/Neoregélia/Index.html',
+  Orquidea: '../Posts/Orquidea/Index.html',
+  Palmeira_Dama: '../Posts/Palmeira-Dama/Index.html',
+  Pitanga: '../Posts/Pitanga/Index.html',
+  Roseira: '../Posts/Roseira/Index.html',
+  Samambaia: '../Posts/Samambaia/Index.html',
+  Tomate: '../Posts/Tomate/Index.html',
+  Torênia: '../Posts/Torênia/Index.html',
+  Trapoeraba: '../Posts/Trapoeraba/Index.html'
 };
 
 var plantas = ['Bromélia', 'Cacto', 'Girassol', 'Cebola', 'Espada_de_são_Jorge', 'Hera_Inglesa', 'Hortência', 'Iresine', 'Jasmim', 'Lavanda' , 'Lírio', 'Neoregélia', 'Orquidea','Palmeira_Dama','Pitanga' ,'Roseira' ,'Samambaia','Tomate','Torênia','Trapoeraba'];
@@ -160,27 +160,32 @@ document.addEventListener('DOMContentLoaded', function() {
     var resultsElement = document.getElementById('searchResults');
     resultsElement.innerHTML = '';
 
-    for (var j = 0; j < searchResults.length; j++) {
+    if (searchResults.length === 0) {
       var li = document.createElement('li');
-
-      var link = document.createElement('a');
-      var itemText = searchResults[j];
-
-      if (itemURLs.hasOwnProperty(itemText)) {
-        link.href = itemURLs[itemText];
-      } else {
-        link.href = '#';
-      }
-      li.classList.add('searchResult');
-
-      link.textContent = itemText;
-
-      link.addEventListener('click', function() {
-        window.location.href = this.href;
-      });
-
-      li.appendChild(link);
+      li.textContent = 'Nenhuma planta encontrada';
       resultsElement.appendChild(li);
+    } else {
+      for (var j = 0; j < searchResults.length; j++) {
+        var li = document.createElement('li');
+        var link = document.createElement('a');
+        var itemText = searchResults[j];
+
+        if (itemURLs.hasOwnProperty(itemText)) {
+          link.href = itemURLs[itemText];
+        } else {
+          link.href = '#';
+        }
+        li.classList.add('searchResult');
+
+        link.textContent = itemText;
+
+        link.addEventListener('click', function() {
+          window.location.href = this.href;
+        });
+
+        li.appendChild(link);
+        resultsElement.appendChild(li);
+      }
     }
 
     if (searchTerm.trim().length > 0) {
