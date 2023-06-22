@@ -74,28 +74,35 @@ document.getElementById('txtBusca').addEventListener('input', function() {
   var resultsElement = document.getElementById('searchResults');
   resultsElement.innerHTML = '';
 
-  for (var j = 0; j < searchResults.length; j++) {
+  if (searchResults.length === 0) {
     var li = document.createElement('li');
-    
-    var link = document.createElement('a');
-    var itemText = searchResults[j];
-
-    if (itemURLs.hasOwnProperty(itemText)) {
-      link.href = itemURLs[itemText];
-    } else {
-      link.href = '#'; 
-    }
-    li.classList.add('searchResult');
-
-    link.textContent = itemText;
-
-    link.addEventListener('click', function() {
-      window.location.href = this.href;
-    });
-
-    li.appendChild(link);
+    li.textContent = 'Nenhuma planta encontrada';
     resultsElement.appendChild(li);
+  } else {
+    for (var j = 0; j < searchResults.length; j++) {
+      var li = document.createElement('li');
+
+      var link = document.createElement('a');
+      var itemText = searchResults[j];
+
+      if (itemURLs.hasOwnProperty(itemText)) {
+        link.href = itemURLs[itemText];
+      } else {
+        link.href = '#'; // Defina um URL padrão para itens não mapeados
+      }
+      li.classList.add('searchResult');
+
+      link.textContent = itemText;
+
+      link.addEventListener('click', function() {
+        window.location.href = this.href;
+      });
+
+      li.appendChild(link);
+      resultsElement.appendChild(li);
+    }
   }
+
   document.addEventListener('click', function(event) {
     var searchBar = document.getElementById('txtBusca');
     var searchResults = document.getElementById('searchResults');
