@@ -231,7 +231,7 @@ function checkInputs() {
       ListaCad.push(
          {
             nomeCad: nome.value ,
-            emaiCad: email.value ,
+            emailCad: email.value ,
             usuarioCad: usuario.value ,
             celularCad: celular.value ,
             senhaCad: senha.value 
@@ -241,7 +241,7 @@ function checkInputs() {
       localStorage.setItem("ListaCad", JSON.stringify(ListaCad))
       
       msgSuccess.setAttribute('style', 'display: block');
-      msgSuccess.innerHTML = '<strong> Cadastrado com sucesso!<br> Você será redirecionado para o Login automáticamente :)</strong>'   
+      msgSuccess.innerHTML = '<strong> Cadastrado com sucesso!<br> Você será redirecionado para o Login automaticamente :)</strong>'   
       
      
      setTimeout(()=>{
