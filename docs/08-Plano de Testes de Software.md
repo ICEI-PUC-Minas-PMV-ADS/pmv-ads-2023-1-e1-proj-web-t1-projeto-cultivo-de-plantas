@@ -22,8 +22,8 @@ Os testes funcionais a serem realizados no site são descritos a seguir.
 | **Tela** | Esqueci minha senha |
 | **Requisitos associados:** | RF-06: A aplicação deve incluir uma página de suporte caso o usuário esqueça sua senha. |
 | **Objetivo do Teste** 	| Verificar se o sistema assegura e corrobora os dados inseridos, permitindo assim que o usuário altere sua senha com sucesso. 	|
-| **Passos** 	| 1. Clique em "Esqueci minha senha" na tela de login; <br>2. Preencha todos os seguintes campos de maneira correta: E-mail, Nova Senha, Validação da nova senha;<br>3. Após preencher todos os campos corretamente, clique no botão entrar. A seguinte mensagem deverá aparecer: "A senha foi alterada com sucesso! :)". Dentro de alguns segundos, o usuário será redirecionado ao blog. |
-| **Critérios de Êxito** 	| O sistema fará a alteração da senha do usuário no localstorage, substituindo a senha antiga pela nova senha cadastrada e em seguida redirecionará o usuário ao blog. |
+| **Passos** 	| 1. Clique em "Esqueci minha senha" na tela de login; <br>2. Preencha todos os seguintes campos de maneira correta: E-mail, Nova Senha, Validação da nova senha;<br>3. Após preencher todos os campos corretamente, clique no botão entrar. |
+| **Critérios de Êxito** 	| O sistema fará a alteração da senha do usuário no localstorage, substituindo a senha antiga pela nova senha cadastrada, a seguinte mensagem deverá aparecer: "A senha foi alterada com sucesso! :)" e em seguida redirecionará o usuário ao blog. |
 
 <br>
 
@@ -32,7 +32,7 @@ Os testes funcionais a serem realizados no site são descritos a seguir.
 | **Tela** | Esqueci minha senha |
 | **Requisitos associados:** | RF-06: A aplicação deve incluir uma página de suporte caso o usuário esqueça sua senha. |
 | **Objetivo do Teste** 	| Verificar se o sistema capta as informações descoincidentes nos campos e-mail, nova senha e validação de senha. Se tudo ocorrer bem, após o usuário clicar em "entrar", o sistema deve apresentar a seguinte mensagem: "O email ou as senhas não conferem :(", interrompendo a entrada e o redirecionamento do usuário. 	|
-| **Passos** 	| 1. Clique em "Esqueci minha senha" na tela de login; <br>2. Preencha TODOS ou UM dos seguintes campos com informações divergentes: E-mail, Nova Senha, Validação da nova senha;<br>3. Após preencher todos os campos, clique no botão entrar. A seguinte mensagem deverá aparecer: "O e-mail ou as senhas não conferem :(". O usuário deverá preencher todos os campos novamente de maneira correta para que CT-01 ocorra. |
+| **Passos** 	| 1. Clique em "Esqueci minha senha" na tela de login; <br>2. Preencha TODOS ou UM dos seguintes campos com informações divergentes: E-mail, Nova Senha, Validação da nova senha;<br>3. Após preencher todos os campos, clique no botão entrar. |
 | **Critérios de Êxito** 	| O sistema impede que o usuário efetue a alteração de senha e apresenta a seguinte mensagem: "O e-mail ou as senhas não conferem :(". Além disso, o sistema também barrará o redirecionamento ao blog. |
 
 <br>
@@ -42,7 +42,7 @@ Os testes funcionais a serem realizados no site são descritos a seguir.
 | **Tela** | Esqueci minha senha |
 | **Requisitos associados:** | RF-06: A aplicação deve incluir uma página de suporte caso o usuário esqueça sua senha. |
 | **Objetivo do Teste** 	| Verificar se o sistema capta as informações descoincidentes nos campos e-mail, nova senha e validação de senha. Se tudo ocorrer bem, após o usuário clicar em "entrar", o sistema deve apresentar alguma das seguintes mensagens: "Aumente o texto para 8 caracteres, no momento você está usando x" E/OU "Preencha esse campo"	|
-| **Passos** 	| 1. Clique em "Esqueci minha senha" na tela de login; <br>2. Neste caso, é necessário que o usuário deixe de preencher um dos campos abaixo ou não cumpra com os requisitos de senha: E-mail, Nova Senha, Validação da nova senha;<br>3. Clique no botão entrar e uma das seguintes mensagens deverá aparecer: "Aumente o texto para 8 caracteres, no momento você está usando x" ou "Preencha esse campo". O usuário deverá preencher todos os campos novamente, de maneira correta para que CT-01 ocorra. |
+| **Passos** 	| 1. Clique em "Esqueci minha senha" na tela de login; <br>2. Neste caso, é necessário que o usuário deixe de preencher um dos campos abaixo ou não cumpra com os requisitos de senha: E-mail, Nova Senha, Validação da nova senha;<br>3. Clique no botão entrar. |
 | **Critérios de Êxito** 	| O sistema impede que o usuário efetue a alteração de senha e apresenta alguma das seguintes mensagens: "Aumente o texto para 8 caracteres, no momento você está usando x" ou "Preencha esse campo". Além disso, o sistema também barrará o redirecionamento ao blog. |
 
 <br>
