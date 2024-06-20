@@ -1,0 +1,34 @@
+message: Please cite this software using these metadata.
+title: Cultivo de Plantas
+authors:
+  - family-names: Guilherme Santos de Oliveira
+    given-names: André
+
+  - family-names: Bruno de Oliveira Souza
+    given-names: Gabriel
+
+  - family-names: Santos
+    given-names: Bruna
+
+  - family-names: Vitor Jorge Almeida
+    given-names: João
+
+  - family-names: Guimarães Pina
+    given-names: Luana
+
+  - family-names: Ferreira Milagres
+    given-names: Tayane
+
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Christina de Paiva Carvalho
+    given-names: Joyce 
+
+keywords:
+  - Plantas
+  - Wiki
+  - Blog
+
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-cultivo-de-plantas
+version: 1.0.0
+date-released: 2023-02-28
